@@ -2,11 +2,16 @@
 =============================================================
  EXTRACTOR DE EMPLEOS PERSONALIZADO (extractor.py)
 =============================================================
- Busca ofertas en 5 portales, calcula qué tanto se ajusta
- cada una a TU PERFIL (0-100%) y descarta las que no sirven:
+ Perfil: estudiante de Ing. en Sistemas (19 años, 2do año),
+ certificado Full Stack: React, TypeScript, Tailwind,
+ Node.js, MongoDB, SQL/NoSQL, Git/GitHub.
+
+ - Busca en 5 portales (LinkedIn, Computrabajo, Bumeran,
+   ZonaJobs, RemoteOK)
  - Solo Misiones/Posadas o 100% remoto
- - Prioriza pasantías, trainee, junior, medio tiempo
- - Penaliza (pero muestra) las que piden inglés
+ - Puntúa afinidad 0-100 según tu perfil y tu stack
+ - Entra a las mejores ofertas y trae la descripción
+   completa para verla en la web sin abrir el link
 
  Cómo ejecutarlo:  python extractor.py
 =============================================================
@@ -24,21 +29,36 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 # ═════════════════════════════════════════════
 # TU PERFIL — editá esta sección a gusto
 # ═════════════════════════════════════════════
-PALABRAS_CLAVE = ["Pasantía", "Trainee", "Junior", "Soporte IT", "Desarrollador"]
+PALABRAS_CLAVE = ["Pasantía", "Trainee", "Junior", "React", "Node.js", "Full Stack"]
 
 CIUDADES = ["misiones", "posadas"]   # zona presencial aceptada
-# Si la oferta NO es de estas ciudades y NO dice que es remota → se descarta.
 
 MAX_POR_BUSQUEDA = 15
+TOP_CON_DESCRIPCION = 40   # a cuántas ofertas (las mejores) les traemos la descripción
 ARCHIVO_SALIDA = Path(__file__).parent / "empleos.json"
 
-# ── Diccionarios que usa el puntaje ──
+# Tu stack: si la oferta lo menciona, sube el porcentaje
+TECNOLOGIAS = {
+    "React":      r"\breact\b",
+    "TypeScript": r"\btypescript\b",
+    "Tailwind":   r"\btailwind",
+    "Node.js":    r"\bnode(\.js|js)?\b",
+    "MongoDB":    r"\bmongo(db)?\b",
+    "SQL":        r"\b(my)?sql\b|\bpostgres",
+    "JavaScript": r"\bjavascript\b",
+    "Git":        r"\bgit(hub)?\b",
+    "Full Stack": r"\bfull[\s-]?stack\b",
+    "Front End":  r"\bfront[\s-]?end\b",
+    "Back End":   r"\bback[\s-]?end\b",
+}
+
 PISTAS_REMOTO = ["remoto", "remote", "teletrabajo", "home office", "homeoffice",
                  "desde casa", "wfh", "anywhere", "trabajo a distancia"]
 
 IDEAL_PARA_EMPEZAR = ["pasantía", "pasantia", "trainee", "intern", "internship",
                       "junior", "jr.", "jr ", "sin experiencia", "primer empleo",
-                      "aprendiz", "becario", "practicante", "entry level", "entry-level"]
+                      "aprendiz", "becario", "practicante", "entry level", "entry-level",
+                      "estudiante"]
 
 MEDIO_TIEMPO = ["part time", "part-time", "medio tiempo", "media jornada",
                 "4 horas", "4 hs", "jornada reducida", "por horas"]
@@ -47,10 +67,8 @@ PIDE_INGLES = ["inglés avanzado", "ingles avanzado", "inglés fluido", "ingles 
                "english required", "fluent english", "advanced english",
                "inglés intermedio", "ingles intermedio", "bilingüe", "bilingue"]
 
-# Ofertas con estos términos se DESCARTAN (buscan gente con experiencia)
 EXCLUIR_SENIORIDAD = r"\b(senior|ssr|sr\.?|semi[\s-]?senior|lead|jefe|jefa|gerente|manager|head|arquitecto|director|supervisor)\b"
 
-# Palabras típicas de títulos en inglés (para detectar publicaciones en inglés)
 PALABRAS_EN_INGLES = ["developer", "engineer", "support specialist", "analyst",
                       "assistant", "designer", "software", "customer", "agent"]
 
@@ -70,48 +88,53 @@ def limpiar(texto):
     return re.sub(r"\s+", " ", texto).strip()
 
 
+def detectar_techs(texto):
+    """Devuelve la lista de tecnologías de TU stack mencionadas en el texto."""
+    return [nombre for nombre, patron in TECNOLOGIAS.items() if re.search(patron, texto)]
+
+
 # ═════════════════════════════════════════════
 # PUNTAJE DE AFINIDAD (0-100)
-# Devuelve None si la oferta debe descartarse.
 # ═════════════════════════════════════════════
 def puntuar(e):
     texto = f"{e['titulo']} {e['ubicacion']} {e.get('texto_card', '')}".lower()
     motivos = []
 
-    # ── DESCARTE 1: piden seniority alto ──
     if re.search(EXCLUIR_SENIORIDAD, texto):
         return None
 
-    # ── DESCARTE 2: ni es de tu zona ni es remoto ──
     es_remoto = e.get("es_remoto", False) or any(p in texto for p in PISTAS_REMOTO)
     en_zona = any(c in texto for c in CIUDADES)
     if not (es_remoto or en_zona):
         return None
 
-    puntos = 50  # base
+    puntos = 45  # base
 
     if en_zona:
-        puntos += 18
+        puntos += 15
         motivos.append("✓ Misiones/Posadas")
     if es_remoto:
-        puntos += 14
+        puntos += 12
         motivos.append("✓ Remoto")
 
     if any(p in texto for p in IDEAL_PARA_EMPEZAR):
-        puntos += 22
+        puntos += 18
         motivos.append("✓ Ideal para empezar (trainee/jr/pasantía)")
 
     if any(p in texto for p in MEDIO_TIEMPO):
-        puntos += 12
+        puntos += 10
         motivos.append("✓ Medio tiempo")
 
-    # Penalización: piden años de experiencia (salvo que diga "sin experiencia")
+    techs = detectar_techs(texto)
+    if techs:
+        puntos += min(22, 5 * len(techs))
+        motivos.append("✓ Tu stack: " + ", ".join(techs[:5]))
+
     exp = re.search(r"(\d+)\s*(años|año|years|yrs)", texto)
     if exp and "sin experiencia" not in texto:
-        puntos -= 20
+        puntos -= 18
         motivos.append(f"− Pide {exp.group(1)}+ años de experiencia")
 
-    # Penalización: inglés
     if any(p in texto for p in PIDE_INGLES):
         puntos -= 15
         motivos.append("− Pide inglés")
@@ -119,17 +142,72 @@ def puntuar(e):
         puntos -= 8
         motivos.append("− Publicación en inglés")
 
-    puntos = max(5, min(98, puntos))
-    e["afinidad"] = puntos
+    e["afinidad"] = max(5, min(98, puntos))
     e["motivos"] = motivos
     e["es_remoto"] = es_remoto
-    e.pop("texto_card", None)      # no guardamos el texto crudo en el JSON
+    e["techs"] = techs
+    e.pop("texto_card", None)
     e.pop("fuente_en_ingles", None)
     return e
 
 
 # ═════════════════════════════════════════════
-# PORTAL 1: LINKEDIN (2 búsquedas: Misiones + remoto Argentina)
+# ENRIQUECER: entrar a la oferta y traer la descripción
+# ═════════════════════════════════════════════
+SELECTORES_DESCRIPCION = [
+    "div.show-more-less-html__markup",      # LinkedIn
+    ".description__text",                    # LinkedIn (alternativo)
+    "div[class*='description']",             # genérico
+    "div.fs16.t_word_wrap",                  # Computrabajo
+    "section#description",
+    "article",
+]
+
+
+def enriquecer(page, e):
+    """Visita la oferta y guarda su descripción + re-puntúa con más datos."""
+    if e.get("descripcion"):
+        return
+    try:
+        page.goto(e["enlace"], timeout=30000, wait_until="domcontentloaded")
+        pausa_humana(1, 2)
+        desc = ""
+        for sel in SELECTORES_DESCRIPCION:
+            loc = page.locator(sel).first
+            if loc.count() > 0:
+                candidato = limpiar(loc.inner_text(timeout=3000))
+                if len(candidato) > 150:
+                    desc = candidato
+                    break
+        if not desc:
+            return
+        e["descripcion"] = desc[:1800]
+        texto = desc.lower()
+
+        # Nuevas tecnologías encontradas en la descripción
+        nuevas = [t for t in detectar_techs(texto) if t not in e["techs"]]
+        if nuevas:
+            e["techs"] += nuevas
+            e["afinidad"] = min(98, e["afinidad"] + 3 * len(nuevas))
+            e["motivos"] = [m for m in e["motivos"] if not m.startswith("✓ Tu stack")]
+            e["motivos"].append("✓ Tu stack: " + ", ".join(e["techs"][:6]))
+
+        # Penalizaciones que solo se ven en la descripción
+        if not any("experiencia" in m for m in e["motivos"]):
+            exp = re.search(r"(\d+)\s*(años|año|years|yrs)", texto)
+            if exp and "sin experiencia" not in texto:
+                e["afinidad"] = max(5, e["afinidad"] - 12)
+                e["motivos"].append(f"− Pide {exp.group(1)}+ años de experiencia")
+        if not any("inglés" in m.lower() for m in e["motivos"]):
+            if any(p in texto for p in PIDE_INGLES):
+                e["afinidad"] = max(5, e["afinidad"] - 10)
+                e["motivos"].append("− Pide inglés")
+    except Exception:
+        pass  # si no se puede, la tarjeta queda sin descripción y listo
+
+
+# ═════════════════════════════════════════════
+# PORTAL 1: LINKEDIN
 # ═════════════════════════════════════════════
 def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
     empleos = []
@@ -140,7 +218,7 @@ def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
         "&f_TPR=r604800"
     )
     if solo_remoto:
-        url += "&f_WT=2"  # filtro oficial de LinkedIn: solo remoto
+        url += "&f_WT=2"
     try:
         page.goto(url, timeout=45000, wait_until="domcontentloaded")
         pausa_humana()
@@ -172,12 +250,11 @@ def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
 
 
 # ═════════════════════════════════════════════
-# PORTAL 2: COMPUTRABAJO ARGENTINA (Misiones + remoto)
+# PORTAL 2: COMPUTRABAJO ARGENTINA
 # ═════════════════════════════════════════════
 def extraer_computrabajo(page, keyword, sufijo=""):
-    """sufijo: '-en-misiones' para la zona, '' para búsqueda general."""
     empleos = []
-    slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e")
+    slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e").replace(".", "")
     url = f"https://ar.computrabajo.com/trabajo-de-{slug}{sufijo}"
     try:
         page.goto(url, timeout=45000, wait_until="domcontentloaded")
@@ -217,16 +294,15 @@ def extraer_computrabajo(page, keyword, sufijo=""):
 
 
 # ═════════════════════════════════════════════
-# PORTAL 3 y 4: BUMERAN y ZONAJOBS (misma plataforma)
+# PORTALES 3 y 4: BUMERAN y ZONAJOBS
 # ═════════════════════════════════════════════
 def extraer_bumeran_zonajobs(page, keyword, dominio, nombre):
     empleos = []
-    slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e")
+    slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e").replace(".", "")
     url = f"https://www.{dominio}/empleos-busqueda-{slug}.html"
     try:
         page.goto(url, timeout=45000, wait_until="networkidle")
         pausa_humana(2, 4)
-        # Los avisos son links cuyo href contiene '/empleos/'
         tarjetas = page.locator("a[href*='/empleos/']")
         agregados = 0
         for i in range(tarjetas.count()):
@@ -236,11 +312,10 @@ def extraer_bumeran_zonajobs(page, keyword, dominio, nombre):
             try:
                 href = t.get_attribute("href", timeout=1500) or ""
                 if not re.search(r"/empleos/.+\d+\.html?$", href):
-                    continue  # descartamos links de menú/categorías
+                    continue
                 texto = limpiar(t.inner_text(timeout=1500))
                 if len(texto) < 15:
                     continue
-                # El título suele ser el primer h2/h3 dentro del link
                 titulo = texto
                 th = t.locator("h2, h3").first
                 if th.count() > 0:
@@ -261,7 +336,7 @@ def extraer_bumeran_zonajobs(page, keyword, dominio, nombre):
 
 
 # ═════════════════════════════════════════════
-# PORTAL 5: REMOTEOK (API pública, 100% remoto, en inglés)
+# PORTAL 5: REMOTEOK (API pública, trae descripción incluida)
 # ═════════════════════════════════════════════
 def extraer_remoteok(page):
     empleos = []
@@ -269,13 +344,15 @@ def extraer_remoteok(page):
         page.goto("https://remoteok.com/api", timeout=45000)
         crudo = page.evaluate("() => document.body.innerText")
         datos = json.loads(crudo)
-        filtros = ["junior", "intern", "trainee", "entry", "support", "data"]
+        filtros = ["junior", "intern", "trainee", "entry", "react", "node",
+                   "javascript", "typescript", "full stack", "fullstack"]
         for item in datos:
             if not isinstance(item, dict) or not item.get("position"):
                 continue
             texto = (item.get("position", "") + " " + " ".join(item.get("tags", []))).lower()
             if not any(f in texto for f in filtros):
                 continue
+            desc = re.sub(r"<[^>]+>", " ", item.get("description", "") or "")
             empleos.append({
                 "titulo": limpiar(item["position"]),
                 "empresa": limpiar(item.get("company", "")) or "No especificada",
@@ -284,7 +361,8 @@ def extraer_remoteok(page):
                 "fecha": (item.get("date", "") or "")[:10],
                 "fuente": "RemoteOK", "keyword": "remoto",
                 "es_remoto": True, "fuente_en_ingles": True,
-                "texto_card": texto[:300],
+                "descripcion": limpiar(desc)[:1800],
+                "texto_card": (limpiar(desc)[:280] or texto[:280]),
             })
             if len(empleos) >= 20:
                 break
@@ -349,24 +427,33 @@ def main():
         print(f"   RemoteOK: {len(r)}")
         todos += r
 
+        # ── Deduplicar ──
+        vistos, unicos = set(), []
+        for e in todos:
+            if e["enlace"] and e["enlace"] not in vistos:
+                vistos.add(e["enlace"])
+                unicos.append(e)
+
+        # ── Puntuar y filtrar según tu perfil ──
+        finales, descartados = [], 0
+        for e in unicos:
+            resultado = puntuar(e)
+            if resultado:
+                finales.append(resultado)
+            else:
+                descartados += 1
+
+        finales.sort(key=lambda x: x["afinidad"], reverse=True)
+
+        # ── Traer la descripción de las mejores ofertas ──
+        candidatas = [e for e in finales if not e.get("descripcion")][:TOP_CON_DESCRIPCION]
+        print(f"\n>> Trayendo descripción completa de las {len(candidatas)} mejores ofertas…")
+        for i, e in enumerate(candidatas, 1):
+            enriquecer(page, e)
+            if i % 10 == 0:
+                print(f"   {i}/{len(candidatas)}…")
+
         navegador.close()
-
-    # ── Deduplicar por enlace ──
-    vistos, unicos = set(), []
-    for e in todos:
-        if e["enlace"] and e["enlace"] not in vistos:
-            vistos.add(e["enlace"])
-            unicos.append(e)
-
-    # ── Puntuar según TU perfil y descartar lo que no aplica ──
-    finales = []
-    descartados = 0
-    for e in unicos:
-        resultado = puntuar(e)
-        if resultado:
-            finales.append(resultado)
-        else:
-            descartados += 1
 
     finales.sort(key=lambda x: x["afinidad"], reverse=True)
 
@@ -380,8 +467,8 @@ def main():
     )
 
     print("\n" + "=" * 52)
-    print(f"  LISTO: {len(finales)} ofertas que se ajustan a tu perfil")
-    print(f"  (se descartaron {descartados}: seniors o fuera de zona sin remoto)")
+    print(f"  LISTO: {len(finales)} ofertas para tu perfil")
+    print(f"  (descartadas {descartados}: seniors o fuera de zona sin remoto)")
     print("=" * 52)
 
 

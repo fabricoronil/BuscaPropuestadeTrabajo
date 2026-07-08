@@ -13,19 +13,30 @@
     <div class="max-w-6xl mx-auto px-4 py-5 flex flex-wrap items-center justify-between gap-3">
       <div>
         <h1 class="text-2xl font-bold tracking-tight">🎯 Mis Empleos</h1>
-        <p class="text-sm text-slate-400">Ofertas filtradas y puntuadas según mi perfil: trainee · medio tiempo · Misiones/Posadas o remoto</p>
+        <p class="text-sm text-slate-400">Full Stack Jr · React · Node.js · Misiones/Posadas o remoto</p>
       </div>
       <div id="actualizado" class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 rounded-full px-3 py-1.5">
         Cargando…
       </div>
+      <!-- ─── NAV ─── -->
+      <nav class="w-full flex gap-2 pt-1">
+        <button id="navOfertas" class="navBtn text-sm font-medium px-4 py-2 rounded-xl bg-indigo-600 text-white">
+          💼 Ofertas
+        </button>
+        <button id="navEstudiar" class="navBtn text-sm font-medium px-4 py-2 rounded-xl text-slate-400 hover:text-white border border-slate-700">
+          📚 Qué estudiar para mejorar
+        </button>
+      </nav>
     </div>
   </header>
 
   <main class="max-w-6xl mx-auto px-4 py-8">
 
+  <div id="vistaOfertas">
+
     <!-- ─── FILTROS ─── -->
     <div class="flex flex-col lg:flex-row gap-3 mb-6">
-      <input id="buscador" type="text" placeholder="🔍 Buscar por título o empresa…"
+      <input id="buscador" type="text" placeholder="🔍 Buscar por título, empresa o tecnología…"
         class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm
                focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-500" />
       <select id="filtroModalidad"
@@ -59,7 +70,87 @@
       <p class="text-4xl mb-3">🔎</p>
       <p>No se encontraron ofertas con esos filtros.</p>
     </div>
+  </div><!-- /vistaOfertas -->
+
+  <!-- ─── SECCIÓN: QUÉ ESTUDIAR PARA MEJORAR ─── -->
+  <section id="vistaEstudiar" class="hidden space-y-8">
+
+    <div>
+      <h2 class="text-xl font-bold mb-1">📊 Lo que más piden las ofertas (y a vos te falta)</h2>
+      <p class="text-sm text-slate-400 mb-4">Calculado en vivo sobre las ofertas de tu web. Si estudiás lo de arriba de la lista, tu porcentaje sube en más ofertas.</p>
+      <div id="listaSkills" class="space-y-2"></div>
+    </div>
+
+    <div>
+      <h2 class="text-xl font-bold mb-4">🚀 Acciones concretas para subir tu porcentaje</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">🇬🇧 1. Inglés: tu mayor palanca</h3>
+          <p class="text-sm text-slate-400">Es la penalización más común en tus ofertas (−15%). No necesitás ser bilingüe: apuntá a nivel B1/B2 de lectura y escritura técnica. Certificalo gratis con el <b>EF SET</b> (50 min, online) y ponelo en tu CV y LinkedIn. Duolingo/YouTube en inglés + documentación técnica en inglés todos los días.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">💻 2. Portfolio deployado &gt; certificado</h3>
+          <p class="text-sm text-slate-400">Para trainee/junior, lo que más pesa es <b>código visible</b>: 2-3 proyectos completos con tu stack (React + TypeScript + Node + Mongo/SQL), <b>funcionando online</b> (Vercel/Netlify gratis) y con buen README en GitHub. Sumá tu certificado blockchain como link en el README y en tu CV.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">🧪 3. Testing y Git avanzado</h3>
+          <p class="text-sm text-slate-400">Casi ningún junior sabe testing: aprender <b>Jest + React Testing Library</b> te diferencia al instante. Sumale Git de equipo: branches, pull requests, resolución de conflictos. Son 2-3 semanas de estudio y aparecen en muchísimas ofertas.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">☁️ 4. Docker y nociones de cloud</h3>
+          <p class="text-sm text-slate-400">Saber armar un <b>Dockerfile</b> y subir algo a <b>AWS/Railway/Render</b> es lo que separa a un junior "de curso" de uno empleable. Con lo básico alcanza: contenedores, variables de entorno, deploy de tu API de Node.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">🎓 5. Usá tu carrera como ventaja</h3>
+          <p class="text-sm text-slate-400">En cada postulación mencioná: <b>estudiante de Ingeniería en Sistemas (título de Analista en camino)</b>. Las empresas con programas trainee buscan exactamente eso. Preguntá en tu facultad por convenios de pasantías (las universidades de Misiones suelen tenerlos).</p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="font-semibold mb-1">🤝 6. Primera experiencia por otro lado</h3>
+          <p class="text-sm text-slate-400">Si no sale el empleo formal: proyectos freelance chicos (Workana, comercios locales de Posadas que necesiten web), contribuciones open source, o hackathons. Todo eso cuenta como "experiencia" en tu CV y elimina la penalización de "sin experiencia".</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
   </main>
+
+  <!-- ─── MODAL "MÁS INFORMACIÓN" ─── -->
+  <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div id="modalFondo" class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+    <div class="relative bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl">
+      <div class="flex items-start justify-between gap-3 p-5 border-b border-slate-800">
+        <div>
+          <h2 id="mTitulo" class="text-lg font-bold leading-snug"></h2>
+          <p id="mEmpresa" class="text-sm text-slate-400 mt-1"></p>
+        </div>
+        <div class="flex items-center gap-3">
+          <div id="mAfinidad" class="flex flex-col items-center border rounded-xl px-3 py-1.5"></div>
+          <button id="modalCerrar" class="text-slate-400 hover:text-white text-2xl leading-none">&times;</button>
+        </div>
+      </div>
+      <div class="p-5 overflow-y-auto text-sm space-y-4">
+        <div id="mDatos" class="grid grid-cols-2 gap-2 text-slate-300"></div>
+        <div id="mTechs" class="flex flex-wrap gap-1"></div>
+        <div id="mMotivos" class="flex flex-wrap gap-1"></div>
+        <div>
+          <h3 class="text-slate-400 uppercase text-xs tracking-wide mb-2">Descripción de la oferta</h3>
+          <p id="mDescripcion" class="text-slate-300 leading-relaxed whitespace-pre-line"></p>
+        </div>
+      </div>
+      <div class="p-4 border-t border-slate-800">
+        <a id="mPostular" href="#" target="_blank" rel="noopener noreferrer"
+           class="block text-center bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-xl px-4 py-3 transition-colors">
+          Postularse en el sitio original →
+        </a>
+      </div>
+    </div>
+  </div>
 
   <script>
     let EMPLEOS = [];
@@ -72,6 +163,7 @@
         mostrarActualizacion(data.actualizado);
         poblarFuentes();
         render();
+        analizarMejoras();
       })
       .catch(() => {
         const el = document.getElementById('actualizado');
@@ -91,14 +183,24 @@
       fuentes.forEach(f => sel.add(new Option(f, f)));
     }
 
-    // ── 2. Colores del porcentaje de afinidad ──
     function estiloAfinidad(a) {
-      if (a >= 75) return { ring: 'text-emerald-400 border-emerald-500/40 bg-emerald-500/10', txt: 'Muy buena' };
-      if (a >= 60) return { ring: 'text-amber-400 border-amber-500/40 bg-amber-500/10', txt: 'Buena' };
-      return { ring: 'text-orange-400 border-orange-500/40 bg-orange-500/10', txt: 'Media' };
+      if (a >= 75) return { css: 'text-emerald-400 border-emerald-500/40 bg-emerald-500/10', txt: 'Muy buena' };
+      if (a >= 60) return { css: 'text-amber-400 border-amber-500/40 bg-amber-500/10', txt: 'Buena' };
+      return { css: 'text-orange-400 border-orange-500/40 bg-orange-500/10', txt: 'Media' };
     }
 
-    // ── 3. Render con filtros ──
+    function chipMotivo(m) {
+      const pos = m.startsWith('✓');
+      return `<span class="text-[10px] px-2 py-0.5 rounded-full border ${
+        pos ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'
+            : 'text-rose-400 border-rose-500/30 bg-rose-500/5'}">${esc(m)}</span>`;
+    }
+
+    function chipTech(t) {
+      return `<span class="text-[10px] px-2 py-0.5 rounded-full border text-violet-300 border-violet-500/30 bg-violet-500/10">⚡ ${esc(t)}</span>`;
+    }
+
+    // ── 2. Render ──
     function render() {
       const q = document.getElementById('buscador').value.toLowerCase();
       const mod = document.getElementById('filtroModalidad').value;
@@ -107,14 +209,12 @@
       const orden = document.getElementById('orden').value;
 
       let filtrados = EMPLEOS.filter(e =>
-        (!q || (e.titulo + ' ' + e.empresa).toLowerCase().includes(q)) &&
+        (!q || (e.titulo + ' ' + e.empresa + ' ' + (e.techs || []).join(' ')).toLowerCase().includes(q)) &&
         (!fue || e.fuente === fue) &&
         (e.afinidad >= minAf) &&
         (mod !== 'remoto' || e.es_remoto) &&
-        (mod !== 'zona' || !e.es_remoto ||
-          /misiones|posadas/i.test(e.ubicacion))
+        (mod !== 'zona' || /misiones|posadas/i.test(e.ubicacion + ' ' + (e.motivos || []).join(' ')))
       );
-      if (mod === 'zona') filtrados = filtrados.filter(e => /misiones|posadas/i.test(e.ubicacion + ' ' + (e.motivos || []).join(' ')));
 
       filtrados.sort((a, b) => orden === 'fecha'
         ? String(b.fecha).localeCompare(String(a.fecha))
@@ -130,13 +230,8 @@
 
       filtrados.forEach(e => {
         const af = estiloAfinidad(e.afinidad);
-        const chips = (e.motivos || []).map(m => {
-          const positivo = m.startsWith('✓');
-          return `<span class="text-[10px] px-2 py-0.5 rounded-full border ${
-            positivo ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'
-                     : 'text-rose-400 border-rose-500/30 bg-rose-500/5'
-          }">${esc(m)}</span>`;
-        }).join(' ');
+        const techs = (e.techs || []).slice(0, 4).map(chipTech).join(' ');
+        const motivos = (e.motivos || []).slice(0, 3).map(chipMotivo).join(' ');
 
         const card = document.createElement('div');
         card.className =
@@ -144,7 +239,7 @@
           'hover:border-indigo-500/50 hover:-translate-y-0.5 transition-all duration-200';
         card.innerHTML = `
           <div class="flex items-start justify-between gap-2">
-            <div class="flex flex-col items-center border rounded-xl px-3 py-1.5 ${af.ring}">
+            <div class="flex flex-col items-center border rounded-xl px-3 py-1.5 ${af.css}">
               <span class="text-lg font-bold leading-none">${e.afinidad}%</span>
               <span class="text-[9px] uppercase tracking-wide">${af.txt}</span>
             </div>
@@ -158,15 +253,65 @@
             <p>🏢 ${esc(e.empresa)}</p>
             <p>${e.es_remoto ? '💻' : '📍'} ${esc(e.ubicacion)}${e.es_remoto ? ' · Remoto' : ''}</p>
           </div>
-          <div class="flex flex-wrap gap-1">${chips}</div>
-          <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer"
-             class="mt-auto text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700
-                    text-white text-sm font-medium rounded-xl px-4 py-2.5 transition-colors">
-            Postularse →
-          </a>`;
+          <div class="flex flex-wrap gap-1">${techs}</div>
+          <div class="flex flex-wrap gap-1">${motivos}</div>
+          <div class="mt-auto flex gap-2">
+            <button data-enlace="${esc(e.enlace)}"
+              class="btnInfo flex-1 text-center border border-slate-600 hover:border-indigo-400 hover:text-indigo-300
+                     text-slate-300 text-sm font-medium rounded-xl px-3 py-2.5 transition-colors">
+              Más información
+            </button>
+            <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer"
+               class="flex-1 text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700
+                      text-white text-sm font-medium rounded-xl px-3 py-2.5 transition-colors">
+              Postularse →
+            </a>
+          </div>`;
         grid.appendChild(card);
       });
+
+      document.querySelectorAll('.btnInfo').forEach(b =>
+        b.addEventListener('click', () => abrirModal(b.dataset.enlace)));
     }
+
+    // ── 3. Modal "Más información" ──
+    function abrirModal(enlace) {
+      const e = EMPLEOS.find(x => x.enlace === enlace);
+      if (!e) return;
+      const af = estiloAfinidad(e.afinidad);
+
+      document.getElementById('mTitulo').textContent = e.titulo;
+      document.getElementById('mEmpresa').textContent = '🏢 ' + e.empresa;
+      document.getElementById('mAfinidad').className = 'flex flex-col items-center border rounded-xl px-3 py-1.5 ' + af.css;
+      document.getElementById('mAfinidad').innerHTML =
+        `<span class="text-lg font-bold leading-none">${e.afinidad}%</span>
+         <span class="text-[9px] uppercase tracking-wide">${af.txt}</span>`;
+
+      document.getElementById('mDatos').innerHTML = `
+        <p>${e.es_remoto ? '💻 Modalidad: <b>Remoto</b>' : '📍 Modalidad: <b>Presencial</b>'}</p>
+        <p>🗺 Ubicación: <b>${esc(e.ubicacion)}</b></p>
+        <p>🌐 Fuente: <b>${esc(e.fuente)}</b></p>
+        ${e.fecha ? `<p>📅 Publicada: <b>${esc(formatearFecha(e.fecha))}</b></p>` : ''}
+        <p>🔑 Encontrada con: <b>${esc(e.keyword)}</b></p>`;
+
+      document.getElementById('mTechs').innerHTML =
+        (e.techs || []).length ? '<span class="text-xs text-slate-500 mr-1">Tu stack en esta oferta:</span> ' + e.techs.map(chipTech).join(' ') : '';
+      document.getElementById('mMotivos').innerHTML = (e.motivos || []).map(chipMotivo).join(' ');
+      document.getElementById('mDescripcion').textContent =
+        e.descripcion || 'Esta oferta no tiene descripción guardada. Tocá "Postularse" para verla en el sitio original.';
+      document.getElementById('mPostular').href = e.enlace;
+
+      document.getElementById('modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function cerrarModal() {
+      document.getElementById('modal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    document.getElementById('modalCerrar').addEventListener('click', cerrarModal);
+    document.getElementById('modalFondo').addEventListener('click', cerrarModal);
+    document.addEventListener('keydown', ev => { if (ev.key === 'Escape') cerrarModal(); });
 
     function formatearFecha(f) {
       if (/^\d{4}-\d{2}-\d{2}/.test(f)) {
@@ -185,6 +330,76 @@
       const el = document.getElementById(id);
       el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', render);
     });
+
+    // ───────────────────────────────────────────
+    // NAV: cambiar entre "Ofertas" y "Qué estudiar"
+    // ───────────────────────────────────────────
+    function mostrarVista(vista) {
+      const ofertas = vista === 'ofertas';
+      document.getElementById('vistaOfertas').classList.toggle('hidden', !ofertas);
+      document.getElementById('vistaEstudiar').classList.toggle('hidden', ofertas);
+      document.getElementById('navOfertas').className =
+        'navBtn text-sm font-medium px-4 py-2 rounded-xl ' +
+        (ofertas ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white border border-slate-700');
+      document.getElementById('navEstudiar').className =
+        'navBtn text-sm font-medium px-4 py-2 rounded-xl ' +
+        (!ofertas ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white border border-slate-700');
+    }
+    document.getElementById('navOfertas').addEventListener('click', () => mostrarVista('ofertas'));
+    document.getElementById('navEstudiar').addEventListener('click', () => mostrarVista('estudiar'));
+
+    // ───────────────────────────────────────────
+    // ANÁLISIS: qué piden las ofertas que a vos te falta
+    // ───────────────────────────────────────────
+    const SKILLS_A_APRENDER = {
+      'Inglés':            { re: /ingl[eé]s|english|biling[üu]e/i,            tip: 'La penalización más frecuente. Nivel B1/B2 alcanza para la mayoría.' },
+      'Python':            { re: /\bpython\b/i,                                tip: 'Muy pedido en data y backend. Fácil viniendo de JS.' },
+      'Java':              { re: /\bjava\b(?!script)/i,                        tip: 'Común en empresas grandes y bancos.' },
+      'Docker':            { re: /\bdocker\b|contenedor|kubernetes/i,          tip: 'Con lo básico (Dockerfile + compose) ya sumás.' },
+      'AWS / Cloud':       { re: /\baws\b|azure|google cloud|\bgcp\b|cloud/i,  tip: 'Deploy de tu API en la nube: Railway/Render para empezar.' },
+      'Testing / QA':      { re: /testing|\bqa\b|jest|cypress|selenium|pruebas de software/i, tip: 'Jest + React Testing Library: pocos juniors lo saben.' },
+      'Angular':           { re: /\bangular\b/i,                               tip: 'Alternativa a React usada en muchas consultoras.' },
+      'Vue':               { re: /\bvue\b/i,                                   tip: 'Framework frontend; se aprende rápido sabiendo React.' },
+      'Next.js':           { re: /\bnext\.?js\b/i,                             tip: 'El paso natural después de React. Muy demandado.' },
+      'PHP / Laravel':     { re: /\bphp\b|laravel|wordpress/i,                 tip: 'Mucho trabajo local y freelance lo usa.' },
+      'C# / .NET':         { re: /c#|\.net|csharp/i,                           tip: 'Frecuente en empresas de software factory.' },
+      'Linux':             { re: /\blinux\b|ubuntu|bash/i,                     tip: 'Básico de terminal y servidores. Se aprende usándolo.' },
+      'Scrum / Ágiles':    { re: /scrum|\bagile\b|metodolog[ií]as [aá]giles|kanban/i, tip: 'Leé la guía Scrum (1 tarde) y mencionalo en tu CV.' },
+      'Excel / Power BI':  { re: /power bi|excel avanzado|tableau/i,           tip: 'Puerta de entrada para puestos de data.' },
+    };
+
+    function analizarMejoras() {
+      const total = EMPLEOS.length;
+      if (!total) return;
+      const conteo = [];
+      for (const [nombre, s] of Object.entries(SKILLS_A_APRENDER)) {
+        const n = EMPLEOS.filter(e =>
+          s.re.test(e.titulo + ' ' + (e.descripcion || '') + ' ' + (e.motivos || []).join(' '))
+        ).length;
+        if (n > 0) conteo.push({ nombre, n, tip: s.tip });
+      }
+      conteo.sort((a, b) => b.n - a.n);
+
+      const cont = document.getElementById('listaSkills');
+      cont.innerHTML = conteo.slice(0, 8).map((s, i) => {
+        const pct = Math.round(100 * s.n / total);
+        return `
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-semibold text-sm">${i + 1}. ${esc(s.nombre)}</span>
+            <span class="text-xs text-slate-400">${s.n} de ${total} ofertas (${pct}%)</span>
+          </div>
+          <div class="h-2 bg-slate-800 rounded-full overflow-hidden mb-2">
+            <div class="h-full bg-gradient-to-r from-indigo-500 to-violet-500" style="width:${Math.max(pct, 4)}%"></div>
+          </div>
+          <p class="text-xs text-slate-400">💡 ${esc(s.tip)}</p>
+        </div>`;
+      }).join('');
+
+      if (!conteo.length) {
+        cont.innerHTML = '<p class="text-sm text-slate-500">Todavía no hay suficientes datos. Ejecutá el extractor para analizar las ofertas.</p>';
+      }
+    }
   </script>
 </body>
 </html>
