@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "actualizado": "2026-07-08T13:25:38.893841+00:00",
   "total": 151,
+=======
+  "actualizado": "2026-07-08T13:07:22.212354+00:00",
+  "total": 123,
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
   "empleos": [
     {
       "titulo": "Ingeniero Electromecánico Junior",
@@ -183,10 +188,251 @@
       ]
     },
     {
+<<<<<<< HEAD
       "titulo": "Desarrollador/a Fullstack Jr (Java / Angular)",
       "empresa": "Confidencial",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fullstack-jr-java-angular-gral-pacheco-gba-en-belgrano-330422C9C810BD3C61373E686DCF3405#lc=ListOffers-Score3-0",
+=======
+      "titulo": "Desarrollador Java SR",
+      "empresa": "BYMA Bolsas y Mercados Argentinos S.A.",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-java-sr-at-byma-bolsas-y-mercados-argentinos-s-a-4437456725",
+      "fecha": "2026-07-06",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador Full Stack Senior",
+      "empresa": "Worldsys",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-full-stack-senior-at-worldsys-4433718422",
+      "fecha": "2026-07-03",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador PHP",
+      "empresa": "Neix",
+      "ubicacion": "San Fernando, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-php-at-neix-4434555472",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador/Analista de datos Cloudera",
+      "empresa": "Sofre Digital SA",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-analista-de-datos-cloudera-at-sofre-digital-sa-4433191137",
+      "fecha": "2026-07-03",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador/a Full Stack .NET SSR/SR",
+      "empresa": "Tsoft",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-a-full-stack-net-ssr-sr-at-tsoft-4433962443",
+      "fecha": "2026-07-06",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador de Producto de Datos (SSR) – SQL / NiFi / PySpark / Cloudera",
+      "empresa": "Talent Connect",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-de-producto-de-datos-ssr-%E2%80%93-sql-nifi-pyspark-cloudera-at-talent-connect-4435782195",
+      "fecha": "2026-07-04",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Freelance ABAP Developer",
+      "empresa": "Ketos Delphin Mexico",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/freelance-abap-developer-at-ketos-delphin-mexico-4434552405",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "NET Developer)",
+      "empresa": "Perform",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/net-developer-at-perform-4415704308",
+      "fecha": "2026-07-01",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador Fullstack Senior (Java y React requerido)",
+      "empresa": "Empleos IT Argentina",
+      "ubicacion": "Ciudad Autónoma de Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-fullstack-senior-java-y-react-requerido-at-empleos-it-4436396955",
+      "fecha": "2026-07-02",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador Fullstack Senior (Java y React)",
+      "empresa": "C&S Informática",
+      "ubicacion": "Comuna 1, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-fullstack-senior-java-y-react-at-c-s-inform%C3%A1tica-4436939659",
+      "fecha": "2026-07-04",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador líder de .NET",
+      "empresa": "ARTECH",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-l%C3%ADder-de-net-at-artech-4437789270",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "CÔNG TY CỔ PHẦN CÔNG NGHỆ TÀI CHÍNH VNFITE TUYỂN DỤNG VỊ TRÍ BACK-END DEVELOPER",
+      "empresa": "Trường Đại học Đại Nam",
+      "ubicacion": "Cutral Có, Provincia de Neuquén, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-c%C3%B4ng-ngh%E1%BB%87-t%C3%A0i-ch%C3%ADnh-vnfite-tuy%E1%BB%83n-d%E1%BB%A5ng-v%E1%BB%8B-tr%C3%AD-back-end-developer-at-tr%C6%B0%E1%BB%9Dng-%C4%91%E1%BA%A1i-h%E1%BB%8Dc-%C4%91%E1%BA%A1i-nam-4436578840",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Programador de Centro Mecanizado CNC / Villa Gdor. Galvez / Full time",
+      "empresa": "RRHH Buro",
+      "ubicacion": "3,8",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-de-centro-mecanizado-cnc-villa-gdor-galvez-full-time-en-rosario-42644CF4C4A0939A61373E686DCF3405#lc=ListOffers-Score4-0",
+      "fecha": "Hace 2 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Programador/ Planificador de operaciones Oíl and Gas",
+      "empresa": "DG Consultores",
+      "ubicacion": "Cipolletti, Río Negro",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-planificador-de-operaciones-oil-and-gas-en-cipolletti-A8FD7D67A67D490061373E686DCF3405#lc=ListOffers-Score4-1",
+      "fecha": "Hace 4 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Operador Programador CNC de Torno y Centro Mecanizado",
+      "empresa": "Confidencial",
+      "ubicacion": "San Justo, Buenos Aires-GBA",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operador-programador-cnc-de-torno-y-centro-mecanizado-en-san-justo-3114205E21194B8361373E686DCF3405#lc=ListOffers-Score4-2",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Operario programador de maquinaria CNC",
+      "empresa": "BTI LA SA.",
+      "ubicacion": "Puerto Madero, Capital Federal",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operario-programador-de-maquinaria-cnc-en-puerto-madero-630911CA61557FB961373E686DCF3405#lc=ListOffers-Score4-3",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Business Developer B2B",
+      "empresa": "idearhumano",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-business-developer-b2b-institucion-educativa-formacion-continua-en-cordoba-C72F72187F58D47761373E686DCF3405#lc=ListOffers-Score4-4",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador PL/SQL Sr",
+      "empresa": "Ecosistemas",
+      "ubicacion": "4,1",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-plsql-sr-en-retiro-D50547A069B604A861373E686DCF3405#lc=ListOffers-Score4-5",
+      "fecha": "Hace 6 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "analista programador/a de sistemas",
+      "empresa": "Confidencial",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programadora-de-sistemas-junior-en-cordoba-1044A85D9CF3C30A61373E686DCF3405#lc=ListOffers-Score4-6",
+      "fecha": "Hace 6 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador/a comercial B2B con exp en rubro automotriz",
+      "empresa": "Adecco Argentina S.A.",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-comercial-b2b-con-exp-en-rubro-automotriz-en-berazategui-7FFF06982B9E7B4D61373E686DCF3405#lc=ListOffers-Score4-7",
+      "fecha": "Hace 13 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador BI Senior (Power BI / Azure)",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bi-senior-power-bi-azure-en-san-nicolas-9515CDAD6B4A960561373E686DCF3405#lc=ListOffers-Score4-8",
+      "fecha": "Hace 21 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador BI Senior (Power BI / Azure)",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bi-senior-power-bi-azure-en-san-nicolas-B1712BB491AECCAB61373E686DCF3405#lc=ListOffers-Score4-9",
+      "fecha": "Hace 22 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador BI Senior/SemiSenior",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bi-seniorsemisenior-en-la-reja-C4769A83D519CBC361373E686DCF3405#lc=ListOffers-Score4-10",
+      "fecha": "Hace 22 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador java",
+      "empresa": "GRUPO GEA",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-importante-grupo-de-empresas-en-cordoba-E9E5582458F7047861373E686DCF3405#lc=ListOffers-Score4-11",
+      "fecha": "Hace 22 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador Comercial (canal mayorista)",
+      "empresa": "Confidencial",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-comercial-canal-mayorista-cordoba-capital-en-cordoba-9662A16FE27943ED61373E686DCF3405#lc=ListOffers-Score4-12",
+      "fecha": "Hace 22 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Ref. 20705: Desarrollador Mobile React Native",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,5",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20705-desarrollador-mobile-react-native-hibrido-belgrano-caba-en-belgrano-DC2D8DBFF1FA261C61373E686DCF3405#lc=ListOffers-Score4-13",
+      "fecha": "Hace 22 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Operador y Programador de Centro de Mecanizado CNC",
+      "empresa": "MAPCA S.A.",
+      "ubicacion": "Villa Gdor. Gálvez, Santa Fe",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operador-y-programador-de-centro-de-mecanizado-cnc-operador-y-programador-de-centro-de-mecanizado-cnc-en-villa-gdor-galvez-4568B3D3047C044E61373E686DCF3405#lc=ListOffers-Score4-14",
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
       "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Pasantía remoto",
@@ -198,8 +444,58 @@
       "es_remoto": true
     },
     {
+<<<<<<< HEAD
       "titulo": "EY - Junior para Consultoría - Base de Talentos",
       "empresa": "EY",
+=======
+      "titulo": "Ref. 21295: Desarrollador Cobol / Híbrido Microcentro o Martínez",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,5",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21295-desarrollador-cobol-hibrido-microcentro-o-martinez-en-recoleta-1D1B56E75696685461373E686DCF3405#lc=ListOffers-Score4-15",
+      "fecha": "Hace 18 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Senior Backend Python Developer",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-senior-backend-python-developer-remoto-para-residentes-en-argentina-en-monserrat-145645B09A88886561373E686DCF3405#lc=ListOffers-Score4-16",
+      "fecha": "Hace 20 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Ref. 21292: Vermilion Engineer / Developer / Remoto AMBA",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,5",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-vermilion-engineer-developer-remoto-amba-en-recoleta-2614DC4CB11EC23A61373E686DCF3405#lc=ListOffers-Score4-17",
+      "fecha": "Hace 13 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Programador CNC Carpintería",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,5",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-cnc-carpinteria-zona-pablo-nogues-en-pablo-nogues-F92CFC12B2D2AE8661373E686DCF3405#lc=ListOffers-Score4-18",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Desarrollador Full Stack Jr / Jr+",
+      "empresa": "Bellone Asociados",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-jr-jr-en-cordoba-63B470EA28BA449461373E686DCF3405#lc=ListOffers-Score4-19",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador"
+    },
+    {
+      "titulo": "Business Analyst",
+      "empresa": "Santander Argentina",
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
       "enlace": "https://ar.linkedin.com/jobs/view/ey-junior-para-consultor%C3%ADa-base-de-talentos-at-ey-4368753783",
       "fecha": "2026-07-05",
@@ -498,8 +794,49 @@
       ]
     },
     {
+<<<<<<< HEAD
       "titulo": "Pentester Jr | Advisory | AMBA",
       "empresa": "KPMG Argentina",
+=======
+      "titulo": "Geospatial Analysis Specialist - Remote",
+      "empresa": "YO IT Consulting",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/geospatial-analysis-specialist-remote-at-yo-it-consulting-4436874960",
+      "fecha": "2026-07-08",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data Analyst - Finance",
+      "empresa": "Deel",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-analyst-finance-at-deel-4432785711",
+      "fecha": "2026-07-02",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Administrative Assistant (Remote)",
+      "empresa": "Core Code io",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/administrative-assistant-remote-at-core-code-io-4437056063",
+      "fecha": "2026-07-08",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "AI Trainer - Freelance Data Annotator",
+      "empresa": "Toloka Annotators",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/ai-trainer-freelance-data-annotator-at-toloka-annotators-4437187377",
+      "fecha": "2026-07-06",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "AI Trainer - Freelance Data Annotator",
+      "empresa": "Toloka Annotators",
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
       "ubicacion": "Buenos Aires y alrededores",
       "enlace": "https://ar.linkedin.com/jobs/view/pentester-jr-advisory-amba-at-kpmg-argentina-4436404665",
       "fecha": "2026-07-02",
@@ -678,10 +1015,17 @@
       ]
     },
     {
+<<<<<<< HEAD
       "titulo": "Analista Soporte Técnico Jr (Agrelo, Mendoza)",
       "empresa": "Stefanini LATAM",
       "ubicacion": "Luján de Cuyo, Mendoza, Argentina",
       "enlace": "https://ar.linkedin.com/jobs/view/analista-soporte-t%C3%A9cnico-jr-agrelo-mendoza-at-stefanini-latam-4435498060",
+=======
+      "titulo": "Data Management & BI Manager",
+      "empresa": "Zurich Santander Insurance America",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-management-bi-manager-at-zurich-santander-insurance-america-4433153609",
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
       "fecha": "2026-07-03",
       "fuente": "LinkedIn",
       "keyword": "Soporte IT",
@@ -857,6 +1201,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "titulo": "FSJ-15/26 Freiwilliges Soziales Jahr (m/w/d)",
       "empresa": "Landratsamt Esslingen",
       "ubicacion": "9 de Julio, Misiones, Argentina",
@@ -875,6 +1220,282 @@
       "empresa": "ROFU Kinderland GmbH",
       "ubicacion": "Leandro N Alem, Misiones, Argentina",
       "enlace": "https://ar.linkedin.com/jobs/view/stellvertretung-der-filialleitung-m-w-d-at-rofu-kinderland-gmbh-4436720859",
+=======
+      "titulo": "Pasante de Sustentabilidad & Data Analytics",
+      "empresa": "Carrefour Argentina",
+      "ubicacion": "Martínez, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/pasante-de-sustentabilidad-data-analytics-at-carrefour-argentina-4436399978",
+      "fecha": "2026-07-02",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Scout (South America)",
+      "empresa": "Al-Qadsiah Saudi Club نادي القادسية السعودي",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/scout-south-america-at-al-qadsiah-saudi-club-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-4434834508",
+      "fecha": "2026-07-08",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data-Focused Project Coordinator (Remote, Contract)",
+      "empresa": "INFUSE",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-focused-project-coordinator-remote-contract-at-infuse-4437774797",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Household Data Specialist | $30/hr Remote",
+      "empresa": "Crossing Hurdles",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/household-data-specialist-%2430-hr-remote-at-crossing-hurdles-4436585747",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Senior Data / AI Specialist / Importante Petrolera / Proyección y Desafíos de Negocio",
+      "empresa": "BD Capital Humano",
+      "ubicacion": "Vicente López, Buenos Aires-GBA",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-senior-data-ai-specialist-importante-petrolera-proyeccion-y-desafios-de-negocio-en-vicente-lopez-6173C92D8B9D047761373E686DCF3405#lc=ListOffers-Score4-0",
+      "fecha": "Hace 1 hora",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos para Sector Energético. Zona CABA",
+      "empresa": "Suministra SRL",
+      "ubicacion": "4,0",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-para-sector-energetico-zona-caba-en-monserrat-EBBFB65D7A0CA58561373E686DCF3405#lc=ListOffers-Score4-1",
+      "fecha": "Hace 4 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Administración y Datos",
+      "empresa": "Confidencial",
+      "ubicacion": "Vicente López, Buenos Aires-GBA",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-administracion-y-datos-en-vicente-lopez-89FB55236AC8D73F61373E686DCF3405#lc=ListOffers-Score4-2",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Administrador/a de datos",
+      "empresa": "Provincia NET",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-datos-en-san-nicolas-9543392337457EA561373E686DCF3405#lc=ListOffers-Score4-3",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de datos y procesos",
+      "empresa": "Oftalmología Zaldivar",
+      "ubicacion": "Mendoza, Mendoza",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-procesos-seniorsemisr-en-mendoza-E938E147CD86772061373E686DCF3405#lc=ListOffers-Score4-4",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de datos",
+      "empresa": "Ecoclean",
+      "ubicacion": "3,9",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-en-cordoba-8B6162A5F59ED42761373E686DCF3405#lc=ListOffers-Score4-5",
+      "fecha": "Hace 6 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Arquitecto/a de datos",
+      "empresa": "Provincia NET",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-arquitectoa-de-datos-en-san-nicolas-29A7914DB1DFA1A761373E686DCF3405#lc=ListOffers-Score4-6",
+      "fecha": "Hace 6 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data entry Formosa",
+      "empresa": "Adecco Argentina S.A.",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-entry-formosa-en-formosa-capital-4D01FBF730F3C98761373E686DCF3405#lc=ListOffers-Score4-7",
+      "fecha": "Hace 13 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data Engineer / Arquitecto de Datos Azure",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-arquitecto-de-datos-azure-en-san-nicolas-A7207F9C1E85ADD061373E686DCF3405#lc=ListOffers-Score4-8",
+      "fecha": "Hace 16 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista Jr. de Creditos, Cobranzas y Datos",
+      "empresa": "Randstad Argentina",
+      "ubicacion": "4,4",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-jr-de-creditos-cobranzas-y-datos-en-vicente-lopez-3971117AE59DFED661373E686DCF3405#lc=ListOffers-Score4-9",
+      "fecha": "Hace 18 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos / Pricing – eCommerce",
+      "empresa": "STI",
+      "ubicacion": "Ciudad Madero, Buenos Aires-GBA",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-pricing-ecommerce-en-ciudad-madero-1B628CB117486B5161373E686DCF3405#lc=ListOffers-Score4-10",
+      "fecha": "Hace 5 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data Engineer / Arquitecto de Datos Azure",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-arquitecto-de-datos-azure-en-san-nicolas-BA0341A95D34720661373E686DCF3405#lc=ListOffers-Score4-11",
+      "fecha": "Hace 21 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Data entry",
+      "empresa": "Consultores de Empresas",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-entry-escobar-en-escobar-F7BEC0ABA62C994161373E686DCF3405#lc=ListOffers-Score4-12",
+      "fecha": "Hace 21 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Transformación Digital, Sistemas y Datos",
+      "empresa": "SENDA",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-transformacion-digital-sistemas-y-datos-industria-autopartista-en-cordoba-0867AD407FD0607461373E686DCF3405#lc=ListOffers-Score4-13",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Administrativo de Recursos Humanos",
+      "empresa": "Adecco Argentina S.A.",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administrativo-de-recursos-humanos-data-entry-en-quilmes-231CA93287DD285E61373E686DCF3405#lc=ListOffers-Score4-14",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Procesos y Gestión de Datos (CABA) Eventual.",
+      "empresa": "ManpowerGroup",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-procesos-y-gestion-de-datos-caba-eventual-en-retiro-18352F778C2EABE261373E686DCF3405#lc=ListOffers-Score4-15",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos Sr. Mejora de Procesos y Business Intelligence",
+      "empresa": "TALENTO + RH",
+      "ubicacion": "Escobar, Buenos Aires",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-sr-mejora-de-procesos-y-business-intelligence-en-escobar-0D21FEFC6BA0E25D61373E686DCF3405#lc=ListOffers-Score4-16",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos Importante Empresa Multinacional Industrial de Acero",
+      "empresa": "TALENTO + RH",
+      "ubicacion": "Escobar, Buenos Aires",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-importante-empresa-multinacional-industrial-de-acero-en-escobar-93B5A02C5E57417E61373E686DCF3405#lc=ListOffers-Score4-17",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos SR Importante Empresa Multinacional Industrial de Acero",
+      "empresa": "TALENTO + RH",
+      "ubicacion": "Escobar, Buenos Aires",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-sr-importante-empresa-multinacional-industrial-de-acero-en-escobar-2B258243F18168E561373E686DCF3405#lc=ListOffers-Score4-18",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Datos SR (foco en finanzas ) Importante Empresa Multinacional de Acero",
+      "empresa": "TALENTO + RH",
+      "ubicacion": "Escobar, Buenos Aires",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-sr-foco-en-finanzas-importante-empresa-multinacional-de-acero-en-escobar-384AAB58E06CA20B61373E686DCF3405#lc=ListOffers-Score4-19",
+      "fecha": "Ayer",
+      "fuente": "Computrabajo",
+      "keyword": "Data"
+    },
+    {
+      "titulo": "Analista de Ecommerce - RETAIL de MODA",
+      "empresa": "Randstad Argentina",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/analista-de-ecommerce-retail-de-moda-at-randstad-argentina-4433966297",
+      "fecha": "2026-07-06",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Genesys Cloud Consultant",
+      "empresa": "hiberus",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/genesys-cloud-consultant-at-hiberus-4437754423",
+      "fecha": "2026-07-07",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Líder de Servicios Generales",
+      "empresa": "Albemarle Corporation",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/l%C3%ADder-de-servicios-generales-at-albemarle-corporation-4436252567",
+      "fecha": "2026-07-06",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Especialista SAP - SuccessFactors",
+      "empresa": "Marco MKT",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/especialista-sap-successfactors-at-marco-mkt-4428056304",
+      "fecha": "2026-07-01",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Analista de soporte para TI (Sr)",
+      "empresa": "Randstad Argentina",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/analista-de-soporte-para-ti-sr-at-randstad-argentina-4423147907",
+      "fecha": "2026-07-01",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Analista de Infraestructura",
+      "empresa": "Getnet",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/analista-de-infraestructura-at-getnet-4436157529",
+      "fecha": "2026-07-02",
+      "fuente": "LinkedIn",
+      "keyword": "Soporte IT"
+    },
+    {
+      "titulo": "Helpdesk Representative II-4",
+      "empresa": "NCR Atleos",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/helpdesk-representative-ii-4-at-ncr-atleos-4435471841",
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
       "fecha": "2026-07-03",
       "fuente": "LinkedIn",
       "keyword": "Pasantía",
@@ -1733,6 +2354,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "titulo": "Software Engineer (Argentina, Remote)",
       "empresa": "Sela",
       "ubicacion": "Argentina",
@@ -1746,6 +2368,15 @@
         "✓ Remoto",
         "− Publicación en inglés"
       ]
+=======
+      "titulo": "Soporte IT SSr",
+      "empresa": "Emprendimientos Gastronómicos",
+      "ubicacion": "Pilar, Buenos Aires",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-it-ssr-en-pilar-CE887B49728155D561373E686DCF3405#lc=ListOffers-Score4-0",
+      "fecha": "Hace 3 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Soporte IT"
+>>>>>>> 0cad88ec67d1c82f65a26b7619f95591c01e2e06
     },
     {
       "titulo": "Pro Code Developer",
