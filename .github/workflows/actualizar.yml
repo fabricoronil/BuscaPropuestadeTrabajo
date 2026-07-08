@@ -51,6 +51,11 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update jobs"
-          # Si el repo cambió mientras corríamos, traemos lo nuevo antes de pushear
-          git pull --rebase origin main
+          # Si el repo cambió mientras corríamos, traemos lo nuevo antes de pushear.
+          # Si hay conflicto en empleos.json, gana la versión recién extraída.
+          if ! git pull --rebase origin main; then
+            git checkout --theirs empleos.json
+            git add empleos.json
+            GIT_EDITOR=true git rebase --continue
+          fi
           git push

@@ -193,7 +193,8 @@
     }
 
     // ── 1. Cargar datos ──
-    fetch('empleos.json')
+    // El "?v=fecha" y no-store evitan que el navegador muestre datos viejos del caché
+    fetch('empleos.json?v=' + Date.now(), { cache: 'no-store' })
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => {
         EMPLEOS = data.empleos || [];
