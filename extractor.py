@@ -25,7 +25,7 @@ import json
 import random
 import re
 import time
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
@@ -40,7 +40,6 @@ CIUDADES = ["misiones", "posadas"]
 
 MAX_POR_BUSQUEDA = 15
 TOP_CON_DESCRIPCION = 25      # visitas máximas a páginas de detalle por corrida
-DIAS_RETENER_OFERTA = 12      # cuántos días conservar una oferta que ya no aparece
 ARCHIVO_SALIDA = Path(__file__).parent / "empleos.json"
 
 TECNOLOGIAS = {
@@ -119,6 +118,19 @@ def limpiar(texto):
     if not texto:
         return ""
     return re.sub(r"\s+", " ", texto).strip()
+
+
+def normalizar_enlace(url):
+    """Quita parámetros de tracking (?... y #...) para que el mismo aviso
+    tenga siempre el mismo enlace, aunque venga de búsquedas distintas."""
+    return (url or "").split("#")[0].split("?")[0].rstrip("/")
+
+
+def firma_oferta(e):
+    """Identidad de la oferta por contenido: mismo título + empresa +
+    ubicación = misma oferta, aunque el enlace sea distinto."""
+    return (e["titulo"].lower().strip() + "|" + e["empresa"].lower().strip()
+            + "|" + e["ubicacion"].lower().strip())
 
 
 def parece_bloqueo(page):
@@ -447,9 +459,13 @@ def extraer_remoteok(page):
 # CACHÉ: cargar la corrida anterior
 # ═════════════════════════════════════════════
 def cargar_anteriores():
+    """Carga la corrida anterior SOLO como caché (para reutilizar
+    descripciones y la fecha de primera vez). No se re-publican
+    ofertas viejas: cada corrida arranca de cero."""
     try:
         datos = json.loads(ARCHIVO_SALIDA.read_text(encoding="utf-8"))
-        return {e["enlace"]: e for e in datos.get("empleos", []) if e.get("enlace")}
+        return {normalizar_enlace(e["enlace"]): e
+                for e in datos.get("empleos", []) if e.get("enlace")}
     except Exception:
         return {}
 
@@ -523,12 +539,21 @@ def main():
         print(f"   RemoteOK: {len(r)}")
         todos += r
 
-        # ── Deduplicar ──
-        vistos, unicos = set(), []
+        # ── Deduplicar (doble control) ──
+        # 1) por enlace normalizado (sin parámetros de tracking)
+        # 2) por contenido (título + empresa + ubicación): si el mismo aviso
+        #    aparece con dos enlaces distintos, también se detecta.
+        enlaces_vistos, firmas_vistas, unicos = set(), set(), []
         for e in todos:
-            if e["enlace"] and e["enlace"] not in vistos:
-                vistos.add(e["enlace"])
-                unicos.append(e)
+            e["enlace"] = normalizar_enlace(e["enlace"])
+            if not e["enlace"]:
+                continue
+            firma = firma_oferta(e)
+            if e["enlace"] in enlaces_vistos or firma in firmas_vistas:
+                continue
+            enlaces_vistos.add(e["enlace"])
+            firmas_vistas.add(firma)
+            unicos.append(e)
 
         # ── Puntuar y filtrar ──
         finales, descartados = [], 0
@@ -539,35 +564,19 @@ def main():
             else:
                 descartados += 1
 
-        # ── Fusionar con el caché ──
-        enlaces_actuales = {e["enlace"] for e in finales}
-        reutilizadas, rescatadas = 0, 0
+        # ── Caché: SOLO reutilizamos descripción y fecha de primera vez.
+        # Las ofertas viejas que hoy no aparecieron NO se conservan:
+        # cada corrida publica únicamente lo encontrado hoy (datos frescos).
+        reutilizadas = 0
         for e in finales:
             prev = anteriores.get(e["enlace"])
             e["primera_vez"] = prev.get("primera_vez", hoy_str) if prev else hoy_str
-            # Si ya teníamos la descripción, la reutilizamos (0 requests extra)
             if prev and prev.get("descripcion") and not e.get("descripcion"):
                 aplicar_descripcion(e, prev["descripcion"])
                 reutilizadas += 1
 
-        # Ofertas que hoy no aparecieron pero son recientes: las conservamos,
-        # PERO solo si pasan los filtros actuales (área IT, sin seniors).
-        limite = (hoy - timedelta(days=DIAS_RETENER_OFERTA)).date().isoformat()
-        for enlace, prev in anteriores.items():
-            if enlace in enlaces_actuales or prev.get("primera_vez", "") < limite:
-                continue
-            texto_prev = (prev.get("titulo", "") + " " + prev.get("ubicacion", "")
-                          + " " + prev.get("descripcion", "")).lower()
-            if not re.search(AREA_IT, texto_prev):
-                continue  # no era de sistemas: chau
-            if re.search(EXCLUIR_SENIORIDAD, texto_prev):
-                continue
-            finales.append(prev)
-            rescatadas += 1
-
-        if reutilizadas or rescatadas:
-            print(f"\n  Caché: {reutilizadas} descripciones reutilizadas, "
-                  f"{rescatadas} ofertas recientes conservadas.")
+        if reutilizadas:
+            print(f"\n  Caché: {reutilizadas} descripciones reutilizadas (menos requests).")
 
         finales.sort(key=lambda x: x["afinidad"], reverse=True)
 
