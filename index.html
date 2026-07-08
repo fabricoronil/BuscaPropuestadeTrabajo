@@ -19,6 +19,7 @@
     .brillo:hover { box-shadow: 0 0 0 1px rgba(99,102,241,.35), 0 12px 32px -12px rgba(99,102,241,.35); }
     @keyframes latido { 0%,100%{opacity:1} 50%{opacity:.45} }
     .nuevo-badge { animation: latido 2s ease-in-out infinite; }
+    .podio-1 { border-image: linear-gradient(135deg,#facc15,#f59e0b) 1; border-width: 2px; }
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
   </style>
@@ -40,12 +41,8 @@
         </div>
       </div>
       <nav class="flex gap-2 pt-3">
-        <button id="navOfertas" class="text-sm font-semibold px-4 py-2 rounded-xl bg-indigo-600 text-white transition-colors">
-          💼 Ofertas
-        </button>
-        <button id="navEstudiar" class="text-sm font-medium px-4 py-2 rounded-xl text-slate-400 hover:text-white border border-slate-700/80 transition-colors">
-          📚 Qué estudiar para mejorar
-        </button>
+        <button id="navOfertas" class="text-sm font-semibold px-4 py-2 rounded-xl bg-indigo-600 text-white transition-colors">💼 Ofertas</button>
+        <button id="navEstudiar" class="text-sm font-medium px-4 py-2 rounded-xl text-slate-400 hover:text-white border border-slate-700/80 transition-colors">📚 Qué estudiar</button>
       </nav>
     </div>
   </header>
@@ -54,36 +51,56 @@
 
   <div id="vistaOfertas">
 
+    <!-- ─── PODIO: TOP 3 PARA VOS ─── -->
+    <section class="mb-8">
+      <h2 class="text-lg font-bold mb-3">🏆 Las que más se ajustan a vos</h2>
+      <div id="podio" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+    </section>
+
     <!-- ─── ESTADÍSTICAS ─── -->
-    <div id="stats" class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6"></div>
+    <div id="stats" class="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-6"></div>
 
     <!-- ─── FILTROS ─── -->
-    <div class="flex flex-col lg:flex-row gap-3 mb-6">
-      <input id="buscador" type="text" placeholder="🔍 Buscar por título, empresa o tecnología…"
-        class="flex-1 bg-slate-900/80 border border-slate-700/80 rounded-xl px-4 py-3 text-sm
-               focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-500" />
-      <select id="filtroModalidad"
-        class="bg-slate-900/80 border border-slate-700/80 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        <option value="">🌍 Remoto y presencial</option>
-        <option value="remoto">💻 Solo remoto</option>
-        <option value="zona">📍 Solo Misiones/Posadas</option>
-      </select>
-      <select id="filtroFuente"
-        class="bg-slate-900/80 border border-slate-700/80 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        <option value="">🌐 Todas las fuentes</option>
-      </select>
-      <select id="filtroAfinidad"
-        class="bg-slate-900/80 border border-slate-700/80 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        <option value="0">⭐ Cualquier afinidad</option>
-        <option value="60">⭐ 60% o más</option>
-        <option value="75">⭐ 75% o más</option>
-      </select>
-      <select id="orden"
-        class="bg-slate-900/80 border border-slate-700/80 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        <option value="afinidad">↓ Ordenar por afinidad</option>
-        <option value="fecha">↓ Ordenar por fecha</option>
-        <option value="nuevas">↓ Nuevas primero</option>
-      </select>
+    <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-4 mb-6 space-y-3">
+      <div class="flex flex-col lg:flex-row gap-3">
+        <input id="buscador" type="text" placeholder="🔍 Buscar por título, empresa o tecnología…  (atajo: tecla /)"
+          class="flex-1 bg-slate-900 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm
+                 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-500" />
+        <select id="filtroModalidad" class="filtro bg-slate-900 border border-slate-700/80 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <option value="">🌍 Remoto y presencial</option>
+          <option value="remoto">💻 Solo remoto</option>
+          <option value="zona">📍 Solo Misiones/Posadas</option>
+        </select>
+        <select id="filtroFuente" class="filtro bg-slate-900 border border-slate-700/80 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <option value="">🌐 Todas las fuentes</option>
+        </select>
+        <select id="filtroTech" class="filtro bg-slate-900 border border-slate-700/80 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <option value="">⚡ Cualquier tecnología</option>
+        </select>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-3">
+        <select id="filtroAfinidad" class="filtro bg-slate-900 border border-slate-700/80 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <option value="0">⭐ Cualquier afinidad</option>
+          <option value="60">⭐ 60% o más</option>
+          <option value="75">⭐ 75% o más</option>
+          <option value="85">⭐ 85% o más</option>
+        </select>
+        <select id="orden" class="filtro bg-slate-900 border border-slate-700/80 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <option value="afinidad">↓ Afinidad</option>
+          <option value="fecha">↓ Fecha</option>
+          <option value="nuevas">↓ Nuevas primero</option>
+          <option value="empresa">↓ Empresa A-Z</option>
+        </select>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-300 flex-1">
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkNuevas" class="filtro accent-indigo-500"> ✨ Solo nuevas</label>
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkFavs" class="filtro accent-indigo-500"> ⭐ Favoritas</label>
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkIdeal" class="filtro accent-indigo-500"> 🌱 Ideal para empezar</label>
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkSinIngles" class="filtro accent-indigo-500"> 🚫 Sin inglés</label>
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkSinPostuladas" class="filtro accent-indigo-500"> ✅ Ocultar postuladas</label>
+          <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="chkOcultas" class="filtro accent-indigo-500"> 🙈 Ver descartadas</label>
+        </div>
+        <button id="limpiar" class="text-sm text-slate-400 hover:text-white border border-slate-700 rounded-xl px-4 py-2.5 transition-colors shrink-0">🧹 Limpiar filtros</button>
+      </div>
     </div>
 
     <p id="contador" class="text-sm text-slate-400 mb-4"></p>
@@ -98,47 +115,38 @@
 
   <!-- ─── SECCIÓN: QUÉ ESTUDIAR ─── -->
   <section id="vistaEstudiar" class="hidden space-y-8">
-
     <div>
       <h2 class="text-xl font-bold mb-1">📊 Lo que más piden las ofertas (y a vos te falta)</h2>
-      <p class="text-sm text-slate-400 mb-4">Calculado en vivo sobre las ofertas de tu web. Si estudiás lo de arriba de la lista, tu porcentaje sube en más ofertas.</p>
+      <p class="text-sm text-slate-400 mb-4">Calculado en vivo sobre las ofertas de tu web.</p>
       <div id="listaSkills" class="space-y-2"></div>
     </div>
-
     <div>
       <h2 class="text-xl font-bold mb-4">🚀 Acciones concretas para subir tu porcentaje</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">🇬🇧 1. Inglés: tu mayor palanca</h3>
-          <p class="text-sm text-slate-400">Es la penalización más común en tus ofertas (−15%). No necesitás ser bilingüe: apuntá a nivel B1/B2 de lectura y escritura técnica. Certificalo gratis con el <b>EF SET</b> (50 min, online) y ponelo en tu CV y LinkedIn. Duolingo/YouTube en inglés + documentación técnica en inglés todos los días.</p>
+          <p class="text-sm text-slate-400">Es la penalización más común en tus ofertas (−15%). No necesitás ser bilingüe: apuntá a nivel B1/B2 de lectura y escritura técnica. Certificalo gratis con el <b>EF SET</b> (50 min, online) y ponelo en tu CV y LinkedIn.</p>
         </div>
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">💻 2. Portfolio deployado &gt; certificado</h3>
-          <p class="text-sm text-slate-400">Para trainee/junior, lo que más pesa es <b>código visible</b>: 2-3 proyectos completos con tu stack (React + TypeScript + Node + Mongo/SQL), <b>funcionando online</b> (Vercel/Netlify gratis) y con buen README en GitHub. Sumá tu certificado blockchain como link en el README y en tu CV.</p>
+          <p class="text-sm text-slate-400">Para trainee/junior lo que más pesa es <b>código visible</b>: 2-3 proyectos completos con tu stack, <b>funcionando online</b> (Vercel/Netlify) y con buen README en GitHub. Sumá tu certificado blockchain como link.</p>
         </div>
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">🧪 3. Testing y Git avanzado</h3>
-          <p class="text-sm text-slate-400">Casi ningún junior sabe testing: aprender <b>Jest + React Testing Library</b> te diferencia al instante. Sumale Git de equipo: branches, pull requests, resolución de conflictos. Son 2-3 semanas de estudio y aparecen en muchísimas ofertas.</p>
+          <p class="text-sm text-slate-400">Casi ningún junior sabe testing: <b>Jest + React Testing Library</b> te diferencia al instante. Sumale Git de equipo: branches, pull requests, conflictos.</p>
         </div>
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">☁️ 4. Docker y nociones de cloud</h3>
-          <p class="text-sm text-slate-400">Saber armar un <b>Dockerfile</b> y subir algo a <b>AWS/Railway/Render</b> es lo que separa a un junior "de curso" de uno empleable. Con lo básico alcanza: contenedores, variables de entorno, deploy de tu API de Node.</p>
+          <p class="text-sm text-slate-400">Un <b>Dockerfile</b> y un deploy en <b>Railway/Render/AWS</b> separan al junior "de curso" del empleable. Con lo básico alcanza.</p>
         </div>
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">🎓 5. Usá tu carrera como ventaja</h3>
-          <p class="text-sm text-slate-400">En cada postulación mencioná: <b>estudiante de Ingeniería en Sistemas (título de Analista en camino)</b>. Las empresas con programas trainee buscan exactamente eso. Preguntá en tu facultad por convenios de pasantías (las universidades de Misiones suelen tenerlos).</p>
+          <p class="text-sm text-slate-400">En cada postulación: <b>estudiante de Ingeniería en Sistemas (título de Analista en camino)</b>. Los programas trainee buscan exactamente eso. Preguntá por convenios de pasantías en tu facultad.</p>
         </div>
-
         <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 brillo transition-shadow">
           <h3 class="font-semibold mb-1">🤝 6. Primera experiencia por otro lado</h3>
-          <p class="text-sm text-slate-400">Si no sale el empleo formal: proyectos freelance chicos (Workana, comercios locales de Posadas que necesiten web), contribuciones open source, o hackathons. Todo eso cuenta como "experiencia" en tu CV y elimina la penalización de "sin experiencia".</p>
+          <p class="text-sm text-slate-400">Freelance chico (Workana, comercios de Posadas), open source o hackathons: todo cuenta como experiencia en el CV y elimina la penalización de "sin experiencia".</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -151,7 +159,7 @@
     </div>
   </footer>
 
-  <!-- ─── MODAL "MÁS INFORMACIÓN" ─── -->
+  <!-- ─── MODAL ─── -->
   <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
     <div id="modalFondo" class="absolute inset-0 bg-black/75 backdrop-blur-sm"></div>
     <div class="relative bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl shadow-indigo-950/50">
@@ -174,9 +182,10 @@
           <p id="mDescripcion" class="text-slate-300 leading-relaxed whitespace-pre-line"></p>
         </div>
       </div>
-      <div class="p-4 border-t border-slate-800">
+      <div class="p-4 border-t border-slate-800 flex gap-2">
+        <button id="mCopiar" class="border border-slate-600 hover:border-indigo-400 hover:text-indigo-300 text-slate-300 text-sm font-medium rounded-xl px-4 py-3 transition-colors">🔗 Copiar enlace</button>
         <a id="mPostular" href="#" target="_blank" rel="noopener noreferrer"
-           class="block text-center bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl px-4 py-3 transition-colors">
+           class="flex-1 text-center bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl px-4 py-3 transition-colors">
           Postularse en el sitio original →
         </a>
       </div>
@@ -187,19 +196,25 @@
     let EMPLEOS = [];
     const DOS_DIAS = 1000 * 60 * 60 * 48;
 
-    function esNueva(e) {
-      if (!e.primera_vez) return false;
-      return (Date.now() - new Date(e.primera_vez + 'T00:00:00')) < DOS_DIAS;
-    }
+    // ── Estado guardado en TU navegador (persiste entre visitas) ──
+    const cargarSet = k => new Set(JSON.parse(localStorage.getItem(k) || '[]'));
+    const guardarSet = (k, s) => localStorage.setItem(k, JSON.stringify([...s]));
+    const favoritas  = cargarSet('favoritas');
+    const postuladas = cargarSet('postuladas');
+    const descartadas = cargarSet('descartadas');
+
+    const esNueva = e => e.primera_vez && (Date.now() - new Date(e.primera_vez + 'T00:00:00')) < DOS_DIAS;
+    const esIdeal = e => (e.motivos || []).some(m => m.includes('Ideal para empezar'));
+    const pideIngles = e => (e.motivos || []).some(m => m.startsWith('−') && /ingl/i.test(m));
 
     // ── 1. Cargar datos ──
-    // El "?v=fecha" y no-store evitan que el navegador muestre datos viejos del caché
     fetch('empleos.json?v=' + Date.now(), { cache: 'no-store' })
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => {
         EMPLEOS = data.empleos || [];
         mostrarActualizacion(data.actualizado);
-        poblarFuentes();
+        poblarSelects();
+        pintarPodio();
         pintarStats();
         render();
         analizarMejoras();
@@ -216,30 +231,59 @@
       document.getElementById('actualizado').textContent = '🟢 Actualizado: ' + texto;
     }
 
-    function poblarFuentes() {
+    function poblarSelects() {
       const fuentes = [...new Set(EMPLEOS.map(e => e.fuente).filter(Boolean))].sort();
-      const sel = document.getElementById('filtroFuente');
-      fuentes.forEach(f => sel.add(new Option(f, f)));
+      const selF = document.getElementById('filtroFuente');
+      fuentes.forEach(f => selF.add(new Option(f, f)));
+      const techs = [...new Set(EMPLEOS.flatMap(e => e.techs || []))].sort();
+      const selT = document.getElementById('filtroTech');
+      techs.forEach(t => selT.add(new Option('⚡ ' + t, t)));
     }
 
-    // ── 2. Estadísticas ──
+    // ── 2. PODIO TOP 3 ──
+    function pintarPodio() {
+      const top = EMPLEOS.filter(e => !descartadas.has(e.enlace))
+                         .sort((a, b) => b.afinidad - a.afinidad).slice(0, 3);
+      const medallas = ['🥇', '🥈', '🥉'];
+      const marcos = [
+        'border-2 border-yellow-500/60 shadow-lg shadow-yellow-500/10',
+        'border-2 border-slate-400/50',
+        'border-2 border-amber-700/50',
+      ];
+      document.getElementById('podio').innerHTML = top.map((e, i) => `
+        <div class="bg-slate-900/90 ${marcos[i]} rounded-2xl p-5 flex flex-col gap-2 brillo transition-all">
+          <div class="flex items-center justify-between">
+            <span class="text-2xl">${medallas[i]} <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Top ${i + 1}</span></span>
+            <span class="text-2xl font-extrabold ${i === 0 ? 'text-yellow-400' : 'text-slate-200'}">${e.afinidad}%</span>
+          </div>
+          <h3 class="font-semibold leading-snug">${esc(e.titulo)}</h3>
+          <p class="text-sm text-slate-400">🏢 ${esc(e.empresa)} · ${e.es_remoto ? '💻 Remoto' : '📍 ' + esc(e.ubicacion)}</p>
+          <div class="flex flex-wrap gap-1">${(e.techs || []).slice(0, 3).map(chipTech).join(' ')}</div>
+          <div class="mt-auto flex gap-2 pt-2">
+            <button data-enlace="${esc(e.enlace)}" class="btnInfo flex-1 border border-slate-600 hover:border-indigo-400 hover:text-indigo-300 text-slate-300 text-sm rounded-xl px-3 py-2 transition-colors">Más info</button>
+            <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer" class="flex-1 text-center bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl px-3 py-2 transition-colors">Postularse →</a>
+          </div>
+        </div>`).join('');
+      activarBotonesInfo();
+    }
+
+    // ── 3. Estadísticas ──
     function pintarStats() {
-      const total = EMPLEOS.length;
-      const remotas = EMPLEOS.filter(e => e.es_remoto).length;
-      const zona = EMPLEOS.filter(e => /misiones|posadas/i.test(e.ubicacion)).length;
-      const nuevas = EMPLEOS.filter(esNueva).length;
-      const prom = total ? Math.round(EMPLEOS.reduce((s, e) => s + e.afinidad, 0) / total) : 0;
+      const visibles = EMPLEOS.filter(e => !descartadas.has(e.enlace));
+      const total = visibles.length;
+      const remotas = visibles.filter(e => e.es_remoto).length;
+      const zona = visibles.filter(e => /misiones|posadas/i.test(e.ubicacion)).length;
+      const nuevas = visibles.filter(esNueva).length;
+      const post = postuladas.size;
+      const prom = total ? Math.round(visibles.reduce((s, e) => s + e.afinidad, 0) / total) : 0;
       const datos = [
-        ['💼', total, 'Ofertas'],
-        ['💻', remotas, 'Remotas'],
-        ['📍', zona, 'En tu zona'],
-        ['✨', nuevas, 'Nuevas'],
-        ['⭐', prom + '%', 'Afinidad prom.'],
+        ['💼', total, 'Ofertas'], ['💻', remotas, 'Remotas'], ['📍', zona, 'En tu zona'],
+        ['✨', nuevas, 'Nuevas'], ['✅', post, 'Postuladas'], ['⭐', prom + '%', 'Afinidad prom.'],
       ];
       document.getElementById('stats').innerHTML = datos.map(([ico, n, lbl]) => `
-        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl px-4 py-3 text-center">
-          <p class="text-xl font-extrabold">${ico} ${n}</p>
-          <p class="text-[11px] text-slate-500 uppercase tracking-wide">${lbl}</p>
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl px-3 py-3 text-center">
+          <p class="text-lg font-extrabold">${ico} ${n}</p>
+          <p class="text-[10px] text-slate-500 uppercase tracking-wide">${lbl}</p>
         </div>`).join('');
     }
 
@@ -249,59 +293,64 @@
       return { css: 'text-orange-400 border-orange-500/40 bg-orange-500/10', txt: 'Media' };
     }
 
-    function chipMotivo(m) {
-      const pos = m.startsWith('✓');
-      return `<span class="text-[10px] px-2 py-0.5 rounded-full border ${
-        pos ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'
-            : 'text-rose-400 border-rose-500/30 bg-rose-500/5'}">${esc(m)}</span>`;
-    }
+    const chipMotivo = m => `<span class="text-[10px] px-2 py-0.5 rounded-full border ${
+      m.startsWith('✓') ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'
+                        : 'text-rose-400 border-rose-500/30 bg-rose-500/5'}">${esc(m)}</span>`;
+    const chipTech = t => `<span class="text-[10px] px-2 py-0.5 rounded-full border text-violet-300 border-violet-500/30 bg-violet-500/10">⚡ ${esc(t)}</span>`;
 
-    function chipTech(t) {
-      return `<span class="text-[10px] px-2 py-0.5 rounded-full border text-violet-300 border-violet-500/30 bg-violet-500/10">⚡ ${esc(t)}</span>`;
-    }
-
-    // ── 3. Render ──
+    // ── 4. Render principal ──
     function render() {
       const q = document.getElementById('buscador').value.toLowerCase();
       const mod = document.getElementById('filtroModalidad').value;
       const fue = document.getElementById('filtroFuente').value;
+      const tec = document.getElementById('filtroTech').value;
       const minAf = parseInt(document.getElementById('filtroAfinidad').value, 10);
       const orden = document.getElementById('orden').value;
+      const soloNuevas = document.getElementById('chkNuevas').checked;
+      const soloFavs = document.getElementById('chkFavs').checked;
+      const soloIdeal = document.getElementById('chkIdeal').checked;
+      const sinIngles = document.getElementById('chkSinIngles').checked;
+      const sinPost = document.getElementById('chkSinPostuladas').checked;
+      const verOcultas = document.getElementById('chkOcultas').checked;
 
       let filtrados = EMPLEOS.filter(e =>
+        (verOcultas ? descartadas.has(e.enlace) : !descartadas.has(e.enlace)) &&
         (!q || (e.titulo + ' ' + e.empresa + ' ' + (e.techs || []).join(' ')).toLowerCase().includes(q)) &&
         (!fue || e.fuente === fue) &&
+        (!tec || (e.techs || []).includes(tec)) &&
         (e.afinidad >= minAf) &&
         (mod !== 'remoto' || e.es_remoto) &&
-        (mod !== 'zona' || /misiones|posadas/i.test(e.ubicacion + ' ' + (e.motivos || []).join(' ')))
+        (mod !== 'zona' || /misiones|posadas/i.test(e.ubicacion + ' ' + (e.motivos || []).join(' '))) &&
+        (!soloNuevas || esNueva(e)) &&
+        (!soloFavs || favoritas.has(e.enlace)) &&
+        (!soloIdeal || esIdeal(e)) &&
+        (!sinIngles || !pideIngles(e)) &&
+        (!sinPost || !postuladas.has(e.enlace))
       );
 
       filtrados.sort((a, b) => {
         if (orden === 'fecha') return String(b.fecha).localeCompare(String(a.fecha));
         if (orden === 'nuevas') return (esNueva(b) - esNueva(a)) || (b.afinidad - a.afinidad);
+        if (orden === 'empresa') return a.empresa.localeCompare(b.empresa);
         return b.afinidad - a.afinidad;
       });
 
-      document.getElementById('contador').textContent =
-        `${filtrados.length} oferta${filtrados.length === 1 ? '' : 's'} que se ajusta${filtrados.length === 1 ? '' : 'n'} a tu perfil`;
+      document.getElementById('contador').textContent = verOcultas
+        ? `${filtrados.length} oferta${filtrados.length === 1 ? '' : 's'} descartada${filtrados.length === 1 ? '' : 's'} (destildá "Ver descartadas" para volver)`
+        : `${filtrados.length} oferta${filtrados.length === 1 ? '' : 's'} · ⭐ ${favoritas.size} favoritas · ✅ ${postuladas.size} postuladas`;
 
       const grid = document.getElementById('grid');
-      const vacio = document.getElementById('vacio');
       grid.innerHTML = '';
-      vacio.classList.toggle('hidden', filtrados.length > 0);
+      document.getElementById('vacio').classList.toggle('hidden', filtrados.length > 0);
 
       filtrados.forEach(e => {
         const af = estiloAfinidad(e.afinidad);
-        const techs = (e.techs || []).slice(0, 4).map(chipTech).join(' ');
-        const motivos = (e.motivos || []).slice(0, 3).map(chipMotivo).join(' ');
-        const nueva = esNueva(e)
-          ? '<span class="nuevo-badge text-[10px] font-bold text-emerald-300 bg-emerald-500/15 border border-emerald-500/40 rounded-full px-2 py-0.5">✨ NUEVO</span>'
-          : '';
-
+        const esFav = favoritas.has(e.enlace);
+        const esPost = postuladas.has(e.enlace);
         const card = document.createElement('div');
         card.className =
-          'bg-slate-900/80 border border-slate-800 rounded-2xl p-5 flex flex-col gap-3 brillo ' +
-          'hover:-translate-y-0.5 transition-all duration-200';
+          'bg-slate-900/80 border rounded-2xl p-5 flex flex-col gap-3 brillo hover:-translate-y-0.5 transition-all duration-200 ' +
+          (esPost ? 'border-emerald-700/60 opacity-75' : esFav ? 'border-yellow-600/50' : 'border-slate-800');
         card.innerHTML = `
           <div class="flex items-start justify-between gap-2">
             <div class="flex flex-col items-center border rounded-xl px-3 py-1.5 ${af.css}">
@@ -309,7 +358,8 @@
               <span class="text-[9px] uppercase tracking-wide">${af.txt}</span>
             </div>
             <div class="text-right space-y-1">
-              ${nueva}
+              ${esPost ? '<span class="text-[10px] font-bold text-emerald-300 bg-emerald-500/15 border border-emerald-500/40 rounded-full px-2 py-0.5">✅ POSTULADA</span>' :
+                esNueva(e) ? '<span class="nuevo-badge text-[10px] font-bold text-emerald-300 bg-emerald-500/15 border border-emerald-500/40 rounded-full px-2 py-0.5">✨ NUEVO</span>' : ''}
               <span class="block text-[11px] text-slate-500">${esc(e.fuente)}</span>
               ${e.fecha ? `<span class="block text-[11px] text-slate-500">${esc(formatearFecha(e.fecha))}</span>` : ''}
             </div>
@@ -319,40 +369,64 @@
             <p>🏢 ${esc(e.empresa)}</p>
             <p>${e.es_remoto ? '💻' : '📍'} ${esc(e.ubicacion)}${e.es_remoto ? ' · Remoto' : ''}</p>
           </div>
-          <div class="flex flex-wrap gap-1">${techs}</div>
-          <div class="flex flex-wrap gap-1">${motivos}</div>
-          <div class="mt-auto flex gap-2">
-            <button data-enlace="${esc(e.enlace)}"
-              class="btnInfo flex-1 text-center border border-slate-600 hover:border-indigo-400 hover:text-indigo-300
-                     text-slate-300 text-sm font-medium rounded-xl px-3 py-2.5 transition-colors">
-              Más información
-            </button>
-            <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer"
-               class="flex-1 text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700
-                      text-white text-sm font-semibold rounded-xl px-3 py-2.5 transition-colors">
-              Postularse →
-            </a>
+          <div class="flex flex-wrap gap-1">${(e.techs || []).slice(0, 4).map(chipTech).join(' ')}</div>
+          <div class="flex flex-wrap gap-1">${(e.motivos || []).slice(0, 3).map(chipMotivo).join(' ')}</div>
+          <div class="mt-auto space-y-2">
+            <div class="flex gap-2 text-xs">
+              <button data-acc="fav" data-enlace="${esc(e.enlace)}" title="Favorita"
+                class="btnAccion flex-1 border rounded-lg py-1.5 transition-colors ${esFav ? 'border-yellow-500/60 text-yellow-300 bg-yellow-500/10' : 'border-slate-700 text-slate-400 hover:text-yellow-300'}">
+                ${esFav ? '⭐ Favorita' : '☆ Favorita'}
+              </button>
+              <button data-acc="post" data-enlace="${esc(e.enlace)}" title="Ya me postulé"
+                class="btnAccion flex-1 border rounded-lg py-1.5 transition-colors ${esPost ? 'border-emerald-500/60 text-emerald-300 bg-emerald-500/10' : 'border-slate-700 text-slate-400 hover:text-emerald-300'}">
+                ${esPost ? '✅ Postulada' : '☐ Me postulé'}
+              </button>
+              <button data-acc="ocultar" data-enlace="${esc(e.enlace)}" title="${verOcultas ? 'Recuperar' : 'No me interesa'}"
+                class="btnAccion flex-1 border border-slate-700 rounded-lg py-1.5 text-slate-400 hover:text-rose-300 transition-colors">
+                ${verOcultas ? '↩ Recuperar' : '🙈 Descartar'}
+              </button>
+            </div>
+            <div class="flex gap-2">
+              <button data-enlace="${esc(e.enlace)}" class="btnInfo flex-1 text-center border border-slate-600 hover:border-indigo-400 hover:text-indigo-300 text-slate-300 text-sm font-medium rounded-xl px-3 py-2.5 transition-colors">Más información</button>
+              <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer"
+                 class="flex-1 text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 text-white text-sm font-semibold rounded-xl px-3 py-2.5 transition-colors">Postularse →</a>
+            </div>
           </div>`;
         grid.appendChild(card);
       });
 
-      document.querySelectorAll('.btnInfo').forEach(b =>
-        b.addEventListener('click', () => abrirModal(b.dataset.enlace)));
+      activarBotonesInfo();
+      document.querySelectorAll('.btnAccion').forEach(b =>
+        b.addEventListener('click', () => accion(b.dataset.acc, b.dataset.enlace)));
     }
 
-    // ── 4. Modal ──
+    function accion(tipo, enlace) {
+      const mapa = { fav: favoritas, post: postuladas, ocultar: descartadas };
+      const set = mapa[tipo];
+      set.has(enlace) ? set.delete(enlace) : set.add(enlace);
+      guardarSet(tipo === 'fav' ? 'favoritas' : tipo === 'post' ? 'postuladas' : 'descartadas', set);
+      pintarStats();
+      pintarPodio();
+      render();
+    }
+
+    function activarBotonesInfo() {
+      document.querySelectorAll('.btnInfo').forEach(b => {
+        b.onclick = () => abrirModal(b.dataset.enlace);
+      });
+    }
+
+    // ── 5. Modal ──
     function abrirModal(enlace) {
       const e = EMPLEOS.find(x => x.enlace === enlace);
       if (!e) return;
       const af = estiloAfinidad(e.afinidad);
-
       document.getElementById('mTitulo').textContent = e.titulo;
       document.getElementById('mEmpresa').textContent = '🏢 ' + e.empresa;
       document.getElementById('mAfinidad').className = 'flex flex-col items-center border rounded-xl px-3 py-1.5 ' + af.css;
       document.getElementById('mAfinidad').innerHTML =
         `<span class="text-lg font-extrabold leading-none">${e.afinidad}%</span>
          <span class="text-[9px] uppercase tracking-wide">${af.txt}</span>`;
-
       document.getElementById('mDatos').innerHTML = `
         <p>${e.es_remoto ? '💻 Modalidad: <b>Remoto</b>' : '📍 Modalidad: <b>Presencial</b>'}</p>
         <p>🗺 Ubicación: <b>${esc(e.ubicacion)}</b></p>
@@ -360,14 +434,17 @@
         ${e.fecha ? `<p>📅 Publicada: <b>${esc(formatearFecha(e.fecha))}</b></p>` : ''}
         ${e.primera_vez ? `<p>👀 Vista por primera vez: <b>${esc(formatearFecha(e.primera_vez))}</b></p>` : ''}
         <p>🔑 Encontrada con: <b>${esc(e.keyword)}</b></p>`;
-
       document.getElementById('mTechs').innerHTML =
         (e.techs || []).length ? '<span class="text-xs text-slate-500 mr-1">Tu stack en esta oferta:</span> ' + e.techs.map(chipTech).join(' ') : '';
       document.getElementById('mMotivos').innerHTML = (e.motivos || []).map(chipMotivo).join(' ');
       document.getElementById('mDescripcion').textContent =
         e.descripcion || 'Esta oferta no tiene descripción guardada. Tocá "Postularse" para verla en el sitio original.';
       document.getElementById('mPostular').href = e.enlace;
-
+      document.getElementById('mCopiar').onclick = () => {
+        navigator.clipboard.writeText(e.enlace);
+        document.getElementById('mCopiar').textContent = '✔ Copiado';
+        setTimeout(() => document.getElementById('mCopiar').textContent = '🔗 Copiar enlace', 1500);
+      };
       document.getElementById('modal').classList.remove('hidden');
       document.body.style.overflow = 'hidden';
     }
@@ -378,7 +455,13 @@
     }
     document.getElementById('modalCerrar').addEventListener('click', cerrarModal);
     document.getElementById('modalFondo').addEventListener('click', cerrarModal);
-    document.addEventListener('keydown', ev => { if (ev.key === 'Escape') cerrarModal(); });
+    document.addEventListener('keydown', ev => {
+      if (ev.key === 'Escape') cerrarModal();
+      if (ev.key === '/' && document.activeElement.tagName !== 'INPUT') {
+        ev.preventDefault();
+        document.getElementById('buscador').focus();
+      }
+    });
 
     function formatearFecha(f) {
       if (/^\d{4}-\d{2}-\d{2}/.test(f)) {
@@ -393,12 +476,17 @@
       return d.innerHTML;
     }
 
-    ['buscador', 'filtroModalidad', 'filtroFuente', 'filtroAfinidad', 'orden'].forEach(id => {
-      const el = document.getElementById(id);
-      el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', render);
+    // ── 6. Listeners de filtros ──
+    document.getElementById('buscador').addEventListener('input', render);
+    document.querySelectorAll('.filtro').forEach(el => el.addEventListener('change', render));
+    document.getElementById('limpiar').addEventListener('click', () => {
+      document.getElementById('buscador').value = '';
+      document.querySelectorAll('select.filtro').forEach(s => s.selectedIndex = 0);
+      document.querySelectorAll('input.filtro[type=checkbox]').forEach(c => c.checked = false);
+      render();
     });
 
-    // ── 5. NAV ──
+    // ── 7. NAV ──
     function mostrarVista(vista) {
       const ofertas = vista === 'ofertas';
       document.getElementById('vistaOfertas').classList.toggle('hidden', !ofertas);
@@ -413,7 +501,7 @@
     document.getElementById('navOfertas').addEventListener('click', () => mostrarVista('ofertas'));
     document.getElementById('navEstudiar').addEventListener('click', () => mostrarVista('estudiar'));
 
-    // ── 6. Qué estudiar ──
+    // ── 8. Qué estudiar ──
     const SKILLS_A_APRENDER = {
       'Inglés':            { re: /ingl[eé]s|english|biling[üu]e/i,            tip: 'La penalización más frecuente. Nivel B1/B2 alcanza para la mayoría.' },
       'Python':            { re: /\bpython\b/i,                                tip: 'Muy pedido en data y backend. Fácil viniendo de JS.' },
@@ -446,7 +534,6 @@
         if (n > 0) conteo.push({ nombre, n, tip: s.tip });
       }
       conteo.sort((a, b) => b.n - a.n);
-
       cont.innerHTML = conteo.slice(0, 8).map((s, i) => {
         const pct = Math.round(100 * s.n / total);
         return `

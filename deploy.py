@@ -82,7 +82,10 @@ def subir():
 
 def main():
     # ── PASO 1: extraer ──
-    if not correr([sys.executable, "extractor.py"], "Ejecutando extractor.py…"):
+    # (sin capturar la salida: así ves el progreso del extractor en vivo)
+    print("\n>> Ejecutando extractor.py… (tarda 10-15 min, vas a ver el avance acá)")
+    r = subprocess.run([sys.executable, "-u", "extractor.py"], cwd=CARPETA)
+    if r.returncode != 0:
         sys.exit("El extractor falló. No se subió nada.")
 
     # ── PASO 2: ¿hay algo nuevo? ──

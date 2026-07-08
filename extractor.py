@@ -33,7 +33,8 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 # ═════════════════════════════════════════════
 # TU PERFIL — editá esta sección a gusto
 # ═════════════════════════════════════════════
-PALABRAS_CLAVE = ["Pasantía", "Trainee", "Junior", "React", "Node.js", "Full Stack"]
+PALABRAS_CLAVE = ["Desarrollador Junior", "Desarrollador web", "Full Stack",
+                  "React", "Node.js", "Pasantía sistemas"]
 
 CIUDADES = ["misiones", "posadas"]
 
@@ -72,6 +73,17 @@ PIDE_INGLES = ["inglés avanzado", "ingles avanzado", "inglés fluido", "ingles 
                "inglés intermedio", "ingles intermedio", "bilingüe", "bilingue"]
 
 EXCLUIR_SENIORIDAD = r"\b(senior|ssr|sr\.?|semi[\s-]?senior|lead|jefe|jefa|gerente|manager|head|arquitecto|director|supervisor)\b"
+
+# FILTRO DE ÁREA: la oferta DEBE ser de sistemas/desarrollo/IT.
+# Si no menciona nada de esto, se descarta (chau electromecánica y abogacía).
+AREA_IT = (r"desarroll|programad|software|sistemas|inform[aá]tic|computaci[oó]n"
+           r"|front[\s-]?end|back[\s-]?end|full[\s-]?stack|\bweb\b|\bit\b|\bti\b"
+           r"|help ?desk|mesa de ayuda|soporte t[eé]cnico|\bqa\b|testing|tester"
+           r"|\bdata\b|base de datos|javascript|typescript|react|node|\bsql\b"
+           r"|devops|sysadmin|\bredes\b|tecnolog[ií]a|developer|programming")
+
+# Stacks que NO son el tuyo: si la oferta es solo de esto, baja el puntaje.
+OTROS_STACKS = r"\b(java(?!script)|php|laravel|c#|\.net|dotnet|python|ruby|golang|kotlin|swift|angular|vue|cobol|abap|salesforce)\b"
 
 PALABRAS_EN_INGLES = ["developer", "engineer", "support specialist", "analyst",
                       "assistant", "designer", "software", "customer", "agent"]
@@ -165,6 +177,10 @@ def puntuar(e):
     if re.search(EXCLUIR_SENIORIDAD, texto):
         return None
 
+    # ── DESCARTE: no es del área de sistemas/desarrollo/IT ──
+    if not re.search(AREA_IT, texto):
+        return None
+
     es_remoto = e.get("es_remoto", False) or any(p in texto for p in PISTAS_REMOTO)
     en_zona = any(c in texto for c in CIUDADES)
     if not (es_remoto or en_zona):
@@ -188,6 +204,10 @@ def puntuar(e):
     if techs:
         puntos += min(22, 5 * len(techs))
         motivos.append("✓ Tu stack: " + ", ".join(techs[:5]))
+    elif re.search(OTROS_STACKS, texto):
+        # Piden Java/PHP/.NET/etc. y nada de lo tuyo
+        puntos -= 12
+        motivos.append("− Piden otro stack (no JS/TS)")
 
     exp = re.search(r"(\d+)\s*(años|año|years|yrs)", texto)
     if exp and "sin experiencia" not in texto:
@@ -530,12 +550,20 @@ def main():
                 aplicar_descripcion(e, prev["descripcion"])
                 reutilizadas += 1
 
-        # Ofertas que hoy no aparecieron pero son recientes: las conservamos
+        # Ofertas que hoy no aparecieron pero son recientes: las conservamos,
+        # PERO solo si pasan los filtros actuales (área IT, sin seniors).
         limite = (hoy - timedelta(days=DIAS_RETENER_OFERTA)).date().isoformat()
         for enlace, prev in anteriores.items():
-            if enlace not in enlaces_actuales and prev.get("primera_vez", "") >= limite:
-                finales.append(prev)
-                rescatadas += 1
+            if enlace in enlaces_actuales or prev.get("primera_vez", "") < limite:
+                continue
+            texto_prev = (prev.get("titulo", "") + " " + prev.get("ubicacion", "")
+                          + " " + prev.get("descripcion", "")).lower()
+            if not re.search(AREA_IT, texto_prev):
+                continue  # no era de sistemas: chau
+            if re.search(EXCLUIR_SENIORIDAD, texto_prev):
+                continue
+            finales.append(prev)
+            rescatadas += 1
 
         if reutilizadas or rescatadas:
             print(f"\n  Caché: {reutilizadas} descripciones reutilizadas, "
