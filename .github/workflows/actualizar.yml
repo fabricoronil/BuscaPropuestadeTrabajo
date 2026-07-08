@@ -13,6 +13,7 @@ on:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 40     # si algo se cuelga de verdad, corta a los 40 min
     permissions:
       contents: write       # permiso para hacer push del JSON
 
@@ -31,7 +32,9 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Ejecutar el extractor
-        run: python extractor.py
+        # -u = sin buffer: los mensajes aparecen en vivo en el log
+        # (el extractor tarda 10-20 min por sus pausas anti-bloqueo: es normal)
+        run: python -u extractor.py
 
       - name: Subir empleos.json si hay cambios
         run: |
@@ -51,11 +54,16 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update jobs"
-          # Si el repo cambió mientras corríamos, traemos lo nuevo antes de pushear.
-          # Si hay conflicto en empleos.json, gana la versión recién extraída.
-          if ! git pull --rebase origin main; then
-            git checkout --theirs empleos.json
+          # Regla: empleos.json se regenera completo, así que nunca se fusiona.
+          # Si hay conflicto, ganan los datos recién extraídos (-X theirs).
+          if ! git pull --rebase -X theirs origin main; then
+            # Plan B infalible: alinearse con el repo y reaplicar los datos encima
+            git rebase --abort || true
+            cp empleos.json /tmp/empleos_nuevos.json
+            git fetch origin
+            git reset --hard origin/main
+            cp /tmp/empleos_nuevos.json empleos.json
             git add empleos.json
-            GIT_EDITOR=true git rebase --continue
+            git commit -m "Auto-update jobs"
           fi
-          git push
+          git push || (git pull --rebase -X theirs origin main && git push)
