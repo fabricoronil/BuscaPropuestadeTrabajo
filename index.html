@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mis Empleos — Panel de Ofertas</title>
-  <!-- Tailwind CSS por CDN: no hay que instalar nada -->
+  <title>Mis Empleos — Ofertas a mi medida</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen">
@@ -13,10 +12,9 @@
   <header class="border-b border-slate-800 bg-slate-900/60 backdrop-blur sticky top-0 z-10">
     <div class="max-w-6xl mx-auto px-4 py-5 flex flex-wrap items-center justify-between gap-3">
       <div>
-        <h1 class="text-2xl font-bold tracking-tight">💼 Mis Empleos</h1>
-        <p class="text-sm text-slate-400">Ofertas agrupadas automáticamente de LinkedIn y Computrabajo</p>
+        <h1 class="text-2xl font-bold tracking-tight">🎯 Mis Empleos</h1>
+        <p class="text-sm text-slate-400">Ofertas filtradas y puntuadas según mi perfil: trainee · medio tiempo · Misiones/Posadas o remoto</p>
       </div>
-      <!-- Indicador de última actualización -->
       <div id="actualizado" class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 rounded-full px-3 py-1.5">
         Cargando…
       </div>
@@ -26,25 +24,35 @@
   <main class="max-w-6xl mx-auto px-4 py-8">
 
     <!-- ─── FILTROS ─── -->
-    <div class="flex flex-col sm:flex-row gap-3 mb-8">
-      <input id="buscador" type="text" placeholder="🔍 Buscar por título, empresa o palabra clave…"
+    <div class="flex flex-col lg:flex-row gap-3 mb-6">
+      <input id="buscador" type="text" placeholder="🔍 Buscar por título o empresa…"
         class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm
                focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-500" />
-      <select id="filtroUbicacion"
-        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm
-               focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        <option value="">📍 Todas las ubicaciones</option>
+      <select id="filtroModalidad"
+        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        <option value="">🌍 Remoto y presencial</option>
+        <option value="remoto">💻 Solo remoto</option>
+        <option value="zona">📍 Solo Misiones/Posadas</option>
       </select>
       <select id="filtroFuente"
-        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm
-               focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
         <option value="">🌐 Todas las fuentes</option>
+      </select>
+      <select id="filtroAfinidad"
+        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        <option value="0">⭐ Cualquier afinidad</option>
+        <option value="60">⭐ 60% o más</option>
+        <option value="75">⭐ 75% o más</option>
+      </select>
+      <select id="orden"
+        class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        <option value="afinidad">↓ Ordenar por afinidad</option>
+        <option value="fecha">↓ Ordenar por fecha</option>
       </select>
     </div>
 
     <p id="contador" class="text-sm text-slate-400 mb-4"></p>
 
-    <!-- ─── CUADRÍCULA DE TARJETAS ─── -->
     <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
     <div id="vacio" class="hidden text-center py-20 text-slate-500">
@@ -54,70 +62,66 @@
   </main>
 
   <script>
-    // ───────────────────────────────────────────
-    // 1. Cargar los datos del archivo empleos.json
-    // ───────────────────────────────────────────
     let EMPLEOS = [];
 
+    // ── 1. Cargar datos ──
     fetch('empleos.json')
-      .then(r => {
-        if (!r.ok) throw new Error('No se encontró empleos.json');
-        return r.json();
-      })
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(data => {
         EMPLEOS = data.empleos || [];
         mostrarActualizacion(data.actualizado);
-        poblarFiltros();
+        poblarFuentes();
         render();
       })
       .catch(() => {
-        document.getElementById('actualizado').textContent = '⚠ Sin datos: ejecutá extractor.py';
-        document.getElementById('actualizado').className =
-          'text-xs bg-red-500/10 text-red-400 border border-red-500/30 rounded-full px-3 py-1.5';
+        const el = document.getElementById('actualizado');
+        el.textContent = '⚠ Sin datos: ejecutá extractor.py';
+        el.className = 'text-xs bg-red-500/10 text-red-400 border border-red-500/30 rounded-full px-3 py-1.5';
       });
 
-    // ───────────────────────────────────────────
-    // 2. Indicador de última actualización
-    // ───────────────────────────────────────────
     function mostrarActualizacion(iso) {
       if (!iso) return;
-      const f = new Date(iso);
-      const texto = f.toLocaleString('es-AR', {
-        day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
-      });
+      const texto = new Date(iso).toLocaleString('es-AR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
       document.getElementById('actualizado').textContent = '🟢 Actualizado: ' + texto;
     }
 
-    // ───────────────────────────────────────────
-    // 3. Poblar los selectores de ubicación y fuente
-    // ───────────────────────────────────────────
-    function poblarFiltros() {
-      const ubicaciones = [...new Set(EMPLEOS.map(e => e.ubicacion).filter(Boolean))].sort();
+    function poblarFuentes() {
       const fuentes = [...new Set(EMPLEOS.map(e => e.fuente).filter(Boolean))].sort();
-
-      const selU = document.getElementById('filtroUbicacion');
-      ubicaciones.forEach(u => selU.add(new Option(u, u)));
-
-      const selF = document.getElementById('filtroFuente');
-      fuentes.forEach(f => selF.add(new Option(f, f)));
+      const sel = document.getElementById('filtroFuente');
+      fuentes.forEach(f => sel.add(new Option(f, f)));
     }
 
-    // ───────────────────────────────────────────
-    // 4. Dibujar las tarjetas (con filtros aplicados)
-    // ───────────────────────────────────────────
+    // ── 2. Colores del porcentaje de afinidad ──
+    function estiloAfinidad(a) {
+      if (a >= 75) return { ring: 'text-emerald-400 border-emerald-500/40 bg-emerald-500/10', txt: 'Muy buena' };
+      if (a >= 60) return { ring: 'text-amber-400 border-amber-500/40 bg-amber-500/10', txt: 'Buena' };
+      return { ring: 'text-orange-400 border-orange-500/40 bg-orange-500/10', txt: 'Media' };
+    }
+
+    // ── 3. Render con filtros ──
     function render() {
       const q = document.getElementById('buscador').value.toLowerCase();
-      const ubi = document.getElementById('filtroUbicacion').value;
+      const mod = document.getElementById('filtroModalidad').value;
       const fue = document.getElementById('filtroFuente').value;
+      const minAf = parseInt(document.getElementById('filtroAfinidad').value, 10);
+      const orden = document.getElementById('orden').value;
 
-      const filtrados = EMPLEOS.filter(e =>
-        (!q   || (e.titulo + ' ' + e.empresa + ' ' + (e.keyword || '')).toLowerCase().includes(q)) &&
-        (!ubi || e.ubicacion === ubi) &&
-        (!fue || e.fuente === fue)
+      let filtrados = EMPLEOS.filter(e =>
+        (!q || (e.titulo + ' ' + e.empresa).toLowerCase().includes(q)) &&
+        (!fue || e.fuente === fue) &&
+        (e.afinidad >= minAf) &&
+        (mod !== 'remoto' || e.es_remoto) &&
+        (mod !== 'zona' || !e.es_remoto ||
+          /misiones|posadas/i.test(e.ubicacion))
       );
+      if (mod === 'zona') filtrados = filtrados.filter(e => /misiones|posadas/i.test(e.ubicacion + ' ' + (e.motivos || []).join(' ')));
+
+      filtrados.sort((a, b) => orden === 'fecha'
+        ? String(b.fecha).localeCompare(String(a.fecha))
+        : b.afinidad - a.afinidad);
 
       document.getElementById('contador').textContent =
-        `${filtrados.length} oferta${filtrados.length === 1 ? '' : 's'} encontrada${filtrados.length === 1 ? '' : 's'}`;
+        `${filtrados.length} oferta${filtrados.length === 1 ? '' : 's'} que se ajusta${filtrados.length === 1 ? '' : 'n'} a tu perfil`;
 
       const grid = document.getElementById('grid');
       const vacio = document.getElementById('vacio');
@@ -125,25 +129,36 @@
       vacio.classList.toggle('hidden', filtrados.length > 0);
 
       filtrados.forEach(e => {
-        const colorFuente = e.fuente === 'LinkedIn'
-          ? 'bg-sky-500/10 text-sky-400 border-sky-500/30'
-          : 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+        const af = estiloAfinidad(e.afinidad);
+        const chips = (e.motivos || []).map(m => {
+          const positivo = m.startsWith('✓');
+          return `<span class="text-[10px] px-2 py-0.5 rounded-full border ${
+            positivo ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'
+                     : 'text-rose-400 border-rose-500/30 bg-rose-500/5'
+          }">${esc(m)}</span>`;
+        }).join(' ');
 
         const card = document.createElement('div');
         card.className =
           'bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col gap-3 ' +
           'hover:border-indigo-500/50 hover:-translate-y-0.5 transition-all duration-200';
-
         card.innerHTML = `
           <div class="flex items-start justify-between gap-2">
-            <span class="text-[11px] border rounded-full px-2 py-0.5 ${colorFuente}">${esc(e.fuente)}</span>
-            ${e.fecha ? `<span class="text-[11px] text-slate-500">${esc(formatearFecha(e.fecha))}</span>` : ''}
+            <div class="flex flex-col items-center border rounded-xl px-3 py-1.5 ${af.ring}">
+              <span class="text-lg font-bold leading-none">${e.afinidad}%</span>
+              <span class="text-[9px] uppercase tracking-wide">${af.txt}</span>
+            </div>
+            <div class="text-right">
+              <span class="block text-[11px] text-slate-500">${esc(e.fuente)}</span>
+              ${e.fecha ? `<span class="block text-[11px] text-slate-500">${esc(formatearFecha(e.fecha))}</span>` : ''}
+            </div>
           </div>
           <h2 class="font-semibold leading-snug">${esc(e.titulo)}</h2>
           <div class="text-sm text-slate-400">
             <p>🏢 ${esc(e.empresa)}</p>
-            <p>📍 ${esc(e.ubicacion)}</p>
+            <p>${e.es_remoto ? '💻' : '📍'} ${esc(e.ubicacion)}${e.es_remoto ? ' · Remoto' : ''}</p>
           </div>
+          <div class="flex flex-wrap gap-1">${chips}</div>
           <a href="${esc(e.enlace)}" target="_blank" rel="noopener noreferrer"
              class="mt-auto text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700
                     text-white text-sm font-medium rounded-xl px-4 py-2.5 transition-colors">
@@ -153,7 +168,6 @@
       });
     }
 
-    // Convierte fechas ISO (LinkedIn) a formato legible; deja el resto igual
     function formatearFecha(f) {
       if (/^\d{4}-\d{2}-\d{2}/.test(f)) {
         return new Date(f).toLocaleDateString('es-AR', { day: '2-digit', month: 'short' });
@@ -161,19 +175,16 @@
       return f;
     }
 
-    // Escapa HTML para evitar problemas con caracteres raros
     function esc(s) {
       const d = document.createElement('div');
       d.textContent = s || '';
       return d.innerHTML;
     }
 
-    // ───────────────────────────────────────────
-    // 5. Filtros en tiempo real
-    // ───────────────────────────────────────────
-    document.getElementById('buscador').addEventListener('input', render);
-    document.getElementById('filtroUbicacion').addEventListener('change', render);
-    document.getElementById('filtroFuente').addEventListener('change', render);
+    ['buscador', 'filtroModalidad', 'filtroFuente', 'filtroAfinidad', 'orden'].forEach(id => {
+      const el = document.getElementById(id);
+      el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', render);
+    });
   </script>
 </body>
 </html>
