@@ -35,8 +35,22 @@ jobs:
 
       - name: Subir empleos.json si hay cambios
         run: |
+          # Protección: si encontró muy pocas ofertas (bloqueo de portales),
+          # NO subimos nada para no pisar los datos buenos que ya están online.
+          TOTAL=$(python -c "import json; print(json.load(open('empleos.json')).get('total', 0))")
+          echo "Ofertas encontradas en esta corrida: $TOTAL"
+          if [ "$TOTAL" -lt 5 ]; then
+            echo "Muy pocas ofertas: los portales probablemente bloquearon a GitHub. No se sube nada."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add empleos.json
-          git diff --cached --quiet || git commit -m "Auto-update jobs"
+          if git diff --cached --quiet; then
+            echo "Sin cambios. Nada que subir."
+            exit 0
+          fi
+          git commit -m "Auto-update jobs"
+          # Si el repo cambió mientras corríamos, traemos lo nuevo antes de pushear
+          git pull --rebase origin main
           git push
