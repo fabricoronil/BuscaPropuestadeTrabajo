@@ -87,6 +87,6 @@ Listo: la web se actualiza sola todos los días sin tocar nada.
 
 ## Notas importantes
 
-- El scraping usa pausas aleatorias y un user-agent real para minimizar bloqueos, pero LinkedIn puede limitar el acceso si se ejecuta con demasiada frecuencia. Una vez al día es seguro.
+- **Frecuencia segura: 1 vez al día (máximo 2).** El extractor usa pausas humanas aleatorias, user-agent rotativo, caché de descripciones (no repite visitas) y detección de captcha: si un portal lo frena, lo saltea y sigue con los demás. Los bloqueos de este tipo son temporales (horas), no permanentes.
 - Si un portal cambia su diseño, el script no se rompe: avisa por consola y sigue con el resto.
 - Revisá los términos de uso de cada portal; este proyecto es para uso personal.

@@ -1,19 +1,23 @@
 """
 =============================================================
- EXTRACTOR DE EMPLEOS PERSONALIZADO (extractor.py)
+ EXTRACTOR DE EMPLEOS PERSONALIZADO (extractor.py)  v3
 =============================================================
  Perfil: estudiante de Ing. en Sistemas (19 años, 2do año),
  certificado Full Stack: React, TypeScript, Tailwind,
  Node.js, MongoDB, SQL/NoSQL, Git/GitHub.
 
- - Busca en 5 portales (LinkedIn, Computrabajo, Bumeran,
-   ZonaJobs, RemoteOK)
- - Solo Misiones/Posadas o 100% remoto
- - Puntúa afinidad 0-100 según tu perfil y tu stack
- - Entra a las mejores ofertas y trae la descripción
-   completa para verla en la web sin abrir el link
+ Novedades v3 (auditoría):
+ - Anti-bloqueo: pausas humanas más largas y variables,
+   user-agent rotativo, zona horaria y idioma argentinos,
+   detección de captcha/bloqueo (corta ese portal y sigue).
+ - Caché inteligente: recuerda las ofertas anteriores, así
+   NO vuelve a visitar descripciones que ya tiene (menos
+   requests = menos riesgo de bloqueo) y las ofertas nuevas
+   se marcan como "NUEVO" en la web.
+ - Menos carga: no descarga imágenes ni fuentes.
 
  Cómo ejecutarlo:  python extractor.py
+ Frecuencia recomendada: 1 vez al día (máximo 2).
 =============================================================
 """
 
@@ -21,7 +25,7 @@ import json
 import random
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
@@ -31,13 +35,13 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 # ═════════════════════════════════════════════
 PALABRAS_CLAVE = ["Pasantía", "Trainee", "Junior", "React", "Node.js", "Full Stack"]
 
-CIUDADES = ["misiones", "posadas"]   # zona presencial aceptada
+CIUDADES = ["misiones", "posadas"]
 
 MAX_POR_BUSQUEDA = 15
-TOP_CON_DESCRIPCION = 40   # a cuántas ofertas (las mejores) les traemos la descripción
+TOP_CON_DESCRIPCION = 25      # visitas máximas a páginas de detalle por corrida
+DIAS_RETENER_OFERTA = 12      # cuántos días conservar una oferta que ya no aparece
 ARCHIVO_SALIDA = Path(__file__).parent / "empleos.json"
 
-# Tu stack: si la oferta lo menciona, sube el porcentaje
 TECNOLOGIAS = {
     "React":      r"\breact\b",
     "TypeScript": r"\btypescript\b",
@@ -72,14 +76,31 @@ EXCLUIR_SENIORIDAD = r"\b(senior|ssr|sr\.?|semi[\s-]?senior|lead|jefe|jefa|geren
 PALABRAS_EN_INGLES = ["developer", "engineer", "support specialist", "analyst",
                       "assistant", "designer", "software", "customer", "agent"]
 
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-)
+# ═════════════════════════════════════════════
+# ANTI-BLOQUEO
+# ═════════════════════════════════════════════
+USER_AGENTS = [
+    # Chrome y Edge recientes en Windows (los más comunes en Argentina)
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
+]
+
+SEÑALES_BLOQUEO = ["captcha", "unusual activity", "actividad inusual", "are you a robot",
+                   "verify you are human", "access denied", "has sido bloqueado",
+                   "challenge-platform", "cf-challenge", "authwall"]
+
+# Portales que detectamos bloqueados en esta corrida (los salteamos)
+bloqueados = set()
 
 
-def pausa_humana(min_s=1.5, max_s=3.5):
-    time.sleep(random.uniform(min_s, max_s))
+def pausa_humana(min_s=2.5, max_s=6.0):
+    """Pausa aleatoria estilo humano. A veces una pausa extra larga (como
+    alguien que se distrae), lo que hace el patrón menos robótico."""
+    t = random.uniform(min_s, max_s)
+    if random.random() < 0.08:
+        t += random.uniform(4, 9)
+    time.sleep(t)
 
 
 def limpiar(texto):
@@ -88,8 +109,49 @@ def limpiar(texto):
     return re.sub(r"\s+", " ", texto).strip()
 
 
+def parece_bloqueo(page):
+    """Detecta si el portal nos mostró un captcha o pantalla de bloqueo."""
+    try:
+        contenido = (page.title() + " " + page.url).lower()
+        if any(s in contenido for s in SEÑALES_BLOQUEO):
+            return True
+        cuerpo = page.locator("body").inner_text(timeout=3000)[:600].lower()
+        return any(s in cuerpo for s in SEÑALES_BLOQUEO)
+    except Exception:
+        return False
+
+
+def navegar(page, url, portal, espera="domcontentloaded", timeout=45000):
+    """Navega con 1 reintento y detección de bloqueo.
+    Devuelve False si el portal está bloqueado o no responde."""
+    if portal in bloqueados:
+        return False
+    for intento in (1, 2):
+        try:
+            page.goto(url, timeout=timeout, wait_until=espera)
+            pausa_humana(1.5, 3.0)
+            # scroll suave, como un humano que mira la página
+            page.mouse.wheel(0, random.randint(300, 900))
+            time.sleep(random.uniform(0.4, 1.2))
+            if parece_bloqueo(page):
+                print(f"  [!] {portal}: posible bloqueo/captcha detectado. "
+                      f"Salteamos este portal por hoy (se le pasa solo).")
+                bloqueados.add(portal)
+                return False
+            return True
+        except PWTimeout:
+            if intento == 1:
+                time.sleep(random.uniform(5, 10))
+                continue
+            print(f"  [!] {portal}: no respondió a tiempo.")
+            return False
+        except Exception as ex:
+            print(f"  [!] {portal}: error de navegación ({type(ex).__name__}).")
+            return False
+    return False
+
+
 def detectar_techs(texto):
-    """Devuelve la lista de tecnologías de TU stack mencionadas en el texto."""
     return [nombre for nombre, patron in TECNOLOGIAS.items() if re.search(patron, texto)]
 
 
@@ -108,19 +170,16 @@ def puntuar(e):
     if not (es_remoto or en_zona):
         return None
 
-    puntos = 45  # base
-
+    puntos = 45
     if en_zona:
         puntos += 15
         motivos.append("✓ Misiones/Posadas")
     if es_remoto:
         puntos += 12
         motivos.append("✓ Remoto")
-
     if any(p in texto for p in IDEAL_PARA_EMPEZAR):
         puntos += 18
         motivos.append("✓ Ideal para empezar (trainee/jr/pasantía)")
-
     if any(p in texto for p in MEDIO_TIEMPO):
         puntos += 10
         motivos.append("✓ Medio tiempo")
@@ -151,26 +210,48 @@ def puntuar(e):
     return e
 
 
-# ═════════════════════════════════════════════
-# ENRIQUECER: entrar a la oferta y traer la descripción
-# ═════════════════════════════════════════════
+def aplicar_descripcion(e, desc):
+    """Suma la información de la descripción al puntaje (compartido entre
+    la visita en vivo y la reutilización desde el caché)."""
+    e["descripcion"] = desc[:1800]
+    texto = desc.lower()
+
+    nuevas = [t for t in detectar_techs(texto) if t not in e["techs"]]
+    if nuevas:
+        e["techs"] += nuevas
+        e["afinidad"] = min(98, e["afinidad"] + 3 * len(nuevas))
+        e["motivos"] = [m for m in e["motivos"] if not m.startswith("✓ Tu stack")]
+        e["motivos"].append("✓ Tu stack: " + ", ".join(e["techs"][:6]))
+
+    if not any("experiencia" in m for m in e["motivos"]):
+        exp = re.search(r"(\d+)\s*(años|año|years|yrs)", texto)
+        if exp and "sin experiencia" not in texto:
+            e["afinidad"] = max(5, e["afinidad"] - 12)
+            e["motivos"].append(f"− Pide {exp.group(1)}+ años de experiencia")
+    if not any("inglés" in m.lower() for m in e["motivos"]):
+        if any(p in texto for p in PIDE_INGLES):
+            e["afinidad"] = max(5, e["afinidad"] - 10)
+            e["motivos"].append("− Pide inglés")
+
+
 SELECTORES_DESCRIPCION = [
-    "div.show-more-less-html__markup",      # LinkedIn
-    ".description__text",                    # LinkedIn (alternativo)
-    "div[class*='description']",             # genérico
-    "div.fs16.t_word_wrap",                  # Computrabajo
+    "div.show-more-less-html__markup",
+    ".description__text",
+    "div[class*='description']",
+    "div.fs16.t_word_wrap",
     "section#description",
     "article",
 ]
 
 
 def enriquecer(page, e):
-    """Visita la oferta y guarda su descripción + re-puntúa con más datos."""
+    """Visita la oferta y trae la descripción (solo si no la tenemos)."""
     if e.get("descripcion"):
         return
+    portal = e["fuente"]
+    if not navegar(page, e["enlace"], portal, timeout=30000):
+        return
     try:
-        page.goto(e["enlace"], timeout=30000, wait_until="domcontentloaded")
-        pausa_humana(1, 2)
         desc = ""
         for sel in SELECTORES_DESCRIPCION:
             loc = page.locator(sel).first
@@ -179,35 +260,14 @@ def enriquecer(page, e):
                 if len(candidato) > 150:
                     desc = candidato
                     break
-        if not desc:
-            return
-        e["descripcion"] = desc[:1800]
-        texto = desc.lower()
-
-        # Nuevas tecnologías encontradas en la descripción
-        nuevas = [t for t in detectar_techs(texto) if t not in e["techs"]]
-        if nuevas:
-            e["techs"] += nuevas
-            e["afinidad"] = min(98, e["afinidad"] + 3 * len(nuevas))
-            e["motivos"] = [m for m in e["motivos"] if not m.startswith("✓ Tu stack")]
-            e["motivos"].append("✓ Tu stack: " + ", ".join(e["techs"][:6]))
-
-        # Penalizaciones que solo se ven en la descripción
-        if not any("experiencia" in m for m in e["motivos"]):
-            exp = re.search(r"(\d+)\s*(años|año|years|yrs)", texto)
-            if exp and "sin experiencia" not in texto:
-                e["afinidad"] = max(5, e["afinidad"] - 12)
-                e["motivos"].append(f"− Pide {exp.group(1)}+ años de experiencia")
-        if not any("inglés" in m.lower() for m in e["motivos"]):
-            if any(p in texto for p in PIDE_INGLES):
-                e["afinidad"] = max(5, e["afinidad"] - 10)
-                e["motivos"].append("− Pide inglés")
+        if desc:
+            aplicar_descripcion(e, desc)
     except Exception:
-        pass  # si no se puede, la tarjeta queda sin descripción y listo
+        pass
 
 
 # ═════════════════════════════════════════════
-# PORTAL 1: LINKEDIN
+# PORTALES
 # ═════════════════════════════════════════════
 def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
     empleos = []
@@ -219,9 +279,9 @@ def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
     )
     if solo_remoto:
         url += "&f_WT=2"
+    if not navegar(page, url, "LinkedIn"):
+        return empleos
     try:
-        page.goto(url, timeout=45000, wait_until="domcontentloaded")
-        pausa_humana()
         tarjetas = page.locator("div.base-search-card")
         for i in range(min(tarjetas.count(), MAX_POR_BUSQUEDA)):
             t = tarjetas.nth(i)
@@ -249,16 +309,13 @@ def extraer_linkedin(page, keyword, ubicacion, solo_remoto):
     return empleos
 
 
-# ═════════════════════════════════════════════
-# PORTAL 2: COMPUTRABAJO ARGENTINA
-# ═════════════════════════════════════════════
 def extraer_computrabajo(page, keyword, sufijo=""):
     empleos = []
     slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e").replace(".", "")
     url = f"https://ar.computrabajo.com/trabajo-de-{slug}{sufijo}"
+    if not navegar(page, url, "Computrabajo"):
+        return empleos
     try:
-        page.goto(url, timeout=45000, wait_until="domcontentloaded")
-        pausa_humana()
         tarjetas = page.locator("article.box_offer")
         for i in range(min(tarjetas.count(), MAX_POR_BUSQUEDA)):
             t = tarjetas.nth(i)
@@ -293,16 +350,13 @@ def extraer_computrabajo(page, keyword, sufijo=""):
     return empleos
 
 
-# ═════════════════════════════════════════════
-# PORTALES 3 y 4: BUMERAN y ZONAJOBS
-# ═════════════════════════════════════════════
 def extraer_bumeran_zonajobs(page, keyword, dominio, nombre):
     empleos = []
     slug = keyword.lower().replace(" ", "-").replace("í", "i").replace("é", "e").replace(".", "")
     url = f"https://www.{dominio}/empleos-busqueda-{slug}.html"
+    if not navegar(page, url, nombre, espera="networkidle"):
+        return empleos
     try:
-        page.goto(url, timeout=45000, wait_until="networkidle")
-        pausa_humana(2, 4)
         tarjetas = page.locator("a[href*='/empleos/']")
         agregados = 0
         for i in range(tarjetas.count()):
@@ -335,13 +389,11 @@ def extraer_bumeran_zonajobs(page, keyword, dominio, nombre):
     return empleos
 
 
-# ═════════════════════════════════════════════
-# PORTAL 5: REMOTEOK (API pública, trae descripción incluida)
-# ═════════════════════════════════════════════
 def extraer_remoteok(page):
     empleos = []
+    if not navegar(page, "https://remoteok.com/api", "RemoteOK"):
+        return empleos
     try:
-        page.goto("https://remoteok.com/api", timeout=45000)
         crudo = page.evaluate("() => document.body.innerText")
         datos = json.loads(crudo)
         filtros = ["junior", "intern", "trainee", "entry", "react", "node",
@@ -372,21 +424,45 @@ def extraer_remoteok(page):
 
 
 # ═════════════════════════════════════════════
+# CACHÉ: cargar la corrida anterior
+# ═════════════════════════════════════════════
+def cargar_anteriores():
+    try:
+        datos = json.loads(ARCHIVO_SALIDA.read_text(encoding="utf-8"))
+        return {e["enlace"]: e for e in datos.get("empleos", []) if e.get("enlace")}
+    except Exception:
+        return {}
+
+
+# ═════════════════════════════════════════════
 # PROGRAMA PRINCIPAL
 # ═════════════════════════════════════════════
 def main():
     print("=" * 52)
-    print("  EXTRACTOR PERSONALIZADO — iniciando…")
+    print("  EXTRACTOR PERSONALIZADO v3 — iniciando…")
     print("=" * 52)
+
+    anteriores = cargar_anteriores()
+    if anteriores:
+        print(f"  Caché: {len(anteriores)} ofertas de la corrida anterior.")
+
+    hoy = datetime.now(timezone.utc)
+    hoy_str = hoy.date().isoformat()
 
     todos = []
     with sync_playwright() as p:
         navegador = p.chromium.launch(headless=True)
         contexto = navegador.new_context(
-            user_agent=USER_AGENT,
-            viewport={"width": 1366, "height": 768},
+            user_agent=random.choice(USER_AGENTS),
+            viewport={"width": random.choice([1366, 1440, 1536]), "height": random.choice([768, 864, 900])},
             locale="es-AR",
+            timezone_id="America/Argentina/Buenos_Aires",
         )
+        # Menos rastro de automatización y menos carga en los servidores:
+        contexto.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        contexto.route(re.compile(r"\.(png|jpe?g|gif|webp|svg|woff2?|ttf|mp4)(\?|$)"),
+                       lambda ruta: ruta.abort())
+
         page = contexto.new_page()
 
         for kw in PALABRAS_CLAVE:
@@ -395,32 +471,32 @@ def main():
             r = extraer_linkedin(page, kw, "Misiones, Argentina", solo_remoto=False)
             print(f"   LinkedIn Misiones: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
             r = extraer_linkedin(page, kw, "Argentina", solo_remoto=True)
             print(f"   LinkedIn remoto: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
             r = extraer_computrabajo(page, kw, "-en-misiones")
             print(f"   Computrabajo Misiones: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
             r = extraer_computrabajo(page, kw + " remoto")
             print(f"   Computrabajo remoto: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
             r = extraer_bumeran_zonajobs(page, kw, "bumeran.com.ar", "Bumeran")
             print(f"   Bumeran: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
             r = extraer_bumeran_zonajobs(page, kw, "zonajobs.com.ar", "ZonaJobs")
             print(f"   ZonaJobs: {len(r)}")
             todos += r
-            pausa_humana(2, 4)
+            pausa_humana()
 
         print("\n>> RemoteOK (remotos internacionales)…")
         r = extraer_remoteok(page)
@@ -434,7 +510,7 @@ def main():
                 vistos.add(e["enlace"])
                 unicos.append(e)
 
-        # ── Puntuar y filtrar según tu perfil ──
+        # ── Puntuar y filtrar ──
         finales, descartados = [], 0
         for e in unicos:
             resultado = puntuar(e)
@@ -443,13 +519,37 @@ def main():
             else:
                 descartados += 1
 
+        # ── Fusionar con el caché ──
+        enlaces_actuales = {e["enlace"] for e in finales}
+        reutilizadas, rescatadas = 0, 0
+        for e in finales:
+            prev = anteriores.get(e["enlace"])
+            e["primera_vez"] = prev.get("primera_vez", hoy_str) if prev else hoy_str
+            # Si ya teníamos la descripción, la reutilizamos (0 requests extra)
+            if prev and prev.get("descripcion") and not e.get("descripcion"):
+                aplicar_descripcion(e, prev["descripcion"])
+                reutilizadas += 1
+
+        # Ofertas que hoy no aparecieron pero son recientes: las conservamos
+        limite = (hoy - timedelta(days=DIAS_RETENER_OFERTA)).date().isoformat()
+        for enlace, prev in anteriores.items():
+            if enlace not in enlaces_actuales and prev.get("primera_vez", "") >= limite:
+                finales.append(prev)
+                rescatadas += 1
+
+        if reutilizadas or rescatadas:
+            print(f"\n  Caché: {reutilizadas} descripciones reutilizadas, "
+                  f"{rescatadas} ofertas recientes conservadas.")
+
         finales.sort(key=lambda x: x["afinidad"], reverse=True)
 
-        # ── Traer la descripción de las mejores ofertas ──
-        candidatas = [e for e in finales if not e.get("descripcion")][:TOP_CON_DESCRIPCION]
-        print(f"\n>> Trayendo descripción completa de las {len(candidatas)} mejores ofertas…")
+        # ── Descripciones nuevas (solo las que faltan, con tope) ──
+        candidatas = [e for e in finales if not e.get("descripcion")
+                      and e["fuente"] not in bloqueados][:TOP_CON_DESCRIPCION]
+        print(f"\n>> Trayendo descripción de {len(candidatas)} ofertas nuevas…")
         for i, e in enumerate(candidatas, 1):
             enriquecer(page, e)
+            pausa_humana(2, 4.5)
             if i % 10 == 0:
                 print(f"   {i}/{len(candidatas)}…")
 
@@ -458,7 +558,7 @@ def main():
     finales.sort(key=lambda x: x["afinidad"], reverse=True)
 
     salida = {
-        "actualizado": datetime.now(timezone.utc).isoformat(),
+        "actualizado": hoy.isoformat(),
         "total": len(finales),
         "empleos": finales,
     }
@@ -469,6 +569,9 @@ def main():
     print("\n" + "=" * 52)
     print(f"  LISTO: {len(finales)} ofertas para tu perfil")
     print(f"  (descartadas {descartados}: seniors o fuera de zona sin remoto)")
+    if bloqueados:
+        print(f"  Portales salteados por posible bloqueo: {', '.join(bloqueados)}")
+        print("  Es temporal: probá de nuevo mañana.")
     print("=" * 52)
 
 

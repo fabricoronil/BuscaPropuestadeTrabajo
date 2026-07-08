@@ -48,6 +48,8 @@ def main():
     fecha = datetime.now().strftime("%Y-%m-%d %H:%M")
     correr(["git", "add", "empleos.json"], "git add empleos.json")
     correr(["git", "commit", "-m", f"Auto-update jobs {fecha}"], "git commit")
+    # Por si el robot de GitHub subió algo mientras tanto, primero traemos lo nuevo
+    correr(["git", "pull", "--rebase", "origin", "main"], "git pull (sincronizando…)")
     if correr(["git", "push"], "git push (subiendo a GitHub…)"):
         print("\n✔ LISTO: la web se actualizará sola en 1-2 minutos.")
 
