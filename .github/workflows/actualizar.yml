@@ -7,7 +7,8 @@ name: Actualizar empleos
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # 10:00 UTC = 07:00 Argentina
+    - cron: "0 10 * * *"   # 10:00 UTC = 07:00 Argentina (mañana)
+    - cron: "0 20 * * *"   # 20:00 UTC = 17:00 Argentina (tarde)
   workflow_dispatch:        # habilita el botón "Run workflow"
 
 jobs:
