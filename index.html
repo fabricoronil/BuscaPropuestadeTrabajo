@@ -59,6 +59,7 @@
           <button data-vista="inicio" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">◉ Inicio</button>
           <button data-vista="ofertas" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">💼 Ofertas</button>
           <button data-vista="noticias" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">📰 Noticias</button>
+          <button data-vista="correo" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">📧 Correo</button>
           <button data-vista="habilidades" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">🧠 Habilidades</button>
           <button data-vista="estudiar" class="navBtn relative z-10 shrink-0 text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-300 whitespace-nowrap">📚 Estudiar</button>
         </nav>
@@ -78,9 +79,6 @@
 
     <!-- Briefing del día -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="briefing"></div>
-
-    <!-- Gmail -->
-    <div class="bg-neutral-950 border border-neutral-800 rounded-3xl p-6" id="gmailCard"></div>
 
     <!-- Actualización manual -->
     <div class="bg-neutral-950 border border-neutral-800 rounded-3xl p-6">
@@ -235,6 +233,15 @@ git push</pre>
     </div>
   </section>
 
+  <!-- ═══ VISTA: CORREO ═══ -->
+  <section id="vistaCorreo" class="hidden space-y-5">
+    <div class="border-l-2 border-white/25 pl-3">
+      <h2 class="text-xl font-bold tracking-tight leading-tight">📧 Correos importantes</h2>
+      <p class="text-sm text-neutral-500 mt-1">Respuestas de empresas y novedades de tus postulaciones, directo desde tu Gmail.</p>
+    </div>
+    <div class="bg-neutral-950 border border-neutral-800 rounded-3xl p-6" id="gmailCard"></div>
+  </section>
+
   <!-- ═══ VISTA: HABILIDADES ═══ -->
   <section id="vistaHabilidades" class="hidden space-y-8">
     <div class="bg-neutral-950 border border-neutral-800 rounded-3xl p-6">
@@ -330,7 +337,7 @@ git push</pre>
     // ═════════════════════════════════════════
     const NOMBRE = 'Fabricio';
     // Para conectar Gmail: creá un OAuth Client ID en Google Cloud Console
-    // y pegalo acá (instrucciones en la tarjeta de Gmail de la pestaña Inicio)
+    // y pegalo acá (instrucciones en la tarjeta de Gmail de la pestaña Correo)
     const GOOGLE_CLIENT_ID = '285196875270-jlbk9ir3c7h4ka5u8c8bkil76src6kce.apps.googleusercontent.com';
 
     let EMPLEOS = [], NOTICIAS = [];
@@ -925,7 +932,7 @@ git push</pre>
     // ═════════════════════════════════════════
     // NAVEGACIÓN Y FILTROS
     // ═════════════════════════════════════════
-    const VISTAS = { inicio: 'vistaInicio', ofertas: 'vistaOfertas', noticias: 'vistaNoticias', habilidades: 'vistaHabilidades', estudiar: 'vistaEstudiar' };
+    const VISTAS = { inicio: 'vistaInicio', ofertas: 'vistaOfertas', noticias: 'vistaNoticias', correo: 'vistaCorreo', habilidades: 'vistaHabilidades', estudiar: 'vistaEstudiar' };
     let vistaActual = 'inicio';
 
     function moverIndicador() {
