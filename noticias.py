@@ -84,6 +84,10 @@ CATEGORIAS = {
 FEEDS_DIRECTOS = [
     ("Tecnología Global", "https://techcrunch.com/feed/"),
     ("Tecnología Global", "https://www.xataka.com/index.xml"),
+    # Comunidad: lo que discuten los desarrolladores ahora mismo
+    ("Comunidad Dev", "https://www.reddit.com/r/devsarg/.rss"),          # devs argentinos
+    ("Comunidad Dev", "https://hnrss.org/frontpage"),                     # Hacker News (portada)
+    ("Inteligencia Artificial", "https://www.reddit.com/r/artificial/.rss"),
 ]
 
 CABECERAS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
