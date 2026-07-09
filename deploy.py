@@ -22,8 +22,7 @@ from datetime import datetime
 from pathlib import Path
 
 CARPETA = Path(__file__).parent
-DATOS = CARPETA / "empleos.json"
-RESPALDO = CARPETA / "empleos.respaldo.json"
+ARCHIVOS_DATOS = ["empleos.json", "noticias.json"]  # lo que sube este script
 
 
 def correr(comando, descripcion, mostrar_error=True):
@@ -37,7 +36,7 @@ def correr(comando, descripcion, mostrar_error=True):
 
 
 def hay_cambios():
-    r = subprocess.run(["git", "status", "--porcelain", "empleos.json"],
+    r = subprocess.run(["git", "status", "--porcelain"] + ARCHIVOS_DATOS,
                        cwd=CARPETA, capture_output=True, text=True)
     return bool(r.stdout.strip())
 
@@ -47,8 +46,8 @@ def subir():
     plan B: se alinea con GitHub y reaplica los datos nuevos encima."""
     fecha = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    correr(["git", "add", "empleos.json"], "git add empleos.json")
-    correr(["git", "commit", "-m", f"Auto-update jobs {fecha}"], "git commit")
+    correr(["git", "add"] + ARCHIVOS_DATOS, "git add (empleos + noticias)")
+    correr(["git", "commit", "-m", f"Auto-update datos {fecha}"], "git commit")
 
     for intento in (1, 2, 3):
         # -X theirs: si hay conflicto en el rebase, ganan NUESTROS datos nuevos
@@ -66,13 +65,17 @@ def subir():
 
     # ── PLAN B (no puede fallar): igualarse a GitHub y poner los datos encima ──
     print("\n>> Plan B: alineando con GitHub y reaplicando los datos nuevos…")
-    shutil.copy(DATOS, RESPALDO)                      # 1. guardamos los datos nuevos
+    respaldos = {}
+    for nombre in ARCHIVOS_DATOS:                     # 1. guardamos los datos nuevos
+        origen = CARPETA / nombre
+        if origen.exists():
+            respaldos[nombre] = origen.read_bytes()
     correr(["git", "fetch", "origin"], "git fetch")
     correr(["git", "reset", "--hard", "origin/main"], "alineando con GitHub")
-    shutil.copy(RESPALDO, DATOS)                      # 2. los volvemos a poner
-    RESPALDO.unlink(missing_ok=True)
-    correr(["git", "add", "empleos.json"], "git add")
-    correr(["git", "commit", "-m", f"Auto-update jobs {fecha}"], "git commit")
+    for nombre, contenido in respaldos.items():       # 2. los volvemos a poner
+        (CARPETA / nombre).write_bytes(contenido)
+    correr(["git", "add"] + ARCHIVOS_DATOS, "git add")
+    correr(["git", "commit", "-m", f"Auto-update datos {fecha}"], "git commit")
     if correr(["git", "push"], "git push"):
         print("\n✔ LISTO (vía plan B): la web se actualizará en 1-2 minutos.")
         return True
@@ -87,6 +90,10 @@ def main():
     r = subprocess.run([sys.executable, "-u", "extractor.py"], cwd=CARPETA)
     if r.returncode != 0:
         sys.exit("El extractor falló. No se subió nada.")
+
+    # ── PASO 1b: noticias (si falla, no frena el resto) ──
+    print("\n>> Buscando noticias IT…")
+    subprocess.run([sys.executable, "-u", "noticias.py"], cwd=CARPETA)
 
     # ── PASO 2: ¿hay algo nuevo? ──
     if not hay_cambios():
