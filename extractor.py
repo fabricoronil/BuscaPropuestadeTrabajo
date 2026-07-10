@@ -24,11 +24,20 @@
 import json
 import random
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
+# En la consola de Windows (cp1252) los emojis y flechas de los mensajes
+# rompen con UnicodeEncodeError. Forzamos UTF-8 para poder correrlo local.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 # ═════════════════════════════════════════════
 # TU PERFIL — editá esta sección a gusto

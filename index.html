@@ -29,6 +29,10 @@
     ::-webkit-scrollbar { width: 8px; height: 8px; }
     ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
     .sin-scroll::-webkit-scrollbar { display: none; }
+    summary { list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    .chevron { transition: transform .25s ease; }
+    details[open] .chevron { transform: rotate(180deg); }
   </style>
 </head>
 <body class="fondo text-neutral-100 min-h-screen">
@@ -137,7 +141,15 @@ git push</pre>
   <!-- ═══ VISTA: OFERTAS ═══ -->
   <div id="vistaOfertas" class="hidden">
 
-    
+    <!-- Top 3 (se muestra/oculta con el botón para no ocupar espacio) -->
+    <div class="mb-4">
+      <button id="togglePodio" type="button" aria-expanded="false"
+        class="flex items-center gap-2 text-sm font-semibold border border-neutral-700 hover:border-neutral-500 rounded-xl px-4 py-2.5 text-neutral-300 transition-colors">
+        <span id="togglePodioLabel">🏆 Ver Top 3 ofertas</span>
+        <span id="togglePodioIcono" class="text-neutral-500 transition-transform">▾</span>
+      </button>
+      <div id="podio" class="hidden grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4"></div>
+    </div>
 
     <div id="stats" class="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-3 mb-6"></div>
 
@@ -270,7 +282,7 @@ git push</pre>
     <div>
       <div class="border-l-2 border-white/25 pl-3 mb-4">
         <h2 class="text-xl font-bold tracking-tight leading-tight">📊 Lo que más piden las ofertas (y a vos te falta)</h2>
-        <p class="text-sm text-neutral-500 mt-1">Calculado en vivo sobre las ofertas de tu web.</p>
+        <p class="text-sm text-neutral-500 mt-1">Calculado en vivo sobre las ofertas de tu web. Tocá cada ítem para ver el detalle.</p>
       </div>
       <div id="listaSkills" class="space-y-2"></div>
     </div>
@@ -331,6 +343,35 @@ git push</pre>
     </div>
   </div>
 
+  <!-- ═══ MODAL NOTICIA ═══ -->
+  <div id="modalNoticia" class="hidden fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4">
+    <div id="modalNoticiaFondo" class="absolute inset-0 bg-black/85 backdrop-blur-sm"></div>
+    <div class="relative bg-neutral-950 border border-neutral-700 rounded-2xl max-w-2xl w-full max-h-[88vh] flex flex-col shadow-2xl">
+      <div class="flex items-start justify-between gap-3 p-5 border-b border-neutral-800">
+        <div class="min-w-0">
+          <span id="nModalCategoria" class="inline-block text-[10px] font-semibold px-2 py-0.5 rounded-full border text-neutral-300 border-neutral-600 bg-white/5 mb-2"></span>
+          <h2 id="nModalTitulo" class="text-lg font-bold leading-snug"></h2>
+          <p id="nModalMeta" class="text-xs text-neutral-500 mt-2"></p>
+        </div>
+        <button id="modalNoticiaCerrar" class="text-neutral-400 hover:text-white text-2xl leading-none shrink-0">&times;</button>
+      </div>
+      <div class="p-5 overflow-y-auto text-sm space-y-3">
+        <div id="nModalAviso" class="hidden flex items-center justify-between gap-2 text-xs bg-sky-500/10 border border-sky-500/30 text-sky-200 rounded-xl px-3 py-2">
+          <span>🌐 Esta noticia está originalmente en inglés.</span>
+          <button id="nModalToggleIdioma" class="hidden shrink-0 font-semibold text-sky-100 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-400/40 rounded-full px-3 py-1 transition-colors"></button>
+        </div>
+        <p id="nModalResumen" class="text-neutral-300 leading-relaxed whitespace-pre-line"></p>
+      </div>
+      <div class="p-4 border-t border-neutral-800 flex gap-2">
+        <button id="nModalCopiar" class="border border-neutral-600 hover:border-white hover:text-white text-neutral-300 text-sm font-medium rounded-xl px-4 py-3 transition-colors">🔗 Copiar</button>
+        <a id="nModalAbrir" href="#" target="_blank" rel="noopener noreferrer"
+           class="flex-1 text-center bg-white hover:bg-neutral-200 text-black text-sm font-bold rounded-xl px-4 py-3 transition-colors">
+          Leer nota completa en el sitio →
+        </a>
+      </div>
+    </div>
+  </div>
+
   <script>
     // ═════════════════════════════════════════
     // CONFIGURACIÓN
@@ -359,6 +400,18 @@ git push</pre>
       if (/^\d{4}-\d{2}-\d{2}/.test(f)) return new Date(f.length === 10 ? f + 'T00:00:00' : f).toLocaleDateString('es-AR', { day: '2-digit', month: 'short' });
       return f;
     }
+    // Python isoformat() trae microsegundos (6 decimales), que Safari/iOS no parsea → Invalid Date.
+    // Recortamos a milisegundos (3 decimales) antes de crear el Date.
+    function parseMomento(iso) {
+      if (!iso) return null;
+      const limpio = String(iso).replace(/(\.\d{3})\d+/, '$1');
+      const d = new Date(limpio);
+      return isNaN(d) ? null : d;
+    }
+    function formatearMomento(iso) {
+      const d = parseMomento(iso);
+      return d ? d.toLocaleString('es-AR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '—';
+    }
 
     // ═════════════════════════════════════════
     // CARGA DE DATOS
@@ -368,8 +421,7 @@ git push</pre>
       .then(data => {
         EMPLEOS = data.empleos || [];
         DATOS_META = data;
-        document.getElementById('actualizado').textContent =
-          '● ' + new Date(data.actualizado).toLocaleString('es-AR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
+        document.getElementById('actualizado').textContent = '● ' + formatearMomento(data.actualizado);
         poblarSelects(); pintarPodio(); pintarStats(); render(); pintarHabilidades(); analizarMejoras(); pintarInicio();
       })
       .catch(() => {
@@ -383,7 +435,7 @@ git push</pre>
         NOTICIAS = data.noticias || [];
         NOTICIAS_META = data;
         if (data.actualizado) {
-          const cuando = new Date(data.actualizado).toLocaleString('es-AR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
+          const cuando = formatearMomento(data.actualizado);
           const nuevas = data.nuevas ? ` · ✨ ${data.nuevas} nueva${data.nuevas === 1 ? '' : 's'}` : '';
           document.getElementById('noticiasActualizado').textContent = '● ' + cuando + nuevas;
         }
@@ -456,7 +508,7 @@ git push</pre>
         </div>
         <div class="bg-neutral-950 border border-neutral-800 rounded-3xl p-6 brillo">
           <p class="mono text-[10px] text-neutral-500 uppercase tracking-widest mb-2">⚙️ Sistema</p>
-          <p class="text-sm text-neutral-300">Última sincronización: <b>${DATOS_META.actualizado ? new Date(DATOS_META.actualizado).toLocaleString('es-AR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '—'}</b></p>
+          <p class="text-sm text-neutral-300">Última sincronización: <b>${formatearMomento(DATOS_META.actualizado)}</b></p>
           <p class="text-sm text-neutral-300 mt-1">Próxima corrida automática: <b>${proximaActualizacion()}</b></p>
           <p class="text-xs text-neutral-500 mt-3">Robot activo 2 veces al día (7:00 / 17:00) · 5 portales de empleo · ${new Set(NOTICIAS.map(n => n.categoria)).size || '—'} categorías de noticias</p>
         </div>
@@ -550,10 +602,12 @@ git push</pre>
     }
 
     function pintarPodio() {
+      const cont = document.getElementById('podio');
+      if (!cont) return;   // el podio es opcional: si no está el contenedor, no rompas el resto
       const top = EMPLEOS.filter(e => !descartadas.has(e.enlace)).sort((a, b) => b.afinidad - a.afinidad).slice(0, 3);
       const medallas = ['🥇', '🥈', '🥉'];
       const marcos = ['border-2 border-white/70', 'border-2 border-neutral-500', 'border-2 border-neutral-700'];
-      document.getElementById('podio').innerHTML = top.map((e, i) => `
+      cont.innerHTML = top.map((e, i) => `
         <div class="bg-neutral-950 ${marcos[i]} rounded-2xl p-5 flex flex-col gap-2 brillo">
           <div class="flex items-center justify-between">
             <span class="text-2xl">${medallas[i]} <span class="text-xs font-bold uppercase tracking-wider text-neutral-500">Top ${i + 1}</span></span>
@@ -791,29 +845,72 @@ git push</pre>
     document.getElementById('modalCerrar').addEventListener('click', cerrarModal);
     document.getElementById('modalFondo').addEventListener('click', cerrarModal);
     document.addEventListener('keydown', ev => {
-      if (ev.key === 'Escape') cerrarModal();
+      if (ev.key === 'Escape') { cerrarModal(); cerrarModalNoticia(); }
       if (ev.key === '/' && document.activeElement.tagName !== 'INPUT') { ev.preventDefault(); mostrarVista('ofertas'); document.getElementById('buscador').focus(); }
     });
 
     // ═════════════════════════════════════════
     // NOTICIAS
     // ═════════════════════════════════════════
-    let categoriaActiva = '';
+    // Filtros especiales: '★' = Para vos (relevantes a mi perfil), '✨' = solo nuevas,
+    // '' = todas, o el nombre de una categoría.
+    let categoriaActiva = '★';
+    const TOPE_PARA_VOS = 40;   // "Para vos" muestra solo las más importantes, no todas
+
+    // Qué es "importante para mí": mi stack + IA + mi carrera/región dan RELEVANCIA;
+    // los lanzamientos y la frescura sólo AMPLIFICAN algo que ya te toca de cerca.
+    const MI_STACK_KW = ['javascript', 'typescript', 'react', 'node.js', 'nodejs', 'node', 'tailwind', 'mongodb', 'full stack', 'fullstack', 'frontend', 'front end', 'backend', 'back end', 'next.js', 'vite', 'html', 'css', 'sql', 'api rest'];
+    const IA_KW = ['inteligencia artificial', 'openai', 'chatgpt', 'gpt', 'claude', 'anthropic', 'gemini', 'llama', 'copilot', 'cursor', 'deepseek', 'mistral', 'grok', 'hugging face', 'machine learning', 'modelo de lenguaje', 'ia generativa', 'agentes de ia', 'llm'];
+    const IMPORTANCIA_KW = ['lanza', 'lanzamiento', 'presenta', 'anuncia', 'nuevo modelo', 'nueva versión', 'disponible', 'récord', 'revoluciona', 'supera', 'release', 'launch', 'breakthrough'];
+    const CARRERA_KW = ['misiones', 'posadas', 'argentina', 'silicon', 'empleo', 'contrata', 'despido', 'sueldo', 'salario', 'junior', 'remoto', 'programador', 'desarrollador', 'curso', 'cursos', 'beca', 'becas', 'certificación', 'capacitación'];
+
+    // Coincidencia por palabra completa (evita que "react" matchee dentro de "reaction").
+    function incluyePalabra(txt, kw) {
+      const e = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return new RegExp('(^|[^a-záéíóúñ0-9])' + e + '([^a-záéíóúñ0-9]|$)').test(txt);
+    }
+
+    function puntuarNoticia(n) {
+      const txt = (n.titulo + ' ' + (n.titulo_es || '') + ' ' + (n.resumen || '') + ' ' + (n.resumen_es || '') + ' ' + n.categoria).toLowerCase();
+      let base = 0;
+      for (const k of MI_STACK_KW) if (incluyePalabra(txt, k)) base += 4;          // suma por cada tech mía
+      for (const k of IA_KW) if (incluyePalabra(txt, k)) { base += 4; break; }       // IA cuenta una vez
+      for (const k of CARRERA_KW) if (incluyePalabra(txt, k)) { base += 3; break; }  // mi carrera/región
+      if (base === 0) return 0;   // no se relaciona conmigo → no entra en "Para vos"
+      let p = base;
+      for (const k of IMPORTANCIA_KW) if (incluyePalabra(txt, k)) { p += 3; break; } // amplifica lo relevante
+      if (n.nueva) p += 3;
+      if (n.fecha) {
+        const dias = (Date.now() - new Date(n.fecha + 'T00:00:00')) / 86400000;
+        if (dias <= 1) p += 3; else if (dias <= 3) p += 2; else if (dias <= 7) p += 1;
+      }
+      return p;
+    }
 
     function pintarChipsCategorias() {
       const cats = [...new Set(NOTICIAS.map(n => n.categoria))];
       cats.sort((a, b) => (a === 'Silicon Misiones' ? -1 : b === 'Silicon Misiones' ? 1 : a.localeCompare(b)));
-      const chips = ['', ...cats];
+      const nNuevas = NOTICIAS.filter(n => n.nueva).length;
+      const nDestacadas = NOTICIAS.filter(n => puntuarNoticia(n) > 0).length;
+      const chips = ['★', '✨', '', ...cats];
       document.getElementById('chipsCategorias').innerHTML = chips.map(c => {
         const activa = c === categoriaActiva;
         const esSilicon = c === 'Silicon Misiones';
-        const etiqueta = c === '' ? '🌐 Todas' : (esSilicon ? '🏛️ Silicon Misiones' : c);
-        const n = c === '' ? NOTICIAS.length : NOTICIAS.filter(x => x.categoria === c).length;
-        return `<button data-cat="${esc(c)}" class="chipCat text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors ${
-          activa ? 'bg-white border-white text-black'
+        const esDestacadas = c === '★', esNuevasChip = c === '✨';
+        const etiqueta = esDestacadas ? '⭐ Para vos'
+          : esNuevasChip ? '✨ Nuevas'
+          : c === '' ? '🌐 Todas'
+          : (esSilicon ? '🏛️ Silicon Misiones' : c);
+        const n = esDestacadas ? Math.min(nDestacadas, TOPE_PARA_VOS)
+          : esNuevasChip ? nNuevas
+          : c === '' ? NOTICIAS.length
+          : NOTICIAS.filter(x => x.categoria === c).length;
+        const estilo = activa ? (esDestacadas ? 'bg-amber-400 border-amber-400 text-black' : 'bg-white border-white text-black')
+          : esDestacadas ? 'border-amber-500/60 text-amber-300 bg-amber-500/10 hover:bg-amber-500/20'
+          : esNuevasChip ? 'border-sky-500/50 text-sky-300 bg-sky-500/10 hover:bg-sky-500/20'
           : esSilicon ? 'border-emerald-600/60 text-emerald-300 bg-emerald-500/10 hover:bg-emerald-500/20'
-          : 'border-neutral-700 text-neutral-300 hover:text-white hover:border-neutral-400'
-        }">${etiqueta} <span class="opacity-60">(${n})</span></button>`;
+          : 'border-neutral-700 text-neutral-300 hover:text-white hover:border-neutral-400';
+        return `<button data-cat="${esc(c)}" class="chipCat text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors ${estilo}">${etiqueta} <span class="opacity-60">(${n})</span></button>`;
       }).join('');
       document.querySelectorAll('.chipCat').forEach(b =>
         b.addEventListener('click', () => { categoriaActiva = b.dataset.cat; pintarChipsCategorias(); pintarNoticias(); }));
@@ -821,16 +918,27 @@ git push</pre>
 
     function pintarNoticias() {
       const q = (document.getElementById('buscadorNoticias').value || '').toLowerCase();
-      const lista = NOTICIAS.filter(n =>
-        (!categoriaActiva || n.categoria === categoriaActiva) &&
-        (!q || (n.titulo + ' ' + n.fuente + ' ' + (n.resumen || '')).toLowerCase().includes(q))
+      let lista = NOTICIAS.filter(n =>
+        (!q || (n.titulo + ' ' + (n.titulo_es || '') + ' ' + n.fuente + ' ' + (n.resumen || '') + ' ' + (n.resumen_es || '')).toLowerCase().includes(q))
       );
+      if (categoriaActiva === '★') {
+        lista = lista.map(n => ({ n, p: puntuarNoticia(n) }))
+          .filter(x => x.p > 0)
+          .sort((a, b) => b.p - a.p)
+          .slice(0, TOPE_PARA_VOS)
+          .map(x => x.n);
+      } else if (categoriaActiva === '✨') {
+        lista = lista.filter(n => n.nueva);
+      } else if (categoriaActiva) {
+        lista = lista.filter(n => n.categoria === categoriaActiva);
+      }
       document.getElementById('vacioNoticias').classList.toggle('hidden', lista.length > 0);
       document.getElementById('gridNoticias').innerHTML = lista.map(n => {
         const esSilicon = n.categoria === 'Silicon Misiones';
+        const titulo = n.titulo_es || n.titulo;
+        const resumen = n.resumen_es || n.resumen;
         return `
-        <a href="${esc(n.enlace)}" target="_blank" rel="noopener noreferrer"
-           class="block bg-neutral-950 border ${esSilicon ? 'border-emerald-800/70' : 'border-neutral-800'} rounded-2xl p-5 brillo">
+        <div class="cardNoticia cursor-pointer flex flex-col bg-neutral-950 border ${esSilicon ? 'border-emerald-800/70' : 'border-neutral-800'} rounded-2xl p-5 brillo" data-enlace="${esc(n.enlace)}">
           <div class="flex items-center justify-between gap-2 mb-2">
             <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full border ${
               esSilicon ? 'text-emerald-300 border-emerald-500/40 bg-emerald-500/10' : 'text-neutral-300 border-neutral-600 bg-white/5'}">${esc(esSilicon ? '🏛️ ' + n.categoria : n.categoria)}</span>
@@ -839,13 +947,95 @@ git push</pre>
               ${n.fecha ? esc(formatearFecha(n.fecha)) : ''}
             </span>
           </div>
-          <h3 class="font-semibold leading-snug mb-1.5">${esc(n.titulo)}</h3>
-          ${n.resumen ? `<p class="text-xs text-neutral-500 leading-relaxed mb-2">${esc(n.resumen)}</p>` : ''}
-          <p class="text-[11px] text-neutral-400">📄 ${esc(n.fuente || 'Fuente externa')} · Leer nota completa →</p>
-        </a>`;
+          <h3 class="font-semibold leading-snug mb-1.5">${esc(titulo)}</h3>
+          ${resumen ? `<p class="text-xs text-neutral-500 leading-relaxed mb-3">${esc(resumen.slice(0, 160))}${resumen.length > 160 ? '…' : ''}</p>` : ''}
+          <div class="mt-auto flex items-center justify-between gap-2 pt-1">
+            <span class="text-[11px] text-neutral-400 truncate">📄 ${esc(n.fuente || 'Fuente externa')}${n.idioma === 'en' ? ' · <span class="text-sky-400 font-semibold">EN</span>' : ''}</span>
+            <span class="btnVerNoticia shrink-0 text-xs font-semibold border border-neutral-600 text-neutral-300 rounded-full px-3 py-1.5">📖 Ver más</span>
+          </div>
+        </div>`;
       }).join('');
+      document.querySelectorAll('.cardNoticia').forEach(c =>
+        c.addEventListener('click', () => abrirModalNoticia(c.dataset.enlace)));
     }
     document.getElementById('buscadorNoticias').addEventListener('input', pintarNoticias);
+
+    // ── Modal de noticia (previsualización dentro de la web) ──
+    let noticiaActual = null;
+
+    function mostrarNoticiaEn(lang) {
+      const n = noticiaActual;
+      if (!n) return;
+      const enOriginal = lang === 'en';
+      const titulo = enOriginal ? n.titulo : (n.titulo_es || n.titulo);
+      const resumen = enOriginal ? n.resumen : (n.resumen_es || n.resumen);
+      document.getElementById('nModalTitulo').textContent = titulo;
+      document.getElementById('nModalResumen').textContent =
+        resumen || 'Esta noticia no tiene resumen guardado. Tocá "Leer nota completa" para verla en el sitio original.';
+      const btn = document.getElementById('nModalToggleIdioma');
+      btn.dataset.lang = lang;
+      btn.textContent = enOriginal ? '🌐 Ver traducción al español' : '🇬🇧 Ver original en inglés';
+    }
+
+    function abrirModalNoticia(enlace) {
+      const n = NOTICIAS.find(x => x.enlace === enlace);
+      if (!n) return;
+      noticiaActual = n;
+      const esSilicon = n.categoria === 'Silicon Misiones';
+      document.getElementById('nModalCategoria').textContent = esSilicon ? '🏛️ ' + n.categoria : n.categoria;
+      const meta = [];
+      if (n.fuente) meta.push('📄 ' + n.fuente);
+      if (n.fecha) meta.push('📅 ' + formatearFecha(n.fecha));
+      if (n.nueva) meta.push('✨ Nueva');
+      document.getElementById('nModalMeta').textContent = meta.join('   ·   ');
+
+      const aviso = document.getElementById('nModalAviso');
+      const btn = document.getElementById('nModalToggleIdioma');
+      if (n.idioma === 'en') {
+        aviso.classList.remove('hidden');
+        btn.classList.remove('hidden');
+        mostrarNoticiaEn(n.titulo_es ? 'es' : 'en');   // si ya está traducida, mostrala en español
+      } else {
+        aviso.classList.add('hidden');
+        btn.classList.add('hidden');
+        mostrarNoticiaEn('es');
+      }
+
+      document.getElementById('nModalAbrir').href = n.enlace;
+      document.getElementById('nModalCopiar').onclick = () => {
+        navigator.clipboard.writeText(n.enlace);
+        const b = document.getElementById('nModalCopiar');
+        b.textContent = '✔ Copiado';
+        setTimeout(() => b.textContent = '🔗 Copiar', 1500);
+      };
+      document.getElementById('modalNoticia').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    // Botón que alterna traducción/original. Si la noticia todavía no está
+    // traducida, la traduce al vuelo (mismo servicio que las ofertas).
+    document.getElementById('nModalToggleIdioma').addEventListener('click', async () => {
+      const n = noticiaActual;
+      if (!n) return;
+      const btn = document.getElementById('nModalToggleIdioma');
+      if (btn.dataset.lang === 'es') { mostrarNoticiaEn('en'); return; }
+      if (!n.titulo_es) {
+        const previo = btn.textContent;
+        btn.textContent = '⏳ Traduciendo…';
+        try {
+          n.titulo_es = await traducirTexto(n.titulo);
+          n.resumen_es = n.resumen ? await traducirTexto(n.resumen) : '';
+        } catch { btn.textContent = '⚠ No se pudo — reintentá en un rato'; return; }
+      }
+      mostrarNoticiaEn('es');
+    });
+
+    function cerrarModalNoticia() {
+      document.getElementById('modalNoticia').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    document.getElementById('modalNoticiaCerrar').addEventListener('click', cerrarModalNoticia);
+    document.getElementById('modalNoticiaFondo').addEventListener('click', cerrarModalNoticia);
 
     // ═════════════════════════════════════════
     // HABILIDADES
@@ -916,16 +1106,22 @@ git push</pre>
       cont.innerHTML = conteo.slice(0, 8).map((s, i) => {
         const pct = Math.round(100 * s.n / total);
         return `
-        <div class="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
-          <div class="flex items-center justify-between mb-2">
+        <details class="bg-neutral-950 border border-neutral-800 rounded-xl group">
+          <summary class="flex items-center justify-between gap-3 p-4 cursor-pointer select-none">
             <span class="font-semibold text-sm">${i + 1}. ${esc(s.nombre)}</span>
-            <span class="text-xs text-neutral-500">${s.n} de ${total} ofertas (${pct}%)</span>
+            <span class="flex items-center gap-3">
+              <span class="text-xs font-bold text-neutral-300 bg-white/5 border border-neutral-700 rounded-full px-2 py-0.5">${pct}%</span>
+              <span class="chevron text-neutral-500 text-xs">▾</span>
+            </span>
+          </summary>
+          <div class="px-4 pb-4">
+            <div class="h-2 bg-neutral-800 rounded-full overflow-hidden mb-2">
+              <div class="h-full bg-gradient-to-r from-neutral-400 to-white" style="width:${Math.max(pct, 4)}%"></div>
+            </div>
+            <p class="text-xs text-neutral-500 mb-1">Aparece en <b>${s.n}</b> de ${total} ofertas.</p>
+            <p class="text-xs text-neutral-400">💡 ${esc(s.tip)}</p>
           </div>
-          <div class="h-2 bg-neutral-800 rounded-full overflow-hidden mb-2">
-            <div class="h-full bg-gradient-to-r from-neutral-400 to-white" style="width:${Math.max(pct, 4)}%"></div>
-          </div>
-          <p class="text-xs text-neutral-500">💡 ${esc(s.tip)}</p>
-        </div>`;
+        </details>`;
       }).join('') || '<p class="text-sm text-neutral-400">Sin coincidencias todavía.</p>';
     }
 
@@ -971,15 +1167,22 @@ git push</pre>
       badge.classList.toggle('hidden', n === 0);
     }
 
-    document.getElementById('buscador').addEventListener('input', render);
-    document.querySelectorAll('.filtro').forEach(el => el.addEventListener('change', () => { actualizarBadgeFiltros(); render(); }));
-    document.getElementById('limpiar').addEventListener('click', () => {
+    // Deja todos los filtros en su estado por defecto (sin filtrar nada).
+    function resetearFiltros() {
       document.getElementById('buscador').value = '';
       document.querySelectorAll('select.filtro').forEach(s => s.selectedIndex = 0);
       document.querySelectorAll('input.filtro[type=checkbox]').forEach(c => c.checked = false);
       actualizarBadgeFiltros();
-      render();
-    });
+    }
+
+    document.getElementById('buscador').addEventListener('input', render);
+    document.querySelectorAll('.filtro').forEach(el => el.addEventListener('change', () => { actualizarBadgeFiltros(); render(); }));
+    document.getElementById('limpiar').addEventListener('click', () => { resetearFiltros(); render(); });
+
+    // El navegador a veces restaura filtros viejos al recargar/volver, lo que dejaba
+    // Ofertas "vacío" hasta apretar Limpiar. Arrancamos siempre sin filtros → todas las cards.
+    resetearFiltros();
+    window.addEventListener('pageshow', () => { resetearFiltros(); render(); });
 
     // Botones "Copiar" de la tarjeta de actualización manual
     document.querySelectorAll('.btnCopiarCmd').forEach(b => {
@@ -996,6 +1199,12 @@ git push</pre>
       const btn = document.getElementById('toggleAvanzado');
       btn.setAttribute('aria-expanded', abierto);
       document.getElementById('toggleAvanzadoIcono').style.transform = abierto ? 'rotate(180deg)' : '';
+    });
+    document.getElementById('togglePodio').addEventListener('click', () => {
+      const abierto = !document.getElementById('podio').classList.toggle('hidden');
+      document.getElementById('togglePodio').setAttribute('aria-expanded', abierto);
+      document.getElementById('togglePodioIcono').style.transform = abierto ? 'rotate(180deg)' : '';
+      document.getElementById('togglePodioLabel').textContent = abierto ? '🏆 Ocultar Top 3' : '🏆 Ver Top 3 ofertas';
     });
     actualizarBadgeFiltros();
   </script>
