@@ -1,7 +1,34 @@
 {
-  "actualizado": "2026-07-22T11:39:59.698031+00:00",
-  "total": 53,
+  "actualizado": "2026-07-22T20:52:10.275265+00:00",
+  "total": 51,
   "empleos": [
+    {
+      "titulo": "Frontend Developer - TypeScript (Remote)",
+      "empresa": "Hire Feed",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-developer-typescript-remote-at-hire-feed-4443744663",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 81,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Medio tiempo",
+        "− Publicación en inglés",
+        "✓ Tu stack: TypeScript, Front End, React, JavaScript, Git, Back End"
+      ],
+      "techs": [
+        "TypeScript",
+        "Front End",
+        "React",
+        "JavaScript",
+        "Git",
+        "Back End"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "Role: Frontend Developer - TypeScript (Remote) Location: Remote (Work from Anywhere) Job Type: Contract Payout: $30 - $80/hour Role Overview: We are hiring for one of our clients, seeking a Front-end Developer (Typescript) to work on a contract basis. The role involves building and maintaining user interfaces, optimizing performance, and ensuring cross-browser compatibility. You will collaborate with designers and backend engineers to deliver high-quality web applications. Key Responsibilities: • Develop and maintain responsive web interfaces using Typescript and modern frontend frameworks. • Collaborate with UI/UX designers to implement pixel-perfect designs and improve user experience. • Optimize application performance, including load times and rendering efficiency. • Write clean, maintainable, and well-documented code following best practices. • Participate in code reviews and contribute to architectural decisions. Required Skills & Qualifications: • Proficiency in Typescript and JavaScript with experience in frontend frameworks such as React, Angular, or Vue.js. • Strong understanding of HTML5, CSS3, and responsive design principles. • Experience with state management libraries like Redux, MobX, or similar. • Familiarity with testing frameworks such as Jest, Mocha, or Cypress. • Knowledge of version control systems like Git and CI/CD pipelines. • Experience with RESTful APIs and GraphQL for data fetching. • Ability to debug and troubleshoot frontend issues across different browsers and devices. • Strong problem-solving skills and attention to detail. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Software Development industry, contributing to the development of scalable and high-performance web applications. Yo"
+    },
     {
       "titulo": "Full Stack Developer (Node.js and/or Python Backend | React Frontend)",
       "empresa": "Tangonet Solutions LLC",
@@ -31,6 +58,34 @@
       "descripcion": "Remote (exclusively from Argentina) We seek a talented Full-Stack Developer with expertise in backend development using Node.js and/or Python and frontend development using React. This is a remote position open to candidates, exclusively located in Argentina. The ideal candidate is proficient in English, thrives in a fast-paced environment, and is eager to work on innovative technology solutions. Key Responsibilities: Backend Development: Design, develop, and maintain scalable backend services and APIs using Node.js (Express framework) and/or Python (Django, Flask, FastAPI). Frontend Development: Build responsive and dynamic user interfaces using React.js, HTML, CSS, and JavaScript. Integration: Ensure seamless integration of front-end and back-end components. API Management: Implement RESTful APIs and manage third-party API integrations. Performance Optimization: Optimize applications for performance, scalability, and security. Code Quality: Write clean, maintainable, and efficient code, conduct code reviews, and ensure adherence to best practices. Collaboration: Work with cross-functional teams in an Agile environment to define, design, and ship new features. DevOps: For deployment and management, utilize tools like Docker, Kubernetes, AWS, and CI/CD pipelines (GitLab). Testing: Develop and execute tests using Cypress, Mocha, Chai, or Jest. Required Skills And Qualifications: Proven experience as a Full Stack Developer with strong backend skills in Node.js and/or Python. Proficiency in React.js and front-end technologies (HTML, CSS, JavaScript). Experience with AWS, MongoDB, PostgreSQL, and cloud infrastructure. Familiarity with Docker, Kubernetes, and GitLab CI/CD pipelines. Strong understanding of RESTful APIs, WebSockets, and microservices architecture. Excellent p"
     },
     {
+      "titulo": "Backend-Oriented Full Stack Developer",
+      "empresa": "LaTeam Partners",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/backend-oriented-full-stack-developer-at-lateam-partners-4443954883",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 77,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Back End, React, Node.js, SQL, JavaScript"
+      ],
+      "techs": [
+        "Full Stack",
+        "Back End",
+        "React",
+        "Node.js",
+        "SQL",
+        "JavaScript",
+        "Git",
+        "Front End"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "Role: Fullstack Developer - Backend Oriented Job Type: Contractor with USD payment - Full-time - Remote About the Role We are looking for a Backend-Oriented Full Stack Developer to join our team and help build and scale our internal CRM platform for a growing U.S.-based law firm. The front-end is already well underway, and we're looking for someone who can take ownership of the backend architecture, database integrations, and production readiness. This is an opportunity to work on a high-impact internal product that will support the firm's daily legal operations and continue evolving over time. Responsibilities Own the backend development of an internal CRM platform. Build, maintain, and optimize APIs and backend services. Connect and manage databases, ensuring scalability and performance. Work with the existing frontend to integrate new backend functionality. Improve data architecture, authentication, and system security. Prepare the application for production deployment. Troubleshoot and resolve performance and integration issues. Collaborate closely with stakeholders to translate business needs into technical solutions. Participate in architectural decisions and contribute to future product enhancements Leverage AI-powered development tools (such as GitHub Copilot and Claude) to improve development efficiency, code quality, and problem-solving. Required Qualifications 4+ years of experience as a Full Stack Developer with a strong backend focus. Strong experience building scalable backend applications using Node.js, Python, Java, C#, or similar. Experience working with React applications and integrating frontend components with backend services. Strong experience designing and developing RESTful APIs. Solid knowledge of SQL databases and data modeling. Experience inte"
+    },
+    {
       "titulo": "Freelance Full-Stack Web App Developer",
       "empresa": "Mindrift",
       "ubicacion": "Argentina",
@@ -57,6 +112,31 @@
       ],
       "primera_vez": "2026-07-21",
       "descripcion": "Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project (https://tendem.ai/) and build interactive browser-based applications within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users. This part-time remote opportunity is ideal for professionals with hands-on experience in modern frontend frameworks, backend APIs, databases, and shipping interactive web products end-to-end. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Full-Stack Web App Developer, you'll design, build, and refine browser-based applications with real logic, state, persistence, and user input — from habit trackers and budgeting tools to internal dashboards, mini-SaaS tools, and AI-powered apps. You may also work on standalone Python applications and data-processing scripts that sit alongside or behind these products. Key Responsibilities Build interactive web applications with frontend (React, Next.js, Vue, or similar) and a backend API (Python/FastAPI/Flask or Node/Express) Design and implement data models, schemas, and persistence layers using SQL (PostgreSQL, SQLite) or NoSQL stores Implement authentication, sessions, and basic role-based access where needed Integrate third-party APIs and AI/LLM services "
+    },
+    {
+      "titulo": "Desarrollador",
+      "empresa": "Webuuq",
+      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-at-webuuq-4441076407",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 75,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: TypeScript, MongoDB, SQL, JavaScript, Git, Back End"
+      ],
+      "techs": [
+        "TypeScript",
+        "MongoDB",
+        "SQL",
+        "JavaScript",
+        "Git",
+        "Back End"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "Descripción del puesto En el puesto de Desarrollador en Webuuq, participarás en el diseño, desarrollo y mantenimiento de aplicaciones web, colaborando con el equipo de producto y diseño para implementar nuevas funcionalidades y mejorar las existentes. Trabajarás revisando código, realizando pruebas, corrigiendo errores y optimizando el rendimiento de las aplicaciones para garantizar una experiencia fluida a los usuarios. También te encargarás de documentar las soluciones, aportar ideas de mejora continua y participar en reuniones de seguimiento del proyecto. Este es un puesto a tiempo completo / part-time y se desempeña en modalidad remota, por lo que necesitarás una buena organización y comunicación online para coordinarte con el equipo. Requisitos Experiencia en desarrollo web (por ejemplo, HTML, CSS, JavaScript) y capacidad para crear interfaces limpias y funcionales. Conocimientos en desarrollo backend (por ejemplo, TypeScript, NestJS, Java, Spring Boot) y en el diseño de APIs para integrar servicios. Familiaridad con bases de datos relacionales o no relacionales (por ejemplo, MySQL, PostgreSQL, MongoDB) y buenas prácticas de modelado de datos. Experiencia trabajando con sistemas de control de versiones (como Git) y flujos de desarrollo colaborativos. Aptitudes sólidas de análisis y resolución de problemas, capacidad para aprender rápido y adaptarte a nuevas tecnologías. Buena comunicación escrita y oral, orientación al trabajo en equipo y atención al detalle en la calidad del código. Valorable: experiencia previa en entornos remotos, metodologías ágiles (Scrum, Kanban) y buenas prácticas de testing automatizado."
     },
     {
       "titulo": "Frontend / Full Stack Engineer (React)",
@@ -111,32 +191,6 @@
       "descripcion": "Remote (exclusively from Argentina) We seek a skilled and passionate Full Stack Developer with a strong focus on Node.js for back-end development to join our team. This is a remote position open exclusively to candidates located in Argentina. The ideal candidate will have excellent English communication skills and thrive in a fast-paced, collaborative environment. As a Full Stack Developer, you will be responsible for designing, building, and maintaining scalable web applications, primarily emphasizing back-end development using Node.js while collaborating with front-end teams for seamless integration. Key Responsibilities: Develop and maintain scalable back-end services and APIs using Node.js. Design and implement efficient server-side logic and data storage solutions. Collaborate with front-end developers to ensure seamless integration between the front-end and back-end components. Optimize applications for performance, scalability, and security. Implement RESTful APIs and manage third-party API integrations. Troubleshoot and debug back-end issues to ensure system reliability. Conduct code reviews and contribute to a culture of high-quality coding standards. Ensure applications comply with security best practices and data protection regulations. Stay updated on the latest Node.js tools, frameworks, and trends in back-end development. Required Skills And Qualifications: Proven experience as a Full Stack Developer with a strong focus on Node.js. Proficiency in front-end technologies such as HTML, CSS, and JavaScript frameworks (e.g., React, Angular, or Vue.js). Expertise in back-end technologies, including vue.js or other Node.js frameworks. Excellent communication skills in English, both written and verbal. Ability to work independently, meet deadlines, and thrive in a"
     },
     {
-      "titulo": "Frontend Developer - TypeScript (Remote)",
-      "empresa": "Hire Feed",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/frontend-developer-typescript-remote-at-hire-feed-4443744663",
-      "fecha": "2026-07-22",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 71,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, Front End, React, JavaScript, Git, Back End"
-      ],
-      "techs": [
-        "TypeScript",
-        "Front End",
-        "React",
-        "JavaScript",
-        "Git",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-22",
-      "descripcion": "Role: Frontend Developer - TypeScript (Remote) Location: Remote (Work from Anywhere) Job Type: Contract Payout: $30 - $80/hour Role Overview: We are hiring for one of our clients, seeking a Front-end Developer (Typescript) to work on a contract basis. The role involves building and maintaining user interfaces, optimizing performance, and ensuring cross-browser compatibility. You will collaborate with designers and backend engineers to deliver high-quality web applications. Key Responsibilities: • Develop and maintain responsive web interfaces using Typescript and modern frontend frameworks. • Collaborate with UI/UX designers to implement pixel-perfect designs and improve user experience. • Optimize application performance, including load times and rendering efficiency. • Write clean, maintainable, and well-documented code following best practices. • Participate in code reviews and contribute to architectural decisions. Required Skills & Qualifications: • Proficiency in Typescript and JavaScript with experience in frontend frameworks such as React, Angular, or Vue.js. • Strong understanding of HTML5, CSS3, and responsive design principles. • Experience with state management libraries like Redux, MobX, or similar. • Familiarity with testing frameworks such as Jest, Mocha, or Cypress. • Knowledge of version control systems like Git and CI/CD pipelines. • Experience with RESTful APIs and GraphQL for data fetching. • Ability to debug and troubleshoot frontend issues across different browsers and devices. • Strong problem-solving skills and attention to detail. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Software Development industry, contributing to the development of scalable and high-performance web applications. Yo"
-    },
-    {
       "titulo": "Front End Engineer",
       "empresa": "Avenue Code",
       "ubicacion": "Argentina",
@@ -163,32 +217,6 @@
       "descripcion": "About the Opportunity We are looking for a Senior Frontend Engineer to join a highly collaborative engineering team building modern, scalable web applications for both B2C and B2B products. In this role, you will work closely with Product Managers, UI/UX Designers, and Backend Engineers to deliver high-quality user experiences while contributing to frontend architecture, performance optimization, and engineering best practices. This is an excellent opportunity for engineers who enjoy building scalable React applications, solving complex technical challenges, and working in an international environment. Responsibilities Design, develop, and maintain scalable frontend applications using React.js and Next.js. Build reusable UI components and shared libraries to improve development efficiency. Collaborate with Product, Design, and Backend teams to deliver new product features. Integrate frontend applications with REST APIs and backend services. Optimize application performance, accessibility, and responsiveness across modern browsers. Apply best practices for state management, testing, code organization, and maintainability. Participate in code reviews, technical discussions, and architectural decisions. Mentor other engineers and contribute to a culture of continuous improvement. Help modernize existing applications and migrate codebases to current frontend standards. Leverage AI-powered developer tools (such as Claude, Cursor, or GitHub Copilot) to improve engineering productivity. Required Qualifications 6+ years of professional experience in Frontend Software Engineering. Strong experience with React.js. Solid experience with Next.js, including Server-Side Rendering (SSR) and Static Site Generation (SSG). Advanced knowledge of JavaScript and TypeScript. Strong understan"
     },
     {
-      "titulo": "Full Stack Developer",
-      "empresa": "Sur Global",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-at-sur-global-4441202359",
-      "fecha": "2026-07-15",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 69,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, TypeScript, SQL, Git, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "TypeScript",
-        "SQL",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-21",
-      "descripcion": "As the Full Stack Developer you will design and build software across the backend, frontend, and internal AI tooling for a growing product. You will contribute to technical decisions and collaborate closely with the team to deliver reliable, scalable solutions. This role is well suited for someone who is comfortable working with ambiguity and enjoys ownership over their work. Responsibilities: Design and build AI powered internal tools that improve engineering efficiency Build and maintain REST APIs in Python using Django REST Framework Build and maintain frontend applications using Next.js and TypeScript Write unit, integration, and end to end tests to support software quality Implement secure, scalable, and maintainable solutions Collaborate with Product and Engineering to deliver on shared goals Contribute technical ideas and improvements beyond assigned tasks Requirements C1 English or equivalent 3+ years of experience building production applications with Next.js and TypeScript 3+ years of backend development experience in Python, specifically with Django REST Framework Experience with PostgreSQL in production environments Experience with Docker, Docker Compose, and infrastructure as code such as Terraform Experience with cloud services, ideally AWS Experience setting up and maintaining CI/CD pipelines Experience writing unit, integration, and end to end tests Strong Git and GitHub practices, with an active public profile considered a plus Preferred Qualifications Experience at high growth startups, consultancy or agency backgrounds are also welcome, provided there is demonstrated product ownership rather than delivery only work Experience building with LLMs or AI agents, including LangChain, RAG, or agentic systems Experience training AI models, including dataset "
-    },
-    {
       "titulo": "Software Craftsperson/Node.js/React.js/AI",
       "empresa": "Jobgether",
       "ubicacion": "Argentina",
@@ -212,6 +240,29 @@
       ],
       "primera_vez": "2026-07-17",
       "descripcion": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Software Craftsperson (Node.js/React.js/AI) based in Argentina. This is a remote opportunity for a software engineer who is passionate about building high-quality, scalable, and maintainable systems. You will work in an AI-native development environment where modern tools enhance engineering practices without compromising craftsmanship. The role focuses on full-stack ownership, continuous improvement, and delivering meaningful solutions for diverse projects. You will collaborate closely with talented engineers, contribute to technical decisions, and work with a strong product mindset. The environment encourages autonomy, experimentation, and mastery of software development practices. If you enjoy solving complex problems, improving systems, and raising engineering standards, this role offers an opportunity to make a real impact. Accountabilities As a Software Craftsperson, you will take ownership of designing, developing, and improving production systems while following strong engineering principles. You will contribute across the full software development lifecycle, from understanding user needs to delivering reliable solutions. Build and maintain scalable full-stack applications using modern technologies, including Node.js, React.js, and AI-powered development tools. Apply software craftsmanship practices such as test-driven development, clean code principles, refactoring, and continuous delivery. Take end-to-end ownership of features, including front-end development, back-end services, infrastructure, and deployment processes. Collaborate through pair programming, peer reviews, and proactive teamwork to continuously improve engineering qua"
+    },
+    {
+      "titulo": "Frontend Web Developer - HTML,CSS (Remote)",
+      "empresa": "Hire Feed",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-web-developer-html-css-remote-at-hire-feed-4443749625",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 67,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Medio tiempo",
+        "− Publicación en inglés",
+        "✓ Tu stack: Front End, Tailwind"
+      ],
+      "techs": [
+        "Front End",
+        "Tailwind"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "Role: Frontend Web Developer - HTML,CSS (Remote) Location: Remote (Work from Anywhere) Job Type: Contract Payout: $30 - $80/hour Role Overview: We are hiring for one of our clients, seeking a Frontend Developer - (HTML,CSS) to work on a contract basis. The role involves building and maintaining responsive user interfaces using HTML and CSS, ensuring cross-browser compatibility and adherence to design specifications. You will collaborate with design teams to translate mockups into functional front-end components. Key Responsibilities: • Develop and maintain front-end components using HTML, CSS, and related technologies • Ensure cross-browser compatibility and responsive design across devices • Collaborate with design teams to implement pixel-perfect UI elements • Optimize front-end performance and accessibility standards • Participate in code reviews and contribute to best practices Required Skills & Qualifications: • Proficiency in HTML and CSS with a strong understanding of semantic markup • Experience with responsive design principles and mobile-first approaches • Familiarity with CSS preprocessors (e.g., SASS, LESS) or frameworks (e.g., Bootstrap, Tailwind) • Knowledge of browser developer tools and debugging techniques • Ability to implement designs from Figma, Sketch, or similar tools More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to the development of scalable and user-friendly web applications. The project involves creating front-end components for a high-traffic platform. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experience, or prior employment history. Applicati"
     },
     {
       "titulo": "Junior Software Engineer with Accounting Experience (Argentina)",
@@ -271,29 +322,52 @@
       "primera_vez": "2026-07-20"
     },
     {
-      "titulo": "Backend Engineer - Wallets (100% Remote)",
-      "empresa": "Tether.io",
+      "titulo": "Front End Software Engineer (React Native)",
+      "empresa": "Stefanini LATAM",
       "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/backend-engineer-wallets-100%25-remote-at-tether-io-4371244950",
+      "enlace": "https://ar.linkedin.com/jobs/view/front-end-software-engineer-react-native-at-stefanini-latam-4443160697",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 65,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, Front End, SQL, Git"
+      ],
+      "techs": [
+        "React",
+        "Front End",
+        "SQL",
+        "Git"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "¡Sé parte de Stefanini! En Stefanini somos más de 30.000 profesionales en 41 países, conectados para hacer lo que nos apasiona y co-crear un futuro mejor. Actualmente estamos buscando un(a) Front End Software Engineer Semi Senior con experiencia en React Native, que quiera participar en el desarrollo de productos digitales innovadores, escalables y centrados en la experiencia del usuario. 🎯 Tu misión Serás responsable de diseñar, desarrollar, operar y evolucionar aplicaciones móviles que impactan directamente en millones de usuarios, trabajando dentro de un squad multidisciplinario junto a especialistas de Producto, UX/UI, Datos, Seguridad e Ingeniería para entregar valor de forma continua y contribuir a los objetivos estratégicos del negocio. 🎯 Principales responsabilidades Diseñar, desarrollar y mantener aplicaciones móviles utilizando buenas prácticas de ingeniería. Participar activamente en ceremonias ágiles (Daily, Sprint Planning, Reviews y Retrospectives). Colaborar con Business Experts, diseñadores UX/UI y stakeholders para entregar valor continuo. Desarrollar código limpio, mantenible, escalable y testeable. Diseñar e implementar pruebas unitarias, de integración y E2E. Garantizar la calidad, rendimiento, seguridad y escalabilidad de las soluciones. Documentar soluciones técnicas y compartir conocimiento con el equipo. Contribuir a la mejora continua de la arquitectura, observabilidad y experiencia de desarrollo. ✅ Requisitos técnicos Desarrollo Front End & Mobile React Native. React y Frameworks Front End. Arquitectura de UI. Accesibilidad e inclusión (WCAG). Storytelling digital, dashboards y experiencia de usuario. A/B Testing. Ingeniería de Software Code Fluency. Diseño de software. Diseño de arquitectura. Gestión de deuda técnica. Requisitos no funcionales"
+    },
+    {
+      "titulo": "Backend (Node.js) Integrations Engineer - LMS / LTI",
+      "empresa": "Genius Match",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/backend-node-js-integrations-engineer-lms-lti-at-genius-match-4443968655",
       "fecha": "2026-07-22",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
-      "afinidad": 66,
+      "afinidad": 65,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Back End, Node.js, MongoDB, SQL, JavaScript"
+        "✓ Tu stack: Node.js, Back End, TypeScript, SQL"
       ],
       "techs": [
-        "Back End",
         "Node.js",
-        "MongoDB",
-        "SQL",
-        "JavaScript"
+        "Back End",
+        "TypeScript",
+        "SQL"
       ],
       "primera_vez": "2026-07-22",
-      "descripcion": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT, relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services. But that’s just the beginning: Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities. Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET, our flagship app that redefines secure and private data sharing. Tether Education: Democratizing access to top-tier digital learning, we empower individuals to thrive in the digital and gig economies, driving global growth and opportunity. Tether Evolution: At the intersection of technology and human potential, we are pushing the boundaries of what is possible, crafting a future where innovation and human capabilities merge in powerful, unprecedented ways. Why Join Us? Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fint"
+      "descripcion": "Our client is building the next generation of AI-powered learning technology, helping educational institutions deliver more personalized and effective learning experiences. As their platform continues to grow, they are expanding the engineering team with a Backend Engineer who will own the critical systems connecting their AI learning platform with leading Learning Management Systems (LMS) such as Canvas, Brightspace (D2L), Moodle, and Blackboard. This is a high-impact, high-ownership role focused on designing and maintaining the backend infrastructure that powers seamless integration between customer LMS environments and the company's platform. You will work on authentication, LTI standards, API integrations, data synchronization, and scalable backend services that enable the secure exchange of users, courses, enrollments, assignments, and learning content. Their engineering team values ownership, technical excellence, and pragmatic problem solving. They are looking for someone who enjoys building reliable backend systems, solving complex integration challenges, and collaborating across engineering, product, and customer-facing teams to deliver exceptional customer experiences. As a Backend Engineer, you will: Design, build, and maintain integrations with major LMS platforms, including Canvas, Brightspace (D2L), Moodle, Blackboard, and others; Own LTI launch flows, LMS authentication, API permissions, and customer-specific integration configurations; Develop scalable backend services using Node.js and TypeScript to synchronize LMS data with the company's platform; Design and maintain data models using PostgreSQL and Neo4j; Troubleshoot and resolve complex integration issues involving OAuth, SAML, JWT, LTI 1.3, APIs, and data mapping; Improve system reliability through "
     },
     {
       "titulo": "Fullstack Developer React Node Angular",
@@ -336,30 +410,6 @@
       "primera_vez": "2026-07-16"
     },
     {
-      "titulo": "Software Developer Front End Payments - Personal Pay",
-      "empresa": "Personal",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-developer-front-end-payments-personal-pay-at-personal-4442151575",
-      "fecha": "2026-07-17",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 63,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Front End, React, TypeScript, Node.js"
-      ],
-      "techs": [
-        "Front End",
-        "React",
-        "TypeScript",
-        "Node.js"
-      ],
-      "primera_vez": "2026-07-17",
-      "descripcion": "Ubicación AR Descripción Quienes Somos Somos Personal, una empresa que acompaña y potencia la vida de las personas a través de la tecnología. Nuestra propuesta está pensada para que cada persona, comunidad y organización pueda avanzar, conectarse, disfrutar y transformar su realidad. En Personal Pay estamos sumando un/una Developer Frontend Sr para el equipo de Payments con pasión por la innovación, ganas de ser protagonistas y facilidad para el desempeño en un entorno desafiante y dinámico. Buscamos Protagonistas Que Se Animen a ✔️ Trabajar en un equipo autónomo formado por diversos roles con los que interactuar para cumplir los objetivos. ✔️ Desempeñarse en un entorno ágil utilizando las últimas metodologías. ✔️ Construir funcionalidades, trabajando en el diseño de las mismas de manera integral con tu equipo. ✔️ Interactuar directamente con los equipos de diseño de UX para implementar una gran experiencia de usuario. ✔️ Participar del análisis técnico de la solución y en las decisiones técnicas de las mismas junto a los diferentes referentes de cada área implicada. ✔️ Interactuar con diferentes equipos dentro de la organización. Y Cuenten Con Estas Experiencias y Habilidades ✔️ Que sientas curiosidad por el mundo fintech. ✔️ Que te apasione el desafío de crear productos de cero y proponer las mejores soluciones. ✔️ 5+ años de experiencia previa en desarrollo de Software. ✔️ 3+ años de experiencia en el desarrollo de aplicaciones web y/o móviles con React Native (excluyente) ✔️ 2+ años de experiencia trabajando en equipo con arquitecturas distribuidas. ✔️ Es un plus poseer experiencia trabajando con TypeScript, NodeJS y NestJS para la construcción de APIs. ✔️ Que desarrolles usando patrones diseño y sigas buenas prácticas de programación. ✔️ Conocimientos de unit testi"
-    },
-    {
       "titulo": "Actualizado hace 5 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
@@ -377,54 +427,6 @@
         "Full Stack"
       ],
       "primera_vez": "2026-07-20"
-    },
-    {
-      "titulo": "Software Engineer (AI Training)",
-      "empresa": "Alignerr",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ai-training-at-alignerr-4441913110",
-      "fecha": "2026-07-17",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 61,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, JavaScript, Full Stack, Back End"
-      ],
-      "techs": [
-        "TypeScript",
-        "JavaScript",
-        "Full Stack",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-21",
-      "descripcion": "About The Role What if the code you write could directly shape how the next generation of AI understands and generates software? We're looking for Software Engineers in Buenos Aires to build, evaluate, and improve AI-generated code — helping train AI systems to think like real developers. You'll write solutions, review AI outputs, and provide the expert-level feedback that makes AI coding assistants smarter, safer, and more reliable. This is hands-on engineering work at the frontier of AI development — not theoretical, not bureaucratic, and not boring. This is a fully remote, flexible contract role. If you can write clean code and explain your reasoning, we want to hear from you. Organization: Alignerr Type: Hourly Contract Location: Remote Commitment: 10–40 hours/week What You'll Do Write, debug, and optimize code across a range of languages, frameworks, and problem domains Review and evaluate AI-generated code for correctness, efficiency, readability, and best practices Identify bugs, logic errors, security issues, and performance bottlenecks in AI outputs Provide structured, detailed feedback explaining why code works — or doesn't Design challenging coding prompts and edge-case scenarios to stress-test AI capabilities Compare and rank multiple AI-generated solutions based on engineering quality Work independently and asynchronously — fully on your own schedule Who You Are Proficient in one or more programming languages (Python, JavaScript, Java, C++, Go, TypeScript, or similar) Solid understanding of data structures, algorithms, and software design principles Able to read, write, and reason about code with clarity and precision Strong problem-solving instincts and a systematic debugging approach Clear written communicator — you can explain technical decisions in plai"
-    },
-    {
-      "titulo": "Software Engineer (AI Training)",
-      "empresa": "Alignerr",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ai-training-at-alignerr-4441910258",
-      "fecha": "2026-07-17",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 61,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, JavaScript, Full Stack, Back End"
-      ],
-      "techs": [
-        "TypeScript",
-        "JavaScript",
-        "Full Stack",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-21",
-      "descripcion": "About The Role What if the code you write could directly shape how the next generation of AI understands and generates software? We're looking for Software Engineers in Tucumán to build, evaluate, and improve AI-generated code — helping train AI systems to think like real developers. You'll write solutions, review AI outputs, and provide the expert-level feedback that makes AI coding assistants smarter, safer, and more reliable. This is hands-on engineering work at the frontier of AI development — not theoretical, not bureaucratic, and not boring. This is a fully remote, flexible contract role. If you can write clean code and explain your reasoning, we want to hear from you. Organization: Alignerr Type: Hourly Contract Location: Remote Commitment: 10–40 hours/week What You'll Do Write, debug, and optimize code across a range of languages, frameworks, and problem domains Review and evaluate AI-generated code for correctness, efficiency, readability, and best practices Identify bugs, logic errors, security issues, and performance bottlenecks in AI outputs Provide structured, detailed feedback explaining why code works — or doesn't Design challenging coding prompts and edge-case scenarios to stress-test AI capabilities Compare and rank multiple AI-generated solutions based on engineering quality Work independently and asynchronously — fully on your own schedule Who You Are Proficient in one or more programming languages (Python, JavaScript, Java, C++, Go, TypeScript, or similar) Solid understanding of data structures, algorithms, and software design principles Able to read, write, and reason about code with clarity and precision Strong problem-solving instincts and a systematic debugging approach Clear written communicator — you can explain technical decisions in plain lan"
     },
     {
       "titulo": "Freelance Frontend Developer (Landing Pages & Websites)",
@@ -458,7 +460,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Please submit your resume and tell us about your dream role at DBOS! If we start hiring for that role in the future, we will reach out to you. Some of the technologies we use at DBOS include Python, TypeScript, Go, Java, PostgreSQL, AWS. We are a fully distributed team, with most of us located in the US. We look forward to hearing from you! Please mention the word **PREFERS** and tag RMjAuMTYxLjYwLjIx when applying to show you read the job post completely (#RMjAuMTYxLjYwLjIx). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Please submit your resume and tell us about your dream role at DBOS! If we start hiring for that role in the future, we will reach out to you. Some of the technologies we use at DBOS include Python, TypeScript, Go, Java, PostgreSQL, AWS. We are a fully distributed team, with most of us located in the US. We look forward to hearing from you! Please mention the word **PREFERS** and tag RMTcyLjE5MC4xMTguMjMx when applying to show you read the job post completely (#RMTcyLjE5MC4xMTguMjMx). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 59,
       "motivos": [
         "✓ Remoto",
@@ -491,66 +493,6 @@
       "primera_vez": "2026-07-20"
     },
     {
-      "titulo": "Software Engineer II (Argentina)",
-      "empresa": "Sezzle",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ii-argentina-at-sezzle-4336815907",
-      "fecha": "2026-07-17",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 58,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, SQL, Git, Full Stack, Front End",
-        "− Pide 7+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "TypeScript",
-        "SQL",
-        "Git",
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-21",
-      "descripcion": "The salary range for this role is $2,800 - $6,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! Compensation: For this mid-level development role, with 3-7 years of experience, the compensation range is $2,800 - $6,000 USD per month. This range is designed to reflect the skills, experience, and value brought to the team, ensuring competitive and fair pay within the industry. Interview Process We believe transparency is important at Sezzle. Regularly providing feedback while setting expectations is part of our culture starting with the interview process. Advancement through each step is not guaranteed. Application submitted (you are here) Wonderlic test (30-40 min) Coding assessment (:1.5 hours) Interview with recruiters (30 min) Interview with engineers (1 hour) Interview with engineering leadership (30-45 min) Offer! About the Role: We are seeking a talented and motivated Software Engineer II who is best in class with a high IQ plus a h"
-    },
-    {
-      "titulo": "Analista Programador C / Ideafix – Full remoto",
-      "empresa": "Confidencial",
-      "ubicacion": "Monserrat, Capital Federal",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-c-ideafix-full-remoto-en-monserrat-54AF5864797A32A461373E686DCF3405",
-      "fecha": "Ayer",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web",
-      "afinidad": 57,
-      "motivos": [
-        "✓ Remoto"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-07-20"
-    },
-    {
-      "titulo": "Analista Programador SharePoint",
-      "empresa": "Dos Argentina",
-      "ubicacion": "4,4",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-sharepoint-en-san-nicolas-8042F06DD42C327A61373E686DCF3405",
-      "fecha": "Hace 3 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 57,
-      "motivos": [
-        "✓ Remoto"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-07-10"
-    },
-    {
       "titulo": "Actualizado hace 9 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
@@ -567,26 +509,20 @@
       "primera_vez": "2026-07-10"
     },
     {
-      "titulo": "Frontend Web Developer - HTML,CSS (Remote)",
-      "empresa": "Hire Feed",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/frontend-web-developer-html-css-remote-at-hire-feed-4443749625",
-      "fecha": "2026-07-22",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
+      "titulo": "Analista Programador SharePoint",
+      "empresa": "Dos Argentina",
+      "ubicacion": "4,4",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-sharepoint-en-san-nicolas-8042F06DD42C327A61373E686DCF3405",
+      "fecha": "Hace 12 horas",
+      "fuente": "Computrabajo",
+      "keyword": "React remoto",
       "afinidad": 57,
       "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Front End, Tailwind"
+        "✓ Remoto"
       ],
-      "techs": [
-        "Front End",
-        "Tailwind"
-      ],
-      "primera_vez": "2026-07-22",
-      "descripcion": "Role: Frontend Web Developer - HTML,CSS (Remote) Location: Remote (Work from Anywhere) Job Type: Contract Payout: $30 - $80/hour Role Overview: We are hiring for one of our clients, seeking a Frontend Developer - (HTML,CSS) to work on a contract basis. The role involves building and maintaining responsive user interfaces using HTML and CSS, ensuring cross-browser compatibility and adherence to design specifications. You will collaborate with design teams to translate mockups into functional front-end components. Key Responsibilities: • Develop and maintain front-end components using HTML, CSS, and related technologies • Ensure cross-browser compatibility and responsive design across devices • Collaborate with design teams to implement pixel-perfect UI elements • Optimize front-end performance and accessibility standards • Participate in code reviews and contribute to best practices Required Skills & Qualifications: • Proficiency in HTML and CSS with a strong understanding of semantic markup • Experience with responsive design principles and mobile-first approaches • Familiarity with CSS preprocessors (e.g., SASS, LESS) or frameworks (e.g., Bootstrap, Tailwind) • Knowledge of browser developer tools and debugging techniques • Ability to implement designs from Figma, Sketch, or similar tools More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to the development of scalable and user-friendly web applications. The project involves creating front-end components for a high-traffic platform. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experience, or prior employment history. Applicati"
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-07-10"
     },
     {
       "titulo": "Fullstack Developer (Node/React)",
@@ -721,31 +657,36 @@
       "descripcion": "About you You are someone who wants to influence your own development. You’re looking for a company where you have the opportunity to pursue your interests and be able to grow professionally. You bring to Applaudo the following competencies: Bachelor’s Degree or higher in Computer Science or Computer Engineering or related field or equivalent experience. 2+ years of experience working with React Native (workflows such as Flux or Redux). Experience using flutter (desirable). Familiarity with native build tools, like XCode, Gradle (Android Studio, IntelliJ). Desirable (not a must) basic knowledge in languages related to native mobile development such as Objective C, Swift, Kotlin or Java. Expertise working with hybrid apps for iOS and Android like WebView Knowledge of Scrum. You will be accountable for the following responsibilities: Developing new user-facing features using React Native. Optimizing components for maximum performance across a vast array of mobile devices Outstanding skills at interacting with people, both within the organization (from developers to senior management) and with customers/partners. Responsible, organized and goal oriented with excellent communication skills Qualifications Technical Skills Frameworks: React Native (Flux or Redux) Additional Information Here at Applaudo Studios values as trust, communication, respect, excellence and team work are our keys to success. We know we are working with the best and thus treat each other with respect and admiration without asking. Submit your application today, and don't miss this opportunity to join the Best Digital team in the Region! We truly appreciate all the hard and outstanding work our team makes every day at Applaudo Studios, and that's why the perks that we offer, are deeply thought and desig"
     },
     {
-      "titulo": "React Native Engineer",
-      "empresa": "HelpBnk",
-      "ubicacion": "Remoto mundial",
-      "enlace": "https://remoteOK.com/remote-jobs/remote-react-native-engineer-helpbnk-1135014",
-      "fecha": "2026-07-18",
-      "fuente": "RemoteOK",
-      "keyword": "remoto",
+      "titulo": "Desenvolvedor full stack",
+      "empresa": "KIS Solutions",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desenvolvedor-full-stack-at-kis-solutions-4441058274",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
       "es_remoto": true,
-      "descripcion": "About us At HelpBnk, we donât just build software; we build infrastructure for a future where everyone has the agency to follow their dreams. Co-founded by Simon Squibb, we are on a mission to Free Humanity from the trap of unfulfilling work and the looming challenges of AI-driven automation. We are a high-growth startup under the Dream Inc umbrella, creating a social platform and business-starting tools that empower people to take control of their lives. If you are tired of \"just a job\" and want to fight for something that matters, read on. Our Culture Ownership. We're small, so there's a lot of open ground. If you spot something broken, you're the one who gets to fix it. That's the good part and the hard part. Openness. Problems get named early, including our own. We'd rather have an uncomfortable conversation on Monday than a bad quarter. AI as a tool . We build with agentic AI (Claude Code, Cursor, and whatever comes next). We're not looking for people who let it write the code unsupervised, or for people who won't touch it. We're looking for people who've worked out where it helps and where it lies to you. Interesting problems . The work here is genuinely unsolved in places. If you like that, you'll like it here. If you'd rather have a well-defined roadmap and a clear spec, we're probably not the right fit for eachother. The Challenge We are in a pivotal phase of our journey. HelpBnk is transitioning its mobile experience from a web to a full native React Native application. Simultaneously, we are revamping our UX. As a Senior Engineer, you will have a massive impact on the future of our mobile development as we expand into new countries and verticals. What Youâll Do Lead the Transition: Architect and build high-performance, scalable mobile applications from th",
-      "afinidad": 54,
+      "afinidad": 52,
       "motivos": [
         "✓ Remoto",
-        "✓ Tu stack: React",
-        "− Publicación en inglés"
+        "✓ Tu stack: Full Stack, React, SQL, Front End, Back End",
+        "− Pide 2+ años de experiencia",
+        "− Pide inglés"
       ],
       "techs": [
-        "React"
+        "Full Stack",
+        "React",
+        "SQL",
+        "Front End",
+        "Back End"
       ],
-      "primera_vez": "2026-07-19"
+      "primera_vez": "2026-07-22",
+      "descripcion": "We are looking for proactive and hands-on Full Stack Developers to join our team! You will be involved in a variety of tasks using modern technologies across the backend and frontend. The project is for an American multinational company that specializes in the sale of health, personal care, and other products, with a presence in countries ranging from the USA and Canada to several Asian markets, including Japan and South Korea. Job Activities • Develop, maintain, and enhance full stack applications, delivering complete features from technical design to deployment. • Build and evolve backend systems using Java (Spring Boot) or Python. • Develop and maintain modern frontend applications using React or similar frontend frameworks. • Troubleshoot bugs, investigate issues, and deliver fixes efficiently and reliably. • Fully understand business and technical requirements, proactively questioning what is unclear. • Translate business requirements into technical solutions and implementation plans. • Design and implement REST or GraphQL APIs, integrating multiple data sources. • Ensure high-quality deliveries by proactively testing, validating, and refactoring code. • Participate in the full software development lifecycle, including design, development, testing, deployment, and maintenance. • Monitor application performance and contribute to production support and continuous improvement. • Collaborate closely with team members, contributing to task planning, estimation, and prioritization. • Communicate effectively with clients, actively participating in meetings and technical discussions. • Identify risks, competing priorities, or delivery issues early and escalate appropriately. • Contribute to improving development processes, architecture, and team practices. • Support other "
     },
     {
       "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
       "empresa": "Talan",
-      "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442755271",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442753211",
       "fecha": "2026-07-20",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador web",
@@ -768,8 +709,8 @@
     {
       "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
       "empresa": "Talan",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442753211",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442755271",
       "fecha": "2026-07-20",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador web",
@@ -811,27 +752,6 @@
       "primera_vez": "2026-07-21"
     },
     {
-      "titulo": "Ingeniero de Software - Next.js + NestJS + AI",
-      "empresa": "WeSpeak",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ingeniero-de-software-next-js-%2B-nestjs-%2B-ai-at-wespeak-4440221383",
-      "fecha": "2026-07-15",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 52,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: JavaScript"
-      ],
-      "techs": [
-        "JavaScript"
-      ],
-      "primera_vez": "2026-07-17",
-      "descripcion": "🚀 Sobre Nosotros Estamos creando la nueva era comunicacional de la hotelería. Y queremos que seas parte. Somos WeSpeak, una startup que está re-inventando la venta hotelera con asistentes virtuales de Inteligencia Artificial para WhatsApp. Nuestra tecnología de inteligencia artificial conversa con huéspedes en tiempo real y transforma la forma en que los hoteles se comunican con sus clientes y venden de forma directa para depender menos de plataformas como Booking.com. Ya ayudamos a más de 500 hoteles en 20 países a convertir más consultas en reservas, 24/7, con el tono humano que la hospitalidad merece. Crecemos porque amamos lo que hacemos, somos profesionales y tenemos un foco absoluto y tenemos un equipo brutal. Si buscas estabilidad o comodidad, este puesto no sea para vos. Pero si queres crecer como profesional, desafiarte y aprender a ejecutar a velocidad startup, este es tu lugar. 🟣 ¿Por qué es importante este rol? En WeSpeak estamos en una etapa de evolución técnica donde la velocidad es importante, pero la arquitectura correcta es crítica. Buscamos un/a Software Engineer (Senior / Semi-Senior) con fuerte dominio del ecosistema moderno de JavaScript, que no solo desarrolle funcionalidades, sino que participe activamente en decisiones de arquitectura, diseño de sistemas y escalabilidad del producto. Este rol es clave para: Diseñar soluciones sólidas y mantenibles. Tomar decisiones técnicas con visión de largo plazo. Elevar el estándar de ingeniería del equipo. Construir una base tecnológica escalable. Es un perfil con mentalidad de ingeniería, no solo de ejecución. 🟣 Responsabilidades principales Pilar 1: Arquitectura y diseño de soluciones Este pilar responde a: asegurar que lo que construimos hoy siga funcionando mañana. Diseñar arquitectura de nuevas funciona"
-    },
-    {
       "titulo": "Web Developer (WordPress & CRO Focus)",
       "empresa": "Talent Global LLC",
       "ubicacion": "Argentina",
@@ -850,11 +770,11 @@
       "descripcion": "Web Developer (WordPress & CRO Focus) Project-Based | Remote | Flexible Schedule About Talent Global Talent Global connects exceptional remote professionals with fast-growing international companies. We specialize in helping businesses build high-performing teams across marketing, operations, creative, and technology. We're looking for a Web Developer to redesign and optimize our company website, creating a more modern, professional, and conversion-focused experience that supports our business growth. About the Role This is a project-based opportunity for an experienced Web Developer who can take ownership of redesigning and improving our website from both a technical and user experience perspective. We're looking for someone who understands not only website development, but also how to build pages that convert visitors into qualified leads. You'll be responsible for redesigning and modernizing the Talent Global website to create a more professional, engaging, and conversion-focused experience. This includes improving the overall user journey, showcasing our services, open positions, and client testimonials more effectively, while optimizing the site to increase qualified leads and achieve a target conversion rate of 30% of visitors clicking to book a call. Responsibilities Develop, redesign and modernize the Talent Global website Improve the overall user experience and website structure Develop responsive, mobile-friendly pages Optimize the website for lead generation and conversions (CRO) Improve navigation and presentation of our open positions Create effective layouts for client testimonials and social proof Implement best practices for performance and usability Collaborate with our internal team while working independently Deliver project milestones on time Require"
     },
     {
-      "titulo": "Ref. 21290: Azure Developer / Remoto AMBA",
+      "titulo": "Ref. 21292: Analista Power BI / Developer / Remoto AMBA",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21290-azure-developer--remoto-amba-en-recoleta-D33E3DA996B26BFB61373E686DCF3405",
-      "fecha": "Ayer",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-analista-power-bi-developer-remoto-amba-en-recoleta-BAB4FF381681F53B61373E686DCF3405",
+      "fecha": "Hace 1 hora",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -864,14 +784,14 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-07-21"
+      "primera_vez": "2026-07-22"
     },
     {
-      "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
-      "empresa": "Kaizen Recursos Humanos",
-      "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-FD752769ED95F42961373E686DCF3405",
-      "fecha": "Hace 16 horas",
+      "titulo": "DevOps / Cloud Engineer / Importante Universidad Zona Norte GBA",
+      "empresa": "BD Capital Humano",
+      "ubicacion": "San Fernando, Buenos Aires-GBA",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-cloud-engineer--importante-universidad-zona-norte-gba-en-san-fernando-05AF707962F2421861373E686DCF3405",
+      "fecha": "Hace 7 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -884,22 +804,21 @@
       "primera_vez": "2026-07-22"
     },
     {
-      "titulo": "Software Engineer",
-      "empresa": "WorkBetterNow",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-workbetternow-4440567969",
-      "fecha": "2026-07-21",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
+      "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-199E2CA1CE4A0C5261373E686DCF3405",
+      "fecha": "Hace 8 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web remoto",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés"
       ],
+      "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-07-17",
-      "descripcion": "Job Title: AI Software Developer Location: Remote (LATAM) Type: Full-Time | Remote Language: Professional English (C1 and C2 scores) WorkBetterNow (www.workbetternow.com) connects full-time remote professionals living in LATAM who are looking to work with US-based companies. Our professionals come first and are the most important part of our team. As we continue to grow, we are expanding our team. If you want to be part of a company that values work-life balance and supports your professional development, you're in the right place. Our Core Values Put our Talent first Pursuit of excellence/continuous learning Integrity and transparency Ownership mentality Pursuit of growth Excellent attitude Job Description: The AI Software Developer designs, builds, and ships internal applications that streamline operations, reduce software licensing costs, and scale with business growth. Using AI-assisted development tools (Replit, Claude Code, Copilot), you'll rapidly prototype and deliver production-ready tools that replace selected third-party software and manual workflows. This role combines hands-on engineering with a product mindset, turning business problems into working software quickly, securely, and cost-effectively. Key Responsibilities Build, ship, and maintain internal web applications using AI-assisted development environments, translating business requirements into working software quickly while maintaining reliability and security standards Partner with leadership to identify high-cost or underused software that can be replaced with purpose-built internal tools, and estimate cost savings delivered by each replacement project Write clean, documented, and maintainable code following source control and deployment best practices; apply security and data protection standard"
+      "primera_vez": "2026-07-22"
     },
     {
       "titulo": "Software Architect",
@@ -1022,8 +941,8 @@
       "titulo": "Ref. 20595: Desarrollador Python / FastAPI / Remoto",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-E8DC29C1BC2CA60461373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-0F4156BF2A23C4F461373E686DCF3405",
+      "fecha": "Hace 22 minutos",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -1033,7 +952,7 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-07-19"
+      "primera_vez": "2026-07-22"
     },
     {
       "titulo": "Ref. 20595: Desarrollador Python / FastAPI / Remoto",
@@ -1076,7 +995,7 @@
       "enlace": "https://ar.linkedin.com/jobs/view/javascript-developer-at-codingit-4439638315",
       "fecha": "2026-07-18",
       "fuente": "LinkedIn",
-      "keyword": "React",
+      "keyword": "Node.js",
       "es_remoto": true,
       "afinidad": 45,
       "motivos": [
@@ -1093,29 +1012,53 @@
       "descripcion": "Next.js Developer 📍 Remote (Argentina-based candidates only) 🗣 Fluent English Required 📅 Minimum 4 years of experience Company Overview CodingIT is a fast-growing software development company delivering scalable, high-quality digital solutions for clients in the U.S. market. We work on complex, real-world products where strong engineering practices, ownership, and technical excellence matter. As part of our growth, we offer a clearly defined career path that allows experienced engineers to progressively take on greater technical ownership and leadership responsibilities, including opportunities to evolve into Tech Lead roles over time. Role Overview As a Next.js Developer at CodingIT, you will own the development and continuous improvement of high-performing websites and digital experiences built primarily with Next.js and TypeScript. The role combines hands-on engineering with close collaboration with marketing, design, and business stakeholders. You will work independently alongside the Marketing team or under the supervision of a Digital Experience Manager. We are looking for a self-sufficient, proactive, and dynamic developer who can translate business and marketing needs into reliable technical solutions, manage priorities with limited supervision, and take ownership from implementation through deployment and monitoring. Experience building and maintaining e-commerce websites and working with CMS platforms such as Webflow or WordPress is essential. Key Responsibilities Develop, maintain, and continuously improve websites and digital experiences using Next.js and TypeScript. Apply modern Next.js patterns, including the App Router, server and client components, data fetching, caching, and appropriate rendering strategies. Build reusable, responsive, and accessible us"
     },
     {
-      "titulo": "Python Developer",
-      "empresa": "ADN - Recursos Humanos",
-      "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-python-developer-hibrido-parque-patricios-caba-en-parque-patricios-7311EF49634C570961373E686DCF3405",
-      "fecha": "Ayer",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web",
+      "titulo": "Freelance Mobile App Developer (iOS / Android)",
+      "empresa": "Mindrift",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/freelance-mobile-app-developer-ios-android-at-mindrift-4443324234",
+      "fecha": "2026-07-21",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 43,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, Back End",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [
+        "React",
+        "Back End"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "Mindrift is looking for skilled Mobile App Developers (React Native, Flutter, Swift, or Kotlin) to join the Tendem project (https://tendem.ai/) and build native and cross-platform mobile applications within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide mobile engineering expertise, platform-specific judgment, and quality control to ensure apps are stable, performant, and ready for real users on real devices. This part-time remote opportunity is ideal for professionals with hands-on experience shipping iOS and/or Android apps, working with platform APIs, and handling the full mobile development lifecycle. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Mobile App Developer, you'll design, build, and refine mobile applications across categories such as utilities, fitness/wellness, games, productivity, delivery, and content apps — for iOS, Android, or both, using native or cross-platform frameworks. Key Responsibilities Build mobile applications using React Native, Flutter, Swift (iOS), or Kotlin (Android) Implement responsive mobile UIs that follow platform conventions (iOS HIG, Material Design) Integrate native device features (camera, push notifications, location, storage, biometrics) Connect apps to backend APIs, handle offline state, caching, and synchronization Implement monetization features where required (in-app purchases, ads, subscriptions) Evaluate AI-generated mobile code and "
+    },
+    {
+      "titulo": "Software Engineer II (Argentina)",
+      "empresa": "Sezzle",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ii-argentina-at-sezzle-4336815907",
+      "fecha": "2026-07-17",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
       "afinidad": 37,
       "motivos": [
         "✓ Remoto",
-        "− Piden otro stack (no JS/TS)",
-        "− Publicación en inglés"
+        "− Publicación en inglés",
+        "− Pide 7+ años de experiencia"
       ],
-      "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-07-21"
+      "primera_vez": "2026-07-21",
+      "descripcion": "The salary range for this role is $2,800 - $6,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! Compensation: For this mid-level development role, with 3-7 years of experience, the compensation range is $2,800 - $6,000 USD per month. This range is designed to reflect the skills, experience, and value brought to the team, ensuring competitive and fair pay within the industry. Interview Process We believe transparency is important at Sezzle. Regularly providing feedback while setting expectations is part of our culture starting with the interview process. Advancement through each step is not guaranteed. Application submitted (you are here) Wonderlic test (30-40 min) Coding assessment (:1.5 hours) Interview with recruiters (30 min) Interview with engineers (1 hour) Interview with engineering leadership (30-45 min) Offer! About the Role: We are seeking a talented and motivated Software Engineer II who is best in class with a high IQ plus a h"
     },
     {
       "titulo": "Ref. 21175: Desarrollador Python / Ingles Avanzado",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21175-desarrollador-python-ingles-avanzado-buenos-aires-en-recoleta-086C7A7CD5A010D561373E686DCF3405",
-      "fecha": "Hace 11 horas",
+      "fecha": "Hace 20 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 30,
@@ -1127,6 +1070,29 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-07-14"
+    },
+    {
+      "titulo": "AngularJS Developer (Angular 1.x)",
+      "empresa": "Techunting",
+      "ubicacion": "Mendoza, Mendoza, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/angularjs-developer-angular-1-x-at-techunting-4442242852",
+      "fecha": "2026-07-20",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 28,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)",
+        "− Publicación en inglés",
+        "✓ Tu stack: JavaScript",
+        "− Pide 5+ años de experiencia"
+      ],
+      "techs": [
+        "JavaScript"
+      ],
+      "primera_vez": "2026-07-22",
+      "descripcion": "We're looking for a developer with strong hands-on experience in AngularJS (Angular 1.x) to maintain and enhance the web version of an existing application. The product is intentionally a little behind in terms of features, so this role won't involve much product-shaping work — the focus is on maintenance and technical improvements to the existing codebase. Responsibilities: Maintain and enhance a web application built in AngularJS (Angular 1.x) Work on an existing codebase, with limited involvement in product direction Potentially contribute to or lead the future migration to a modern version of Angular Requirements: At least 5 years of experience working with different Angular versions Required, hands-on experience with AngularJS (Angular 1.x) Strong JavaScript fundamentals Mid-level or senior profile Based in Argentina. Engagement type: Contractor Interview process: Initial HR screening English assessment Technical interview"
     }
   ]
 }
