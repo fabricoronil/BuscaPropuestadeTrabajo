@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-07-25T20:38:56.390115+00:00",
-  "total": 46,
+  "actualizado": "2026-07-26T11:11:30.492854+00:00",
+  "total": 44,
   "empleos": [
     {
       "titulo": "Full Stack Developer (Node.js and/or Python Backend | React Frontend)",
@@ -31,34 +31,6 @@
       "descripcion": "Remote (exclusively from Argentina) We seek a talented Full-Stack Developer with expertise in backend development using Node.js and/or Python and frontend development using React. This is a remote position open to candidates, exclusively located in Argentina. The ideal candidate is proficient in English, thrives in a fast-paced environment, and is eager to work on innovative technology solutions. Key Responsibilities: Backend Development: Design, develop, and maintain scalable backend services and APIs using Node.js (Express framework) and/or Python (Django, Flask, FastAPI). Frontend Development: Build responsive and dynamic user interfaces using React.js, HTML, CSS, and JavaScript. Integration: Ensure seamless integration of front-end and back-end components. API Management: Implement RESTful APIs and manage third-party API integrations. Performance Optimization: Optimize applications for performance, scalability, and security. Code Quality: Write clean, maintainable, and efficient code, conduct code reviews, and ensure adherence to best practices. Collaboration: Work with cross-functional teams in an Agile environment to define, design, and ship new features. DevOps: For deployment and management, utilize tools like Docker, Kubernetes, AWS, and CI/CD pipelines (GitLab). Testing: Develop and execute tests using Cypress, Mocha, Chai, or Jest. Required Skills And Qualifications: Proven experience as a Full Stack Developer with strong backend skills in Node.js and/or Python. Proficiency in React.js and front-end technologies (HTML, CSS, JavaScript). Experience with AWS, MongoDB, PostgreSQL, and cloud infrastructure. Familiarity with Docker, Kubernetes, and GitLab CI/CD pipelines. Strong understanding of RESTful APIs, WebSockets, and microservices architecture. Excellent p"
     },
     {
-      "titulo": "Backend-Oriented Full Stack Developer",
-      "empresa": "LaTeam Partners",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/backend-oriented-full-stack-developer-at-lateam-partners-4443954883",
-      "fecha": "2026-07-22",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 77,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Back End, React, Node.js, SQL, JavaScript"
-      ],
-      "techs": [
-        "Full Stack",
-        "Back End",
-        "React",
-        "Node.js",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End"
-      ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "Role: Fullstack Developer - Backend Oriented Job Type: Contractor with USD payment - Full-time - Remote About the Role We are looking for a Backend-Oriented Full Stack Developer to join our team and help build and scale our internal CRM platform for a growing U.S.-based law firm. The front-end is already well underway, and we're looking for someone who can take ownership of the backend architecture, database integrations, and production readiness. This is an opportunity to work on a high-impact internal product that will support the firm's daily legal operations and continue evolving over time. Responsibilities Own the backend development of an internal CRM platform. Build, maintain, and optimize APIs and backend services. Connect and manage databases, ensuring scalability and performance. Work with the existing frontend to integrate new backend functionality. Improve data architecture, authentication, and system security. Prepare the application for production deployment. Troubleshoot and resolve performance and integration issues. Collaborate closely with stakeholders to translate business needs into technical solutions. Participate in architectural decisions and contribute to future product enhancements Leverage AI-powered development tools (such as GitHub Copilot and Claude) to improve development efficiency, code quality, and problem-solving. Required Qualifications 4+ years of experience as a Full Stack Developer with a strong backend focus. Strong experience building scalable backend applications using Node.js, Python, Java, C#, or similar. Experience working with React applications and integrating frontend components with backend services. Strong experience designing and developing RESTful APIs. Solid knowledge of SQL databases and data modeling. Experience inte"
-    },
-    {
       "titulo": "Desarrollador .NET Jr",
       "empresa": "Ecosistemas",
       "ubicacion": "4,2",
@@ -74,6 +46,85 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-07-24"
+    },
+    {
+      "titulo": "Freelance Full-Stack Web App Developer",
+      "empresa": "Mindrift",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/freelance-full-stack-web-app-developer-at-mindrift-4443305941",
+      "fecha": "2026-07-21",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 75,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, SQL, JavaScript"
+      ],
+      "techs": [
+        "Full Stack",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "SQL",
+        "JavaScript",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-07-25",
+      "descripcion": "Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project (https://tendem.ai/) and build interactive browser-based applications within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users. This part-time remote opportunity is ideal for professionals with hands-on experience in modern frontend frameworks, backend APIs, databases, and shipping interactive web products end-to-end. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Full-Stack Web App Developer, you'll design, build, and refine browser-based applications with real logic, state, persistence, and user input — from habit trackers and budgeting tools to internal dashboards, mini-SaaS tools, and AI-powered apps. You may also work on standalone Python applications and data-processing scripts that sit alongside or behind these products. Key Responsibilities Build interactive web applications with frontend (React, Next.js, Vue, or similar) and a backend API (Python/FastAPI/Flask or Node/Express) Design and implement data models, schemas, and persistence layers using SQL (PostgreSQL, SQLite) or NoSQL stores Implement authentication, sessions, and basic role-based access where needed Integrate third-party APIs and AI/LLM services "
+    },
+    {
+      "titulo": "Backend-Oriented Full Stack Developer",
+      "empresa": "LaTeam Partners",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/backend-oriented-full-stack-developer-at-lateam-partners-4443954883",
+      "fecha": "2026-07-22",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 74,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Back End, React, Node.js, SQL, Git"
+      ],
+      "techs": [
+        "Full Stack",
+        "Back End",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git",
+        "Front End"
+      ],
+      "primera_vez": "2026-07-25",
+      "descripcion": "Role: Fullstack Developer - Backend Oriented Job Type: Contractor with USD payment - Full-time - Remote About the Role We are looking for a Backend-Oriented Full Stack Developer to join our team and help build and scale our internal CRM platform for a growing U.S.-based law firm. The front-end is already well underway, and we're looking for someone who can take ownership of the backend architecture, database integrations, and production readiness. This is an opportunity to work on a high-impact internal product that will support the firm's daily legal operations and continue evolving over time. Responsibilities Own the backend development of an internal CRM platform. Build, maintain, and optimize APIs and backend services. Connect and manage databases, ensuring scalability and performance. Work with the existing frontend to integrate new backend functionality. Improve data architecture, authentication, and system security. Prepare the application for production deployment. Troubleshoot and resolve performance and integration issues. Collaborate closely with stakeholders to translate business needs into technical solutions. Participate in architectural decisions and contribute to future product enhancements Leverage AI-powered development tools (such as GitHub Copilot and Claude) to improve development efficiency, code quality, and problem-solving. Required Qualifications 4+ years of experience as a Full Stack Developer with a strong backend focus. Strong experience building scalable backend applications using Node.js, Python, Java, C#, or similar. Experience working with React applications and integrating frontend components with backend services. Strong experience designing and developing RESTful APIs. Solid knowledge of SQL databases and data modeling. Experience inte"
+    },
+    {
+      "titulo": "Desarrollador FullStack Shopify (Freelance)",
+      "empresa": "Nexbu",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-fullstack-shopify-freelance-at-nexbu-4441805654",
+      "fecha": "2026-07-24",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 74,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Full Stack, React, JavaScript, Git, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "React",
+        "JavaScript",
+        "Git",
+        "Front End"
+      ],
+      "primera_vez": "2026-07-26",
+      "descripcion": "En Nexbu, agencia digital con presencia internacional, estamos buscando un/a Desarrollador Full Stack Shopify para sumarse a nuestro equipo y participar en el desarrollo, optimización y mantenimiento de tiendas ecommerce basadas en Shopify para clientes de distintos mercados. ESTE ES UN PUESTO SOLO POR PROYECTOS PUNTUALES. Buscamos una persona con perfil técnico, orientada a la calidad y a la resolución de problemas, que disfrute trabajar en proyectos digitales dinámicos y en colaboración con equipos de desarrollo, diseño, y marketing. La persona que se incorpore tendrá un rol clave en el desarrollo y personalización de tiendas Shopify, asegurando una experiencia de usuario óptima y un alto rendimiento en las plataformas ecommerce. Responsabilidades: Desarrollar, personalizar y mantener tiendas Shopify para distintos proyectos ecommerce. Implementar y modificar themes de Shopify según requerimientos de diseño y experiencia de usuario. Desarrollar nuevas funcionalidades utilizando Shopify Liquid, HTML, CSS y JavaScript. Integrar aplicaciones de terceros y APIs dentro del ecosistema Shopify. Optimizar la performance, velocidad y experiencia de usuario de las tiendas. Implementar diseños provenientes de Figma u otras herramientas de diseño. Realizar mantenimiento, debugging y resolución de incidencias técnicas. Colaborar con equipos de desarrollo, diseño y marketing para implementar mejoras en la tienda. Garantizar que las tiendas funcionen correctamente en distintos dispositivos y navegadores. Seniority: 2 o más años de experiencia Requisitos técnicos excluyentes: Experiencia comprobable desarrollando tiendas Shopify. Conocimiento sólido de Shopify Liquid. Dominio de HTML5, CSS3 y JavaScript. Experiencia en desarrollo y personalización de Shopify Themes. Experiencia integ"
     },
     {
       "titulo": "Talentos IT",
@@ -126,32 +177,6 @@
       "descripcion": "Remote (exclusively from Argentina) We seek a skilled and passionate Full Stack Developer with a strong focus on Node.js for back-end development to join our team. This is a remote position open exclusively to candidates located in Argentina. The ideal candidate will have excellent English communication skills and thrive in a fast-paced, collaborative environment. As a Full Stack Developer, you will be responsible for designing, building, and maintaining scalable web applications, primarily emphasizing back-end development using Node.js while collaborating with front-end teams for seamless integration. Key Responsibilities: Develop and maintain scalable back-end services and APIs using Node.js. Design and implement efficient server-side logic and data storage solutions. Collaborate with front-end developers to ensure seamless integration between the front-end and back-end components. Optimize applications for performance, scalability, and security. Implement RESTful APIs and manage third-party API integrations. Troubleshoot and debug back-end issues to ensure system reliability. Conduct code reviews and contribute to a culture of high-quality coding standards. Ensure applications comply with security best practices and data protection regulations. Stay updated on the latest Node.js tools, frameworks, and trends in back-end development. Required Skills And Qualifications: Proven experience as a Full Stack Developer with a strong focus on Node.js. Proficiency in front-end technologies such as HTML, CSS, and JavaScript frameworks (e.g., React, Angular, or Vue.js). Expertise in back-end technologies, including vue.js or other Node.js frameworks. Excellent communication skills in English, both written and verbal. Ability to work independently, meet deadlines, and thrive in a"
     },
     {
-      "titulo": "JavaScript Frontend Developer (Remote)",
-      "empresa": "Hired",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/javascript-frontend-developer-remote-at-hired-4445340263",
-      "fecha": "2026-07-25",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 71,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: JavaScript, Front End, React, Node.js, Git, Back End"
-      ],
-      "techs": [
-        "JavaScript",
-        "Front End",
-        "React",
-        "Node.js",
-        "Git",
-        "Back End"
-      ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "Role: JavaScript Frontend Developer (Remote) Location: Remote (Work from Anywhere) Job Type: Contract Payout: $30 - $90/hour Role Overview: We are hiring for one of our clients, seeking a Javascript Developer to work on a contract basis. The role involves developing and maintaining client-side and server-side JavaScript applications, ensuring high performance and responsiveness. Responsibilities include collaborating with cross-functional teams to deliver scalable solutions and troubleshooting issues. Key Responsibilities: • Develop and maintain JavaScript applications using modern frameworks and libraries. • Write clean, efficient, and maintainable code in JavaScript and related technologies. • Collaborate with backend developers to integrate user-facing elements with server-side logic. • Optimize applications for maximum speed and scalability. • Participate in code reviews and adhere to best practices in software development. Required Skills & Qualifications: • Proficiency in JavaScript, including ES6+ features and asynchronous programming. • Experience with front-end frameworks such as React, Angular, or Vue.js. • Knowledge of back-end technologies like Node.js and Express. • Familiarity with RESTful APIs and JSON data formats. • Experience with version control systems, such as Git. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Software Development | Technology, Information and Internet | IT Services and IT Consulting industry, contributing to the development of high-impact digital solutions. The project focuses on building scalable applications to meet evolving business needs. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experi"
-    },
-    {
       "titulo": "Front End Engineer",
       "empresa": "Avenue Code",
       "ubicacion": "Argentina",
@@ -197,34 +222,29 @@
       "descripcion": "The salary range for this role is $1,500 - $4,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! About the Role: We are seeking a talented and motivated Junior Software Engineer with a unique blend of accounting experience who is best in class with a high IQ plus a high EQ. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. This role is tailored for professionals who started their careers in accounting but pivoted to engineering and now want to leverage their domain expertise to solve technical challenges in fintech. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. The Junior Software Engineer will assist us with the design, development, and installation of software solutions. Your duties will include dev"
     },
     {
-      "titulo": "Freelance Full-Stack Web App Developer",
-      "empresa": "Mindrift",
+      "titulo": "Backend Engineer - Wallets (100% Remote)",
+      "empresa": "Tether.io",
       "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/freelance-full-stack-web-app-developer-at-mindrift-4443305941",
-      "fecha": "2026-07-21",
+      "enlace": "https://ar.linkedin.com/jobs/view/backend-engineer-wallets-100%25-remote-at-tether-io-4371244950",
+      "fecha": "2026-07-22",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
+      "keyword": "Node.js",
       "es_remoto": true,
       "afinidad": 66,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, SQL, JavaScript",
-        "− Pide 3+ años de experiencia"
+        "✓ Tu stack: Back End, Node.js, MongoDB, SQL, JavaScript"
       ],
       "techs": [
-        "Full Stack",
-        "React",
-        "TypeScript",
+        "Back End",
         "Node.js",
+        "MongoDB",
         "SQL",
-        "JavaScript",
-        "Git",
-        "Front End",
-        "Back End"
+        "JavaScript"
       ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project (https://tendem.ai/) and build interactive browser-based applications within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users. This part-time remote opportunity is ideal for professionals with hands-on experience in modern frontend frameworks, backend APIs, databases, and shipping interactive web products end-to-end. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Full-Stack Web App Developer, you'll design, build, and refine browser-based applications with real logic, state, persistence, and user input — from habit trackers and budgeting tools to internal dashboards, mini-SaaS tools, and AI-powered apps. You may also work on standalone Python applications and data-processing scripts that sit alongside or behind these products. Key Responsibilities Build interactive web applications with frontend (React, Next.js, Vue, or similar) and a backend API (Python/FastAPI/Flask or Node/Express) Design and implement data models, schemas, and persistence layers using SQL (PostgreSQL, SQLite) or NoSQL stores Implement authentication, sessions, and basic role-based access where needed Integrate third-party APIs and AI/LLM services "
+      "primera_vez": "2026-07-26",
+      "descripcion": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT, relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services. But that’s just the beginning: Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities. Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET, our flagship app that redefines secure and private data sharing. Tether Education: Democratizing access to top-tier digital learning, we empower individuals to thrive in the digital and gig economies, driving global growth and opportunity. Tether Evolution: At the intersection of technology and human potential, we are pushing the boundaries of what is possible, crafting a future where innovation and human capabilities merge in powerful, unprecedented ways. Why Join Us? Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fint"
     },
     {
       "titulo": "Analista/Desarrollador Full Stack – Marketing Automation & Cloud (Freelance)",
@@ -288,7 +308,7 @@
       "primera_vez": "2026-07-16"
     },
     {
-      "titulo": "Publicado hace 2 días",
+      "titulo": "Publicado hace 3 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
       "enlace": "https://www.bumeran.com.ar/empleos/lider-tecnico-full-stack-java-mix-onsite-remoto-1777-aliantec-1118379128.html",
@@ -305,6 +325,29 @@
         "Full Stack"
       ],
       "primera_vez": "2026-07-24"
+    },
+    {
+      "titulo": "Freelance Frontend Developer (Landing Pages & Websites)",
+      "empresa": "Mindrift",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/freelance-frontend-developer-landing-pages-websites-at-mindrift-4442583323",
+      "fecha": "2026-07-20",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 60,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Front End, React, JavaScript"
+      ],
+      "techs": [
+        "Front End",
+        "React",
+        "JavaScript"
+      ],
+      "primera_vez": "2026-07-25",
+      "descripcion": "Mindrift is looking for skilled Frontend Developers (HTML/CSS/JavaScript, React/Next.js) to join the Tendem project (https://tendem.ai/) and build high-quality landing pages and multi-page websites within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide frontend craftsmanship, design sensibility, and quality control to ensure pixel-perfect, conversion-ready websites that match real client briefs. This part-time remote opportunity is ideal for professionals with hands-on experience in landing page production, multi-page website development, and modern frontend frameworks. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Frontend Developer, you'll design, build, and refine landing pages, waitlist pages, promo pages, and small multi-page sites (portfolios, restaurant sites, small business sites, simple online stores), turning client briefs into responsive, performant, polished web experiences. Key Responsibilities Build landing pages, waitlist pages, and promo pages with clear hero sections, CTAs, and conversion-focused layouts Build small multi-page websites (Home, About, Services, Contact, etc.) that follow client requirements and basic information architecture Implement responsive, mobile-first layouts that work cleanly across devices and browsers Integrate forms, email capture, basic analytics, and simple CMS or headless content sources Apply on-page SEO basics (semantic HTML, meta tags, p"
     },
     {
       "titulo": "Front End Software Engineer (React Native)",
@@ -329,59 +372,7 @@
       "descripcion": "¡Sé parte de Stefanini! En Stefanini somos más de 30.000 profesionales en 41 países, conectados para hacer lo que nos apasiona y co-crear un futuro mejor. Actualmente estamos buscando un(a) Front End Software Engineer Semi Senior con experiencia en React Native, que quiera participar en el desarrollo de productos digitales innovadores, escalables y centrados en la experiencia del usuario. 🎯 Tu misión Serás responsable de diseñar, desarrollar, operar y evolucionar aplicaciones móviles que impactan directamente en millones de usuarios, trabajando dentro de un squad multidisciplinario junto a especialistas de Producto, UX/UI, Datos, Seguridad e Ingeniería para entregar valor de forma continua y contribuir a los objetivos estratégicos del negocio. 🎯 Principales responsabilidades Diseñar, desarrollar y mantener aplicaciones móviles utilizando buenas prácticas de ingeniería. Participar activamente en ceremonias ágiles (Daily, Sprint Planning, Reviews y Retrospectives). Colaborar con Business Experts, diseñadores UX/UI y stakeholders para entregar valor continuo. Desarrollar código limpio, mantenible, escalable y testeable. Diseñar e implementar pruebas unitarias, de integración y E2E. Garantizar la calidad, rendimiento, seguridad y escalabilidad de las soluciones. Documentar soluciones técnicas y compartir conocimiento con el equipo. Contribuir a la mejora continua de la arquitectura, observabilidad y experiencia de desarrollo. ✅ Requisitos técnicos Desarrollo Front End & Mobile React Native. React y Frameworks Front End. Arquitectura de UI. Accesibilidad e inclusión (WCAG). Storytelling digital, dashboards y experiencia de usuario. A/B Testing. Ingeniería de Software Code Fluency. Diseño de software. Diseño de arquitectura. Gestión de deuda técnica. Requisitos no funcionales"
     },
     {
-      "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
-      "empresa": "Talan",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442753211",
-      "fecha": "2026-07-20",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 58,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Node.js, Full Stack, TypeScript, SQL",
-        "− Pide 22+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Node.js",
-        "Full Stack",
-        "TypeScript",
-        "SQL"
-      ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "Company Description Talan – Positive Innovation Talan is an international consulting group specializing in innovation and business transformation through technology. With over 7,200 consultants in 21 countries and a turnover of €850M, we are committed to delivering impactful, future-ready solutions. Talan at a Glance Headquartered in Paris and operating globally, Talan combines technology, innovation, and empowerment to deliver measurable results for our clients. Over the past 22 years, we’ve built a strong presence in the IT and consulting landscape, and we’re on track to reach €1 billion in revenue this year. Our Core Areas of Expertise Data & Technologies: We design and implement large-scale, end-to-end architecture and data solutions, including data integration, data science, visualization, Big Data, AI, and Generative AI. Cloud & Application Services: We integrate leading platforms such as SAP, Salesforce, Oracle, Microsoft, AWS, and IBM Maximo, helping clients transition to the cloud and improve operational efficiency. Management & Innovation Consulting: We lead business and digital transformation initiatives through project and change management best practices (PM, PMO, Agile, Scrum, Product Ownership), and support domains such as Supply Chain, Cybersecurity, and ESG/Low-Carbon strategies. We work with major global clients across diverse sectors, including Transport & Logistics, Financial Services, Energy & Utilities, Retail, and Media & Telecommunications. Job Description Contract Type: Temporary / Contract (4 months) We are looking for a Fullstack Developer with at least 3 years of experience in mobile application development using Progressive Web Apps (PWA) to participate in the end-to-end delivery of a React-based mobile project. Please note this is a 4-month"
-    },
-    {
-      "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
-      "empresa": "Talan",
-      "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442755271",
-      "fecha": "2026-07-20",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 58,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Node.js, Full Stack, TypeScript, SQL",
-        "− Pide 22+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Node.js",
-        "Full Stack",
-        "TypeScript",
-        "SQL"
-      ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "Company Description Talan – Positive Innovation Talan is an international consulting group specializing in innovation and business transformation through technology. With over 7,200 consultants in 21 countries and a turnover of €850M, we are committed to delivering impactful, future-ready solutions. Talan at a Glance Headquartered in Paris and operating globally, Talan combines technology, innovation, and empowerment to deliver measurable results for our clients. Over the past 22 years, we’ve built a strong presence in the IT and consulting landscape, and we’re on track to reach €1 billion in revenue this year. Our Core Areas of Expertise Data & Technologies: We design and implement large-scale, end-to-end architecture and data solutions, including data integration, data science, visualization, Big Data, AI, and Generative AI. Cloud & Application Services: We integrate leading platforms such as SAP, Salesforce, Oracle, Microsoft, AWS, and IBM Maximo, helping clients transition to the cloud and improve operational efficiency. Management & Innovation Consulting: We lead business and digital transformation initiatives through project and change management best practices (PM, PMO, Agile, Scrum, Product Ownership), and support domains such as Supply Chain, Cybersecurity, and ESG/Low-Carbon strategies. We work with major global clients across diverse sectors, including Transport & Logistics, Financial Services, Energy & Utilities, Retail, and Media & Telecommunications. Job Description Contract Type: Temporary / Contract (4 months) We are looking for a Fullstack Developer with at least 3 years of experience in mobile application development using Progressive Web Apps (PWA) to participate in the end-to-end delivery of a React-based mobile project. Please note this is a 4-month"
-    },
-    {
-      "titulo": "Actualizado hace 12 días",
+      "titulo": "Actualizado hace 13 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
       "enlace": "https://www.bumeran.com.ar/empleos/desarrollador-web-programacion-remoto-ingles-requerido-2185596.html",
@@ -401,7 +392,7 @@
       "empresa": "Dos Argentina",
       "ubicacion": "4,4",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-sharepoint-en-san-nicolas-8042F06DD42C327A61373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 4 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 57,
@@ -411,28 +402,6 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-07-10"
-    },
-    {
-      "titulo": "Software Development Engineer II",
-      "empresa": "Amperity",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-development-engineer-ii-at-amperity-4433120993",
-      "fecha": "2026-07-24",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 55,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Full Stack"
-      ],
-      "techs": [
-        "React",
-        "Full Stack"
-      ],
-      "primera_vez": "2026-07-25",
-      "descripcion": "About Amperity—Why This, Why Now Most customer data is a lie by omission. Every consumer brand wants to know its customers. Unfortunately, almost none actually do. Data is scattered across a dozen systems, half of it contradicts the other half, and \"insights\" teams are forced to act on incomplete guesses. We started Amperity ten years ago because that gap—between what a brand believes about its customers and what is true—is the most expensive problem in the industry, and nobody had solved it. With a lot of hard work and a little bit of luck, we did. Our patented identity resolution takes billions of messy, conflicting records and resolves them into an accurate picture of a real human being—in hours, not months. That’s not a feature; it’s the foundation everything else stands on. It’s why more than 400 brands—like Alaska Airlines, Wyndham Hotels & Resorts, DICK’S Sporting Goods, Virgin Atlantic, and Brooks Running—trust us with the one thing they can’t afford to get wrong, and why IDC named us a Leader in the category in 2026. Now we’re doing something harder. We’re rebuilding Amperity as an AI-first company—not bolting a chatbot onto old software, but putting agents at the center of how customer data actually gets used. We shipped the industry’s first identity resolution agent, then the first enterprise Customer Data Agent that turns a plain-language question into a live segment without waiting on an engineering queue. The bet underneath all of it is simple, and we think it’s correct: The potential of AI will not be realized for a brand until it’s grounded and activated against a true, unified view of the customer. The market at-large is focused on intelligence, and we are focused on being the ones who can make it trustworthy. So here’s the honest pitch. If you want a t"
     },
     {
       "titulo": "Frontend Developer",
@@ -461,6 +430,68 @@
       "descripcion": "We are seeking a Frontend Developer to join the Consultec team. You are passionate about building modern, scalable, responsive, and maintainable web applications. You have a strong eye for detail, enjoy solving complex UI challenges, and can translate business and design requirements into intuitive, high-quality digital experiences. This is a remote position. Advanced English proficiency (C1 level) is mandatory, as the role requires frequent communication and collaboration with international teams and clients. You Will Develop and maintain modern web applications using React and Next.js. Build reusable, scalable, and maintainable frontend components. Translate UI/UX designs and business requirements into high-quality user interfaces. Implement responsive and accessible experiences across different devices and browsers. Integrate frontend applications with REST and GraphQL APIs. Manage application state using modern state management approaches and libraries. Optimize frontend performance, loading times, rendering, and overall user experience. Implement client-side validation, error handling, and secure authentication flows. Write clean, efficient, testable, and maintainable JavaScript/TypeScript code. Develop automated unit, integration, and end-to-end tests. Troubleshoot and resolve frontend issues across development, testing, and production environments. Collaborate closely with backend developers, UX/UI designers, QA engineers, DevOps teams, and product stakeholders. Participate in code reviews and contribute to the continuous improvement of frontend development standards and practices. Ideally, You'd Have At least 3 years of relevant frontend development experience. Strong hands-on experience with React and Next.js. Strong knowledge of JavaScript and TypeScript. Soli"
     },
     {
+      "titulo": "Full Stack Developer (Python)",
+      "empresa": "Perform",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-python-at-perform-4415694436",
+      "fecha": "2026-07-23",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 54,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Full Stack",
+        "− Publicación en inglés"
+      ],
+      "techs": [
+        "Full Stack"
+      ],
+      "primera_vez": "2026-07-26",
+      "descripcion": "Join our team as a Python Software Developer — build cloud apps on AWS/Azure, modernize legacy systems, and shape our platform with a collaborative, inclusive team. We’re looking for a Python Software Developer to join our team as we modernize our applications and move away from legacy systems. You’ll be building cloud-based solutions, working primarily with Python on AWS and Azure, and helping shape the future of our platform. What You’ll Do Develop and maintain applications and services in Python Build and deploy scalable solutions on AWS and Azure Contribute to migrating legacy .NET systems into Python Collaborate with teammates on design, reviews, and best practices Troubleshoot, optimize, and improve performance of applications What You Bring Strong experience with Python development Hands-on experience with AWS and Azure Proven ability to deliver scalable, cloud-based applications Exposure to Large Language Models (LLMs) or strong interest in generative AI Position Details Remote: Fully-remote Location: State of São Paulo, San José, Santo Domingo, Buenos Aires, Santiago, Bogota, Quito, Guatemala City, Tegucigalpa, Lima, Montevideo Department, Managua, Mexico City, San Salvador, Panama City, Belize City Your partner for AI, consulting, software development, and nearshore staffing."
+    },
+    {
+      "titulo": "Ref. 21285 Fullstack Developer",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21285-fullstack-developer-remoto-en-recoleta-06BD0A8CC716849861373E686DCF3405",
+      "fecha": "Hace 10 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web",
+      "afinidad": 54,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Full Stack",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [
+        "Full Stack"
+      ],
+      "primera_vez": "2026-07-08"
+    },
+    {
+      "titulo": "Ref. 21293: React Developer",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21293-react-developer-remoto-en-recoleta-B2C3F74AF617B13661373E686DCF3405",
+      "fecha": "Hace 10 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web remoto",
+      "afinidad": 54,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: React",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [
+        "React"
+      ],
+      "primera_vez": "2026-07-09",
+      "descripcion": "About you You are someone who wants to influence your own development. You’re looking for a company where you have the opportunity to pursue your interests and be able to grow professionally. You bring to Applaudo the following competencies: Bachelor’s Degree or higher in Computer Science or Computer Engineering or related field or equivalent experience. 2+ years of experience working with React Native (workflows such as Flux or Redux). Experience using flutter (desirable). Familiarity with native build tools, like XCode, Gradle (Android Studio, IntelliJ). Desirable (not a must) basic knowledge in languages related to native mobile development such as Objective C, Swift, Kotlin or Java. Expertise working with hybrid apps for iOS and Android like WebView Knowledge of Scrum. You will be accountable for the following responsibilities: Developing new user-facing features using React Native. Optimizing components for maximum performance across a vast array of mobile devices Outstanding skills at interacting with people, both within the organization (from developers to senior management) and with customers/partners. Responsible, organized and goal oriented with excellent communication skills Qualifications Technical Skills Frameworks: React Native (Flux or Redux) Additional Information Here at Applaudo Studios values as trust, communication, respect, excellence and team work are our keys to success. We know we are working with the best and thus treat each other with respect and admiration without asking. Submit your application today, and don't miss this opportunity to join the Best Digital team in the Region! We truly appreciate all the hard and outstanding work our team makes every day at Applaudo Studios, and that's why the perks that we offer, are deeply thought and desig"
+    },
+    {
       "titulo": "Software Engineer Full Stack & AI First",
       "empresa": "Homie",
       "ubicacion": "Argentina",
@@ -486,7 +517,7 @@
       "empresa": "Hexaware Technologies Limited",
       "ubicacion": "Monserrat, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-microsoft-full-stack-engineer-netazure-en-monserrat-E4A6A21E658F15D861373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Full Stack",
       "afinidad": 54,
@@ -502,31 +533,11 @@
       "primera_vez": "2026-07-24"
     },
     {
-      "titulo": "Ref. 21285 Fullstack Developer",
-      "empresa": "ADN - Recursos Humanos",
-      "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21285-fullstack-developer-remoto-en-recoleta-06BD0A8CC716849861373E686DCF3405",
-      "fecha": "Hace 7 días",
-      "fuente": "Computrabajo",
-      "keyword": "Full Stack",
-      "afinidad": 54,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: Full Stack",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [
-        "Full Stack"
-      ],
-      "primera_vez": "2026-07-08"
-    },
-    {
       "titulo": "React Developer",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-react-developer-remoto-en-parque-patricios-1BE2E892C2C7203761373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "React",
       "afinidad": 54,
@@ -542,72 +553,52 @@
       "primera_vez": "2026-07-10"
     },
     {
-      "titulo": "Ref. 21293: React Developer",
-      "empresa": "ADN - Recursos Humanos",
-      "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21293-react-developer-remoto-en-recoleta-B2C3F74AF617B13661373E686DCF3405",
-      "fecha": "Hace 7 días",
-      "fuente": "Computrabajo",
-      "keyword": "React remoto",
-      "afinidad": 54,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: React",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [
-        "React"
-      ],
-      "primera_vez": "2026-07-09",
-      "descripcion": "About you You are someone who wants to influence your own development. You’re looking for a company where you have the opportunity to pursue your interests and be able to grow professionally. You bring to Applaudo the following competencies: Bachelor’s Degree or higher in Computer Science or Computer Engineering or related field or equivalent experience. 2+ years of experience working with React Native (workflows such as Flux or Redux). Experience using flutter (desirable). Familiarity with native build tools, like XCode, Gradle (Android Studio, IntelliJ). Desirable (not a must) basic knowledge in languages related to native mobile development such as Objective C, Swift, Kotlin or Java. Expertise working with hybrid apps for iOS and Android like WebView Knowledge of Scrum. You will be accountable for the following responsibilities: Developing new user-facing features using React Native. Optimizing components for maximum performance across a vast array of mobile devices Outstanding skills at interacting with people, both within the organization (from developers to senior management) and with customers/partners. Responsible, organized and goal oriented with excellent communication skills Qualifications Technical Skills Frameworks: React Native (Flux or Redux) Additional Information Here at Applaudo Studios values as trust, communication, respect, excellence and team work are our keys to success. We know we are working with the best and thus treat each other with respect and admiration without asking. Submit your application today, and don't miss this opportunity to join the Best Digital team in the Region! We truly appreciate all the hard and outstanding work our team makes every day at Applaudo Studios, and that's why the perks that we offer, are deeply thought and desig"
-    },
-    {
-      "titulo": "Data Specialist (Data Scientist)",
-      "empresa": "Tangonet Solutions LLC",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/data-specialist-data-scientist-at-tangonet-solutions-llc-4443361428",
-      "fecha": "2026-07-21",
+      "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
+      "empresa": "Talan",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442753211",
+      "fecha": "2026-07-20",
       "fuente": "LinkedIn",
-      "keyword": "Full Stack",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 51,
+      "afinidad": 52,
       "motivos": [
         "✓ Remoto",
-        "✓ Tu stack: SQL, Full Stack",
-        "− Pide 3+ años de experiencia"
+        "✓ Tu stack: React, Node.js, Full Stack",
+        "− Publicación en inglés",
+        "− Pide 22+ años de experiencia"
       ],
       "techs": [
-        "SQL",
+        "React",
+        "Node.js",
         "Full Stack"
       ],
       "primera_vez": "2026-07-25",
-      "descripcion": "Remote (preferably in Argentina) We are seeking a Data Specialist with a focus on Data Science to join our dynamic team. This role involves analyzing complex data sets to derive actionable insights, building predictive models, and collaborating with cross-functional teams to support data-driven decision-making processes. The ideal candidate will have strong analytical skills, experience in machine learning, and a passion for turning data into strategic assets. Key Responsibilities: Data Analysis: Analyze large and complex data sets to identify patterns, trends, and insights. Predictive Modeling: Develop and implement predictive models using machine learning techniques. Data Visualization: Create visualizations and dashboards to communicate findings to stakeholders. Collaboration: Work closely with product managers, engineers, and other stakeholders to integrate data insights into business strategies. Data Quality: Ensure data integrity and accuracy by performing rigorous data quality checks and validations. Reporting: Prepare detailed reports and presentations to convey insights and recommendations. Continuous Improvement: Stay up-to-date with the latest industry trends, tools, and technologies to continuously enhance data analysis capabilities. Required Skills And Qualifications: Education: Bachelor’s or Master’s degree in Data Science, Statistics, Computer Science, or a related field. Experience: Minimum of 3 years of experience in data analysis and predictive modeling. Technical Skills: Proficiency in programming languages such as Python or R, and experience with data analysis tools like SQL, Pandas, NumPy, and machine learning frameworks such as TensorFlow or PyTorch. Data Visualization: Experience with visualization tools like Tableau, Power BI, or similar. Databas"
+      "descripcion": "Company Description Talan – Positive Innovation Talan is an international consulting group specializing in innovation and business transformation through technology. With over 7,200 consultants in 21 countries and a turnover of €850M, we are committed to delivering impactful, future-ready solutions. Talan at a Glance Headquartered in Paris and operating globally, Talan combines technology, innovation, and empowerment to deliver measurable results for our clients. Over the past 22 years, we’ve built a strong presence in the IT and consulting landscape, and we’re on track to reach €1 billion in revenue this year. Our Core Areas of Expertise Data & Technologies: We design and implement large-scale, end-to-end architecture and data solutions, including data integration, data science, visualization, Big Data, AI, and Generative AI. Cloud & Application Services: We integrate leading platforms such as SAP, Salesforce, Oracle, Microsoft, AWS, and IBM Maximo, helping clients transition to the cloud and improve operational efficiency. Management & Innovation Consulting: We lead business and digital transformation initiatives through project and change management best practices (PM, PMO, Agile, Scrum, Product Ownership), and support domains such as Supply Chain, Cybersecurity, and ESG/Low-Carbon strategies. We work with major global clients across diverse sectors, including Transport & Logistics, Financial Services, Energy & Utilities, Retail, and Media & Telecommunications. Job Description Contract Type: Temporary / Contract (4 months) We are looking for a Fullstack Developer with at least 3 years of experience in mobile application development using Progressive Web Apps (PWA) to participate in the end-to-end delivery of a React-based mobile project. Please note this is a 4-month"
     },
     {
-      "titulo": "Freelance Frontend Developer (Landing Pages & Websites)",
-      "empresa": "Mindrift",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/freelance-frontend-developer-landing-pages-websites-at-mindrift-4442583323",
+      "titulo": "Fullstack Engineer - React & Node/Python (PWA Specialty)",
+      "empresa": "Talan",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-engineer-react-node-python-pwa-specialty-at-talan-4442755271",
       "fecha": "2026-07-20",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 51,
+      "afinidad": 52,
       "motivos": [
         "✓ Remoto",
+        "✓ Tu stack: React, Node.js, Full Stack",
         "− Publicación en inglés",
-        "✓ Tu stack: Front End, React, Tailwind, JavaScript",
-        "− Pide 3+ años de experiencia"
+        "− Pide 22+ años de experiencia"
       ],
       "techs": [
-        "Front End",
         "React",
-        "Tailwind",
-        "JavaScript"
+        "Node.js",
+        "Full Stack"
       ],
       "primera_vez": "2026-07-25",
-      "descripcion": "Mindrift is looking for skilled Frontend Developers (HTML/CSS/JavaScript, React/Next.js) to join the Tendem project (https://tendem.ai/) and build high-quality landing pages and multi-page websites within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide frontend craftsmanship, design sensibility, and quality control to ensure pixel-perfect, conversion-ready websites that match real client briefs. This part-time remote opportunity is ideal for professionals with hands-on experience in landing page production, multi-page website development, and modern frontend frameworks. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Frontend Developer, you'll design, build, and refine landing pages, waitlist pages, promo pages, and small multi-page sites (portfolios, restaurant sites, small business sites, simple online stores), turning client briefs into responsive, performant, polished web experiences. Key Responsibilities Build landing pages, waitlist pages, and promo pages with clear hero sections, CTAs, and conversion-focused layouts Build small multi-page websites (Home, About, Services, Contact, etc.) that follow client requirements and basic information architecture Implement responsive, mobile-first layouts that work cleanly across devices and browsers Integrate forms, email capture, basic analytics, and simple CMS or headless content sources Apply on-page SEO basics (semantic HTML, meta tags, p"
+      "descripcion": "Company Description Talan – Positive Innovation Talan is an international consulting group specializing in innovation and business transformation through technology. With over 7,200 consultants in 21 countries and a turnover of €850M, we are committed to delivering impactful, future-ready solutions. Talan at a Glance Headquartered in Paris and operating globally, Talan combines technology, innovation, and empowerment to deliver measurable results for our clients. Over the past 22 years, we’ve built a strong presence in the IT and consulting landscape, and we’re on track to reach €1 billion in revenue this year. Our Core Areas of Expertise Data & Technologies: We design and implement large-scale, end-to-end architecture and data solutions, including data integration, data science, visualization, Big Data, AI, and Generative AI. Cloud & Application Services: We integrate leading platforms such as SAP, Salesforce, Oracle, Microsoft, AWS, and IBM Maximo, helping clients transition to the cloud and improve operational efficiency. Management & Innovation Consulting: We lead business and digital transformation initiatives through project and change management best practices (PM, PMO, Agile, Scrum, Product Ownership), and support domains such as Supply Chain, Cybersecurity, and ESG/Low-Carbon strategies. We work with major global clients across diverse sectors, including Transport & Logistics, Financial Services, Energy & Utilities, Retail, and Media & Telecommunications. Job Description Contract Type: Temporary / Contract (4 months) We are looking for a Fullstack Developer with at least 3 years of experience in mobile application development using Progressive Web Apps (PWA) to participate in the end-to-end delivery of a React-based mobile project. Please note this is a 4-month"
     },
     {
       "titulo": "Web Developer (WordPress & CRO Focus)",
@@ -632,7 +623,7 @@
       "empresa": "Hexaware Technologies Limited",
       "ubicacion": "Agronomía, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-copilot-developer-en-agronomia-A16A9058F3C97C4961373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 49,
@@ -643,6 +634,23 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-07-24"
+    },
+    {
+      "titulo": "Ref. 21292: Vermilion Engineer / Developer / Remoto AMBA",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-vermilion-engineer-developer-remoto-amba-en-recoleta-5171113DC169DBEE61373E686DCF3405",
+      "fecha": "Hace 10 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-07-26"
     },
     {
       "titulo": "Business Developer para consultor de Recursos Humanos",
@@ -666,7 +674,7 @@
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-2766D21478EB20FE61373E686DCF3405",
-      "fecha": "Hace 2 horas",
+      "fecha": "Hace 16 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -679,30 +687,13 @@
       "primera_vez": "2026-07-25"
     },
     {
-      "titulo": "DevOps / Cloud Engineer / Importante Universidad Zona Norte GBA",
-      "empresa": "BD Capital Humano",
-      "ubicacion": "San Fernando, Buenos Aires-GBA",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-cloud-engineer--importante-universidad-zona-norte-gba-en-san-fernando-05AF707962F2421861373E686DCF3405",
-      "fecha": "Ayer",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-07-24"
-    },
-    {
-      "titulo": "Freelance Mobile App Developer (iOS / Android)",
-      "empresa": "Mindrift",
+      "titulo": "Software Development Engineer II",
+      "empresa": "Amperity",
       "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/freelance-mobile-app-developer-ios-android-at-mindrift-4443324234",
-      "fecha": "2026-07-21",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-development-engineer-ii-at-amperity-4433120993",
+      "fecha": "2026-07-24",
       "fuente": "LinkedIn",
-      "keyword": "React",
+      "keyword": "Full Stack",
       "es_remoto": true,
       "afinidad": 49,
       "motivos": [
@@ -710,14 +701,15 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-07-25"
+      "primera_vez": "2026-07-25",
+      "descripcion": "About Amperity—Why This, Why Now Most customer data is a lie by omission. Every consumer brand wants to know its customers. Unfortunately, almost none actually do. Data is scattered across a dozen systems, half of it contradicts the other half, and \"insights\" teams are forced to act on incomplete guesses. We started Amperity ten years ago because that gap—between what a brand believes about its customers and what is true—is the most expensive problem in the industry, and nobody had solved it. With a lot of hard work and a little bit of luck, we did. Our patented identity resolution takes billions of messy, conflicting records and resolves them into an accurate picture of a real human being—in hours, not months. That’s not a feature; it’s the foundation everything else stands on. It’s why more than 400 brands—like Alaska Airlines, Wyndham Hotels & Resorts, DICK’S Sporting Goods, Virgin Atlantic, and Brooks Running—trust us with the one thing they can’t afford to get wrong, and why IDC named us a Leader in the category in 2026. Now we’re doing something harder. We’re rebuilding Amperity as an AI-first company—not bolting a chatbot onto old software, but putting agents at the center of how customer data actually gets used. We shipped the industry’s first identity resolution agent, then the first enterprise Customer Data Agent that turns a plain-language question into a live segment without waiting on an engineering queue. The bet underneath all of it is simple, and we think it’s correct: The potential of AI will not be realized for a brand until it’s grounded and activated against a true, unified view of the customer. The market at-large is focused on intelligence, and we are focused on being the ones who can make it trustworthy. So here’s the honest pitch. If you want a t"
     },
     {
       "titulo": "Software Architect",
       "empresa": "Confidencial",
       "ubicacion": "Monserrat, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-software-architect-especializado-en-nodejs-en-monserrat-174046D859AF3E0361373E686DCF3405",
-      "fecha": "Hace 4 días",
+      "fecha": "Hace 5 días",
       "fuente": "Computrabajo",
       "keyword": "Node.js remoto",
       "afinidad": 49,
@@ -738,7 +730,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Anunciada 00:00:00. Com senso de dono e colaboraÃ§Ã£o, unimos forÃ§as para remover barreiras e impulsionarnegÃ³cios. NÃ£oâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **REFORMING** and tag RMTcyLjIwMi43OC4x when applying to show you read the job post completely (#RMTcyLjIwMi43OC4x). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Anunciada 00:00:00. Com senso de dono e colaboraÃ§Ã£o, unimos forÃ§as para remover barreiras e impulsionarnegÃ³cios. NÃ£oâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **REFORMING** and tag RNTcuMTU0LjYuMzQ= when applying to show you read the job post completely (#RNTcuMTU0LjYuMzQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
@@ -756,7 +748,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Anunciada 22:37:50. Venha fazer parte de uma empresa que ama transformar com tecnologia e abraÃ§a a diversidade em todasâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **EXHILARATINGLY** and tag RMTcyLjIwMi43OC4x when applying to show you read the job post completely (#RMTcyLjIwMi43OC4x). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Anunciada 22:37:50. Venha fazer parte de uma empresa que ama transformar com tecnologia e abraÃ§a a diversidade em todasâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **EXHILARATINGLY** and tag RNTcuMTU0LjYuMzQ= when applying to show you read the job post completely (#RNTcuMTU0LjYuMzQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
@@ -766,47 +758,25 @@
       "primera_vez": "2026-07-25"
     },
     {
-      "titulo": "Data Entry Specialist",
-      "empresa": "Morgan McKinley",
-      "ubicacion": "Remoto mundial",
-      "enlace": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-morgan-mckinley-1135273",
-      "fecha": "2026-07-23",
-      "fuente": "RemoteOK",
-      "keyword": "remoto",
-      "es_remoto": true,
-      "descripcion": "Posted 3:00:05 PM. Healthcare AI Data SpecialistRemote | 6 Month Contract | $24â$26/hour | Full-Time (40 hrs/week)Weâ¦See this and similar jobs on LinkedIn. Please mention the word **UNQUESTIONABLY** and tag RMTcyLjIwMi43OC4x when applying to show you read the job post completely (#RMTcyLjIwMi43OC4x). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-07-24"
-    },
-    {
-      "titulo": "Desarrollador Fullstack con ingles avanzado (Java, Python, React Js)",
-      "empresa": "C&S Informática",
-      "ubicacion": "Comuna 1, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-fullstack-con-ingles-avanzado-java-python-react-js-at-c-s-inform%C3%A1tica-4443369435",
+      "titulo": "Data Specialist (Data Scientist)",
+      "empresa": "Tangonet Solutions LLC",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-specialist-data-scientist-at-tangonet-solutions-llc-4443361428",
       "fecha": "2026-07-21",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
+      "keyword": "Full Stack",
       "es_remoto": true,
-      "afinidad": 46,
+      "afinidad": 48,
       "motivos": [
         "✓ Remoto",
-        "− Pide inglés",
-        "✓ Tu stack: React, Full Stack, SQL, Back End",
-        "− Pide 40+ años de experiencia"
+        "✓ Tu stack: SQL",
+        "− Pide 3+ años de experiencia"
       ],
       "techs": [
-        "React",
-        "Full Stack",
-        "SQL",
-        "Back End"
+        "SQL"
       ],
       "primera_vez": "2026-07-25",
-      "descripcion": "Acerca de C&S Hola! Somos CYS, una empresa de más de 160 profesionales, consolidada hace 40 años en el mercado. Nuestro propósito es garantizar la satisfacción de nuestros clientes; para ello, ofrecemos servicios de Desarrollo de Software, Talent Outsourcing y Consultoría IT. Título de la posición: Desarrollador Java Fullstack - Senior Descripción: Ejecuta actividades de desarrollo para componentes de backend y UI y apoya la entrega de calidad dentro de la cadencia del sprint. Desarrollar componentes de aplicaciones backend utilizando frameworks aprobados por Java/Spring Boot y el cliente. Desarrollar componentes de interfaz web utilizando tecnologías de interfaz aprobadas por el cliente. Implementa lógica de negocio basada en historias de usuario aprobadas y criterios de aceptación. Desarrollar e integrar APIs RESTful e integraciones de servicio a servicio. Realizar pruebas unitarias y apoyar las actividades de pruebas de integración. Participa en revisiones de código entre pares y responde a los comentarios sobre las revisiones. Apoyar las actividades de resolución de defectos y refactorización dentro del alcance del sprint. Participa en ceremonias ágiles que incluyen planificación de sprints, reseñas y retrospectivas. Apoyar las actividades de desarrollo y pruebas de las funcionalidades del sprint comprometidas. Participar en ceremonias ágiles y actividades de ejecución del sprint. Escalar los bloqueadores y dependencias al Líder o al Scrum Master. Skills: Spring Boot / PostgreSQL / React.Js / Python / Restful Services / SOAP WS Seniority: Senior. Modalidad de trabajo: Remoto Horario: 9am a 6pm Duración de la asignación: 12 meses Posibilidad de extensión / efectivización: Si Nivel de inglés: Alto (C2 / C1) Beneficios Cobertura médica (redirección de aportes para cobe"
+      "descripcion": "Remote (preferably in Argentina) We are seeking a Data Specialist with a focus on Data Science to join our dynamic team. This role involves analyzing complex data sets to derive actionable insights, building predictive models, and collaborating with cross-functional teams to support data-driven decision-making processes. The ideal candidate will have strong analytical skills, experience in machine learning, and a passion for turning data into strategic assets. Key Responsibilities: Data Analysis: Analyze large and complex data sets to identify patterns, trends, and insights. Predictive Modeling: Develop and implement predictive models using machine learning techniques. Data Visualization: Create visualizations and dashboards to communicate findings to stakeholders. Collaboration: Work closely with product managers, engineers, and other stakeholders to integrate data insights into business strategies. Data Quality: Ensure data integrity and accuracy by performing rigorous data quality checks and validations. Reporting: Prepare detailed reports and presentations to convey insights and recommendations. Continuous Improvement: Stay up-to-date with the latest industry trends, tools, and technologies to continuously enhance data analysis capabilities. Required Skills And Qualifications: Education: Bachelor’s or Master’s degree in Data Science, Statistics, Computer Science, or a related field. Experience: Minimum of 3 years of experience in data analysis and predictive modeling. Technical Skills: Proficiency in programming languages such as Python or R, and experience with data analysis tools like SQL, Pandas, NumPy, and machine learning frameworks such as TensorFlow or PyTorch. Data Visualization: Experience with visualization tools like Tableau, Power BI, or similar. Databas"
     },
     {
       "titulo": "Frontend Software Engineer - Remote",
@@ -890,69 +860,34 @@
       "primera_vez": "2026-07-24"
     },
     {
-      "titulo": "Actualizado hace más de 15 días",
-      "empresa": "Ver aviso",
+      "titulo": "Freelance Mobile App Developer (iOS / Android)",
+      "empresa": "Mindrift",
       "ubicacion": "Argentina",
-      "enlace": "https://www.bumeran.com.ar/empleos/python-software-engineer--web-scraping-remoto-1728-aliantec-1118309375.html",
-      "fecha": "",
-      "fuente": "Bumeran",
-      "keyword": "Desarrollador web",
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-07-10"
-    },
-    {
-      "titulo": "Javascript Developer",
-      "empresa": "CodingIT",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/javascript-developer-at-codingit-4439638315",
-      "fecha": "2026-07-18",
+      "enlace": "https://ar.linkedin.com/jobs/view/freelance-mobile-app-developer-ios-android-at-mindrift-4443324234",
+      "fecha": "2026-07-21",
       "fuente": "LinkedIn",
       "keyword": "React",
       "es_remoto": true,
-      "afinidad": 45,
+      "afinidad": 43,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: JavaScript, TypeScript",
-        "− Pide 4+ años de experiencia"
+        "✓ Tu stack: React, Back End",
+        "− Pide 3+ años de experiencia"
       ],
       "techs": [
-        "JavaScript",
-        "TypeScript"
+        "React",
+        "Back End"
       ],
-      "primera_vez": "2026-07-19",
-      "descripcion": "Next.js Developer 📍 Remote (Argentina-based candidates only) 🗣 Fluent English Required 📅 Minimum 4 years of experience Company Overview CodingIT is a fast-growing software development company delivering scalable, high-quality digital solutions for clients in the U.S. market. We work on complex, real-world products where strong engineering practices, ownership, and technical excellence matter. As part of our growth, we offer a clearly defined career path that allows experienced engineers to progressively take on greater technical ownership and leadership responsibilities, including opportunities to evolve into Tech Lead roles over time. Role Overview As a Next.js Developer at CodingIT, you will own the development and continuous improvement of high-performing websites and digital experiences built primarily with Next.js and TypeScript. The role combines hands-on engineering with close collaboration with marketing, design, and business stakeholders. You will work independently alongside the Marketing team or under the supervision of a Digital Experience Manager. We are looking for a self-sufficient, proactive, and dynamic developer who can translate business and marketing needs into reliable technical solutions, manage priorities with limited supervision, and take ownership from implementation through deployment and monitoring. Experience building and maintaining e-commerce websites and working with CMS platforms such as Webflow or WordPress is essential. Key Responsibilities Develop, maintain, and continuously improve websites and digital experiences using Next.js and TypeScript. Apply modern Next.js patterns, including the App Router, server and client components, data fetching, caching, and appropriate rendering strategies. Build reusable, responsive, and accessible us"
-    },
-    {
-      "titulo": "AngularJS Developer (Angular 1.x)",
-      "empresa": "Techunting",
-      "ubicacion": "Mendoza, Mendoza, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/angularjs-developer-angular-1-x-at-techunting-4442242852",
-      "fecha": "2026-07-20",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 37,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-07-25"
+      "primera_vez": "2026-07-25",
+      "descripcion": "Mindrift is looking for skilled Mobile App Developers (React Native, Flutter, Swift, or Kotlin) to join the Tendem project (https://tendem.ai/) and build native and cross-platform mobile applications within our hybrid AI + human environment. In this role, as an AI Pilot - that's how we refer to this position at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide mobile engineering expertise, platform-specific judgment, and quality control to ensure apps are stable, performant, and ready for real users on real devices. This part-time remote opportunity is ideal for professionals with hands-on experience shipping iOS and/or Android apps, working with platform APIs, and handling the full mobile development lifecycle. What We Do The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe. About The Role This is a freelance role for a Tendem project. As a Mobile App Developer, you'll design, build, and refine mobile applications across categories such as utilities, fitness/wellness, games, productivity, delivery, and content apps — for iOS, Android, or both, using native or cross-platform frameworks. Key Responsibilities Build mobile applications using React Native, Flutter, Swift (iOS), or Kotlin (Android) Implement responsive mobile UIs that follow platform conventions (iOS HIG, Material Design) Integrate native device features (camera, push notifications, location, storage, biometrics) Connect apps to backend APIs, handle offline state, caching, and synchronization Implement monetization features where required (in-app purchases, ads, subscriptions) Evaluate AI-generated mobile code and "
     },
     {
       "titulo": "Ref. 21175: Desarrollador Python / Ingles Avanzado",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21175-desarrollador-python-ingles-avanzado-buenos-aires-en-recoleta-086C7A7CD5A010D561373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 4 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 30,
@@ -964,6 +899,29 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-07-14"
+    },
+    {
+      "titulo": "AngularJS Developer (Angular 1.x)",
+      "empresa": "Techunting",
+      "ubicacion": "Mendoza, Mendoza, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/angularjs-developer-angular-1-x-at-techunting-4442242852",
+      "fecha": "2026-07-20",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 28,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)",
+        "− Publicación en inglés",
+        "✓ Tu stack: JavaScript",
+        "− Pide 5+ años de experiencia"
+      ],
+      "techs": [
+        "JavaScript"
+      ],
+      "primera_vez": "2026-07-25",
+      "descripcion": "We're looking for a developer with strong hands-on experience in AngularJS (Angular 1.x) to maintain and enhance the web version of an existing application. The product is intentionally a little behind in terms of features, so this role won't involve much product-shaping work — the focus is on maintenance and technical improvements to the existing codebase. Responsibilities: Maintain and enhance a web application built in AngularJS (Angular 1.x) Work on an existing codebase, with limited involvement in product direction Potentially contribute to or lead the future migration to a modern version of Angular Requirements: At least 5 years of experience working with different Angular versions Required, hands-on experience with AngularJS (Angular 1.x) Strong JavaScript fundamentals Mid-level or senior profile Based in Argentina. Engagement type: Contractor Interview process: Initial HR screening English assessment Technical interview"
     }
   ]
 }
