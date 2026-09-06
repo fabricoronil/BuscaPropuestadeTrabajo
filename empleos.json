@@ -1,25 +1,7 @@
 {
-  "actualizado": "2026-09-06T13:12:44.779694+00:00",
-  "total": 40,
+  "actualizado": "2026-09-06T21:47:42.222624+00:00",
+  "total": 42,
   "empleos": [
-    {
-      "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
-      "empresa": "B&B Consultores",
-      "ubicacion": "4,3",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
-      "fecha": "Hace 4 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador Junior",
-      "afinidad": 85,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Ideal para empezar (trainee/jr/pasantía)",
-        "✓ Medio tiempo"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-08-05"
-    },
     {
       "titulo": "Desarrollador",
       "empresa": "Grupo Taraborelli",
@@ -47,31 +29,94 @@
       "descripcion": "Nos encontramos en la búsqueda de una persona para Desarrollo. La posición hará base en nuestras oficinas en Caballito - CABA y reportará a la Gerencia de Sistemas. Funciones Crear y mantener aplicaciones web (React.js). Desarrollar y consumir APIs RESTful para la comunicación entre el frontend y el backend. Diseñar, implementar y optimizar bases de datos MySQL para almacenar y gestionar la información del concesionario. Crear interfaces de usuario dinámicas y responsivas con React.js, mejorando la experiencia del usuario. Identificar y solucionar problemas en el código, realizando pruebas y optimizaciones para garantizar el correcto funcionamiento de las aplicaciones. Gestionar el despliegue de aplicaciones en entornos de producción y realizar monitoreo continuo para asegurar la disponibilidad y el rendimiento. Creación de carpetas iniciales en los proyectos dentro del hosting, compartiendo FTP a los colaboradores. Requisitos Excluyentes HTML5 y CSS3 JavaScript React.js (tecnología principal a día de hoy) Conexión con Backend vía API. Manejo de estados globales (herramientas como Redux Toolkit) Deseables Librerías de estilos (Bootstrap, Tailwind, Material UI). Node.js Conocimientos en diseño UX/UI para crear interfaces de usuario dinámicas y atractivas. Conocimientos en Base de Datos (SQL, MySQL) Servicios en la Nube (AWS, Google Cloud) Grupo Taraborelli está conformado por 10 empresas y más de 700 colaboradores. Nos desempeñamos en la industria automotriz, comercializando autos, pickups, camiones, vans y maquinaria agrícola. Además, contamos con una rentadora de autos, orientada tanto al turismo como a servicios corporativos. Este año celebramos con orgullo nuestro 40º aniversario, respaldados por una sólida trayectoria que nos ha posicionado como referentes estables "
     },
     {
-      "titulo": "Software Engineer",
-      "empresa": "e76",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-e76-4462654203",
-      "fecha": "2026-09-05",
+      "titulo": "Software/Firmware Engineering - Intern",
+      "empresa": "Marvell Technology",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-firmware-engineering-intern-at-marvell-technology-4413629321",
+      "fecha": "2026-09-06",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "Pasantía sistemas",
       "es_remoto": true,
       "afinidad": 77,
       "motivos": [
         "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
         "✓ Medio tiempo",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-06",
+      "descripcion": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell provides industry-leading coherent optical communications technology to serve the Data Center Interconnect (DCI) applications for the Hyperscaler market and the Long Haul (LH) and Metro applications for both Hyperscaler and the Telecom markets. Marvell’s products leverage state of the art communications, signal processing, and forward error correction algorithms and architectures, as well as Ethernet and OTN protocols, to bring to the marketplace communications products operating at data rates of 1.6Tb/s and beyond, over distances ranging from 100 to several thousand kilometers. What You Can Expect Linux customization to run in embedded systems. Firmware implementation to control complex hardware designs. Hardware bringup, characterization and verification. What We're Looking For Bachelor’s degree in Computer Science, Electrical Engineering or related fields. Experience in firmware implementation applied to FPGA and microcontroller devices. Knowledge in embedded OS (Linux and real time). Skills in Hardware interpretation. Additional Compensation And Benefit Elements With competitive compensation and great benefits, you will enjoy our workstyle within an environment of shared collaboration, tra"
+    },
+    {
+      "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
+      "empresa": "B&B Consultores",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
+      "fecha": "Hace 13 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador Junior",
+      "afinidad": 75,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-08-05"
+    },
+    {
+      "titulo": "Full-Stack Developer (Remote)",
+      "empresa": "Hired",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-remote-at-hired-4464029785",
+      "fecha": "2026-09-06",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 72,
+      "motivos": [
+        "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, Node.js, SQL, JavaScript, Git"
+        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, JavaScript, Front End"
       ],
       "techs": [
+        "Full Stack",
         "React",
         "TypeScript",
         "Node.js",
+        "JavaScript",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-06",
+      "descripcion": "Role: Full-Stack Developer (Remote) Location: Remote (Work from Anywhere) Job Type: Full-Time Payout: Competitive, based on experience Role Overview: We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. You will conduct evaluations to benchmark model performance and analyze results for continuous improvement. Key Responsibilities: • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvement. • Evaluate and rank AI model responses to user queries across diverse domains, ensuring alignment with predefined criteria. • Develop comprehensive explanations and rationales for evaluations, showcasing excellent reasoning and technical expertise. • Lead efforts in supervised fine-tuning, including creating and maintaining high-quality, task-specific datasets. Required Skills & Qualifications: • Proficiency in JavaScript and TypeScript for full-stack development. • Experience with Node.js for backend development. • Familiarity with Nest.js as a progressive Node.js framework. • Knowledge of front-end frameworks such as React, Vue.js, or Angular. • Ability to write readable, reusable, and maintainable code. More About the Opportunity: This role offers a unique opportunity to work with a global leader in AI technology, contributing to the advancement and deployment of powerful AI systems. You will collaborate with cross-functional teams to improve model performance and contribute to product enhancements. Equal Opportunity Employer: We hire based on skills and expertise"
+    },
+    {
+      "titulo": "Backend Engineer (Nodejs, Redis, Kafka, Spark) IRC296065",
+      "empresa": "GlobalLogic",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/backend-engineer-nodejs-redis-kafka-spark-irc296065-at-globallogic-4426181554",
+      "fecha": "2026-09-06",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 71,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Node.js, Back End, React, SQL, JavaScript, Git"
+      ],
+      "techs": [
+        "Node.js",
+        "Back End",
+        "React",
         "SQL",
         "JavaScript",
         "Git"
       ],
       "primera_vez": "2026-09-06",
-      "descripcion": "e76 is a hybrid operations consultancy. It works on the foundational layer of enterprise companies: operations, systems, organizational design, and financial infrastructure, across diagnosis, strategy, and implementation. A company's foundational infrastructure is the operations, systems, processes, organizational structure, and financial logic through which work moves. It determines whether strategy ever materializes. Strategy is what a company thinks about; the infrastructure is what it thinks through. The cost of a broken one is mostly invisible from inside. Talented people route around broken systems and become indistinguishable from the dysfunction they work through, and companies operate at a fraction of the capacity their talent makes possible. The work required is engineering: direct contact with the machinery itself, conducted with cross-functional vantage and sustained presence. This role builds that machinery. What the work is → Build and maintain product features in TypeScript, Node.js, React, and PostgreSQL. → Design secure multi-tenant systems with authentication, permissions, tenant isolation, and Row-Level Security. → Build data integrations that connect client APIs, databases, files, and business systems. → Design and operate reliable data pipelines with scheduling, retries, checkpoints, replay, schema changes, and monitoring. → Build client data infrastructure using BigQuery, dbt, object storage, and cloud services. → Model raw data, staging models, business marts, metrics, and reporting datasets. → Translate client requirements and business processes into technical designs and working implementations. → Configure and extend the product for each client without creating client-specific forks. → Build provider integrations behind stable interfaces and ma"
+      "descripcion": "Description Join a global technology team focused on building scalable platforms that help organizations understand and improve customer and employee experiences through large-scale data processing, analytics, and real-time insights. The team develops high-performance, data-driven solutions used by leading enterprises worldwide. We are looking for a Backend Engineer with strong Node.js expertise and experience building scalable, distributed applications. In this role, you will contribute to the development and optimization of backend services, event-driven systems, and data-intensive applications that support high-volume production environments. Requirements Proven experience developing backend applications with Node.js and JavaScript. Strong knowledge of SQL and PostgreSQL. Experience designing and maintaining scalable backend systems. Solid understanding of distributed systems and microservices architectures. Experience working with Kafka or similar messaging/event-streaming platforms. Experience with Redis or similar caching technologies. Experience with Docker, Kubernetes, or AKS. Experience monitoring and troubleshooting applications using tools such as Grafana. Familiarity with CI/CD pipelines and modern software development practices. Proficiency with Git and version control workflows. Strong problem-solving and communication skills. Bachelor’s degree in Computer Science, Information Technology, or a related field, or equivalent practical experience. Key Skills Must Have Node.js JavaScript SQL PostgreSQL Cassandra Architecture Design Kafka Kubernetes / AKS / Docker Grafana Microservices Messaging/Event Architecture Nice to Have Python React.js Job responsibilities Design, develop, and maintain backend services using Node.js. Build scalable and reliable APIs, serv"
     },
     {
       "titulo": "Chief TypeScript+Node.js Developer",
@@ -122,7 +167,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-fullstack-developer-react-node-angular-en-san-nicolas-5B4D54F2BEEB224D61373E686DCF3405",
-      "fecha": "Hace 4 días",
+      "fecha": "Hace 5 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 64,
@@ -144,7 +189,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-abap-hcm-junior-en-san-nicolas-010E936307CC39DC61373E686DCF3405",
-      "fecha": "Hace 4 días",
+      "fecha": "Hace 5 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 63,
@@ -256,6 +301,30 @@
       ],
       "primera_vez": "2026-09-01",
       "descripcion": "Azumo is looking for a highly motivated Senior Engineer with a minimum of 5 years of experience in React, Node and GraphQL each. The position is based remotely in Latin America. The developer will work in the EST/ PST time-zone.This position will give you the opportunity to collaborate with bright engineering minds in SaaS and big data computing. As a key engineer in the web team, you should excel with minimal technical supervision, embrace time constraints, and work with team members to deliver high quality products and features. You will enjoy the role if you love delivering well-factored and tested JavaScript applications.Responsibilities: Enhance existing Typescript and JavaScript code-base Architect app and collaborate with the team to integrate with 3rd party APIs and services Design the overall application framework, including component hierarchy, authentication, error handling, etc Implement the front-end build, deploy and CI pipeline. Responsibilities Work with development teams and product managers to ideate software solutions Design client-side and server-side architecture RequirementsBasic Qualifications: 7+ years of experience in the field of software development. Solid experience with JavaScript frameworks (e.g. Angular, React, Node.js) 5+ years experience with JavaScript, HTML, CSS and front-end coding skills 5+ years experience in React and GraphQL each. Self-driven and motivated, with a strong work ethic and a passion for problem solving Preferred Qualifications: Knowledge of multiple back-end languages (e.g. C#, Java, Python) Knowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript, XML, jQuery) BS or Master's degree in Computer Science, related degree, or equivalent experience Some experience with backend development (Java o"
+    },
+    {
+      "titulo": "Software Engineer",
+      "empresa": "e76",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-e76-4462654203",
+      "fecha": "2026-09-05",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 61,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Node.js, SQL"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "SQL"
+      ],
+      "primera_vez": "2026-09-06",
+      "descripcion": "e76 is a hybrid operations consultancy. It works on the foundational layer of enterprise companies: operations, systems, organizational design, and financial infrastructure, across diagnosis, strategy, and implementation. A company's foundational infrastructure is the operations, systems, processes, organizational structure, and financial logic through which work moves. It determines whether strategy ever materializes. Strategy is what a company thinks about; the infrastructure is what it thinks through. The cost of a broken one is mostly invisible from inside. Talented people route around broken systems and become indistinguishable from the dysfunction they work through, and companies operate at a fraction of the capacity their talent makes possible. The work required is engineering: direct contact with the machinery itself, conducted with cross-functional vantage and sustained presence. This role builds that machinery. What the work is → Build and maintain product features in TypeScript, Node.js, React, and PostgreSQL. → Design secure multi-tenant systems with authentication, permissions, tenant isolation, and Row-Level Security. → Build data integrations that connect client APIs, databases, files, and business systems. → Design and operate reliable data pipelines with scheduling, retries, checkpoints, replay, schema changes, and monitoring. → Build client data infrastructure using BigQuery, dbt, object storage, and cloud services. → Model raw data, staging models, business marts, metrics, and reporting datasets. → Translate client requirements and business processes into technical designs and working implementations. → Configure and extend the product for each client without creating client-specific forks. → Build provider integrations behind stable interfaces and ma"
     },
     {
       "titulo": "AI Integration .NET Full-Stack Developer",
@@ -614,13 +683,13 @@
       "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. Canonical’s Partner Engineering Team is looking for open-source enthusiasts to work across the full Linux stack to ensure new silicon technologies, such as new hardware accelerators, AI stacks, confidential computing, networking, virtualization, and containerization stacks, are optimized for new silicons. Partner Engineering works closely with worldwide silicon companies to optimize Ubuntu for their new silicon, from x86, ARM, RISC-V, PowerPC and s390x architectures. Location: This is a Globally remote role The role entails Collaborating proactively within a distributed team Fostering a software ecosystem with seamless user experience for all Ubuntu users Evaluating contributions of other engineers to maintain high-quality software standards. Playing a role in shaping the future of Ubuntu via both - new ideas in your areas of interest and advising on work being done elsewhere Collaborating with other teams in the Ubuntu and Debian communities, with upstream projects, and commercially supported customers Debugging issues on open source code and team maintained code. Helping o"
     },
     {
-      "titulo": "Power BI Developer (Visualization, Data and AI)",
-      "empresa": "Hexaware Technologies Limited",
-      "ubicacion": "Agronomía, Capital Federal",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-power-bi-developer-visualization-data-and-ai-en-agronomia-7EAE774AF19D006861373E686DCF3405",
-      "fecha": "Ayer",
+      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-EBAFAF842D4E000761373E686DCF3405",
+      "fecha": "Hace 5 horas",
       "fuente": "Computrabajo",
-      "keyword": "Desarrollador web",
+      "keyword": "Desarrollador web remoto",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
@@ -628,14 +697,14 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-05"
+      "primera_vez": "2026-09-06"
     },
     {
       "titulo": "SRE / Líder Devops AWS // Multinacional de Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-FBCEDAAA0F50DA7B61373E686DCF3405",
-      "fecha": "Hace 18 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-6D872670D68A0C2461373E686DCF3405",
+      "fecha": "Hace 6 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -645,14 +714,14 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-05"
+      "primera_vez": "2026-09-06"
     },
     {
       "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-D17770198174A74061373E686DCF3405",
-      "fecha": "Hace 22 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-6EC9B257DD11C9B661373E686DCF3405",
+      "fecha": "Hace 12 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -662,7 +731,7 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-05"
+      "primera_vez": "2026-09-06"
     },
     {
       "titulo": "Software Architect",
@@ -722,7 +791,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-0CD70C3D074CC1EB61373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -752,42 +821,6 @@
       "primera_vez": "2026-09-05"
     },
     {
-      "titulo": "Desarrollador SAP ABAP ( S/4HANA)",
-      "empresa": "C&S informática s.a.",
-      "ubicacion": "4,1",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-sap-abap-s4hana-en-san-nicolas-787606806A9F4BB661373E686DCF3405",
-      "fecha": "Ayer",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web",
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-05"
-    },
-    {
-      "titulo": "Software Engineer - Python - Cloud - graduate level",
-      "empresa": "Canonical",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-python-cloud-graduate-level-at-canonical-4433358937",
-      "fecha": "2026-08-30",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 37,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-09-04",
-      "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. We are hiring a Software Engineer to develop, test and release improvements to the Ubuntu on public clouds. The quality and stability of the Ubuntu is critically important, since it's available on every public cloud. You’ll work with teams across Canonical working on Ubuntu team, alongside major cloud partners to develop, test and release improvements to the Ubuntu cloud images. You will also be a voice in communication with our users, ensuring their needs are met. This role requires quality-oriented software engineering in Python and a focus on software interoperability over a vast range of target releases and environments. Excellent Python skills are a key requirement, with previous contributions to open source Python projects being an advantage. This role involves creating and managing Ubuntu images; therefore, experience in configuring apt, and knowledge of deb packaging and general system administration is advantageous in this role. Applicants should be passionate about the Ubuntu project and its values and about building tools that are used by millions of people aroun"
-    },
-    {
       "titulo": "Salesforce Developer",
       "empresa": "Accenture Argentina",
       "ubicacion": "Buenos Aires y alrededores",
@@ -805,6 +838,25 @@
       "techs": [],
       "primera_vez": "2026-09-04",
       "descripcion": "En Accenture, la tecnología impulsa nuestra transformación. Buscamos personas con ganas de aprender, crecer y trabajar con herramientas de vanguardia para resolver desafíos reales. Integramos inteligencia artificial generativa (GenIA) en nuestros proyectos para acelerar la innovación, optimizar procesos y generar impacto en múltiples industrias. Contamos con más de 1.600 profesionales dedicados exclusivamente a GenIA, respaldados por una red global de más de 40.000 expertos en datos e inteligencia artificial. Este enfoque se potencia con inversiones estratégicas, más de 35 alianzas tecnológicas y más de 25 estudios GenIA distribuidos globalmente. Sumate a nuestros equipos de Technology y descubrí cómo podés ser parte de esta evolución. ¿Querés formar parte de la transformación digital y ser parte de proyectos desafiantes e innovadores? Qué Desafíos Te Esperan: Ser parte de grandes proyectos a nivel local y global. Implementación de tecnologías de vanguardia. Participar de la transformación digital. Lo que te hará exitoso: Diseñar y crear Apex (Triggers y Classes) de alto rendimiento, reutilizables y confiables. Codificar con las mejores prácticas, VisualForce, componentes Lightning, SOQL y API de Salesforce. Comprender los requisitos comerciales y las historias de usuarios para llevarlos a un diseño técnico en el entorno de Salesforce. Crear y mantener objetos personalizados, reglas de flujo de trabajo, roles y perfiles, conjuntos de permisos y reglas de asignación. Conocimientos de Agentforce (nice to have) Manejar el idioma inglés. 📌 Un lugar de trabajo único, descubrí los beneficios que tenemos para vos: 🍔 Pedidos Ya 👩‍⚕️ Prepaga Swiss Medical 💻 Reintegro de Conectividad & Servicios 😎 Beneficios flexibles 💪 Gimnasio 100% Bonificado 📆 Accenture Days 🌎 Vacaciones Flex "
+    },
+    {
+      "titulo": "Software Engineer - Python/Golang - Kubernetes",
+      "empresa": "Canonical",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-python-golang-kubernetes-at-canonical-4434727202",
+      "fecha": "2026-09-01",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 37,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-06",
+      "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring a software engineer to join our Kubernetes product team. As a member of that team, you will build the operators and addons; the former, offering complete lifecycle management of mission-critical components, and the latter, a zero-ops experience for seamlessly integrating projects into your Kubernetes. You will gain familiarity with the latest features in Kubernetes and look to incorporate the best of open-source to bring functionality to our end-users. You will collaborate with industry peers and partners to bring the right solutions to our customers. This is an exciting opportunity for a software engineer passionate about open source software, Linux, Golang, Python and Kubernetes. Location: This is a remote position available in EMEA and the Americas. What you will focus on Write high-quality code to create new features Debug issues and interact with a vibrant community Collaborate proactively with a distributed team Work with helpful and talented engineers including experts in many fields Work from home with global travel 2 to 4 weeks for internal and external"
     },
     {
       "titulo": "Golang Developer",
