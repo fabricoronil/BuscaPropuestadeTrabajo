@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-09-07T15:20:35.820605+00:00",
-  "total": 43,
+  "actualizado": "2026-09-07T22:20:29.558784+00:00",
+  "total": 44,
   "empleos": [
     {
       "titulo": "Desarrollador",
@@ -71,6 +71,33 @@
       ],
       "primera_vez": "2026-09-07",
       "descripcion": "Role: Full-Stack Developer (Remote) Location: Remote (Work from Anywhere) Job Type: Full-Time Payout: Competitive, based on experience Role Overview: We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. You will conduct evaluations to benchmark model performance and analyze results for continuous improvement. Key Responsibilities: • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvement. • Evaluate and rank AI model responses to user queries across diverse domains, ensuring alignment with predefined criteria. • Develop comprehensive explanations and rationales for evaluations, showcasing excellent reasoning and technical expertise. • Lead efforts in supervised fine-tuning, including creating and maintaining high-quality, task-specific datasets. Required Skills & Qualifications: • Proficiency in JavaScript and TypeScript for full-stack development. • Experience with Node.js for backend development. • Familiarity with Nest.js as a progressive Node.js framework. • Knowledge of front-end frameworks such as React, Vue.js, or Angular. • Ability to write readable, reusable, and maintainable code. More About the Opportunity: This role offers a unique opportunity to work with a global leader in AI technology, contributing to the advancement and deployment of powerful AI systems. You will collaborate with cross-functional teams to improve model performance and contribute to product enhancements. Equal Opportunity Employer: We hire based on skills and expertise"
+    },
+    {
+      "titulo": "Full-Stack Software Engineer",
+      "empresa": "OpenRelay (YC S26)",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-openrelay-yc-s26-4462910233",
+      "fecha": "2026-09-07",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 72,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, React, TypeScript, Tailwind, Node.js, Git"
+      ],
+      "techs": [
+        "Full Stack",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
+        "Git",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-07",
+      "descripcion": "Why OpenRelay? OpenRelay is GPU compute and LLM inference for people who ship. Customers rent GPU machines and call inference APIs; providers plug their hardware into our network and get paid for it. We run a distributed fleet on real hardware, not a reseller skin over someone else's cloud. Small team, high bar, and room for A-players to own things that are live in production. No Degree Required, Show Us What You've Built We care about what you can do, not diplomas. The profile we want most is simple: you built something on the web, and then you got strangers to use it. That last part is everything. Plenty of engineers can ship a site. Figuring out how people actually find it, ranking for a query that matters, writing cold email that gets replies, launching somewhere and converting the traffic, is the rarest and most valuable skill you can bring us. Show us what you built and the users you got on it: real traffic, real signups, real revenue. Core Tech - Next.js + React (TypeScript), Tailwind - tRPC, Node.js - Go (control plane, gateways, CLI) - DynamoDB, Redis - AWS (ECS Fargate, Terraform), Docker, Linux - PostHog, Vercel - Claude Code and agentic tooling, daily What You'll Build You'll own features end-to-end in one of three tracks (but at a startup, you'll touch all of them). Fullstack Engineering - Own and ship production features across the OpenRelay platform: the customer dashboard, the marketing site, the docs, and the internal ops portal - Work across the frontend, API, and data layers in a pnpm monorepo, React and TypeScript on top of Go services - Design and maintain APIs, background jobs, and workflows that customers depend on to launch and run GPU workloads - Use agentic engineering tools (Claude Code, autonomous loops) to build the machine that builds the m"
     },
     {
       "titulo": "Backend Engineer (Nodejs, Redis, Kafka, Spark) IRC296065",
@@ -188,7 +215,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-fullstack-developer-react-node-angular-en-san-nicolas-5B4D54F2BEEB224D61373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 64,
@@ -210,7 +237,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-abap-hcm-junior-en-san-nicolas-010E936307CC39DC61373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 63,
@@ -324,28 +351,6 @@
       "descripcion": "Azumo is looking for a highly motivated Senior Engineer with a minimum of 5 years of experience in React, Node and GraphQL each. The position is based remotely in Latin America. The developer will work in the EST/ PST time-zone.This position will give you the opportunity to collaborate with bright engineering minds in SaaS and big data computing. As a key engineer in the web team, you should excel with minimal technical supervision, embrace time constraints, and work with team members to deliver high quality products and features. You will enjoy the role if you love delivering well-factored and tested JavaScript applications.Responsibilities: Enhance existing Typescript and JavaScript code-base Architect app and collaborate with the team to integrate with 3rd party APIs and services Design the overall application framework, including component hierarchy, authentication, error handling, etc Implement the front-end build, deploy and CI pipeline. Responsibilities Work with development teams and product managers to ideate software solutions Design client-side and server-side architecture RequirementsBasic Qualifications: 7+ years of experience in the field of software development. Solid experience with JavaScript frameworks (e.g. Angular, React, Node.js) 5+ years experience with JavaScript, HTML, CSS and front-end coding skills 5+ years experience in React and GraphQL each. Self-driven and motivated, with a strong work ethic and a passion for problem solving Preferred Qualifications: Knowledge of multiple back-end languages (e.g. C#, Java, Python) Knowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript, XML, jQuery) BS or Master's degree in Computer Science, related degree, or equivalent experience Some experience with backend development (Java o"
     },
     {
-      "titulo": "BI Developer (Looker)",
-      "empresa": "Capgemini Engineering",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/bi-developer-looker-at-capgemini-engineering-4464319426",
-      "fecha": "2026-09-07",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 62,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Publicación en inglés",
-        "✓ Tu stack: SQL"
-      ],
-      "techs": [
-        "SQL"
-      ],
-      "primera_vez": "2026-09-07",
-      "descripcion": "At Capgemini Engineering, the world leader in engineering services, we bring together a global team of engineers, scientists, and architects to help the world’s most innovative companies unleash their potential. From autonomous cars to life-saving robots, our digital and software technology experts think outside the box as they provide unique R&D and engineering services across all industries. Join us for a career full of opportunities. Where you can make a difference. Where no two days are the same. Job Description Position Overview We are seeking a Looker Developer with experience in LookML and business intelligence solutions to support the development, optimization, and maintenance of semantic data models. This role will be responsible for translating existing Power BI logic into Looker, enhancing data models, and ensuring alignment with enterprise data products and governance standards. Key Responsibilities Analyze and map existing Power BI queries and data models for migration or integration into Looker. Develop, maintain, and enhance LookML semantic models. Design and optimize LookML views, explores, dimensions, and measures to improve performance and usability. Collaborate with data and business stakeholders to ensure semantic models accurately support reporting and analytics requirements. Align Looker models with Knowledge Catalog Data Products and enterprise data governance frameworks. Ensure data consistency, quality, and best practices across analytics solutions. Required Skills Hands-on experience with Looker and LookML development. Strong understanding of semantic data modeling and BI concepts. Experience analyzing and translating Power BI queries and reporting logic. Knowledge of data warehouse concepts and SQL. Ability to optimize data models for performa"
-    },
-    {
       "titulo": "AI Integration .NET Full-Stack Developer",
       "empresa": "EPAM Systems",
       "ubicacion": "Argentina",
@@ -407,33 +412,6 @@
       "techs": [],
       "primera_vez": "2026-09-03",
       "descripcion": "DA BOLSA No Projeto ****** Título projeto Geotecnologias de análise espacial aplicadas no manejo agrícola de precisão Atribuições do bolsista O bolsista atuará diretamente no suporte à pesquisa aplicada, com foco na integração de dados geoespaciais para a tomada de decisão no manejo agrícola. Requisitos Técnicos e Habilidades Domínio de SIG: Operação intermediária do software QGIS para manipulação de camadas vetoriais e matriciais. Sensoriamento Remoto: Conhecimento em Google Earth Engine (GEE) para processamento de imagens de satélite (como Sentinel-2 e Landsat) e cálculo de índices de vegetação (NDVI, EVI). Agricultura de Precisão: Noções sobre variabilidade espacial de atributos do solo e da planta. Análise de Dados: Capacidade de organizar bancos de dados geográficos e gerar mapas de recomendação. DO CRONOGRAMA ETAPA DATA Período de inscrições 06/04/2026 a 10/04/2026 Lista de candidatos(as) homologados(as) 13/04/2026 Prova prática 14/04/2026 Publicação do Resultado final da seleção 14/04/2026 Início da atuação do(a) bolsista 15/04/2026 DA INSCRIÇÃO Documentação exigida As inscrições deverão ser realizadas exclusivamente pelo e-mail: ******. O assunto do e-mail deverá obrigatoriamente constar: Inscrição de bolsista para o projeto n° ******. Para a inscrição, o candidato deverá anexar os seguintes documentos em formato PDF: Comprovante de Matrícula atualizado; Histórico Escolar Simplificado; Breve Currículo de experiências anteriores. DO PROCESSO SELETIVO Todas as inscrições que apresentarem a documentação completa exigida no item 3.2 serão deferidas. A ausência de qualquer um dos documentos listados implicará na eliminação imediata do candidato. A publicação da lista de inscrições homologadas será realizada no dia 13/04/2026 no site – Oportunidades de bolsas. N° de b"
-    },
-    {
-      "titulo": "Shopify Full Stack Developer",
-      "empresa": "Impulso Media",
-      "ubicacion": "Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/shopify-full-stack-developer-at-impulso-media-4461381634",
-      "fecha": "2026-09-03",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 57,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, Node.js, JavaScript, Front End, Back End",
-        "− Pide 3+ años de experiencia"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "Node.js",
-        "JavaScript",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-03",
-      "descripcion": "Impulso Media is a full-service digital marketing agency based in Canada, founded by an Argentinian entrepreneur, servicing e-commerce brands across North America. As a Shopify Platinum Partner and Klaviyo Platinum Partner, we handle everything from paid media and SEO to email/lifecycle marketing, creative production, and Shopify development for growing North American brands. We're looking for a Junior/Intermediate Shopify Full Stack Developer to join our development team and help build, customize, and optimize Shopify storefronts for our client roster. This is a fully remote role, but you'll need to work Eastern Time hours to stay in sync with our team and clients. What You'll Do Build and customize Shopify themes (Liquid, HTML, CSS, JavaScript) to match client design and functionality requirements Develop and integrate custom Shopify apps and features using Shopify's APIs (REST/GraphQL) Troubleshoot and resolve front-end and back-end issues across live client stores Collaborate with designers, project managers, and other developers to ship high-quality, on-time builds Optimize storefronts for site speed, mobile responsiveness, and conversion Support ongoing maintenance, QA, and platform migrations for existing client sites What We're Looking For 1–3 years of hands-on experience developing on Shopify (theme development required) Solid proficiency in HTML, CSS, JavaScript, and Liquid Familiarity with Shopify's Storefront/Admin APIs and app ecosystem Comfortable working with third-party integrations (Klaviyo, review apps, subscription apps, etc.) Strong communication skills and ability to manage multiple client projects at once Able to work full-time during Eastern Time (ET) business hours Bonus: experience with React, Node.js, or Shopify Hydrogen/Oxyge Why Impulso Media"
     },
     {
       "titulo": "Full Stack Engineer (Vue + Nest)",
@@ -554,24 +532,6 @@
       "descripcion": "The salary range for this role is $1,500 - $2,700 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! About the Role: We are seeking a talented and motivated Junior Software engineer who is best in class with a high IQ plus a high EQ. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. The Junior Software Engineer will assist us with the design, development, and installation of software solutions. Your duties will include development, writing code, and documenting functionality. You should be able to build high-quality, innovative and fully performing software in compliance with coding standards and technical design. Compensation: For this junior development role, with 0-3 years of experience, the compensation range is $1,500 - $2,700 USD per month. This range is designed to accommodate early-career professionals and reflects th"
     },
     {
-      "titulo": "Ref. 20595: Desarrollador Python",
-      "empresa": "ADN - Recursos Humanos",
-      "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E4EF614947A6136161373E686DCF3405",
-      "fecha": "Hace 14 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador Junior remoto",
-      "afinidad": 55,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Piden otro stack (no JS/TS)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-07"
-    },
-    {
       "titulo": "Full Stack Software Engineer (Product Engineering Team)",
       "empresa": "Félix",
       "ubicacion": "Buenos Aires y alrededores",
@@ -636,6 +596,27 @@
       ],
       "primera_vez": "2026-09-02",
       "descripcion": "🗄️ Fullstack Developer (Node - Next.js) 📍 Modalidad: Híbrido 🕐 Horario: Lunes a viernes – Full time 📌 Ubicación: CABA 🚀 Sobre ARTAX Somos artax, una software factory especializada en consultoría tecnológica y desarrollo de software para el sector financiero. Ayudamos a bancos y fintechs a transformar la complejidad en eficiencia: optimizamos operaciones, implementamos automatización inteligente y construimos arquitecturas escalables a medida. ¿Qué hacemos? 🔍 ✓ Eficiencia Operativa: automatizamos procesos complejos, optimizamos flujos de trabajo y entregamos datos estructurados listos para integrarse al core del negocio. ✓ Consultoría Tecnológica: asesoramos en la adopción de IA y arquitectura de soluciones, alineadas a los objetivos de negocio. ✓ Desarrollo de Software a Medida: diseñamos e implementamos productos digitales robustos con tecnología de punta. Nos encontramos en la búsqueda de un/a Fullstack Developer SR para sumarse a un importante proyecto bancario, que quiera sumarse a un entorno ágil, desafiante y con impacto real en el ecosistema financiero. 🛠 Responsabilidades Desarrollar y mantener servicios fullstack utilizando Node.js y Next.js Diseñar APIs REST eficientes y seguras (y participar en integraciones SOAP) Aplicar buenas prácticas de programación, diseño limpio y uso de patrones Ejecutar consultas SQL avanzadas y participar en diseño de bases de datos Colaborar con el equipo en entornos ágiles (Scrum) e iteraciones planificadas 💡 Requisitos excluyentes +5 años de experiencia en desarrollo fullstack Conocimientos avanzados en Node.js, TypeScript, Express y Next.js Dominio de SQL (consultas, procedimientos, transacciones) Experiencia en diseño de APIs (REST y SOAP) Experiencia trabajando con metodologías ágiles (Scrum) Formación en Ingeniería, Lic. en S"
+    },
+    {
+      "titulo": "BI Developer (Looker)",
+      "empresa": "Capgemini Engineering",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/bi-developer-looker-at-capgemini-engineering-4464319426",
+      "fecha": "2026-09-07",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 52,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: SQL"
+      ],
+      "techs": [
+        "SQL"
+      ],
+      "primera_vez": "2026-09-07",
+      "descripcion": "At Capgemini Engineering, the world leader in engineering services, we bring together a global team of engineers, scientists, and architects to help the world’s most innovative companies unleash their potential. From autonomous cars to life-saving robots, our digital and software technology experts think outside the box as they provide unique R&D and engineering services across all industries. Join us for a career full of opportunities. Where you can make a difference. Where no two days are the same. Job Description Position Overview We are seeking a Looker Developer with experience in LookML and business intelligence solutions to support the development, optimization, and maintenance of semantic data models. This role will be responsible for translating existing Power BI logic into Looker, enhancing data models, and ensuring alignment with enterprise data products and governance standards. Key Responsibilities Analyze and map existing Power BI queries and data models for migration or integration into Looker. Develop, maintain, and enhance LookML semantic models. Design and optimize LookML views, explores, dimensions, and measures to improve performance and usability. Collaborate with data and business stakeholders to ensure semantic models accurately support reporting and analytics requirements. Align Looker models with Knowledge Catalog Data Products and enterprise data governance frameworks. Ensure data consistency, quality, and best practices across analytics solutions. Required Skills Hands-on experience with Looker and LookML development. Strong understanding of semantic data modeling and BI concepts. Experience analyzing and translating Power BI queries and reporting logic. Knowledge of data warehouse concepts and SQL. Ability to optimize data models for performa"
     },
     {
       "titulo": "Software Engineer II - React Native - Krak",
@@ -703,9 +684,26 @@
       "empresa": "Confidencial",
       "ubicacion": "Vicente López, Buenos Aires-GBA",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-funcional-e-implementador-de-software-home-office-en-vicente-lopez-BB7B86CE79D4587C61373E686DCF3405",
-      "fecha": "Hace 8 horas",
+      "fecha": "Hace 15 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-07"
+    },
+    {
+      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-AC571EB10EDA5CD261373E686DCF3405",
+      "fecha": "Hace 8 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web remoto",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
@@ -720,7 +718,7 @@
       "empresa": "BD Capital Humano",
       "ubicacion": "San Fernando, Buenos Aires-GBA",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-cloud-engineer--importante-universidad-zona-norte-gba-en-san-fernando-E716EC3D6213DC0A61373E686DCF3405",
-      "fecha": "Hace 5 horas",
+      "fecha": "Hace 12 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -731,23 +729,6 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-09-07"
-    },
-    {
-      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
-      "empresa": "Kaizen Recursos Humanos",
-      "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-EBAFAF842D4E000761373E686DCF3405",
-      "fecha": "Hace 22 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-06"
     },
     {
       "titulo": "Software Architect",
@@ -806,8 +787,8 @@
       "titulo": "Ref. 20595: Desarrollador Python / FastAPI / Remoto",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-0CD70C3D074CC1EB61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-64406E720F1BB77661373E686DCF3405",
+      "fecha": "Hace 23 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -817,7 +798,24 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-05"
+      "primera_vez": "2026-09-07"
+    },
+    {
+      "titulo": "Ref. 20595: Desarrollador Python",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E4EF614947A6136161373E686DCF3405",
+      "fecha": "Hace 21 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador Junior remoto",
+      "afinidad": 45,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-07"
     },
     {
       "titulo": "Salesforce Developer",
@@ -837,6 +835,25 @@
       "techs": [],
       "primera_vez": "2026-09-04",
       "descripcion": "En Accenture, la tecnología impulsa nuestra transformación. Buscamos personas con ganas de aprender, crecer y trabajar con herramientas de vanguardia para resolver desafíos reales. Integramos inteligencia artificial generativa (GenIA) en nuestros proyectos para acelerar la innovación, optimizar procesos y generar impacto en múltiples industrias. Contamos con más de 1.600 profesionales dedicados exclusivamente a GenIA, respaldados por una red global de más de 40.000 expertos en datos e inteligencia artificial. Este enfoque se potencia con inversiones estratégicas, más de 35 alianzas tecnológicas y más de 25 estudios GenIA distribuidos globalmente. Sumate a nuestros equipos de Technology y descubrí cómo podés ser parte de esta evolución. ¿Querés formar parte de la transformación digital y ser parte de proyectos desafiantes e innovadores? Qué Desafíos Te Esperan: Ser parte de grandes proyectos a nivel local y global. Implementación de tecnologías de vanguardia. Participar de la transformación digital. Lo que te hará exitoso: Diseñar y crear Apex (Triggers y Classes) de alto rendimiento, reutilizables y confiables. Codificar con las mejores prácticas, VisualForce, componentes Lightning, SOQL y API de Salesforce. Comprender los requisitos comerciales y las historias de usuarios para llevarlos a un diseño técnico en el entorno de Salesforce. Crear y mantener objetos personalizados, reglas de flujo de trabajo, roles y perfiles, conjuntos de permisos y reglas de asignación. Conocimientos de Agentforce (nice to have) Manejar el idioma inglés. 📌 Un lugar de trabajo único, descubrí los beneficios que tenemos para vos: 🍔 Pedidos Ya 👩‍⚕️ Prepaga Swiss Medical 💻 Reintegro de Conectividad & Servicios 😎 Beneficios flexibles 💪 Gimnasio 100% Bonificado 📆 Accenture Days 🌎 Vacaciones Flex "
+    },
+    {
+      "titulo": "Software Engineer - Python/Golang - Kubernetes",
+      "empresa": "Canonical",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-python-golang-kubernetes-at-canonical-4434727202",
+      "fecha": "2026-09-01",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 37,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-07",
+      "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring a software engineer to join our Kubernetes product team. As a member of that team, you will build the operators and addons; the former, offering complete lifecycle management of mission-critical components, and the latter, a zero-ops experience for seamlessly integrating projects into your Kubernetes. You will gain familiarity with the latest features in Kubernetes and look to incorporate the best of open-source to bring functionality to our end-users. You will collaborate with industry peers and partners to bring the right solutions to our customers. This is an exciting opportunity for a software engineer passionate about open source software, Linux, Golang, Python and Kubernetes. Location: This is a remote position available in EMEA and the Americas. What you will focus on Write high-quality code to create new features Debug issues and interact with a vibrant community Collaborate proactively with a distributed team Work with helpful and talented engineers including experts in many fields Work from home with global travel 2 to 4 weeks for internal and external"
     },
     {
       "titulo": "Golang Developer",
