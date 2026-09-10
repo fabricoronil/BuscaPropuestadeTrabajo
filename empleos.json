@@ -1,7 +1,25 @@
 {
-  "actualizado": "2026-09-09T22:02:13.892024+00:00",
-  "total": 51,
+  "actualizado": "2026-09-10T13:54:39.348020+00:00",
+  "total": 64,
   "empleos": [
+    {
+      "titulo": "Desarrollador .NET Jr",
+      "empresa": "Ecosistemas",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-jr-en-retiro-CDB51AA201E3FBE861373E686DCF3405",
+      "fecha": "Hace 4 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador Junior remoto",
+      "afinidad": 85,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "✓ Medio tiempo"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
     {
       "titulo": "Desarrollador/a Full Stack | Integraciones, Ecommerce e IA",
       "empresa": "Red Hook Data",
@@ -11,10 +29,10 @@
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
-      "afinidad": 83,
+      "afinidad": 80,
       "motivos": [
         "✓ Remoto",
-        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, SQL, Git"
+        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, SQL, Front End"
       ],
       "techs": [
         "Full Stack",
@@ -22,7 +40,6 @@
         "TypeScript",
         "Node.js",
         "SQL",
-        "Git",
         "Front End",
         "Back End"
       ],
@@ -55,40 +72,11 @@
       "descripcion": "🚀 Join our team as an AI Fullstack Engineer! At Acsys, we are looking for a proactive and innovative AI Fullstack Engineer based in Argentina. This is an exciting opportunity to work on a global project with a multinational company, building next-generation AI-powered applications and conversational experiences. 🌍 🛠️ What are we looking for? • Backend Development with .NET: Strong experience with C# /.NET (ASP.NET Core Web API), preferably .NET 10 (or .NET 8+), including asynchronous programming, dependency injection, and clean architecture principles. • Enterprise API Integrations: Hands-on experience integrating with enterprise systems through REST APIs, including OAuth2, Microsoft Entra ID, token caching, and secure proxying. • Testing & DevOps: Experience with xUnit, Vitest, structured logging (Serilog), and CI/CD pipelines using GitHub Actions. • Modern Frontend Development: Strong proficiency with React 19, TypeScript, and Vite, including hooks, performance optimization, memoization, and transitions. • Conversational & Chat Applications: Experience building chat-based user interfaces with message management, streaming responses, conversational context, and follow-up interactions. • AI-Assisted Development: Comfortable leveraging tools such as GitHub Copilot and other AI-powered development assistants to accelerate delivery and productivity. • Problem Solving & Collaboration: Strong communication skills and the ability to work effectively within cross-functional engineering teams. ⭐ Nice to Have • Azure Container Apps, Azure Functions, Key Vault, Application Insights, and Docker • Experience integrating with Power BI, Microsoft Graph, SharePoint, Dynamics, and OData services • Python development and scripting • Infrastructure as Code using Terraform or Bicep • Figm"
     },
     {
-      "titulo": "Junior Software & Web Developer – AI & Automation",
-      "empresa": "Xperience Ai Marketing Solutions",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/junior-software-web-developer-%E2%80%93-ai-automation-at-xperience-ai-marketing-solutions-4465348501",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 76,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Ideal para empezar (trainee/jr/pasantía)",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, Node.js, SQL, JavaScript, Git, Front End",
-        "− Pide 3+ años de experiencia"
-      ],
-      "techs": [
-        "TypeScript",
-        "Node.js",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "About XMS Ai XMS Ai is a digital marketing and AI solutions agency serving small and growing U.S. businesses. As we expand our AI, automation, and web development capabilities, we're hiring a Junior Software & Web Developer with roughly 2–3 years of hands-on experience who wants to grow across web development, software, AI, automation, APIs, and agentic workflows. We're open to candidates from either direction: a web developer with strong WordPress/front-end skills who also codes and works with AI or automation, or a junior software developer comfortable with front-end technologies, WordPress, and Elementor. You don't need to master every tool listed — we value a solid technical foundation, practical experience, problem-solving ability, and a genuine willingness to learn. Key Responsibilities · Build, maintain, and improve websites and landing pages in WordPress; implement responsive, front-end solutions using HTML, CSS, and JavaScript. · Write, test, and troubleshoot code, scripts, integrations, and lightweight software solutions. · Build and support AI automations and agentic workflows using n8n, Make, Zapier, or similar platforms. · Work with APIs, REST APIs, webhooks, JSON, authentication, MCPs, and third-party integrations — connecting websites, CRMs, databases, and SaaS platforms. · Help develop AI-powered applications and agents using models such as OpenAI, Claude, and Gemini. · Use modern AI coding tools (ChatGPT, Claude Code, Copilot, Cursor, etc.) and Git/GitHub for version control and documentation. · Troubleshoot failed automations, API/authentication issues, and website problems (domains, DNS, SSL, plugins, performance). · Research new tools and platforms; document code, workflows, and technical configurations. · Collaborate with web development, design, AI"
-    },
-    {
       "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
       "empresa": "B&B Consultores",
       "ubicacion": "4,3",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 4 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 75,
@@ -99,6 +87,33 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-08-05"
+    },
+    {
+      "titulo": "Fullstack .NET Developer",
+      "empresa": "Netrix Global",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-net-developer-at-netrix-global-4465607243",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 72,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, React, TypeScript, SQL, JavaScript, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "React",
+        "TypeScript",
+        "SQL",
+        "JavaScript",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-10",
+      "descripcion": "About The Opportunity This is a pipeline requisition for future opportunities. While we are not hiring immediately, we regularly seek top talent for this role and encourage you to express interest. Fullstack .NET Developer act as critical members of the Modern Apps team. You'll have the opportunity to work on challenging projects using modern technologies on both the front end and the back end. You'll be responsible for designing, developing, and implementing comprehensive solutions, collaborating closely with multidisciplinary teams to ensure the quality and performance of our applications. Your previous experience and your ability to solve technical problems will allow you to make a significant contribution at every stage of development. Often, a Fullstack .NET Developer will also serve as a critical communicator between other team members, working directly with the developers the models for building AI systems and the people who construct and run them. How You Will Make An Impact Strong analysis skills, ability to read and understand various code bases in large solution Strong debugging skills Strong incident support skills on live calls where minimal information can be provided on the issue Ability to work with minimal/changing requirements, ability to discern requirements Ability to work off-hours and weekends Can work with minimal guidance and direction What You Will Bring To The Table Application Development: .NET Core 8, C#, Web API, Azure SDK Front end Development: React, JavaScript, TypeScript Azure DevOps: CI/CD, Azure Pipelines Azure Cloud: Azure API Manager, Event Hub, Event Grid, Azure Function Apps, Azure Managed Redis, Azure SignalR Database: Azure SQL Server, Azure Cosmos DB AI: Claude Code, Azure Copilot Security: OAuth 2.0, API Security (Authorization"
     },
     {
       "titulo": "Programador full stack",
@@ -153,8 +168,8 @@
       "titulo": "Junior Software Engineer (Remote)",
       "empresa": "Hire Feed",
       "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/junior-software-engineer-remote-at-hire-feed-4465034738",
-      "fecha": "2026-09-09",
+      "enlace": "https://ar.linkedin.com/jobs/view/junior-software-engineer-remote-at-hire-feed-4465684483",
+      "fecha": "2026-09-10",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador Junior",
       "es_remoto": true,
@@ -168,8 +183,58 @@
       "techs": [
         "Git"
       ],
-      "primera_vez": "2026-09-09",
+      "primera_vez": "2026-09-10",
       "descripcion": "Role: Junior Software Engineer (Remote) Location: Remote (Work from Anywhere) Job Type: Full-Time Payout: $180K - $250K/yr Role Overview: We are hiring for one of our clients, seeking a Software Engineer, New Grad to work on a full-time basis. You will collaborate across teams to deliver scalable solutions, with a focus on modern cloud infrastructure. The role involves contributing to core product development while learning from senior engineers. Key Responsibilities: • Design, develop, and maintain software systems using Python, Java, or Go. • Write clean, efficient, and maintainable code following best practices. • Participate in code reviews to ensure adherence to technical standards. • Debug and resolve issues in production and development environments. • Contribute to architectural decisions and system design discussions. Required Skills & Qualifications: • Proficiency in at least one programming language such as Python, Java, or Go. • Experience with data structures, algorithms, and problem-solving. • Familiarity with version control systems like Git. • Basic understanding of cloud platforms and DevOps practices. • Strong communication skills to collaborate with cross-functional teams. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to scalable software solutions. You will gain exposure to cutting-edge technologies and mentorship from experienced engineers. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experience, or prior employment history. Applications are reviewed solely on demonstrated technical ability and qualifications. Apply Now!"
+    },
+    {
+      "titulo": "Frontend Engineer – React, TypeScript & GenAI",
+      "empresa": "Scale Up Recruiting Partners",
+      "ubicacion": "Rosario, Santa Fe, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-engineer-%E2%80%93-react-typescript-genai-at-scale-up-recruiting-partners-4464186680",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 70,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Front End, Tailwind, Back End"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Front End",
+        "Tailwind",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-10",
+      "descripcion": "Hey! We’re Scale Up, and our client is looking for a highly skilled Frontend Engineer to build sophisticated, scalable, and user-centric web applications supporting advanced AI and GenAI products. This is an ideal opportunity for someone with strong hands-on experience in React and TypeScript who enjoys solving complex frontend challenges, making thoughtful architectural decisions, and creating polished experiences for enterprise users. Type of Employment: Full-Time Contractor Work Modality: 100% Remote Location: Argentina Only Work Schedule: Full-Time About The Role As a Frontend Engineer, you will take ownership of the design, development, and continuous improvement of complex frontend applications. You will work closely with backend, AI, and product teams to build intuitive interfaces that connect users with powerful backend services, data platforms, and AI-powered capabilities. You will contribute not only through coding, but also through frontend architecture, state management, performance optimization, testing, and the creation of reusable components that can scale across products. What You’ll Do Design, build, and maintain complex frontend applications primarily using React and TypeScript; experience with Angular is also valuable. Define scalable frontend architecture, including component structure, data flow, and maintainable application patterns. Make thoughtful decisions around state management using tools such as Redux, Zustand, NgRx, and React Hooks. Build highly interactive, communication-heavy, and real-time product experiences using technologies such as WebSockets or Socket.io. Collaborate closely with backend and AI teams to integrate APIs and create AI-powered features, including chat interfaces, intelligent assistants, and GenAI workflows. Develop reus"
+    },
+    {
+      "titulo": "Frontend Engineer – React, TypeScript & GenAI",
+      "empresa": "Scale Up Recruiting Partners",
+      "ubicacion": "San Luis, San Luis, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-engineer-%E2%80%93-react-typescript-genai-at-scale-up-recruiting-partners-4464185681",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 70,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Front End, Tailwind, Back End"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Front End",
+        "Tailwind",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-10",
+      "descripcion": "Hey! We’re Scale Up, and our client is looking for a highly skilled Frontend Engineer to build sophisticated, scalable, and user-centric web applications supporting advanced AI and GenAI products. This is an ideal opportunity for someone with strong hands-on experience in React and TypeScript who enjoys solving complex frontend challenges, making thoughtful architectural decisions, and creating polished experiences for enterprise users. Type of Employment: Full-Time Contractor Work Modality: 100% Remote Location: Argentina Only Work Schedule: Full-Time About The Role As a Frontend Engineer, you will take ownership of the design, development, and continuous improvement of complex frontend applications. You will work closely with backend, AI, and product teams to build intuitive interfaces that connect users with powerful backend services, data platforms, and AI-powered capabilities. You will contribute not only through coding, but also through frontend architecture, state management, performance optimization, testing, and the creation of reusable components that can scale across products. What You’ll Do Design, build, and maintain complex frontend applications primarily using React and TypeScript; experience with Angular is also valuable. Define scalable frontend architecture, including component structure, data flow, and maintainable application patterns. Make thoughtful decisions around state management using tools such as Redux, Zustand, NgRx, and React Hooks. Build highly interactive, communication-heavy, and real-time product experiences using technologies such as WebSockets or Socket.io. Collaborate closely with backend and AI teams to integrate APIs and create AI-powered features, including chat interfaces, intelligent assistants, and GenAI workflows. Develop reus"
     },
     {
       "titulo": "Full-Stack Software Engineer",
@@ -178,7 +243,7 @@
       "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-openrelay-yc-s26-4462978625",
       "fecha": "2026-09-07",
       "fuente": "LinkedIn",
-      "keyword": "Full Stack",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
       "afinidad": 69,
       "motivos": [
@@ -198,63 +263,11 @@
       "descripcion": "Why OpenRelay? OpenRelay is GPU compute and LLM inference for people who ship. Customers rent GPU machines and call inference APIs; providers plug their hardware into our network and get paid for it. We run a distributed fleet on real hardware, not a reseller skin over someone else's cloud. Small team, high bar, and room for A-players to own things that are live in production. No Degree Required, Show Us What You've Built We care about what you can do, not diplomas. The profile we want most is simple: you built something on the web, and then you got strangers to use it. That last part is everything. Plenty of engineers can ship a site. Figuring out how people actually find it, ranking for a query that matters, writing cold email that gets replies, launching somewhere and converting the traffic, is the rarest and most valuable skill you can bring us. Show us what you built and the users you got on it: real traffic, real signups, real revenue. Core Tech - Next.js + React (TypeScript), Tailwind - tRPC, Node.js - Go (control plane, gateways, CLI) - DynamoDB, Redis - AWS (ECS Fargate, Terraform), Docker, Linux - PostHog, Vercel - Claude Code and agentic tooling, daily What You'll Build You'll own features end-to-end in one of three tracks (but at a startup, you'll touch all of them). Fullstack Engineering - Own and ship production features across the OpenRelay platform: the customer dashboard, the marketing site, the docs, and the internal ops portal - Work across the frontend, API, and data layers in a pnpm monorepo, React and TypeScript on top of Go services - Design and maintain APIs, background jobs, and workflows that customers depend on to launch and run GPU workloads - Use agentic engineering tools (Claude Code, autonomous loops) to build the machine that builds the m"
     },
     {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Mar del Plata, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455981139",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 69,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End"
-      ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
-    },
-    {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455967369",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 69,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End"
-      ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
-    },
-    {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Salta, Salta, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455977170",
-      "fecha": "2026-09-09",
+      "titulo": "Middle Full Stack Engineer ID84407",
+      "empresa": "AgileEngine",
+      "ubicacion": "San Miguel de Tucumán, Tucumán, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/middle-full-stack-engineer-id84407-at-agileengine-4462958410",
+      "fecha": "2026-09-07",
       "fuente": "LinkedIn",
       "keyword": "Full Stack",
       "es_remoto": true,
@@ -262,60 +275,18 @@
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
+        "✓ Tu stack: Full Stack, React, TypeScript, SQL, JavaScript, Front End"
       ],
       "techs": [
         "Full Stack",
         "React",
+        "TypeScript",
         "SQL",
         "JavaScript",
-        "Git",
         "Front End"
       ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
-    },
-    {
-      "titulo": "Full-Stack Engineer (Node.js & Angular)",
-      "empresa": "EPAM Systems",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-engineer-node-js-angular-at-epam-systems-4461151200",
-      "fecha": "2026-09-04",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 68,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, Full Stack, TypeScript, Front End, Back End"
-      ],
-      "techs": [
-        "Node.js",
-        "Full Stack",
-        "TypeScript",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-08",
-      "descripcion": "We are looking for a motivated Middle Full-Stack Engineer to join a team building scalable, high-impact solutions. In this role, you'll be an active contributor within the squad, participating in end-to-end development on a modern, cloud-native infrastructure powered by AWS. You'll collaborate within a dynamic ecosystem alongside Product, UX, the Tech Lead, and business stakeholders to bring meaningful features to life, with the support and guidance needed to grow your skills. Responsibilities Develop new features using Node.js on the backend and Angular on the frontend, following clean and maintainable coding practices Participate in technical and software design discussions, sharing your perspective and learning from the architecture defined by the Tech Lead Contribute to the deployment and monitoring of cloud components using AWS services (such as Lambda, ECS, and EKS) Support software quality by writing and running automated unit and integration tests with Jest and Cypress Help ensure code performance and scalability within event-driven architectures Work with Product, UX, and business teams to understand functional requirements and translate them into technical solutions Take part in code reviews to maintain consistency and continuously improve technical quality across the squad Requirements 2+ years of hands-on experience as a Full-Stack Developer, ideally in digital environments or medium-to-large scale platforms Good working knowledge of Node.js (Fastify a plus) and recent versions of Angular Solid understanding of TypeScript, RxJS, and layout development with SCSS Experience consuming and integrating REST APIs Some practical exposure to AWS services (e.g., Lambda, ECS, S3, DynamoDB, CloudWatch) Awareness of best practices, including Clean Code and SOLID princip"
-    },
-    {
-      "titulo": "Desarrollador/a de Negocios B2B",
-      "empresa": "Selectium",
-      "ubicacion": "Puerto Madero, Capital Federal",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-de-negocios-b2b-perfil-consultivoempresa-de-software-en-puerto-madero-F8073405427A082761373E686DCF3405",
-      "fecha": "Hace 14 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 67,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-09"
+      "primera_vez": "2026-09-10",
+      "descripcion": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for a Senior Full Stack Engineer to build robust server-side solutions for a SaaS platform operating at scale, working across Java, React, SQL, Redis, and Elasticsearch. You will contribute to architecture decisions, design reusable client integration systems following secure cloud best practices, and participate in code reviews and CI/CD processes as a trusted technical resource for the team. The role offers significant ownership from day one in a product built from the ground up. WHAT YOU WILL DO - Build a cleanly designed, reusable client integration system built adhering to secure cloud software best practices, from start to finish. - Collaborate with design and product teams to understand requirements, create estimates, plan sprints, and meet delivery timelines. - Plan and accurately estimate construction and delivery timelines. - Contribute to technical documentation and automated build and deployment processes designed to increase engineer efficiency. - Review code submitted by other software engineers, and submit your own code for review as part of our pull-request deployment process. MUST HAVES - 3+ years of SaaS experience. - High level of proficiency in Java, React, and SQL. - Knowledge of or prior experience with microservices architecture. - Front-end experience with JavaScript, TypeScript, and ReactJS. - DevOps mind"
     },
     {
       "titulo": "Software/Firmware Engineering - Intern",
@@ -337,13 +308,57 @@
       "descripcion": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell provides industry-leading coherent optical communications technology to serve the Data Center Interconnect (DCI) applications for the Hyperscaler market and the Long Haul (LH) and Metro applications for both Hyperscaler and the Telecom markets. Marvell’s products leverage state of the art communications, signal processing, and forward error correction algorithms and architectures, as well as Ethernet and OTN protocols, to bring to the marketplace communications products operating at data rates of 1.6Tb/s and beyond, over distances ranging from 100 to several thousand kilometers. What You Can Expect Linux customization to run in embedded systems. Firmware implementation to control complex hardware designs. Hardware bringup, characterization and verification. What We're Looking For Bachelor’s degree in Computer Science, Electrical Engineering or related fields. Experience in firmware implementation applied to FPGA and microcontroller devices. Knowledge in embedded OS (Linux and real time). Skills in Hardware interpretation. Additional Compensation And Benefit Elements With competitive compensation and great benefits, you will enjoy our workstyle within an environment of shared collaboration, tra"
     },
     {
+      "titulo": "QA Tester Entry Level",
+      "empresa": "Ace IT Careers",
+      "ubicacion": "Remote",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701",
+      "fecha": "2026-08-15",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuODMuMTc0LjYw when applying to show you read the job post completely (#RMjAuODMuMTc0LjYw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "afinidad": 67,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Junior Software & Web Developer – AI & Automation",
+      "empresa": "Xperience Ai Marketing Solutions",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/junior-software-web-developer-%E2%80%93-ai-automation-at-xperience-ai-marketing-solutions-4465348501",
+      "fecha": "2026-09-09",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 64,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "− Publicación en inglés",
+        "✓ Tu stack: JavaScript, Git, Front End",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [
+        "JavaScript",
+        "Git",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-09",
+      "descripcion": "About XMS Ai XMS Ai is a digital marketing and AI solutions agency serving small and growing U.S. businesses. As we expand our AI, automation, and web development capabilities, we're hiring a Junior Software & Web Developer with roughly 2–3 years of hands-on experience who wants to grow across web development, software, AI, automation, APIs, and agentic workflows. We're open to candidates from either direction: a web developer with strong WordPress/front-end skills who also codes and works with AI or automation, or a junior software developer comfortable with front-end technologies, WordPress, and Elementor. You don't need to master every tool listed — we value a solid technical foundation, practical experience, problem-solving ability, and a genuine willingness to learn. Key Responsibilities · Build, maintain, and improve websites and landing pages in WordPress; implement responsive, front-end solutions using HTML, CSS, and JavaScript. · Write, test, and troubleshoot code, scripts, integrations, and lightweight software solutions. · Build and support AI automations and agentic workflows using n8n, Make, Zapier, or similar platforms. · Work with APIs, REST APIs, webhooks, JSON, authentication, MCPs, and third-party integrations — connecting websites, CRMs, databases, and SaaS platforms. · Help develop AI-powered applications and agents using models such as OpenAI, Claude, and Gemini. · Use modern AI coding tools (ChatGPT, Claude Code, Copilot, Cursor, etc.) and Git/GitHub for version control and documentation. · Troubleshoot failed automations, API/authentication issues, and website problems (domains, DNS, SSL, plugins, performance). · Research new tools and platforms; document code, workflows, and technical configurations. · Collaborate with web development, design, AI"
+    },
+    {
       "titulo": "Fullstack Developer React Node Angular",
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-fullstack-developer-react-node-angular-en-san-nicolas-5B4D54F2BEEB224D61373E686DCF3405",
-      "fecha": "Hace 11 minutos",
+      "fecha": "Hace 16 horas",
       "fuente": "Computrabajo",
-      "keyword": "React remoto",
+      "keyword": "Desarrollador web remoto",
       "afinidad": 64,
       "motivos": [
         "✓ Remoto",
@@ -357,33 +372,6 @@
         "Full Stack"
       ],
       "primera_vez": "2026-07-16"
-    },
-    {
-      "titulo": "Middle NodeJs Engineer",
-      "empresa": "Avenga Water Well Service, LLC",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/middle-nodejs-engineer-at-avenga-water-well-service-llc-4465305116",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 64,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, TypeScript, SQL, Front End, Back End",
-        "− Pide 4+ años de experiencia"
-      ],
-      "techs": [
-        "Node.js",
-        "TypeScript",
-        "SQL",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "Buenos Aires Fully Remote Middle NodeJs Engineer It’s your career – make it matter This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina within the Fintech industry, we are actively seeking a professional to strengthen our team dedicated to scaling and evolving our high-availability backend platforms. In this position, during your first six months, your primary objective will be to enable and scale our existing systems to support multi-region AWS infrastructures. Following this initial high-impact phase, you will have the opportunity to rotate into and contribute your talent to another core team within the company. This is the team In your role, you'll become a vital member of a skilled, multi-technology team working alongside Product Owners, Web, and Mobile engineers under the Scrum framework. Your primary responsibility will involve technically leading the adaptation of existing systems into multi-region architectures and maintaining resilient event-driven workflows. Here you will have the opportunity to make a meaningful contribution to global technological progress while at the same time advancing your own skills and career. This is you 4 years of proven experience in Backend Software Development. Advanced proficiency in Node.js and TypeScript. Strong hands-on experience in AWS cloud development, specifically with containerization and orchestration using EKS (Elastic Kubernetes Service). Advanced knowledge of Kafka and Event-Driven Architectures (required). Solid experience working"
     },
     {
       "titulo": "Programador Java Jr",
@@ -428,7 +416,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-abap-hcm-junior-en-san-nicolas-010E936307CC39DC61373E686DCF3405",
-      "fecha": "Hace 8 minutos",
+      "fecha": "Hace 16 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 63,
@@ -466,30 +454,6 @@
       "descripcion": "About Bold Business Bold Business is an AI-first, delivery-first company building production-grade enterprise software, automation engines, and autonomous agent infrastructure. We build the way modern teams build: our engineers are not syntax-typists but Systems Conductors, who leverage advanced AI-agent developer environments to design, build, test, and ship production software at multiples of traditional manual velocity. The Role We're hiring Full-Stack Systems Conductors to own feature delivery across our flagship TechForce platform — spanning React/TypeScript frontends, Python/FastAPI backends, and robust PostgreSQL data schemas. You'll own high-impact modules from day one, but your true value lies in your ability to design robust databases, orchestrate complex systems, and lead background coding agents through rigorous, test-driven implementations. Two principles define how we work, and we hire for both explicitly: AI-Agentic Command. AI coding environments (Cursor, Claude Code CLI, OpenClaw / Hermes Agents / Grokbot / other personal agent harnesses, and custom Model Context Protocol servers) are our native workspace, not a novelty. We expect you to command agents to write boilerplate, scaffold routes, and draft test suites. You provide the system architecture, the security guardrails, and the rigorous critical review. Speed from agents, judgment from you. Collaborative by Default. Every change is strictly peer-reviewed through pull requests. Documentation and automated unit tests ship in the same PR as the code. Blockers get raised early, not discovered at review. We value highly legible, standardized architectures that outlive their author's immediate attention — brilliant work that only its author understands is a liability here, not an asset. What You'll Do Arc"
     },
     {
-      "titulo": "Middle Node.js Engineer",
-      "empresa": "Avenga",
-      "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/middle-node-js-engineer-at-avenga-4463391119",
-      "fecha": "2026-09-04",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 63,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, TypeScript, SQL, Back End"
-      ],
-      "techs": [
-        "Node.js",
-        "TypeScript",
-        "SQL",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-04",
-      "descripcion": "This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina, we’re looking for a Middle-Strong Node.js Engineer to join a strategic financial services project. In this role, you will take technical ownership of evolving existing backend systems into a resilient, highly available, and low-latency multi-region AWS environment. You will work on complex distributed systems, help shape technical decisions, and collaborate closely with Web, Mobile, and Product teams in an Agile/Scrum environment. This is an opportunity for an engineer who enjoys solving architectural challenges, building scalable cloud solutions, and independently driving initiatives. This is you 5+ years of backend development experience, with expert proficiency in Node.js and TypeScript; Solid experience building and operating cloud-native, high-availability, multi-region solutions on AWS, including Amazon EKS and Kubernetes; Deep expertise in event-driven architecture and Apache Kafka; Strong knowledge of relational databases (MySQL and/or PostgreSQL), Clean Architecture, design patterns, and maintainable coding practices; Strong communication and collaboration skills when working with Web, Mobile, Product Owners, and other technical stakeholders; Native Spanish and intermediate English. Nice-to-have skills: Experience in high-scale, high-transaction, or fintech environments, including legacy-system modernization and migration to cloud-native AWS architectures; Familiarity with CI/CD pipelines and infrastructure-as-code practic"
-    },
-    {
       "titulo": "Software Developer Frontend - Personal Pay",
       "empresa": "Personal",
       "ubicacion": "Buenos Aires y alrededores",
@@ -514,6 +478,30 @@
       "descripcion": "Ubicación AR Descripción Quienes Somos Somos Personal, una empresa que acompaña y potencia la vida de las personas a través de la tecnología. Nuestra propuesta está pensada para que cada persona, comunidad y organización pueda avanzar, conectarse, disfrutar y transformar su realidad. En Personal Pay estamos sumando un/una Developer Frontend Sr para el equipo de Payments con pasión por la innovación, ganas de ser protagonistas y facilidad para el desempeño en un entorno desafiante y dinámico. Buscamos Protagonistas Que Se Animen a ✔️ Trabajar en un equipo autónomo formado por diversos roles con los que interactuar para cumplir los objetivos. ✔️ Desempeñarse en un entorno ágil utilizando las últimas metodologías. ✔️ Construir funcionalidades, trabajando en el diseño de las mismas de manera integral con tu equipo. ✔️ Interactuar directamente con los equipos de diseño de UX para implementar una gran experiencia de usuario. ✔️ Participar del análisis técnico de la solución y en las decisiones técnicas de las mismas junto a los diferentes referentes de cada área implicada. ✔️ Interactuar con diferentes equipos dentro de la organización. Y Cuenten Con Estas Experiencias y Habilidades ✔️ Que sientas curiosidad por el mundo fintech. ✔️ Que te apasione el desafío de crear productos de cero y proponer las mejores soluciones. ✔️ 5+ años de experiencia previa en desarrollo de Software. ✔️ 3+ años de experiencia en el desarrollo de aplicaciones web y/o móviles con React Native (excluyente) ✔️ 2+ años de experiencia trabajando en equipo con arquitecturas distribuidas. ✔️ Es un plus poseer experiencia trabajando con TypeScript, NodeJS y NestJS para la construcción de APIs. ✔️ Que desarrolles usando patrones diseño y sigas buenas prácticas de programación. ✔️ Conocimientos de unit testi"
     },
     {
+      "titulo": "Middle Node.js Engineer",
+      "empresa": "Avenga",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/middle-node-js-engineer-at-avenga-4463391119",
+      "fecha": "2026-09-04",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 63,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Node.js, TypeScript, SQL, Back End"
+      ],
+      "techs": [
+        "Node.js",
+        "TypeScript",
+        "SQL",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-04",
+      "descripcion": "This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina, we’re looking for a Middle-Strong Node.js Engineer to join a strategic financial services project. In this role, you will take technical ownership of evolving existing backend systems into a resilient, highly available, and low-latency multi-region AWS environment. You will work on complex distributed systems, help shape technical decisions, and collaborate closely with Web, Mobile, and Product teams in an Agile/Scrum environment. This is an opportunity for an engineer who enjoys solving architectural challenges, building scalable cloud solutions, and independently driving initiatives. This is you 5+ years of backend development experience, with expert proficiency in Node.js and TypeScript; Solid experience building and operating cloud-native, high-availability, multi-region solutions on AWS, including Amazon EKS and Kubernetes; Deep expertise in event-driven architecture and Apache Kafka; Strong knowledge of relational databases (MySQL and/or PostgreSQL), Clean Architecture, design patterns, and maintainable coding practices; Strong communication and collaboration skills when working with Web, Mobile, Product Owners, and other technical stakeholders; Native Spanish and intermediate English. Nice-to-have skills: Experience in high-scale, high-transaction, or fintech environments, including legacy-system modernization and migration to cloud-native AWS architectures; Familiarity with CI/CD pipelines and infrastructure-as-code practic"
+    },
+    {
       "titulo": "Publicado hace más de 15 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
@@ -533,10 +521,10 @@
       "primera_vez": "2026-09-09"
     },
     {
-      "titulo": "Mid-Level Frontend Developer (Blazor + .NET) - Remote - Latin America",
+      "titulo": "Mid-Level Frontend Developer (Blazor) - Remote - Latin America",
       "empresa": "FullStack",
       "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/mid-level-frontend-developer-blazor-%2B-net-remote-latin-america-at-fullstack-4464906382",
+      "enlace": "https://ar.linkedin.com/jobs/view/mid-level-frontend-developer-blazor-remote-latin-america-at-fullstack-4464906382",
       "fecha": "2026-09-08",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador Junior",
@@ -552,74 +540,95 @@
         "Front End",
         "Back End"
       ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Mid-Level Frontend Developer (Blazor + .NET). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Extensive experience developing modern web applications using Blazor, C#, and .NET. Strong background designing and implementing intuitive user interfaces and end-to-end user workflows. Hands-on experience building responsive, reusable, and scalable UI components within a Blazor architecture. Proven experience integrating"
+      "primera_vez": "2026-09-10",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Mid-Level Frontend Developer (Blazor). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Extensive experience developing modern web applications using Blazor, C#, and .NET. Strong background designing and implementing intuitive user interfaces and end-to-end user workflows. Hands-on experience building responsive, reusable, and scalable UI components within a Blazor architecture. Proven experience integrating intern"
     },
     {
-      "titulo": "Mid-Level Frontend Developer (Blazor + .NET) - Remote - Latin America",
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
       "empresa": "FullStack",
-      "ubicacion": "Rosario, Santa Fe, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/mid-level-frontend-developer-blazor-%2B-net-remote-latin-america-at-fullstack-4464686819",
-      "fecha": "2026-09-08",
+      "ubicacion": "Mar del Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455981139",
+      "fecha": "2026-09-09",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 62,
+      "afinidad": 60,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Front End, Back End"
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
       ],
       "techs": [
         "Full Stack",
-        "Front End",
-        "Back End"
+        "JavaScript",
+        "Front End"
       ],
       "primera_vez": "2026-09-09",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Mid-Level Frontend Developer (Blazor + .NET). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Extensive experience developing modern web applications using Blazor, C#, and .NET. Strong background designing and implementing intuitive user interfaces and end-to-end user workflows. Hands-on experience building responsive, reusable, and scalable UI components within a Blazor architecture. Proven experience integrating"
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
     },
     {
-      "titulo": "FullStack Java + React Technical Leader - Trabajo Remoto",
-      "empresa": "BairesDev",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-java-%2B-react-technical-leader-trabajo-remoto-at-bairesdev-4463884544",
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455967369",
       "fecha": "2026-09-09",
       "fuente": "LinkedIn",
-      "keyword": "React",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 61,
+      "afinidad": 60,
       "motivos": [
         "✓ Remoto",
-        "✓ Tu stack: React, Full Stack, Front End, Back End",
-        "− Pide 15+ años de experiencia"
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
       ],
       "techs": [
-        "React",
         "Full Stack",
-        "Front End",
-        "Back End"
+        "JavaScript",
+        "Front End"
       ],
       "primera_vez": "2026-09-09",
-      "descripcion": "En BairesDev® llevamos 15 años liderando proyectos de tecnología para clientes como Google, Rolls-Royce y las startups más innovadoras de Silicon Valley. Actualmente, contamos con un equipo de 4000 profesionales conformado por el top 1% de la industria trabajando de forma remota desde más de 50 países. Al postularte a esta vacante, estarás dando el primer paso en un proceso que va más allá de lo convencional: Buscaremos conocer en profundidad tus habilidades, intereses y expectativas con el objetivo de realizar una búsqueda personalizada y encontrar el rol ideal para ti en BairesDev. FullStack Java + React Technical Leader en BairesDev Buscamos un Technical Leader de Java para aportar valor al equipo de desarrollo proponiendo soluciones innovadoras. Tendrás la oportunidad de participar en el diseño de arquitecturas cloud basadas en servicios distribuidos, aprovechando tu profundo conocimiento de patrones de desarrollo y arquitecturas Java. Tu experiencia con tecnologías de monitoreo y alertas, combinada con la experticia en integración continua y revisión de código, será esencial. Este rol requiere experiencia comprobada liderando equipos en entornos tecnológicos complejos. Qué Harás: - Liderar el diseño e implementación de arquitecturas cloud basadas en servicios distribuidos. - Ser dueño técnico de diferentes módulos de la plataforma, incluyendo diseño, desarrollo e integración. - Diseñar y escribir código limpio y robusto tanto para componentes backend (Java) como frontend (React). - Implementar arquitecturas y tecnologías de monitoreo y alertas. - Liderar procesos de integración continua y prácticas de revisión de código. - Proporcionar liderazgo técnico y mentoría a los miembros del equipo. - Realizar investigación y desarrollo para evaluar nuevas tecnologías y com"
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
     },
     {
-      "titulo": "Jóvenes Profesionales para nuestro Software de Gestión",
-      "empresa": "NeuralSoft",
-      "ubicacion": "Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/j%C3%B3venes-profesionales-para-nuestro-software-de-gesti%C3%B3n-at-neuralsoft-4463898855",
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "Salta, Salta, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455977170",
       "fecha": "2026-09-09",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "Full Stack",
       "es_remoto": true,
+      "afinidad": 60,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "JavaScript",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-09",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+    },
+    {
+      "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-4A0306D8F973953061373E686DCF3405",
+      "fecha": "Hace 14 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web remoto",
       "afinidad": 59,
       "motivos": [
         "✓ Remoto",
         "✓ Medio tiempo",
         "− Publicación en inglés"
       ],
+      "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-09",
-      "descripcion": "📢 Nos encontramos en la búsqueda de Jóvenes Profesionales para nuestro Software de Gestión MyLogic. Imagínate: * Participando en el mantenimiento eficiente de las funcionalidades de MyLogic, el Software de Gestión más completo del mercado. * Analizando, desarrollando y probando las nuevas funcionalidades para el sistema . * Potenciando tu crecimiento con un gran equipo de profesionales del mundo IT. * Capacitándote en FastPRG, nuestro lenguaje de programación. * Accediendo a un plan de carrera en una empresa en pleno crecimiento y expansión. Requisitos: * Graduados de Ingeniería Industrial / Sistemas o Negocios Digitales. (Excluyente) * Conocimiento de lenguajes de programación (Excluyente) * Nociones de estructuras de datos (Preferente) * Conocimiento en procesos de negocio. * Ganas de aprender nuevas tecnologías y herramientas. Modalidad: Disponibilidad Full-time, jornada de lunes a viernes, presencial en Buenos Aires NeuralSoft pionera en Software de Gestión en la Nube. Desde 1999 cuenta con Data Centers propios de última generación. Es la única empresa argentina que ha desarrollado su propio lenguaje de programación."
+      "primera_vez": "2026-09-10"
     },
     {
       "titulo": "Junior Cloud Data & AI Operations Engineer",
@@ -679,6 +688,23 @@
       "descripcion": "¿Estás buscando tu primera experiencia profesional en una de las empresas de retail más grandes del mundo? En Carrefour, estamos convencidos de que el talento no tiene techo, ¡y queremos que seas parte de nuestra transformación! Buscamos mentes curiosas, con ganas de aprender y desafiarse en un entorno colaborativo y de constante innovación.💡 Creemos que la tecnología y los datos son el motor para tomar mejores decisiones. Sumándote a nuestros equipos de Aprovisionamiento o Mermas, serás clave en la automatización de procesos, la aplicación de IA/RPA y la creación de dashboards estratégicos que impactan directamente en la eficiencia logística y en la gestión operativa del negocio. 💥 Principales desafíos: Reducir tareas manuales y automatizar reportes (diarios, semanales, mensuales) y flujos de trabajo en Excel y sistemas del negocio. Colaborar en el desarrollo, prueba y mejora de dashboards de gestión e identificar oportunidades de automatización utilizando herramientas de IA, RPA y data analytics. Analizar bases de datos complejas para detectar desvíos, generar alarmas y proponer mejoras operativas. Documentar procesos y colaborar transversalmente con equipos de Centros de Distribución, Sede y Tiendas. 🎓 Requisitos: Estudiantes de Ciencia de Datos, Ingeniería en Inteligencia Artificial, Ingeniería en Sistemas, Ingeniería Industrial, Sistemas de Información o carreras afines. Manejo avanzado de Excel (excluyente). Deseable experiencia o interés en bases de datos, reportería, herramientas de visualización (Dashboards) y automatización/RPA/IA. Perfil marcadamente analítico, proactivo, organizado, curioso por el mundo de los datos y con orientación al trabajo en equipo y la mejora continua. Inglés (deseable). Beneficios: 🌐 Modalidad híbrida 3x2 – Oficinas en Martínez 🛒 Des"
     },
     {
+      "titulo": "Associate Informatics Technical Specialist I (ITS)",
+      "empresa": "Abbott",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/associate-informatics-technical-specialist-i-its-at-abbott-4463663213",
+      "fecha": "2026-09-04",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-09",
+      "descripcion": "Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica. Trabajando en Abbott En Abbott, puedes hacer un trabajo que importa, crecer y aprender, cuidar de ti mismo y de tu familia, ser verdaderamente quién eres y vivir una vida plena. Tendrás acceso a : Desarrollo profesional con una empresa internacional donde podrás hacer crecer la carrera que sueñas. Una compañía reconocida como mejor lugar para trabajar en docenas de países alrededor del mundo y nombrada una de las empresas más admiradas del mundo por Fortune. Una compañía que es reconocida como una de las mejores compañías grandes para trabajar, así como un mejor lugar para trabajar para la diversidad, las madres trabajadoras, mujeres ejecutivas y científicas. La Oportunidad Esta posición está ubicada en nuestras oficinas de Puerto Madero, Buenos Aires, Argentina para la división de ADD. Estamos potenciando la toma de decisiones médicas y económicas más inteligentes para ayudar a transformar la manera en que las personas manejan su salud en todas las etapas de la vida. Cada día se realizan más de 10 millones de pruebas con los instrumentos de diagnóstico de Abbott, proporcionando resultados de laboratorio para millones de personas. Como Associate Informatics Technical Specialist, serás responsable de la implementación integral de las soluciones digitales de diagnóstico de Abbott, asegurando una correcta instalación, configuración, validación y puesta en marcha de las aplicaciones informáticas utilizadas por laboratorios y centros de salud. Tu gestión será clave para garantizar la satisfacción del cliente, el funcionamiento eficiente de las solu"
+    },
+    {
       "titulo": "Full Stack Software Engineer (Product Engineering Team)",
       "empresa": "Félix",
       "ubicacion": "Buenos Aires y alrededores",
@@ -704,7 +730,7 @@
       "empresa": "Hexaware Technologies Limited",
       "ubicacion": "Monserrat, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-microsoft-full-stack-engineer-netazure-en-monserrat-E4A6A21E658F15D861373E686DCF3405",
-      "fecha": "Hace 13 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Full Stack",
       "afinidad": 54,
@@ -718,6 +744,27 @@
         "Full Stack"
       ],
       "primera_vez": "2026-07-24"
+    },
+    {
+      "titulo": "DESARROLLADOR FULL STACK",
+      "empresa": "Kruger NearShore LLC - Rekluti",
+      "ubicacion": "Remoto mundial",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
+      "fecha": "2026-08-22",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Desarrollador/a Full Stack â Python / Angular / Go En Rekluti , consultora especializada en talento tecnolÃ³gico en LATAM, buscamos un/a Desarrollador/a Full Stack para integrarse a proyectos de alta complejidad y participar en el desarrollo de soluciones web escalables. Buscamos un perfil con sÃ³lida experiencia en Python, Angular y Go , capaz de desenvolverse de manera autÃ³noma, aportar en decisiones tÃ©cnicas y colaborar con equipos multidisciplinarios. ð¯ Principales responsabilidades DiseÃ±ar, desarrollar y mantener aplicaciones Full Stack, participando en frontend y backend. Desarrollar servicios y APIs REST utilizando principalmente Python y Go. Construir y mantener interfaces web modernas con Angular . Participar en el diseÃ±o de arquitecturas y definiciÃ³n de soluciones tÃ©cnicas. Integrar servicios, APIs y diferentes componentes de la plataforma. Desarrollar cÃ³digo limpio, mantenible, escalable y de alta calidad. Participar en revisiones de cÃ³digo, testing y resoluciÃ³n de incidencias. Colaborar con equipos de Producto, QA, DevOps y otros perfiles tÃ©cnicos. Contribuir a la mejora continua de procesos y buenas prÃ¡cticas de desarrollo. Trabajar con servicios cloud y ambientes desplegados sobre Google Cloud Platform (GCP) . Participar eventualmente en iniciativas de desarrollo mobile utilizando Flutter . ð» Requisitos 5+ aÃ±os de experiencia en desarrollo de software. Experiencia sÃ³lida como Full Stack Developer . Dominio avanzado de Python , especialmente para desarrollo backend. Experiencia sÃ³lida con Angular para desarrollo frontend. Experiencia profesional con Go (Golang) en desarrollo de servicios y aplicaciones. Experiencia construyendo APIs REST, microservicios e integraciones . Conocimientos de bases de datos SQL y/o NoSQL. Experiencia trabaj",
+      "afinidad": 54,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Full Stack",
+        "− Publicación en inglés"
+      ],
+      "techs": [
+        "Full Stack"
+      ],
+      "primera_vez": "2026-09-10"
     },
     {
       "titulo": "BI Developer (Looker)",
@@ -741,6 +788,27 @@
       "descripcion": "At Capgemini Engineering, the world leader in engineering services, we bring together a global team of engineers, scientists, and architects to help the world’s most innovative companies unleash their potential. From autonomous cars to life-saving robots, our digital and software technology experts think outside the box as they provide unique R&D and engineering services across all industries. Join us for a career full of opportunities. Where you can make a difference. Where no two days are the same. Job Description Position Overview We are seeking a Looker Developer with experience in LookML and business intelligence solutions to support the development, optimization, and maintenance of semantic data models. This role will be responsible for translating existing Power BI logic into Looker, enhancing data models, and ensuring alignment with enterprise data products and governance standards. Key Responsibilities Analyze and map existing Power BI queries and data models for migration or integration into Looker. Develop, maintain, and enhance LookML semantic models. Design and optimize LookML views, explores, dimensions, and measures to improve performance and usability. Collaborate with data and business stakeholders to ensure semantic models accurately support reporting and analytics requirements. Align Looker models with Knowledge Catalog Data Products and enterprise data governance frameworks. Ensure data consistency, quality, and best practices across analytics solutions. Required Skills Hands-on experience with Looker and LookML development. Strong understanding of semantic data modeling and BI concepts. Experience analyzing and translating Power BI queries and reporting logic. Knowledge of data warehouse concepts and SQL. Ability to optimize data models for performa"
     },
     {
+      "titulo": "Data Engineer",
+      "empresa": "Fudo",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-engineer-at-fudo-4464527767",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 52,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: SQL"
+      ],
+      "techs": [
+        "SQL"
+      ],
+      "primera_vez": "2026-09-10",
+      "descripcion": "Acerca de Fudo: Somos una compañía que combina experiencia en la industria gastronómica y pasión por la tecnología. Todos los días ayudamos a decenas de miles de restaurantes a lo largo de Latinoamérica a mejorar su servicio con nuestro software de gestión, nuestras aplicaciones móviles y nuestra plataforma de pagos. Fudo es el sistema operativo del restaurante: todo lo que un restaurante factura, cobra, compra, paga y vende pasa por nuestro sistema. Somos líderes de mercado en Argentina y Chile, con una porción muy significativa de los restaurantes de cada país trabajando con nosotros, y crecemos aceleradamente en México, Colombia y Brasil. Además de nuestro software, procesamos pagos con licencia propia en tres países. Crecemos rápido y lo hacemos de manera sustentable: financiamos nuestro crecimiento con nuestra propia operación, no con rondas de inversión. Eso nos permite tomar decisiones de largo plazo. Acerca del rol: Nos encontramos en la búsqueda de una persona que le entusiasme formar parte de nuestro equipo de Tecnología, para trabajar de forma remota o bien en nuestras oficinas en Buenos Aires, Argentina, en horario full-time. Quien ocupe esta posición trabajará en conjunto con nuestro líder del área, contribuyendo a diseñar, construir y mantener la infraestructura de datos necesaria para el procesamiento y análisis eficiente de grandes volúmenes de información. Principales responsabilidades: Trabajar en colaboración con los equipos de análisis de datos y científicos de datos para garantizar la calidad de los datos y la integridad de los análisis. Crear y mantener flujos de datos y pipelines para la ingestión, transformación y almacenamiento de datos. Identificar y resolver problemas de rendimiento en la infraestructura de datos, y optimizar la arquitectura d"
+    },
+    {
       "titulo": "Software Engineer",
       "empresa": "Sovos Latinoamérica",
       "ubicacion": "San Miguel de Tucumán, Tucumán, Argentina",
@@ -757,6 +825,42 @@
       "techs": [],
       "primera_vez": "2026-09-09",
       "descripcion": "Build your future with Sovos. If you're seeking a career where innovation meets impact, you've come to the right place. As a global leader, Sovos is transforming tax compliance from a business requirement to a force for growth while revolutionizing how businesses navigate the ever-changing regulatory landscape. At Sovos, we're dedicated to more than just solving compliance challenges -- we're committed to making a positive and lasting difference in everything we do. Our teams operate on the modern edge of digital technology, working not only to solve complex business challenges but also to enrich our personal, professional, and local communities. Our purpose-built systems provide the tools you need to thrive in a world where governments demand increased visibility, faster reporting and greater control over business processes. Excited about the possibilities? So are we! Don't worry if you don't check all the boxes -- apply anyway! We're focused on hiring the right people, not just the \"right\" resume. It's not about what you've done elsewhere; it's all about what you're capable of doing here. The Work You'll Do As a Software Engineer at Sovos, you'll be instrumental in building the next generation of tax compliance solutions that power global commerce. Working within our agile development teams, you'll apply systematic approaches to develop, deliver, and maintain software products that serve half of the Fortune 500 and thousands of businesses worldwide. This role offers the opportunity to work with cutting-edge technologies while collaborating with talented professionals across different time zones and cultures. You'll be empowered to grow from executing individual tasks to becoming a technical consultant in your areas of expertise, all while working on solutions that dir"
+    },
+    {
+      "titulo": "Jóvenes Profesionales graduados para nuestro Software de Gestión- Buenos Aires",
+      "empresa": "NeuralSoft",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/j%C3%B3venes-profesionales-graduados-para-nuestro-software-de-gesti%C3%B3n-buenos-aires-at-neuralsoft-4463898855",
+      "fecha": "2026-09-09",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10",
+      "descripcion": "📢 Nos encontramos en la búsqueda de Jóvenes Profesionales para nuestro Software de Gestión MyLogic. Imagínate: * Participando en el mantenimiento eficiente de las funcionalidades de MyLogic, el Software de Gestión más completo del mercado. * Analizando, desarrollando y probando las nuevas funcionalidades para el sistema . * Potenciando tu crecimiento con un gran equipo de profesionales del mundo IT. * Capacitándote en FastPRG, nuestro lenguaje de programación. * Accediendo a un plan de carrera en una empresa en pleno crecimiento y expansión. Requisitos: * Graduados de Ingeniería Industrial / Sistemas o Negocios Digitales. (Excluyente) * Conocimiento de lenguajes de programación (Excluyente) * Nociones de estructuras de datos (Preferente) * Conocimiento en procesos de negocio. * Ganas de aprender nuevas tecnologías y herramientas. Modalidad: Disponibilidad Full-time, jornada de lunes a viernes, presencial en Buenos Aires NeuralSoft pionera en Software de Gestión en la Nube. Desde 1999 cuenta con Data Centers propios de última generación. Es la única empresa argentina que ha desarrollado su propio lenguaje de programación."
+    },
+    {
+      "titulo": "Jóvenes Profesionales graduados para nuestro Software de Gestión- Rosario",
+      "empresa": "NeuralSoft",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/j%C3%B3venes-profesionales-graduados-para-nuestro-software-de-gesti%C3%B3n-rosario-at-neuralsoft-4464531326",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10",
+      "descripcion": "📢 Nos encontramos en la búsqueda de Jóvenes Profesionales para nuestro Software de Gestión MyLogic. Imagínate: * Participando en el mantenimiento eficiente de las funcionalidades de MyLogic, el Software de Gestión más completo del mercado. * Analizando, desarrollando y probando las nuevas funcionalidades para el sistema . * Potenciando tu crecimiento con un gran equipo de profesionales del mundo IT. * Capacitándote en FastPRG, nuestro lenguaje de programación. * Accediendo a un plan de carrera en una empresa en pleno crecimiento y expansión. Requisitos: * Graduados de Ingeniería Industrial / Sistemas o Negocios Digitales. (Excluyente) * Conocimiento de lenguajes de programación (Excluyente) * Nociones de estructuras de datos (Preferente) * Conocimiento en procesos de negocio. * Ganas de aprender nuevas tecnologías y herramientas. Modalidad: Disponibilidad Full-time, jornada de lunes a viernes, presencial en Rosario NeuralSoft pionera en Software de Gestión en la Nube. Desde 1999 cuenta con Data Centers propios de última generación. Es la única empresa argentina que ha desarrollado su propio lenguaje de programación."
     },
     {
       "titulo": "Linux Software Engineer - Ubuntu for Next-Gen Silicon (multiple roles and seniority levels)",
@@ -777,11 +881,11 @@
       "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. Canonical’s Partner Engineering Team is looking for open-source enthusiasts to work across the full Linux stack to ensure new silicon technologies, such as new hardware accelerators, AI stacks, confidential computing, networking, virtualization, and containerization stacks, are optimized for new silicons. Partner Engineering works closely with worldwide silicon companies to optimize Ubuntu for their new silicon, from x86, ARM, RISC-V, PowerPC and s390x architectures. Location: This is a Globally remote role The role entails Collaborating proactively within a distributed team Fostering a software ecosystem with seamless user experience for all Ubuntu users Evaluating contributions of other engineers to maintain high-quality software standards. Playing a role in shaping the future of Ubuntu via both - new ideas in your areas of interest and advising on work being done elsewhere Collaborating with other teams in the Ubuntu and Debian communities, with upstream projects, and commercially supported customers Debugging issues on open source code and team maintained code. Helping o"
     },
     {
-      "titulo": "Ejecutivo de Ventas de Sistemas/IT para importante Software Factory",
-      "empresa": "RH Master",
-      "ubicacion": "2,9",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-de-sistemasit-para-importante-software-factory-muy-buena-remuneracion-y-remoto-en-belgrano-51B57B2C37B165B861373E686DCF3405",
-      "fecha": "Hace 21 horas",
+      "titulo": "Marketing and Brand Strategist (para Importante Empresa de Software)",
+      "empresa": "Esentia Recursos Humanos",
+      "ubicacion": "Córdoba, Córdoba",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-marketing-and-brand-strategist-para-importante-empresa-de-software-en-cordoba-39D94DB7B2FA15B461373E686DCF3405",
+      "fecha": "Hace 6 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -791,14 +895,14 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-09"
+      "primera_vez": "2026-09-10"
     },
     {
-      "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
+      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-E0EA0D75C9CDCB6C61373E686DCF3405",
-      "fecha": "Hace 8 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-0D6F0E1952C0A1E261373E686DCF3405",
+      "fecha": "Hace 15 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -808,31 +912,14 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-09"
-    },
-    {
-      "titulo": "DevOps / Cloud Engineer / Importante Universidad Zona Norte GBA",
-      "empresa": "BD Capital Humano",
-      "ubicacion": "San Fernando, Buenos Aires-GBA",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-cloud-engineer--importante-universidad-zona-norte-gba-en-san-fernando-E716EC3D6213DC0A61373E686DCF3405",
-      "fecha": "Hace 10 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-09"
+      "primera_vez": "2026-09-10"
     },
     {
       "titulo": "Software Architect",
       "empresa": "Confidencial",
       "ubicacion": "Monserrat, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-software-architect-especializado-en-nodejs-en-monserrat-174046D859AF3E0361373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "Node.js remoto",
       "afinidad": 49,
@@ -845,22 +932,208 @@
       "primera_vez": "2026-07-14"
     },
     {
-      "titulo": "Desarrollador funcional",
-      "empresa": "Terragene",
-      "ubicacion": "Rosario, Santa Fe, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-funcional-at-terragene-4462832466",
-      "fecha": "2026-09-03",
-      "fuente": "LinkedIn",
-      "keyword": "Pasantía sistemas",
+      "titulo": "Jenni AI",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Research,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-jenni-ai-ai-supermarket-1136602",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
       "es_remoto": true,
-      "afinidad": 47,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
       "motivos": [
         "✓ Remoto",
-        "− Pide inglés"
+        "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-09-09",
-      "descripcion": "🧪 Terragene es una empresa líder en el desarrollo y fabricación de soluciones innovadoras para el control de infecciones. 🔍 Nos encontramos en la búsqueda de un Desarrollador Funcional para unirse a nuestro equipo! Tu misión será garantizar una excelente experiencia en la implementación, análisis y soporte de nuestras soluciones de software internas y externas. Principales Responsabilidades 👉🏻 Relevar las necesidades de clientes para la implementación de software interno y externo. 👉🏻 Elaborar documentación, manuales y flujos de trabajo del cliente. 👉🏻 Capacitar a los usuarios finales en el uso de los sistemas. 👉🏻 Brindar soporte a clientes finales respecto a la utilización y funcionalidades del software desarrollado por el área. 👉🏻 Realizar el seguimiento de avances con clientes. 👉🏻 Diagnosticar problemas técnicos y plantear alternativas de solución. Requisitos ✨ Graduado o estudiante avanzado de Ingeniería en Sistemas de Información, Lic. en Sistemas Informáticos, Analista Universitario en Sistemas o afines (no excluyente). ✨ Experiencia previa preferentemente de tres años en puestos similares (no excluyente). ✨ Idioma Inglés avanzado (nivel conversacional)."
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Typefully",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Heartâs Content,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-typefully-ai-supermarket-1136391",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Apify",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Ajmer,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-apify-ai-supermarket-1136554",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Aragon AI",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Good Design,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-aragon-ai-ai-supermarket-1136388",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Beehiiv",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Heartâs Content,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-beehiiv-ai-supermarket-1136389",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Meshy",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Good Design,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-meshy-ai-supermarket-1136386",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "GetResponse",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Rajkot,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-getresponse-ai-supermarket-1136556",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "AskYourPDF",
+      "empresa": "AI Supermarket",
+      "ubicacion": "Heartâs Content,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-askyourpdf-ai-supermarket-1136704",
+      "fecha": "2026-08-11",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates action items, follow-up emails and CRM updates automatically. Integrated with Zoom, Teams, Meet and 40+ business tools.Chat with any PDF, document or website using AI that reads and understands your files instantly. Ask complex questions, get cited summaries and extract key insights without reading every page. Used by 500,000+ students, lawyers and researchers to save hours of manual reading.AI writing assistant built specifically for academic researchers, students and scientists. Generates literature reviews, helps overcome writer block with auto-completions and cites sources from a database ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Freelance Designer",
+      "empresa": "Control Shift Video",
+      "ubicacion": "Texas,",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213",
+      "fecha": "2026-08-05",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "Job Description And Requirements Project-based | Remote | United States | Contract Pay based on freelancer's rate Control Shift Video is looking for a freelance designer to collaborate with our creative team on project-based work across video, motion graphics, web visuals, and brand content. Our projects span technology, healthcare, energy, consumer brands, nonprofits, and passion projects. What Youâll Do Design visual systems, frames, and assets for video and motion projects Support branding, layout, and visual storytelling needs Translate concepts into clean, purposeful designs Prepare files for animation and production workflows What Weâre Looking For Strong design fundamentals and visual judgment Experience designing for motion or video Clear communication and reliable delivery Proficiency in Adobe Creative Suite or similar tools How We Work Remote-first and flexible Project-based engagements with clear scopes and timelines Respectful collaboration â we treat freelancers like partners, not resources Clear feedback, fair rates, and no last-minute chaos whenever possible Why Work With Us Youâll work on meaningful projects with real impact We value creativity, curiosity, and people who take pride in their craft We keep our word and expect the same in return Youâll be part of a trusted creative network we return to often You'll Probably Enjoy Working With Us If You â Like learning how complex products and technologies work. â Enjoy turning technical information into clear visual stories. â Are comfortable reading product guides, white papers, and technical documentation. â Ask questions before jumping into design. â Care as much about accuracy as aesthetics. â Can switch between creative thinking and analytical thinking. Please mention the word **R",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Data Entry &amp; Administrative Assistant",
+      "empresa": "Re Lytics Hires",
+      "ubicacion": "Ø£Ø¨Ù Ø¸Ø¨Ù, Ø£Ø¨Ù Ø¸Ø¨Ù Ø£Ø¨Ù Ø¸Ø¨Ù Ø§ÙØ¥Ù Ø§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙ ØªØ­Ø¯Ø©",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-data-entry-amp-administrative-assistant-re-lytics-hires-1136107",
+      "fecha": "2026-08-03",
+      "fuente": "RemoteOK",
+      "keyword": "remoto",
+      "es_remoto": true,
+      "descripcion": "We are seeking a reliable Data Entry &amp; Administrative Assistant to provide essential remote support through accurate information management, document handling, and administrative coordination. This position is ideal for individuals who are organised, detail-oriented, and interested in supporting efficient business operations through high-quality administrative work. The successful candidate will manage records, process data, maintain documentation, and assist with daily administrative activities. You will work independently while collaborating with internal teams to ensure information remains accurate, organised, and accessible, contributing to improved productivity and streamlined workflows. Key Responsibilities: Perform accurate data entry and maintain updated records. Review and verify information for accuracy and completeness. Organise and manage electronic files and documents. Assist with administrative reporting and spreadsheet management. Update databases and tracking systems regularly. Support document preparation and processing activities. Respond to internal requests for information and updates. Maintain confidentiality of company and client information. Monitor administrative tasks and ensure timely completion. Assist with general office support activities as required. Requirements: Strong attention to detail and accuracy. Excellent organisational and time-management skills. Ability to handle multiple administrative tasks. Good written and verbal communication skills. Comfortable working with digital tools and software. Ability to work independently in a remote environment. Strong problem-solving skills. Reliable internet connection and computer access. Qualifications: High school diploma or equivalent required. Previous experience in data entry, administ",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
+      "titulo": "Software Engineer (Backend)",
+      "empresa": "Xepelin",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-backend-at-xepelin-4363845157",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 48,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Back End, TypeScript, Node.js",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [
+        "Back End",
+        "TypeScript",
+        "Node.js"
+      ],
+      "primera_vez": "2026-09-10",
+      "descripcion": "🚀 ¿Por qué trabajar en Xepelin? Xepelin está transformando las finanzas empresariales en Latinoamérica con una suite de productos que automatizan la gestión financiera y facilitan el acceso a liquidez. Con el objetivo de convertirse en el CFO digital de todo negocio, ha desarrollado tecnología financiera que impacta en todo el ecosistema empresarial. Gracias a la data obtenida por la interacción de +1M de empresas dentro de su network, se construye un sistema de inteligencia de negocios que da visibilidad de indicadores financieros y evaluaciones de riesgo de la red con la que se colabora, ayudando a que la toma de decisiones sea más rápida y segura. Nuestros principios ¿Cómo operamos? 🎯 Ponemos a nuestros clientes en el centro ✨ Creemos e inspiramos 🧑‍💼 Actuamos como dueños 🏅 Lideramos con el ejemplo 🏆 Nos desafiamos para ganar 🧠 Tomamos riesgos con inteligencia 🤖 Usamos el poder de la tecnología ¿Qué estamos buscando? En Xepelin estamos buscando personas creativas y visionarias que piensen fuera de la caja para sumarse a nuestro equipo. Si te apasiona resolver desafíos interesantes de alto impacto y quieres ser parte de un entorno dinámico que está transformando la industria financiera, ¡Esta oportunidad es para ti! Si te motiva el desafío de construir soluciones innovadoras en un entorno de rápido cambio, queremos conocerte. Únete a nosotros, ¡crezcamos juntos! Principales responsabilidades: Aportar ideas y participar en la definición de la visión técnica de componentes clave de la plataforma Contribuir al diseño de sistemas y arquitectura, con la guía del equipo Colaborar en el desarrollo y mantenimiento de servicios escalables y resilientes Participar activamente en el desarrollo \"hands-on\" de proyectos críticos para entregar valor a los clientes Aprender y aplicar"
     },
     {
       "titulo": "Software Engineer III - Front End UI - C#/.Net/React - Neovest",
@@ -890,7 +1163,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-64406E720F1BB77661373E686DCF3405",
-      "fecha": "Hace 9 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -907,7 +1180,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E4EF614947A6136161373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior remoto",
       "afinidad": 45,
@@ -938,40 +1211,6 @@
       "descripcion": "Sobre Alkemia Alkemia LLC es una empresa digital-native con presencia en Latinoamérica y Estados Unidos, especializada en convertir retos operativos en ventajas competitivas. Nuestro equipo suma más de 25 años de experiencia combinando la agilidad del No-Code con el potencial de la IA para que los negocios no solo crezcan, sino que lideren sus mercados. Nuestra misión es conectar la interacción humana y tecnológica mediante sistemas inteligentes, aplicando mejores prácticas globales para crear experiencias superiores en cada punto de contacto. Nos diferencia la innovación basada en IA, la especialización en Creatio —plataforma agéntica no-code/low-code—, la certificación ISO 9001:2015 y una cultura de servicio proactiva, transparente y ágil. Operamos plenamente en español en toda Latinoamérica, trabajando con empresas exigentes en procesos de transformación digital. El puesto Buscamos un Desarrollador Web que quiera especializarse en Creatio, la plataforma agéntica no-code/low-code sobre la que construimos nuestras soluciones. Entrás con tu base de desarrollo web y te formamos: el objetivo de los primeros meses es que te certifiques en la plataforma, con acompañamiento del equipo, tiempo asignado dentro de la jornada y el costo de la certificación a cargo de Alkemia. A partir de ahí, tu trabajo va a ser desarrollar sobre Creatio y alrededor de ella: Componentes y pantallas custom en Freedom UI, la capa de interfaz de Creatio basada en Angular. Lógica de negocio y servicios en C#/.NET dentro de la plataforma. Integraciones con sistemas de terceros vía APIs REST y OData. Aplicaciones web satélite (portales, micrositios, herramientas internas) conectadas al CRM. Automatizaciones y funcionalidades asistidas por IA sobre los procesos de nuestros clientes. Requisitos 2+ años "
     },
     {
-      "titulo": "Desarrollador Java (versiones 6 y 21 excluyentes)",
-      "empresa": "C&S informática s.a.",
-      "ubicacion": "4,1",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-versiones-6-y-21-excluyentes-en-san-nicolas-5AFD0FDA327ADFC061373E686DCF3405",
-      "fecha": "Hace 2 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-09"
-    },
-    {
-      "titulo": "Desarrolladores Java",
-      "empresa": "C&S informática s.a.",
-      "ubicacion": "4,1",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladores-java-en-san-nicolas-AB283E05CBFAA97061373E686DCF3405",
-      "fecha": "Hace 5 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Piden otro stack (no JS/TS)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-09"
-    },
-    {
       "titulo": ".NET Developer",
       "empresa": "Capgemini Engineering",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -995,6 +1234,23 @@
       "descripcion": "Job Description Buscamos un/a .NET Developer para sumarse a un proyecto desafiante de desarrollo y mantenimiento de aplicaciones web para un importante cliente del rubro retail/food. Requisitos excluyentes: Inglés avanzado. Más de 4 años de experiencia desarrollando con .NET / C#. Experiencia con Angular, TypeScript y SQLite. Valoramos experiencia en: Cloud: AWS, Azure o GCP. Diseño y consumo de APIs RESTful. Bases de datos SQL. Docker y Kubernetes. Prácticas de CI/CD y entornos DevOps. Si te apasiona el desarrollo de soluciones escalables y querés formar parte de un equipo internacional, ¡nos encantaría conocerte!"
     },
     {
+      "titulo": "Desarrollador Sap Fiori con ingles avanzado",
+      "empresa": "C&S informática s.a.",
+      "ubicacion": "4,1",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-sap-fiori-con-ingles-avanzado-en-san-nicolas-CDAC10237644955161373E686DCF3405",
+      "fecha": "Hace 17 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web",
+      "afinidad": 42,
+      "motivos": [
+        "✓ Remoto",
+        "− Pide inglés"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-10"
+    },
+    {
       "titulo": "Software Engineer",
       "empresa": "Epsilon",
       "ubicacion": "Buenos Aires y alrededores",
@@ -1015,25 +1271,6 @@
       ],
       "primera_vez": "2026-09-08",
       "descripcion": "Company Description Click here to view how Epsilon transforms marketing with 1 View, 1 Vision, 1 Voice. Overview How You’ll Make an Impact We are looking for a Software Engineer to join our Engineering team reporting to the team Lead. As a Software Engineer at Epsilon, you will be responsible for creating, maintaining and supporting software solutions that run in the cloud and handle several TBs of data per day. The candidate will possess a strong knowledge in backend, cloud technologies and map reduce paradigm. Responsibilities What You’ll Achieve Design, build, test, and support back-end services in the context of a big data solution. Design and development of independent and scalable ETLs for processing large volumes of information. Create infrastructure for your designed solutions in the cloud Understand and prioritize requirements according to business needs. Work independently and by objectives. Qualifications Who You Are What You’ll Bring With You 1-3 years working with at least one backend language (preferably python). Proficiency in Spark and map reduce technologies. Experience in at least one cloud platform (preferably AWS). Knowledge of Scrum methodologies. Proficiency in English to communicate and update the team Demonstrable experience developing scalable and quality ETL solutions. Why You Might Stand Out From Other Talent Knowledge of CI/CD tools (preferably Jenkins) Knowledge of Docker Knowledge IAC framework (preferrably cloudformation) Additional Information When You Join Us, We’ll Create Something EPIC Together Epsilon is a global data, technology and services company that powers the marketing and advertising ecosystem. For decades, we’ve provided marketers from the world’s leading brands the data, technology and services they need to engage consumers "
-    },
-    {
-      "titulo": "Associate Informatics Technical Specialist I (ITS)",
-      "empresa": "Abbott",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/associate-informatics-technical-specialist-i-its-at-abbott-4463663213",
-      "fecha": "2026-09-04",
-      "fuente": "LinkedIn",
-      "keyword": "Pasantía sistemas",
-      "es_remoto": true,
-      "afinidad": 35,
-      "motivos": [
-        "✓ Remoto",
-        "− Pide 2+ años de experiencia",
-        "− Pide inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-09-09",
-      "descripcion": "Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica. Trabajando en Abbott En Abbott, puedes hacer un trabajo que importa, crecer y aprender, cuidar de ti mismo y de tu familia, ser verdaderamente quién eres y vivir una vida plena. Tendrás acceso a : Desarrollo profesional con una empresa internacional donde podrás hacer crecer la carrera que sueñas. Una compañía reconocida como mejor lugar para trabajar en docenas de países alrededor del mundo y nombrada una de las empresas más admiradas del mundo por Fortune. Una compañía que es reconocida como una de las mejores compañías grandes para trabajar, así como un mejor lugar para trabajar para la diversidad, las madres trabajadoras, mujeres ejecutivas y científicas. La Oportunidad Esta posición está ubicada en nuestras oficinas de Puerto Madero, Buenos Aires, Argentina para la división de ADD. Estamos potenciando la toma de decisiones médicas y económicas más inteligentes para ayudar a transformar la manera en que las personas manejan su salud en todas las etapas de la vida. Cada día se realizan más de 10 millones de pruebas con los instrumentos de diagnóstico de Abbott, proporcionando resultados de laboratorio para millones de personas. Como Associate Informatics Technical Specialist, serás responsable de la implementación integral de las soluciones digitales de diagnóstico de Abbott, asegurando una correcta instalación, configuración, validación y puesta en marcha de las aplicaciones informáticas utilizadas por laboratorios y centros de salud. Tu gestión será clave para garantizar la satisfacción del cliente, el funcionamiento eficiente de las solu"
     },
     {
       "titulo": "Golang Developer",
@@ -1060,10 +1297,10 @@
       "descripcion": "Job Description Buscamos Go Developers Jr/Ssr con experiencia en desarrollo backend y microservicios cloud-native sobre AWS. Responsabilidades: Diseñar y desarrollar microservicios en Go sobre Kubernetes (EKS). Implementar APIs REST/gRPC, middleware (auth, tracing, retries) y consumidores async (SNS/SQS/EventBridge). Integrar bases de datos (Aurora PostgreSQL) y caching con Redis. Trabajar con servicios AWS (S3, Secrets Manager, mensajería) bajo buenas prácticas de seguridad. Participar en code reviews, pruebas (unitarias/performance) y despliegues GitOps (ArgoCD). Colaborar con equipos técnicos y mentorear buenas prácticas en Go. Requisitos: +2 años trabajando con Go en producción (excluyente). Experiencia en Kubernetes (EKS) y AWS. Conocimientos en APIs, bases de datos y arquitectura de microservicios. Buenas habilidades de comunicación. Inglés conversacional avanzado (excluyente). Job Description - Grade Specific Has more than a year of relevant work experience. Solid understanding of programming concepts, software design and software development principles. Consistently works to direction with minimal supervision, producing accurate and reliable results. Individuals are expected to be able to work on a range of tasks and problems, demonstrating their ability to apply their skills and knowledge. Organises own time to deliver against tasks set by others with a mid term horizon. Works co-operatively with others to achieve team goals and has a direct and positive impact on project performance and make decisions based on their understanding of the situation, not just the rules."
     },
     {
-      "titulo": "Desarrollador Salesforce",
+      "titulo": "Desarrollador(a) Salesforce",
       "empresa": "Deloitte",
       "ubicacion": "Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-salesforce-at-deloitte-4464336150",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-a-salesforce-at-deloitte-4464336150",
       "fecha": "2026-09-07",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador Junior",
@@ -1076,8 +1313,8 @@
         "− Pide inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-09-07",
-      "descripcion": "¿Cómo es el día a día de la posición? Como Desarrollador Salesforce en Deloitte, serás responsable del diseño e implementación de la herramienta Salesforce con clientes, donde tendrás la oportunidad de aplicar tus conocimientos metodológicos, buenas prácticas, así como también técnicas de diseño y desarrollo en la herramienta Salesforce junto a los equipos de implementación. Se buscan egresados(as) con alto grado de creatividad, capacidad de análisis, proactividad, gusto por la investigación y predisposición al desarrollo de la práctica. Trabajarás en un ambiente dinámico y enriquecedor con personas de diferentes culturas, perspectivas, especialidades y conocimientos. Juntos(as), creamos soluciones únicas y de calidad, superando las expectativas y alcance de nuestros proyectos y clientes. Nos motiva generar un impacto significativo en todo lo que hacemos. ¿Qué se necesita para aplicar? • Egresado(a) de Licenciatura o Ingeniería en Sistemas, Computacionales. • De 3 a 6 años de experiencia en la herramienta Salesforce. • Inglés intermedio • Herramientas:Plataforma Salesforce, Jira o similar. • Habilidades:Capacidad de análisis, comunicación efectiva, organización, adaptabilidad, orientación a resultados, apego a altos estándares de calidad, negociación, solución de problemas y afición por la tecnología. ¿Por qué Deloitte? Con nuestro trabajo creamos un impacto significativo, que marca una diferencia positiva en nuestros(as) clientes, la sociedad y el planeta. Colaboramos en distintos proyectos con personas que nos escuchan, inspiran, alientan y apoyan a dar lo mejor de nosotros(as) mismos(as). Para Deloitte, nuestro desarrollo integral es una prioridad. A través de las oportunidades de aprendizaje, movilidad, voluntariado y la asesoría personalizada de nuestros(as) lídere"
+      "primera_vez": "2026-09-10",
+      "descripcion": "¿Cómo es el día a día de la posición? Como Desarrollador(a) Salesforce en Deloitte, serás responsable del diseño e implementación de la herramienta Salesforce con clientes, donde tendrás la oportunidad de aplicar tus conocimientos metodológicos, buenas prácticas, así como también técnicas de diseño y desarrollo en la herramienta Salesforce junto a los equipos de implementación. Se buscan egresados(as) con alto grado de creatividad, capacidad de análisis, proactividad, gusto por la investigación y predisposición al desarrollo de la práctica. Trabajarás en un ambiente dinámico y enriquecedor con personas de diferentes culturas, perspectivas, especialidades y conocimientos. Juntos(as), creamos soluciones únicas y de calidad, superando las expectativas y alcance de nuestros proyectos y clientes. Nos motiva generar un impacto significativo en todo lo que hacemos. ¿Qué se necesita para aplicar? • Egresado(a) de Licenciatura o Ingeniería en Sistemas, Computacionales. • De 3 a 6 años de experiencia en la herramienta Salesforce. • Inglés intermedio • Herramientas:Plataforma Salesforce, Jira o similar. • Habilidades:Capacidad de análisis, comunicación efectiva, organización, adaptabilidad, orientación a resultados, apego a altos estándares de calidad, negociación, solución de problemas y afición por la tecnología. ¿Por qué Deloitte? Con nuestro trabajo creamos un impacto significativo, que marca una diferencia positiva en nuestros(as) clientes, la sociedad y el planeta. Colaboramos en distintos proyectos con personas que nos escuchan, inspiran, alientan y apoyan a dar lo mejor de nosotros(as) mismos(as). Para Deloitte, nuestro desarrollo integral es una prioridad. A través de las oportunidades de aprendizaje, movilidad, voluntariado y la asesoría personalizada de nuestros(as) líd"
     }
   ]
 }
