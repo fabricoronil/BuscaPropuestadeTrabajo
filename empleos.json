@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-12T21:44:41.703342+00:00",
+  "actualizado": "2026-09-13T13:56:41.525413+00:00",
   "total": 57,
   "empleos": [
     {
@@ -53,36 +53,11 @@
       "descripcion": "VisualSpot es un estudio especializado en showrooms virtuales 3D y webs interactivas para proyectos inmobiliarios. Estamos incorporando a un/a desarrollador/a al equipo. Buscamos: Experiencia sólida en React (Vite o Next.js) para frontend. Manejo de backend ligero para APIs y CRM (Node.js, Express, Firebase o similar). Deseable: experiencia con mapas interactivos (Leaflet/Mapbox), visores 360°/panorámicos, o productos tipo \"showroom virtual\". Plus: experiencia previa en proptech, real estate o e-commerce inmobiliario. Sobre el proyecto: Vas a trabajar sobre nuestra plataforma propia de showrooms virtuales, que integra recorridos interactivos, disponibilidad de unidades en tiempo real y CRM de leads para desarrolladores inmobiliarios. El trabajo incluye mantenimiento, nuevas features y escalar el producto a nuevos proyectos. Si te interesa, contanos tu experiencia y algunos proyectos en los que hayas trabajado."
     },
     {
-      "titulo": "AI Fullstack",
-      "empresa": "Acsys",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ai-fullstack-at-acsys-4463043707",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 77,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: Full Stack, React, TypeScript, Git, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "TypeScript",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-09",
-      "descripcion": "🚀 Join our team as an AI Fullstack Engineer! At Acsys, we are looking for a proactive and innovative AI Fullstack Engineer based in Argentina. This is an exciting opportunity to work on a global project with a multinational company, building next-generation AI-powered applications and conversational experiences. 🌍 🛠️ What are we looking for? • Backend Development with .NET: Strong experience with C# /.NET (ASP.NET Core Web API), preferably .NET 10 (or .NET 8+), including asynchronous programming, dependency injection, and clean architecture principles. • Enterprise API Integrations: Hands-on experience integrating with enterprise systems through REST APIs, including OAuth2, Microsoft Entra ID, token caching, and secure proxying. • Testing & DevOps: Experience with xUnit, Vitest, structured logging (Serilog), and CI/CD pipelines using GitHub Actions. • Modern Frontend Development: Strong proficiency with React 19, TypeScript, and Vite, including hooks, performance optimization, memoization, and transitions. • Conversational & Chat Applications: Experience building chat-based user interfaces with message management, streaming responses, conversational context, and follow-up interactions. • AI-Assisted Development: Comfortable leveraging tools such as GitHub Copilot and other AI-powered development assistants to accelerate delivery and productivity. • Problem Solving & Collaboration: Strong communication skills and the ability to work effectively within cross-functional engineering teams. ⭐ Nice to Have • Azure Container Apps, Azure Functions, Key Vault, Application Insights, and Docker • Experience integrating with Power BI, Microsoft Graph, SharePoint, Dynamics, and OData services • Python development and scripting • Infrastructure as Code using Terraform or Bicep • Figm"
-    },
-    {
       "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
       "empresa": "B&B Consultores",
       "ubicacion": "4,3",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
-      "fecha": "Hace 6 días",
+      "fecha": "Hace 7 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 75,
@@ -99,7 +74,7 @@
       "empresa": "Ecosistemas",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-jr-en-retiro-CDB51AA201E3FBE861373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior remoto",
       "afinidad": 75,
@@ -183,6 +158,32 @@
       ],
       "primera_vez": "2026-09-11",
       "descripcion": "Buscamos Desarrollador/a Full Stack Semi Senior (.NET) Sobre el rol: Buscamos un/a desarrollador/a full stack con 4-5 años de experiencia para sumarse a nuestro equipo, participar en el diseño de arquitecturas escalables y desarrollar features de forma independiente en proyectos de mediana/alta complejidad. Stack técnico: 🔹 Frontend: Angular + TypeScript (o Blazor/React), manejo de estado (Redux/Context API), Tailwind CSS o Bootstrap 🔹 Backend: ASP.NET Core Web API, Entity Framework Core, Clean Architecture 🔹 Seguridad: JWT, OAuth2, FluentValidation 🔹 DevOps: CI/CD, Docker, testing (unitario/integración/e2e), cloud (AWS/Azure/GCP) 🔹 Herramientas: Git(Hub/Lab), Postman, VS Code, SQL Server/DBeaver, REST/GraphQL 🔹 Dominio de Clean Architecture, conocer de MVC Buscamos a alguien que: ✅ Pueda debuggear y optimizar performance en escenarios complejos ✅ Tenga buena comunicación técnica y disfrute mentorear a perfiles junior ✅ Tome ownership end-to-end de las features ✅ Se mantenga curioso/a y actualizado/a con nuevas tecnologías ✅ Implementar patrones de diseño y mejores prácticas de desarrollo Suma puntos (no excluyente): ➕ Serverless architectures ➕ React Native ➕ Kafka/RabbitMQ/Redis ➕ Terraform/CloudFormation ➕ Título universitario en Sistemas o afines Cómo postular Enviar CV (y opcionalmente, repositorios o ejemplos de trabajo) a: 📩 rrhh@encodesa.com.ar"
+    },
+    {
+      "titulo": "Full Stack Developer (NestJS / Node.js / Angular) - EY Global Delivery Services",
+      "empresa": "EY",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-nestjs-node-js-angular-ey-global-delivery-services-at-ey-4427380976",
+      "fecha": "2026-09-12",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 71,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Node.js, Full Stack, TypeScript, SQL, Front End, Back End"
+      ],
+      "techs": [
+        "Node.js",
+        "Full Stack",
+        "TypeScript",
+        "SQL",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-12",
+      "descripcion": "Full Stack Developer (NestJS / Node.js / Angular) – EY GDS The Opportunity As part of our Tax Technology and Transformation team at EY GDS, you will participate in the development of modern digital platforms that transform how leading companies manage their global tax obligations. What makes this role unique is the combination of technical challenge and specialized domain: you will not only build software, but solutions that automate critical tax processes, integrate business intelligence, and serve top-tier clients across multiple countries. You will work closely with local and global technical and tax teams, contributing to the design and evolution of a proprietary technology suite spanning backend APIs, web interfaces, RPA, serverless Azure processes, and data tools. You will grow in a high-impact technology environment working with NestJS, Angular, Azure, and TypeScript, participating in architecture decisions with global visibility. Your day-to-day will combine real product development—backend, frontend, Azure cloud, and automation—working in a hybrid model with direct contact with local and global technical and business teams. Key Responsibilities Develop and maintain RESTful APIs using NestJS and TypeScript. Build user interfaces using Angular with a focus on usability and consistency. Design and optimize PostgreSQL schemas with TypeORM. Create Azure Functions (Node.js / Python) for automation. Integrate Azure services such as Service Bus, Blob Storage, and Entra ID. Develop RPA processes using Puppeteer. Participate in code reviews and CI/CD pipelines in Azure DevOps. Skills and Competencies Strong full-stack expertise in TypeScript, NestJS, and Angular. Commitment to code quality and security best practices. Clear communication across technical and business tea"
     },
     {
       "titulo": "Junior Software Engineer (Remote)",
@@ -331,7 +332,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMTcyLjIwOC4xMjUuMTk2 when applying to show you read the job post completely (#RMTcyLjIwOC4xMjUuMTk2). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuMTAyLjQ2LjE5Mw== when applying to show you read the job post completely (#RMjAuMTAyLjQ2LjE5Mw==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 67,
       "motivos": [
         "✓ Remoto",
@@ -390,7 +391,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-fullstack-developer-react-node-angular-en-san-nicolas-5B4D54F2BEEB224D61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 64,
@@ -495,7 +496,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-abap-hcm-junior-en-san-nicolas-010E936307CC39DC61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 63,
@@ -531,6 +532,30 @@
       ],
       "primera_vez": "2026-09-09",
       "descripcion": "Ubicación AR Descripción Quienes Somos Somos Personal, una empresa que acompaña y potencia la vida de las personas a través de la tecnología. Nuestra propuesta está pensada para que cada persona, comunidad y organización pueda avanzar, conectarse, disfrutar y transformar su realidad. En Personal Pay estamos sumando un/una Developer Frontend Sr para el equipo de Payments con pasión por la innovación, ganas de ser protagonistas y facilidad para el desempeño en un entorno desafiante y dinámico. Buscamos Protagonistas Que Se Animen a ✔️ Trabajar en un equipo autónomo formado por diversos roles con los que interactuar para cumplir los objetivos. ✔️ Desempeñarse en un entorno ágil utilizando las últimas metodologías. ✔️ Construir funcionalidades, trabajando en el diseño de las mismas de manera integral con tu equipo. ✔️ Interactuar directamente con los equipos de diseño de UX para implementar una gran experiencia de usuario. ✔️ Participar del análisis técnico de la solución y en las decisiones técnicas de las mismas junto a los diferentes referentes de cada área implicada. ✔️ Interactuar con diferentes equipos dentro de la organización. Y Cuenten Con Estas Experiencias y Habilidades ✔️ Que sientas curiosidad por el mundo fintech. ✔️ Que te apasione el desafío de crear productos de cero y proponer las mejores soluciones. ✔️ 5+ años de experiencia previa en desarrollo de Software. ✔️ 3+ años de experiencia en el desarrollo de aplicaciones web y/o móviles con React Native (excluyente) ✔️ 2+ años de experiencia trabajando en equipo con arquitecturas distribuidas. ✔️ Es un plus poseer experiencia trabajando con TypeScript, NodeJS y NestJS para la construcción de APIs. ✔️ Que desarrolles usando patrones diseño y sigas buenas prácticas de programación. ✔️ Conocimientos de unit testi"
+    },
+    {
+      "titulo": "Frontend Web Application Developer - Remote",
+      "empresa": "KoboToolbox",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-web-application-developer-remote-at-kobotoolbox-4466783034",
+      "fecha": "2026-09-13",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 63,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Front End, React, TypeScript, Git"
+      ],
+      "techs": [
+        "Front End",
+        "React",
+        "TypeScript",
+        "Git"
+      ],
+      "primera_vez": "2026-09-13",
+      "descripcion": "Location: Remote Availability: 35-40 hours per week Working hours: US East business hours Reporting to: Lead developer KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a commitment of at least 1 year. As a member of our team, you will share in the challenge and excitement of writing code used by over 32,000 organizations around the world. These organizations create data-driven change through the collection and analysis of more than 20 million surveys per month. Only candidates who already have experience working on large web applications will be considered. Beyond technical acumen, we are seeking a team member who demonstrates curiosity, initiative, and a cooperative approach to problem solving and decision-making. If you're passionate about leveraging technology to make a positive impact, we want to hear from you! Responsibilities Searching and reading an extensive, long-lived code base to understand existing behavior and conventions Recognizing when existing conventions may no longer be the best approach and suggesting improvements aligned with contemporary best practices Writing robust, concise, and reusable code with accompanying tests and documentation Reviewing other developers' code and providing constructive feedback Incorporating feedback from code reviews to improve your skills and align with team standards Using AI-assisted development tools effectively while maintaining responsibility for code quality and correctness Efficiently investigating bug reports from the support team, creating well-scoped fixes or actionable plans for resolution Scoping, prioritizing, estimating, and organizing work into manageably sized tasks Attending regular video-conference check"
     },
     {
       "titulo": "Publicado hace más de 15 días",
@@ -644,51 +669,6 @@
       "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
     },
     {
-      "titulo": "SRE / Líder Devops AWS // Multinacional de Software Financiero",
-      "empresa": "Kaizen Recursos Humanos",
-      "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-7F729A8E0F76B5D661373E686DCF3405",
-      "fecha": "Hace 4 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 59,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-12"
-    },
-    {
-      "titulo": "Full Stack Developer (NestJS / Node.js / Angular) - EY Global Delivery Services",
-      "empresa": "EY",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-nestjs-node-js-angular-ey-global-delivery-services-at-ey-4427380976",
-      "fecha": "2026-09-12",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 59,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, Full Stack, TypeScript, SQL, Front End, Back End",
-        "− Pide 5+ años de experiencia"
-      ],
-      "techs": [
-        "Node.js",
-        "Full Stack",
-        "TypeScript",
-        "SQL",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-12",
-      "descripcion": "Full Stack Developer (NestJS / Node.js / Angular) – EY GDS The Opportunity As part of our Tax Technology and Transformation team at EY GDS, you will participate in the development of modern digital platforms that transform how leading companies manage their global tax obligations. What makes this role unique is the combination of technical challenge and specialized domain: you will not only build software, but solutions that automate critical tax processes, integrate business intelligence, and serve top-tier clients across multiple countries. You will work closely with local and global technical and tax teams, contributing to the design and evolution of a proprietary technology suite spanning backend APIs, web interfaces, RPA, serverless Azure processes, and data tools. You will grow in a high-impact technology environment working with NestJS, Angular, Azure, and TypeScript, participating in architecture decisions with global visibility. Your day-to-day will combine real product development—backend, frontend, Azure cloud, and automation—working in a hybrid model with direct contact with local and global technical and business teams. Key Responsibilities Develop and maintain RESTful APIs using NestJS and TypeScript. Build user interfaces using Angular with a focus on usability and consistency. Design and optimize PostgreSQL schemas with TypeORM. Create Azure Functions (Node.js / Python) for automation. Integrate Azure services such as Service Bus, Blob Storage, and Entra ID. Develop RPA processes using Puppeteer. Participate in code reviews and CI/CD pipelines in Azure DevOps. Skills and Competencies Strong full-stack expertise in TypeScript, NestJS, and Angular. Commitment to code quality and security best practices. Clear communication across technical and business tea"
-    },
-    {
       "titulo": "Full Stack Software Engineer",
       "empresa": "Carda Health",
       "ubicacion": "Argentina",
@@ -754,7 +734,7 @@
       "empresa": "Hexaware Technologies Limited",
       "ubicacion": "Monserrat, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-microsoft-full-stack-engineer-netazure-en-monserrat-E4A6A21E658F15D861373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 4 días",
       "fuente": "Computrabajo",
       "keyword": "Full Stack",
       "afinidad": 54,
@@ -869,6 +849,23 @@
       "descripcion": "📢 Nos encontramos en la búsqueda de Jóvenes Profesionales para nuestro Software de Gestión MyLogic. Imagínate: * Participando en el mantenimiento eficiente de las funcionalidades de MyLogic, el Software de Gestión más completo del mercado. * Analizando, desarrollando y probando las nuevas funcionalidades para el sistema . * Potenciando tu crecimiento con un gran equipo de profesionales del mundo IT. * Capacitándote en FastPRG, nuestro lenguaje de programación. * Accediendo a un plan de carrera en una empresa en pleno crecimiento y expansión. Requisitos: * Graduados de Ingeniería Industrial / Sistemas o Negocios Digitales. (Excluyente) * Conocimiento de lenguajes de programación (Excluyente) * Nociones de estructuras de datos (Preferente) * Conocimiento en procesos de negocio. * Ganas de aprender nuevas tecnologías y herramientas. Modalidad: Disponibilidad Full-time, jornada de lunes a viernes, presencial en Rosario NeuralSoft pionera en Software de Gestión en la Nube. Desde 1999 cuenta con Data Centers propios de última generación. Es la única empresa argentina que ha desarrollado su propio lenguaje de programación."
     },
     {
+      "titulo": "Power BI Developer (Visualization, Data and AI)",
+      "empresa": "Hexaware Technologies Limited",
+      "ubicacion": "Agronomía, Capital Federal",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-power-bi-developer-visualization-data-and-ai-en-agronomia-7EAE774AF19D006861373E686DCF3405",
+      "fecha": "Hace 6 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-13"
+    },
+    {
       "titulo": "Ref. 21292: Vermilion Engineer / Developer / Remoto AMBA",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
@@ -906,8 +903,25 @@
       "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-F2296C2F4202ECEC61373E686DCF3405",
-      "fecha": "Hace 3 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-7A3D0E9303847D4561373E686DCF3405",
+      "fecha": "Hace 16 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador web remoto",
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-09-13"
+    },
+    {
+      "titulo": "SRE / Líder Devops AWS // Multinacional de Software Financiero",
+      "empresa": "Kaizen Recursos Humanos",
+      "ubicacion": "4,2",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-7F729A8E0F76B5D661373E686DCF3405",
+      "fecha": "Hace 21 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -924,7 +938,7 @@
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-CCB02E0202A4B45D61373E686DCF3405",
-      "fecha": "Hace 12 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -1024,7 +1038,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-0CD70C3D074CC1EB61373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -1040,8 +1054,8 @@
       "titulo": "Ref. 20595: Desarrollador Python",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E4EF614947A6136161373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E82FFA87AC9E965F61373E686DCF3405",
+      "fecha": "Hace 2 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior remoto",
       "afinidad": 45,
@@ -1051,7 +1065,7 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-07"
+      "primera_vez": "2026-09-13"
     },
     {
       "titulo": "Software Engineer - Frontend - Payments",
@@ -1093,24 +1107,6 @@
       "techs": [],
       "primera_vez": "2026-09-11",
       "descripcion": "About Motivus At Motivus, we believe in unlocking human potential through innovative, cutting-edge solutions. With over 1,600 team members across 5 countries, we provide a full spectrum of software and digital services. Our teams are dedicated to driving sustainability, pushing the boundaries of technology, and building the next generation of world-class digital solutions that empower our clients and make a lasting impact. As part of our team, you'll work alongside forward-thinking professionals committed to creating groundbreaking solutions that shape the future of the industry. Position Overview We are looking for an Associate Sysadmin (L0/L1 Support) to join our dynamic team. In this role, you Will provide first-level support to engineering teams working on high-end electronic design software, supporting the operation of on-premise Continuous Integration and Continuous Delivery (CI/CD) pipelines. You will collaborate with cross-functional teams, help maintain development environments for hundreds of active projects, and ensure smooth operations across a globally distributed team. Key Responsibilities Provide first-level (L0/L1) technical support for CI/CD environments and development tools. Monitor and assist with issues related to Jenkins pipelines and software builds. Troubleshoot basic Linux-related problems and escalate as needed. Collaborate with C/C++ developers to ensure development infrastructure runs smoothly. Document common issues, resolutions, and internal procedures for knowledge sharing. Support scripting and automation tasks in Bash, Python, or Perl. Qualifications Currently enrolled in or completed at least 3 years of a degree in Computer Science, Engineering, or related field. Basic knowledge of Linux and operating systems. Familiarity with scripting"
-    },
-    {
-      "titulo": "LICENCIATURA EN GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN",
-      "empresa": "Universidad Nacional de José Clemente Paz (UNPAZ)",
-      "ubicacion": "José C. Paz, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/licenciatura-en-gesti%C3%B3n-de-tecnolog%C3%ADas-de-la-informaci%C3%B3n-at-universidad-nacional-de-jos%C3%A9-clemente-paz-unpaz-4466421844",
-      "fecha": "2026-09-12",
-      "fuente": "LinkedIn",
-      "keyword": "Pasantía sistemas",
-      "es_remoto": true,
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Pide 5+ años de experiencia"
-      ],
-      "techs": [],
-      "primera_vez": "2026-09-12",
-      "descripcion": "Título de grado: LICENCIADA/O EN GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN. Duración: 5 años. La/el licenciada/o combina saberes tecnológicos relacionados con la programación, la robótica, las redes y la inteligencia artificial, con conocimiento propio de los administradores de organizaciones tales como empresas, organismos del Estado, organizaciones no gubernamentales, cooperativas, emprendimientos, etc., para la gestión integral de los sistemas de información. Título de pregrado: ANALISTA DE SISTEMAS. Duración: 3 años. La/el Analista de Sistemas podrá participar en proyectos para el desarrollo de tecnología de la información aplicando métodos y técnicas del campo de la administración. PLAN DE ESTUDIO PLAN DE ESTUDIO ACCESIBILIZADO Consultas: estudiaenunpaz@unpaz.edu.ar"
     },
     {
       "titulo": "Python Software Engineer",
