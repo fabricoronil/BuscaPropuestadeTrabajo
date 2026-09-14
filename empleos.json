@@ -1,36 +1,52 @@
 {
-  "actualizado": "2026-09-14T16:00:40.366599+00:00",
-  "total": 51,
+  "actualizado": "2026-09-14T22:48:37.144614+00:00",
+  "total": 52,
   "empleos": [
     {
-      "titulo": "Full Stack Developer",
-      "empresa": "Flatiron Software",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-at-flatiron-software-4467054927",
-      "fecha": "2026-09-14",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 88,
+      "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
+      "empresa": "B&B Consultores",
+      "ubicacion": "4,3",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
+      "fecha": "Hace 14 horas",
+      "fuente": "Computrabajo",
+      "keyword": "Desarrollador Junior",
+      "afinidad": 85,
       "motivos": [
         "✓ Remoto",
-        "✓ Medio tiempo",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "✓ Medio tiempo"
+      ],
+      "es_remoto": true,
+      "techs": [],
+      "primera_vez": "2026-08-05"
+    },
+    {
+      "titulo": "Full-Stack Developer: React & Node.js",
+      "empresa": "Improving South America",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-react-node-js-at-improving-south-america-4466130378",
+      "fecha": "2026-09-14",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 79,
+      "motivos": [
+        "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, MongoDB, SQL"
+        "✓ Tu stack: React, Node.js, Full Stack, MongoDB, SQL, Git"
       ],
       "techs": [
-        "Full Stack",
         "React",
-        "TypeScript",
         "Node.js",
+        "Full Stack",
         "MongoDB",
         "SQL",
-        "JavaScript",
+        "Git",
         "Front End",
         "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "About Flatiron is a global remote software development company with engineers located around the world. We unite experts from diverse backgrounds and experiences in a collaborative culture to deliver exceptional products and services for our clients. As a forward-thinking software engineering company, we provide industry-leading solutions to complex problems in both the US and the UK. Operating in a fast-paced, agile environment, we specialize in software consulting for our clients. We offer a stimulating and rewarding environment for our team members. We value innovation, continuous learning, and professional growth, and we strive to create a workplace where everyone can thrive. Join us at Flatiron and be a part of a team that is shaping the future of software development. Job Summary This is a full-time fully remote working opportunity where you will be working as part of a Scrum team which requires working closely with other software engineers, stakeholders and contributors on the project. Working with respect to the US timezone is a requirement for the position. Attending meetings, being actively involved in the decision making process and collaborating with all of these stakeholders are essential parts of this position. Responsibilities Design and implement scalable, high-performance full stack applications with a strong emphasis on backend architecture. Lead and contribute to the integration of AI/ML features into products, collaborating closely with data scientists and engineers. Develop robust backend services and APIs using Python or Node.js (Express, NestJS). Contribute to frontend development using React and modern JavaScript/TypeScript practices. Identify, prioritize, and execute tasks throughout the software development lifecycle. Debug, optimize, and maint"
+      "descripcion": "En Improving South America, brindamos servicios de TI para transformar la percepción del profesional de TI. Nos enfocamos en consultoría de TI, desarrollo de software y formación ágil. La empresa promueve una cultura de trabajo excepcional basada en el trabajo en equipo, la excelencia y la diversión, con enfoque en crecimiento personal y recompensas compartidas. Al integrarse, el/la candidato/a formará parte de una comunidad que prioriza la comunicación abierta y relaciones laborales sólidas a largo plazo, respaldada por una estructura de desarrollo profesional y aprendizaje continuo. Job Functions Buscamos un Desarrollador Fullstack con sólida experiencia en React, Node.js y familiaridad con tecnologías de IA. Serás responsable de desarrollar aplicaciones web modernas, escalables y de alto rendimiento, contribuyendo tanto en el frontend como en el backend de un sistema de RRHH. Si te apasiona la tecnología y deseas trabajar en proyectos innovadores con IA, esta es tu oportunidad. Qualifications And Requirements 5+ años de experiencia en desarrollo web fullstack. Experiencia sólida y demostrable en React (componentes funcionales, hooks, state management con Redux, Context API, etc.). Conocimiento y experiencia en Node.js y frameworks como Express, Nest.js o similares. Experiencia en desarrollo de APIs REST y comprensión de arquitectura backend. Familiaridad con bases de datos (SQL y NoSQL) como PostgreSQL, MongoDB, etc. Experiencia práctica con IA y/o machine learning en aplicaciones web (integración de APIs de IA, LLMs, etc.). Conocimiento de herramientas de versionamiento (Git) y flujos de trabajo colaborativos. Dominio de testing (unit tests, integration tests) y prácticas de CI/CD. Inglés Intermedio-Avanzado o avanzado (requisito indispensable) - necesario para comu"
     },
     {
       "titulo": "AI Fullstack",
@@ -58,23 +74,6 @@
       "descripcion": "🚀 Join our team as an AI Fullstack Engineer! At Acsys, we are looking for a proactive and innovative AI Fullstack Engineer based in Argentina. This is an exciting opportunity to work on a global project with a multinational company, building next-generation AI-powered applications and conversational experiences. 🌍 🛠️ What are we looking for? • Backend Development with .NET: Strong experience with C# /.NET (ASP.NET Core Web API), preferably .NET 10 (or .NET 8+), including asynchronous programming, dependency injection, and clean architecture principles. • Enterprise API Integrations: Hands-on experience integrating with enterprise systems through REST APIs, including OAuth2, Microsoft Entra ID, token caching, and secure proxying. • Testing & DevOps: Experience with xUnit, Vitest, structured logging (Serilog), and CI/CD pipelines using GitHub Actions. • Modern Frontend Development: Strong proficiency with React 19, TypeScript, and Vite, including hooks, performance optimization, memoization, and transitions. • Conversational & Chat Applications: Experience building chat-based user interfaces with message management, streaming responses, conversational context, and follow-up interactions. • AI-Assisted Development: Comfortable leveraging tools such as GitHub Copilot and other AI-powered development assistants to accelerate delivery and productivity. • Problem Solving & Collaboration: Strong communication skills and the ability to work effectively within cross-functional engineering teams. ⭐ Nice to Have • Azure Container Apps, Azure Functions, Key Vault, Application Insights, and Docker • Experience integrating with Power BI, Microsoft Graph, SharePoint, Dynamics, and OData services • Python development and scripting • Infrastructure as Code using Terraform or Bicep • Figm"
     },
     {
-      "titulo": "Desarrollador/a Físico/a Matemático/a Jr.",
-      "empresa": "B&B Consultores",
-      "ubicacion": "4,3",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fisicoa-matematicoa-jr-en-rosario-E6B3F57513CBD8C861373E686DCF3405",
-      "fecha": "Hace 7 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador Junior",
-      "afinidad": 75,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Ideal para empezar (trainee/jr/pasantía)"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-08-05"
-    },
-    {
       "titulo": "QA Intern",
       "empresa": "Sovos",
       "ubicacion": "San Miguel de Tucumán, Tucumán, Argentina",
@@ -93,11 +92,38 @@
       "descripcion": "We are looking for a QA Intern to join our team! As a QA Intern you will work closely with Sovos customers and team members to ensure products and services work in a fully integrated manner as expected by the customer. A QA Engineer understands basic QA concepts and Sovos SDLC. Note: Nothing in this job description restricts management’s right to assign or reassign duties and responsibilities to this job at any time. What To Expect Gain valuable real-world experience and make a significant and lasting impact on our business Learn more about Sovos’ products and experience working alongside Sovosians and immerse yourself into our company culture Participate in weekly professional development sessions led by the Sovos Leadership team and HR team You Will Work On Execute test cases, understand its purpose and its outcomes. Create and maintain basic tests cases. Observe leaders in day-to-day activities and apply learnings. Understand Sovos Org Structure & roles and responsibilities. Understand departments and how they impact Product Development (Compliance, PS, Support, Ops) Align with Sovos Global QA practices and understand the high-level workflow of products. Ensure relevant sprint information is communicated to scrum team members Respect team members and their individual perspectives and earn trust of team members. Understand development lifecycle including branching/merging technique utilized by the team Testing Concepts including Black Box Testing, Unit Tests, Integration Tests, Automated Tests, and Regression Tests. Processes and responsibilities for delivering code to Production. Create test scenarios and execute test suite What We Need From You Currently attending a college or University majoring in Computer Science, MIS, Computer Engineering or a related technical "
     },
     {
+      "titulo": "Full Stack Developer",
+      "empresa": "Flatiron Software",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-at-flatiron-software-4467054927",
+      "fecha": "2026-09-14",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 72,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, React, TypeScript, Node.js, JavaScript, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "JavaScript",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About Flatiron is a global remote software development company with engineers located around the world. We unite experts from diverse backgrounds and experiences in a collaborative culture to deliver exceptional products and services for our clients. As a forward-thinking software engineering company, we provide industry-leading solutions to complex problems in both the US and the UK. Operating in a fast-paced, agile environment, we specialize in software consulting for our clients. We offer a stimulating and rewarding environment for our team members. We value innovation, continuous learning, and professional growth, and we strive to create a workplace where everyone can thrive. Join us at Flatiron and be a part of a team that is shaping the future of software development. Job Summary This is a full-time fully remote working opportunity where you will be working as part of a Scrum team which requires working closely with other software engineers, stakeholders and contributors on the project. Working with respect to the US timezone is a requirement for the position. Attending meetings, being actively involved in the decision making process and collaborating with all of these stakeholders are essential parts of this position. Responsibilities Design and implement scalable, high-performance full stack applications with a strong emphasis on backend architecture. Lead and contribute to the integration of AI/ML features into products, collaborating closely with data scientists and engineers. Develop robust backend services and APIs using Python or Node.js (Express, NestJS). Contribute to frontend development using React and modern JavaScript/TypeScript practices. Identify, prioritize, and execute tasks throughout the software development lifecycle. Debug, optimize, and maint"
+    },
+    {
       "titulo": "Fullstack .NET Developer",
       "empresa": "Netrix Global",
       "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-net-developer-at-netrix-global-4465607243",
-      "fecha": "2026-09-10",
+      "enlace": "https://ar.linkedin.com/jobs/view/fullstack-net-developer-at-netrix-global-4466134740",
+      "fecha": "2026-09-14",
       "fuente": "LinkedIn",
       "keyword": "Full Stack",
       "es_remoto": true,
@@ -118,33 +144,6 @@
       ],
       "primera_vez": "2026-09-14",
       "descripcion": "About The Opportunity This is a pipeline requisition for future opportunities. While we are not hiring immediately, we regularly seek top talent for this role and encourage you to express interest. Fullstack .NET Developer act as critical members of the Modern Apps team. You'll have the opportunity to work on challenging projects using modern technologies on both the front end and the back end. You'll be responsible for designing, developing, and implementing comprehensive solutions, collaborating closely with multidisciplinary teams to ensure the quality and performance of our applications. Your previous experience and your ability to solve technical problems will allow you to make a significant contribution at every stage of development. Often, a Fullstack .NET Developer will also serve as a critical communicator between other team members, working directly with the developers the models for building AI systems and the people who construct and run them. How You Will Make An Impact Strong analysis skills, ability to read and understand various code bases in large solution Strong debugging skills Strong incident support skills on live calls where minimal information can be provided on the issue Ability to work with minimal/changing requirements, ability to discern requirements Ability to work off-hours and weekends Can work with minimal guidance and direction What You Will Bring To The Table Application Development: .NET Core 8, C#, Web API, Azure SDK Front end Development: React, JavaScript, TypeScript Azure DevOps: CI/CD, Azure Pipelines Azure Cloud: Azure API Manager, Event Hub, Event Grid, Azure Function Apps, Azure Managed Redis, Azure SignalR Database: Azure SQL Server, Azure Cosmos DB AI: Claude Code, Azure Copilot Security: OAuth 2.0, API Security (Authorization"
-    },
-    {
-      "titulo": "Full-Stack Software Engineer",
-      "empresa": "OpenRelay (YC S26)",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-openrelay-yc-s26-4462978625",
-      "fecha": "2026-09-07",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 72,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, TypeScript, Tailwind, Node.js, Git"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "TypeScript",
-        "Tailwind",
-        "Node.js",
-        "Git",
-        "Front End"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "Why OpenRelay? OpenRelay is GPU compute and LLM inference for people who ship. Customers rent GPU machines and call inference APIs; providers plug their hardware into our network and get paid for it. We run a distributed fleet on real hardware, not a reseller skin over someone else's cloud. Small team, high bar, and room for A-players to own things that are live in production. No Degree Required, Show Us What You've Built We care about what you can do, not diplomas. The profile we want most is simple: you built something on the web, and then you got strangers to use it. That last part is everything. Plenty of engineers can ship a site. Figuring out how people actually find it, ranking for a query that matters, writing cold email that gets replies, launching somewhere and converting the traffic, is the rarest and most valuable skill you can bring us. Show us what you built and the users you got on it: real traffic, real signups, real revenue. Core Tech - Next.js + React (TypeScript), Tailwind - tRPC, Node.js - Go (control plane, gateways, CLI) - DynamoDB, Redis - AWS (ECS Fargate, Terraform), Docker, Linux - PostHog, Vercel - Claude Code and agentic tooling, daily What You'll Build You'll own features end-to-end in one of three tracks (but at a startup, you'll touch all of them). Fullstack Engineering - Own and ship production features across the OpenRelay platform: the customer dashboard, the marketing site, the docs, and the internal ops portal - Work across the frontend, API, and data layers in a pnpm monorepo, React and TypeScript on top of Go services - Design and maintain APIs, background jobs, and workflows that customers depend on to launch and run GPU workloads - Use agentic engineering tools (Claude Code, autonomous loops) to build the machine that builds the m"
     },
     {
       "titulo": "Programador full stack",
@@ -175,6 +174,32 @@
       "descripcion": "Buscamos Desarrollador/a Full Stack Semi Senior (.NET) Sobre el rol: Buscamos un/a desarrollador/a full stack con 4-5 años de experiencia para sumarse a nuestro equipo, participar en el diseño de arquitecturas escalables y desarrollar features de forma independiente en proyectos de mediana/alta complejidad. Stack técnico: 🔹 Frontend: Angular + TypeScript (o Blazor/React), manejo de estado (Redux/Context API), Tailwind CSS o Bootstrap 🔹 Backend: ASP.NET Core Web API, Entity Framework Core, Clean Architecture 🔹 Seguridad: JWT, OAuth2, FluentValidation 🔹 DevOps: CI/CD, Docker, testing (unitario/integración/e2e), cloud (AWS/Azure/GCP) 🔹 Herramientas: Git(Hub/Lab), Postman, VS Code, SQL Server/DBeaver, REST/GraphQL 🔹 Dominio de Clean Architecture, conocer de MVC Buscamos a alguien que: ✅ Pueda debuggear y optimizar performance en escenarios complejos ✅ Tenga buena comunicación técnica y disfrute mentorear a perfiles junior ✅ Tome ownership end-to-end de las features ✅ Se mantenga curioso/a y actualizado/a con nuevas tecnologías ✅ Implementar patrones de diseño y mejores prácticas de desarrollo Suma puntos (no excluyente): ➕ Serverless architectures ➕ React Native ➕ Kafka/RabbitMQ/Redis ➕ Terraform/CloudFormation ➕ Título universitario en Sistemas o afines Cómo postular Enviar CV (y opcionalmente, repositorios o ejemplos de trabajo) a: 📩 rrhh@encodesa.com.ar"
     },
     {
+      "titulo": "Full Stack Developer (NestJS / Node.js / Angular) - EY Global Delivery Services",
+      "empresa": "EY",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-nestjs-node-js-angular-ey-global-delivery-services-at-ey-4427380976",
+      "fecha": "2026-09-12",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 71,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Node.js, Full Stack, TypeScript, SQL, Front End, Back End"
+      ],
+      "techs": [
+        "Node.js",
+        "Full Stack",
+        "TypeScript",
+        "SQL",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "Full Stack Developer (NestJS / Node.js / Angular) – EY GDS The Opportunity As part of our Tax Technology and Transformation team at EY GDS, you will participate in the development of modern digital platforms that transform how leading companies manage their global tax obligations. What makes this role unique is the combination of technical challenge and specialized domain: you will not only build software, but solutions that automate critical tax processes, integrate business intelligence, and serve top-tier clients across multiple countries. You will work closely with local and global technical and tax teams, contributing to the design and evolution of a proprietary technology suite spanning backend APIs, web interfaces, RPA, serverless Azure processes, and data tools. You will grow in a high-impact technology environment working with NestJS, Angular, Azure, and TypeScript, participating in architecture decisions with global visibility. Your day-to-day will combine real product development—backend, frontend, Azure cloud, and automation—working in a hybrid model with direct contact with local and global technical and business teams. Key Responsibilities Develop and maintain RESTful APIs using NestJS and TypeScript. Build user interfaces using Angular with a focus on usability and consistency. Design and optimize PostgreSQL schemas with TypeORM. Create Azure Functions (Node.js / Python) for automation. Integrate Azure services such as Service Bus, Blob Storage, and Entra ID. Develop RPA processes using Puppeteer. Participate in code reviews and CI/CD pipelines in Azure DevOps. Skills and Competencies Strong full-stack expertise in TypeScript, NestJS, and Angular. Commitment to code quality and security best practices. Clear communication across technical and business tea"
+    },
+    {
       "titulo": "Junior Software Engineer (Remote)",
       "empresa": "Hire Feed",
       "ubicacion": "Argentina",
@@ -197,63 +222,38 @@
       "descripcion": "Role: Junior Software Engineer (Remote) Location: Remote (Work from Anywhere) Role Overview: We are hiring for one of our clients, seeking a Software Engineer, New Grad to work on a full-time basis. You will collaborate across teams to deliver scalable solutions, with a focus on modern cloud infrastructure. The role involves contributing to core product development while learning from senior engineers. Key Responsibilities: • Design, develop, and maintain software systems using Python, Java, or Go. • Write clean, efficient, and maintainable code following best practices. • Participate in code reviews to ensure adherence to technical standards. • Debug and resolve issues in production and development environments. • Contribute to architectural decisions and system design discussions. Required Skills & Qualifications: • Proficiency in at least one programming language such as Python, Java, or Go. • Experience with data structures, algorithms, and problem-solving. • Familiarity with version control systems like Git. • Basic understanding of cloud platforms and DevOps practices. • Strong communication skills to collaborate with cross-functional teams. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to scalable software solutions. You will gain exposure to cutting-edge technologies and mentorship from experienced engineers. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experience, or prior employment history. Applications are reviewed solely on demonstrated technical ability and qualifications. Apply Now!"
     },
     {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Mar del Plata, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455981139",
-      "fecha": "2026-09-09",
+      "titulo": "Desarrollador Full-Stack: Java & Angular",
+      "empresa": "Improving South America",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-full-stack-java-angular-at-improving-south-america-4465164333",
+      "fecha": "2026-09-11",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 69,
+      "afinidad": 70,
       "motivos": [
         "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
+        "✓ Tu stack: Full Stack, TypeScript, MongoDB, SQL, Git, Front End",
+        "− Pide inglés"
       ],
       "techs": [
         "Full Stack",
-        "React",
+        "TypeScript",
+        "MongoDB",
         "SQL",
-        "JavaScript",
         "Git",
-        "Front End"
+        "Front End",
+        "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+      "descripcion": "En Improving South America, brindamos servicios de TI para transformar la percepción del profesional de TI. Nos enfocamos en consultoría de TI, desarrollo de software y formación ágil. La empresa promueve una cultura de trabajo excepcional basada en el trabajo en equipo, la excelencia y la diversión, con enfoque en crecimiento personal y recompensas compartidas. Al integrarse, el/la candidato/a formará parte de una comunidad que prioriza la comunicación abierta y relaciones laborales sólidas a largo plazo, respaldada por una estructura de desarrollo profesional y aprendizaje continuo. Job Functions Desarrollo Backend: Desarrollar y mantener aplicaciones backend usando Java y Spring Framework Diseñar e implementar APIs RESTful y arquitectura de microservicios Trabajar con múltiples tecnologías de bases de datos para optimizar la gestión de datos Desarrollo Frontend Construir interfaces de usuario responsivas e interactivas usando Angular Implementar arquitectura basada en componentes siguiendo las mejores prácticas de Angular Gestionar estado y manejar operaciones asincrónicas con RxJS General Colaborar entre equipos de frontend, backend y DevOps para entregar soluciones completas Escribir código limpio, mantenible y testeable siguiendo mejores prácticas Participar en revisiones de código y contribuir a la mejora continua Troubleshooting y resolución de problemas en producción Documentar código, APIs y arquitectura del sistema Requerimientos del cargo Backend - Frameworks Java SpringBoot (versión 3/4) Spring Framework (versión 6/7) Gradle (versión 8/9) Frontend Angular (versiones recientes) TypeScript HTML5 y CSS3 RxJS Angular Material Bases De Datos MongoDB, PostgreSQL, Snowflake (conocimiento básico) Herramientas GitHub, Jira, Confluence, Claude Nube AWS, Azure (conoci"
     },
     {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455967369",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 69,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
-      ],
-      "techs": [
-        "Full Stack",
-        "React",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
-    },
-    {
-      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Salta, Salta, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455977170",
-      "fecha": "2026-09-09",
+      "titulo": "Full-Stack Software Engineer",
+      "empresa": "OpenRelay (YC S26)",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-openrelay-yc-s26-4462978625",
+      "fecha": "2026-09-07",
       "fuente": "LinkedIn",
       "keyword": "Full Stack",
       "es_remoto": true,
@@ -261,18 +261,18 @@
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End"
+        "✓ Tu stack: Full Stack, React, TypeScript, Tailwind, Node.js, Front End"
       ],
       "techs": [
         "Full Stack",
         "React",
-        "SQL",
-        "JavaScript",
-        "Git",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
         "Front End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+      "descripcion": "Why OpenRelay? OpenRelay is GPU compute and LLM inference for people who ship. Customers rent GPU machines and call inference APIs; providers plug their hardware into our network and get paid for it. We run a distributed fleet on real hardware, not a reseller skin over someone else's cloud. Small team, high bar, and room for A-players to own things that are live in production. No Degree Required, Show Us What You've Built We care about what you can do, not diplomas. The profile we want most is simple: you built something on the web, and then you got strangers to use it. That last part is everything. Plenty of engineers can ship a site. Figuring out how people actually find it, ranking for a query that matters, writing cold email that gets replies, launching somewhere and converting the traffic, is the rarest and most valuable skill you can bring us. Show us what you built and the users you got on it: real traffic, real signups, real revenue. Core Tech - Next.js + React (TypeScript), Tailwind - tRPC, Node.js - Go (control plane, gateways, CLI) - DynamoDB, Redis - AWS (ECS Fargate, Terraform), Docker, Linux - PostHog, Vercel - Claude Code and agentic tooling, daily What You'll Build You'll own features end-to-end in one of three tracks (but at a startup, you'll touch all of them). Fullstack Engineering - Own and ship production features across the OpenRelay platform: the customer dashboard, the marketing site, the docs, and the internal ops portal - Work across the frontend, API, and data layers in a pnpm monorepo, React and TypeScript on top of Go services - Design and maintain APIs, background jobs, and workflows that customers depend on to launch and run GPU workloads - Use agentic engineering tools (Claude Code, autonomous loops) to build the machine that builds the m"
     },
     {
       "titulo": "SAP iXp Intern - Order to Invoice Cloud, Software & Support",
@@ -302,7 +302,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuMTY5LjczLjE0NQ== when applying to show you read the job post completely (#RMjAuMTY5LjczLjE0NQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RNDAuMTE2LjEwOS4xMzg= when applying to show you read the job post completely (#RNDAuMTE2LjEwOS4xMzg=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 67,
       "motivos": [
         "✓ Remoto",
@@ -355,31 +355,6 @@
       ],
       "primera_vez": "2026-09-12",
       "descripcion": "Role: Frontend Software Engineer Location: Remote (Work from Anywhere) Role Overview: We are hiring for one of our clients, seeking a Frontend Software Engineer to work on a full-time basis to develop and maintain user interfaces for web applications. The role involves implementing responsive designs, integrating with backend systems, and optimizing frontend performance. Key Responsibilities: • Develop and maintain responsive, accessible frontend components using modern JavaScript frameworks. • Collaborate with designers and backend engineers to translate UI/UX wireframes into high-quality code. • Optimize application performance and ensure cross-browser compatibility. • Write clean, maintainable, and well-documented code following best practices. • Participate in code reviews and contribute to architectural discussions. Required Skills & Qualifications: • Proficiency in JavaScript, HTML5, and CSS3 with experience in responsive design. • Experience with frontend frameworks such as React, Vue.js, or Angular. • Strong understanding of web accessibility standards and cross-browser compatibility. • Familiarity with state management libraries like Redux or Context API. • Experience with version control systems, preferably Git. • Knowledge of frontend build tools such as Webpack, Babel, or Vite. • Understanding of RESTful APIs and asynchronous programming. • Experience with testing frameworks like Jest, Mocha, or Cypress. • Ability to work independently and manage multiple priorities in a fast-paced environment. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to the development of scalable and high-performance web applications. The project focuses on delivering se"
-    },
-    {
-      "titulo": "Full Stack Software Engineer",
-      "empresa": "Carda Health",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-carda-health-4464225659",
-      "fecha": "2026-09-11",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 66,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Node.js, SQL, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "Node.js",
-        "SQL",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "About Carda Rehab is a pain. So much so that only 10% of qualifying Cardiac and Pulmonary patients attend. At Carda Health, we’ve reimagined rehab. Our program allows patients to complete inspiring, convenient, life-saving therapy remotely. Who are we? We are a team of clinicians, data scientists, mathematicians and repeat entrepreneurs. And a few recovering financiers. Our belief is that technology and data, when applied to the right problem, transforms people’s lives and changes even the most entrenched industries. Carda was founded by Harry and Andrew, two friends from Wharton who share a family history of heart disease and experience with poor access to care. We now work with some of America’s largest and top-ranked hospitals and most innovative insurers. We are fortunate to be backed by some of the best investors in the business who have also backed the likes of Livongo, Hinge, Calm, MDLive, and others. What We're Looking For We are looking for a talented full-stack software engineer who loves building phenomenal products that have real meaning and add real value to people’s lives. You’ll work across the full stack from UI to business logic, backend APIs, data storage and architecture, and more. You’ll have a rare opportunity to work directly with the founders to build the product and infrastructure supporting the future of Carda Health. As an early hire in a pivotal role, you’ll have strong technical ownership and also help navigate uncharted business and product challenges. This is a full-time position. In This Role, You'll Architect, develop, and deliver new functionality in the web-based version of our core product -- the app that delivers our remote rehab programs to patients and clinicians Build robust backend APIs, data models, and systems that will support "
     },
     {
       "titulo": "Programador Java Jr",
@@ -489,30 +464,6 @@
       "descripcion": "Quienes Somos Somos Personal, una empresa que acompaña y potencia la vida de las personas a través de la tecnología. Nuestra propuesta está pensada para que cada persona, comunidad y organización pueda avanzar, conectarse, disfrutar y transformar su realidad. En Personal Pay estamos sumando un/una Developer Frontend Sr con pasión por la innovación, ganas de ser protagonistas y facilidad para el desempeño en un entorno desafiante y dinámico. Buscamos Protagonistas Que Se Animen a ✔️ Trabajar en un equipo autónomo formado por diversos roles con los que interactuar para cumplir los objetivos. ✔️ Desempeñarse en un entorno ágil utilizando las últimas metodologías. ✔️ Construir funcionalidades, trabajando en el diseño de las mismas de manera integral con tu equipo. ✔️ Interactuar directamente con los equipos de diseño de UX para implementar una gran experiencia de usuario. ✔️ Participar del análisis técnico de la solución y en las decisiones técnicas de las mismas junto a los diferentes referentes de cada área implicada. ✔️ Interactuar con diferentes equipos dentro de la organización. Y Cuenten Con Estas Experiencias y Habilidades ✔️ Que sientas curiosidad por el mundo fintech. ✔️ Que te apasione el desafío de crear productos de cero y proponer las mejores soluciones. ✔️ 5+ años de experiencia previa en desarrollo de Software. ✔️ 3+ años de experiencia en el desarrollo de aplicaciones web y/o móviles con React Native (excluyente) ✔️ 2+ años de experiencia trabajando en equipo con arquitecturas distribuidas. ✔️ Es un plus poseer experiencia trabajando con TypeScript, NodeJS y NestJS para la construcción de APIs. ✔️ Que desarrolles usando patrones diseño y sigas buenas prácticas de programación. ✔️ Conocimientos de unit testing. ✔️ Conocimientos en bases de datos relacionales "
     },
     {
-      "titulo": "Frontend Web Application Developer - Remote",
-      "empresa": "KoboToolbox",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/frontend-web-application-developer-remote-at-kobotoolbox-4466783034",
-      "fecha": "2026-09-13",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 63,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Front End, React, TypeScript, Git"
-      ],
-      "techs": [
-        "Front End",
-        "React",
-        "TypeScript",
-        "Git"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "Location: Remote Availability: 35-40 hours per week Working hours: US East business hours Reporting to: Lead developer KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a commitment of at least 1 year. As a member of our team, you will share in the challenge and excitement of writing code used by over 32,000 organizations around the world. These organizations create data-driven change through the collection and analysis of more than 20 million surveys per month. Only candidates who already have experience working on large web applications will be considered. Beyond technical acumen, we are seeking a team member who demonstrates curiosity, initiative, and a cooperative approach to problem solving and decision-making. If you're passionate about leveraging technology to make a positive impact, we want to hear from you! Responsibilities Searching and reading an extensive, long-lived code base to understand existing behavior and conventions Recognizing when existing conventions may no longer be the best approach and suggesting improvements aligned with contemporary best practices Writing robust, concise, and reusable code with accompanying tests and documentation Reviewing other developers' code and providing constructive feedback Incorporating feedback from code reviews to improve your skills and align with team standards Using AI-assisted development tools effectively while maintaining responsibility for code quality and correctness Efficiently investigating bug reports from the support team, creating well-scoped fixes or actionable plans for resolution Scoping, prioritizing, estimating, and organizing work into manageably sized tasks Attending regular video-conference check"
-    },
-    {
       "titulo": "Publicado hace más de 15 días",
       "empresa": "Ver aviso",
       "ubicacion": "Argentina",
@@ -530,6 +481,29 @@
         "Full Stack"
       ],
       "primera_vez": "2026-09-14"
+    },
+    {
+      "titulo": "Mid-Level Frontend Developer (Blazor) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/mid-level-frontend-developer-blazor-remote-latin-america-at-fullstack-4464906382",
+      "fecha": "2026-09-08",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 62,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Front End, Back End"
+      ],
+      "techs": [
+        "Full Stack",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Mid-Level Frontend Developer (Blazor). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Extensive experience developing modern web applications using Blazor, C#, and .NET. Strong background designing and implementing intuitive user interfaces and end-to-end user workflows. Hands-on experience building responsive, reusable, and scalable UI components within a Blazor architecture. Proven experience integrating intern"
     },
     {
       "titulo": "Backend Software Engineer (Remote)",
@@ -555,31 +529,112 @@
       "descripcion": "Role: Backend Software Engineer (Remote) Location: Remote (Work from Anywhere) Role Overview: We are hiring for one of our clients, seeking a Software Engineer to work on a full-time basis. The role involves developing and maintaining scalable software solutions while collaborating with cross-functional teams to deliver high-quality products. Responsibilities include writing clean, efficient code and optimizing system performance. Key Responsibilities: • Design, develop, and maintain software applications using modern programming languages and frameworks. • Write clean, modular, and reusable code following best practices and coding standards. • Work with product managers, designers, and other engineers to define project requirements and deliver solutions. • Troubleshoot, debug, and resolve software defects and performance issues. • Participate in code reviews and contribute to architectural decisions. Required Skills & Qualifications: • Proficiency in programming languages such as Python, Java, or JavaScript. • Experience with software development methodologies like Agile or Scrum. • Strong problem-solving skills and ability to write efficient algorithms. • Familiarity with version control systems like Git. • Understanding of data structures and database systems. More About the Opportunity: This role offers a unique opportunity to work with a global leader in the Technology, Information and Internet industry, contributing to the development of innovative software solutions. The position requires remote collaboration with a diverse team of engineers and stakeholders. Equal Opportunity Employer: We hire based on skills and expertise. All qualified candidates are welcome regardless of background, experience, or prior employment history. Applications are reviewed solely on "
     },
     {
-      "titulo": "Full Stack Developer (NestJS / Node.js / Angular) - EY Global Delivery Services",
-      "empresa": "EY",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-nestjs-node-js-angular-ey-global-delivery-services-at-ey-4427380976",
-      "fecha": "2026-09-12",
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "Mar del Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455981139",
+      "fecha": "2026-09-09",
       "fuente": "LinkedIn",
-      "keyword": "Full Stack",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
-      "afinidad": 59,
+      "afinidad": 60,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Node.js, Full Stack, TypeScript, SQL, Front End, Back End",
-        "− Pide 5+ años de experiencia"
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
       ],
       "techs": [
-        "Node.js",
         "Full Stack",
-        "TypeScript",
-        "SQL",
-        "Front End",
+        "JavaScript",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+    },
+    {
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455967369",
+      "fecha": "2026-09-09",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 60,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "JavaScript",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+    },
+    {
+      "titulo": "Full Stack Developer (Elixir/Phoenix + Ruby on Rails) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "Salta, Salta, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-developer-elixir-phoenix-%2B-ruby-on-rails-remote-latin-america-at-fullstack-4455977170",
+      "fecha": "2026-09-09",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 60,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, JavaScript, Front End"
+      ],
+      "techs": [
+        "Full Stack",
+        "JavaScript",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Elixir/Phoenix + Ruby on Rails). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong professional experience developing applications with Elixir/Phoenix and/or Ruby on Rails. Strong proficiency in HTML, CSS, and JavaScript. Full-stack development experience with a strong focus on frontend development. Experience developing and maintaining customer-facing web applications. Experience workin"
+    },
+    {
+      "titulo": "Full Stack Software Engineer",
+      "empresa": "Carda Health",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-engineer-at-carda-health-4464225659",
+      "fecha": "2026-09-11",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Back End"
+      ],
+      "techs": [
+        "Full Stack",
         "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "Full Stack Developer (NestJS / Node.js / Angular) – EY GDS The Opportunity As part of our Tax Technology and Transformation team at EY GDS, you will participate in the development of modern digital platforms that transform how leading companies manage their global tax obligations. What makes this role unique is the combination of technical challenge and specialized domain: you will not only build software, but solutions that automate critical tax processes, integrate business intelligence, and serve top-tier clients across multiple countries. You will work closely with local and global technical and tax teams, contributing to the design and evolution of a proprietary technology suite spanning backend APIs, web interfaces, RPA, serverless Azure processes, and data tools. You will grow in a high-impact technology environment working with NestJS, Angular, Azure, and TypeScript, participating in architecture decisions with global visibility. Your day-to-day will combine real product development—backend, frontend, Azure cloud, and automation—working in a hybrid model with direct contact with local and global technical and business teams. Key Responsibilities Develop and maintain RESTful APIs using NestJS and TypeScript. Build user interfaces using Angular with a focus on usability and consistency. Design and optimize PostgreSQL schemas with TypeORM. Create Azure Functions (Node.js / Python) for automation. Integrate Azure services such as Service Bus, Blob Storage, and Entra ID. Develop RPA processes using Puppeteer. Participate in code reviews and CI/CD pipelines in Azure DevOps. Skills and Competencies Strong full-stack expertise in TypeScript, NestJS, and Angular. Commitment to code quality and security best practices. Clear communication across technical and business tea"
+      "descripcion": "About Carda Rehab is a pain. So much so that only 10% of qualifying Cardiac and Pulmonary patients attend. At Carda Health, we’ve reimagined rehab. Our program allows patients to complete inspiring, convenient, life-saving therapy remotely. Who are we? We are a team of clinicians, data scientists, mathematicians and repeat entrepreneurs. And a few recovering financiers. Our belief is that technology and data, when applied to the right problem, transforms people’s lives and changes even the most entrenched industries. Carda was founded by Harry and Andrew, two friends from Wharton who share a family history of heart disease and experience with poor access to care. We now work with some of America’s largest and top-ranked hospitals and most innovative insurers. We are fortunate to be backed by some of the best investors in the business who have also backed the likes of Livongo, Hinge, Calm, MDLive, and others. What We're Looking For We are looking for a talented full-stack software engineer who loves building phenomenal products that have real meaning and add real value to people’s lives. You’ll work across the full stack from UI to business logic, backend APIs, data storage and architecture, and more. You’ll have a rare opportunity to work directly with the founders to build the product and infrastructure supporting the future of Carda Health. As an early hire in a pivotal role, you’ll have strong technical ownership and also help navigate uncharted business and product challenges. This is a full-time position. In This Role, You'll Architect, develop, and deliver new functionality in the web-based version of our core product -- the app that delivers our remote rehab programs to patients and clinicians Build robust backend APIs, data models, and systems that will support "
+    },
+    {
+      "titulo": "Pasantes de Automatización & Data Analytics",
+      "empresa": "Carrefour Argentina",
+      "ubicacion": "Martínez, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/pasantes-de-automatizaci%C3%B3n-data-analytics-at-carrefour-argentina-4466088817",
+      "fecha": "2026-09-11",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-14",
+      "descripcion": "¿Estás buscando tu primera experiencia profesional en una de las empresas de retail más grandes del mundo? En Carrefour, estamos convencidos de que el talento no tiene techo, ¡y queremos que seas parte de nuestra transformación! Buscamos mentes curiosas, con ganas de aprender y desafiarse en un entorno colaborativo y de constante innovación.💡 Creemos que la tecnología y los datos son el motor para tomar mejores decisiones. Sumándote a nuestros equipos de Aprovisionamiento o Mermas, serás clave en la automatización de procesos, la aplicación de IA/RPA y la creación de dashboards estratégicos que impactan directamente en la eficiencia logística y en la gestión operativa del negocio. 💥 Principales desafíos: Reducir tareas manuales y automatizar reportes (diarios, semanales, mensuales) y flujos de trabajo en Excel y sistemas del negocio. Colaborar en el desarrollo, prueba y mejora de dashboards de gestión e identificar oportunidades de automatización utilizando herramientas de IA, RPA y data analytics. Analizar bases de datos complejas para detectar desvíos, generar alarmas y proponer mejoras operativas. Documentar procesos y colaborar transversalmente con equipos de Centros de Distribución, Sede y Tiendas. 🎓 Requisitos: Estudiantes de Ciencia de Datos, Ingeniería en Inteligencia Artificial, Ingeniería en Sistemas, Ingeniería Industrial, Sistemas de Información o carreras afines. Manejo avanzado de Excel (excluyente). Deseable experiencia o interés en bases de datos, reportería, herramientas de visualización (Dashboards) y automatización/RPA/IA. Perfil marcadamente analítico, proactivo, organizado, curioso por el mundo de los datos y con orientación al trabajo en equipo y la mejora continua. Inglés (deseable). Beneficios: 🌐 Modalidad híbrida 3x2 – Oficinas en Martínez 🛒 Des"
     },
     {
       "titulo": "Microsoft Full Stack Engineer",
@@ -602,10 +657,10 @@
       "primera_vez": "2026-09-14"
     },
     {
-      "titulo": "Middle NodeJs Engineer",
-      "empresa": "Avenga",
+      "titulo": "Software Engineer (Backend)",
+      "empresa": "Xepelin",
       "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/middle-nodejs-engineer-at-avenga-4465380521",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-backend-at-xepelin-4363845157",
       "fecha": "2026-09-10",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
@@ -613,45 +668,14 @@
       "afinidad": 54,
       "motivos": [
         "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, TypeScript, SQL, Front End, Back End",
-        "− Pide 4+ años de experiencia"
+        "✓ Tu stack: Back End",
+        "− Publicación en inglés"
       ],
       "techs": [
-        "Node.js",
-        "TypeScript",
-        "SQL",
-        "Front End",
         "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina within the Fintech industry, we are actively seeking a professional to strengthen our team dedicated to scaling and evolving our high-availability backend platforms. In this position, during your first six months, your primary objective will be to enable and scale our existing systems to support multi-region AWS infrastructures. Following this initial high-impact phase, you will have the opportunity to rotate into and contribute your talent to another core team within the company. This is the team In your role, you'll become a vital member of a skilled, multi-technology team working alongside Product Owners, Web, and Mobile engineers under the Scrum framework. Your primary responsibility will involve technically leading the adaptation of existing systems into multi-region architectures and maintaining resilient event-driven workflows. Here you will have the opportunity to make a meaningful contribution to global technological progress while at the same time advancing your own skills and career. This is you 4 years of proven experience in Backend Software Development. Advanced proficiency in Node.js and TypeScript. Strong hands-on experience in AWS cloud development, specifically with containerization and orchestration using EKS (Elastic Kubernetes Service). Advanced knowledge of Kafka and Event-Driven Architectures (required). Solid experience working with relational databases, preferably MySQL or PostgreSQL. Practical and demonstra"
-    },
-    {
-      "titulo": "Middle NodeJs Engineer",
-      "empresa": "Avenga Water Well Service, LLC",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/middle-nodejs-engineer-at-avenga-water-well-service-llc-4465305116",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 54,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Node.js, TypeScript, SQL, Front End, Back End",
-        "− Pide 4+ años de experiencia"
-      ],
-      "techs": [
-        "Node.js",
-        "TypeScript",
-        "SQL",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "Buenos Aires Fully Remote Middle NodeJs Engineer It’s your career – make it matter This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina within the Fintech industry, we are actively seeking a professional to strengthen our team dedicated to scaling and evolving our high-availability backend platforms. In this position, during your first six months, your primary objective will be to enable and scale our existing systems to support multi-region AWS infrastructures. Following this initial high-impact phase, you will have the opportunity to rotate into and contribute your talent to another core team within the company. This is the team In your role, you'll become a vital member of a skilled, multi-technology team working alongside Product Owners, Web, and Mobile engineers under the Scrum framework. Your primary responsibility will involve technically leading the adaptation of existing systems into multi-region architectures and maintaining resilient event-driven workflows. Here you will have the opportunity to make a meaningful contribution to global technological progress while at the same time advancing your own skills and career. This is you 4 years of proven experience in Backend Software Development. Advanced proficiency in Node.js and TypeScript. Strong hands-on experience in AWS cloud development, specifically with containerization and orchestration using EKS (Elastic Kubernetes Service). Advanced knowledge of Kafka and Event-Driven Architectures (required). Solid experience working"
+      "descripcion": "🚀 ¿Por qué trabajar en Xepelin? Xepelin está transformando las finanzas empresariales en Latinoamérica con una suite de productos que automatizan la gestión financiera y facilitan el acceso a liquidez. Con el objetivo de convertirse en el CFO digital de todo negocio, ha desarrollado tecnología financiera que impacta en todo el ecosistema empresarial. Gracias a la data obtenida por la interacción de +1M de empresas dentro de su network, se construye un sistema de inteligencia de negocios que da visibilidad de indicadores financieros y evaluaciones de riesgo de la red con la que se colabora, ayudando a que la toma de decisiones sea más rápida y segura. Nuestros principios ¿Cómo operamos? 🎯 Ponemos a nuestros clientes en el centro ✨ Creemos e inspiramos 🧑‍💼 Actuamos como dueños 🏅 Lideramos con el ejemplo 🏆 Nos desafiamos para ganar 🧠 Tomamos riesgos con inteligencia 🤖 Usamos el poder de la tecnología ¿Qué estamos buscando? En Xepelin estamos buscando personas creativas y visionarias que piensen fuera de la caja para sumarse a nuestro equipo. Si te apasiona resolver desafíos interesantes de alto impacto y quieres ser parte de un entorno dinámico que está transformando la industria financiera, ¡Esta oportunidad es para ti! Si te motiva el desafío de construir soluciones innovadoras en un entorno de rápido cambio, queremos conocerte. Únete a nosotros, ¡crezcamos juntos! Principales responsabilidades: Aportar ideas y participar en la definición de la visión técnica de componentes clave de la plataforma Contribuir al diseño de sistemas y arquitectura, con la guía del equipo Colaborar en el desarrollo y mantenimiento de servicios escalables y resilientes Participar activamente en el desarrollo \"hands-on\" de proyectos críticos para entregar valor a los clientes Aprender y aplicar"
     },
     {
       "titulo": "DESARROLLADOR FULL STACK",
@@ -675,53 +699,55 @@
       "primera_vez": "2026-09-14"
     },
     {
-      "titulo": "Software Engineer - Frontend - Payments",
-      "empresa": "Kraken",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-frontend-payments-at-kraken-4456018062",
-      "fecha": "2026-09-11",
+      "titulo": "Software Engineer - Social Media Team",
+      "empresa": "Innovid",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-social-media-team-at-innovid-4456259341",
+      "fecha": "2026-09-12",
       "fuente": "LinkedIn",
       "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 52,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, SQL, Full Stack, Front End",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "SQL",
+        "Full Stack",
+        "Front End"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. ‍ We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. We're looking for a top-notch, passionate developer to be part of our world-class Social Media team. You will play a pivotal role in the design, development, and maintenance of our core systems. You will be responsible for building robust, scalable, and high-performance applications that power our critical business operations. You will collaborate closely with other engineers, product managers, and stakeholders to translate business requirements into technical solutions. We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Deliver end-to-end full-stack solutions with a strong focus on front-end development. Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environmentDesign and develop modules for a high-end product that serves billions of transactions a dayDeploy your code to production Be responsible for the well-being of your application in productionWork with product managers to define, prioritize and f"
+    },
+    {
+      "titulo": "Middle NodeJs Engineer",
+      "empresa": "Avenga",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/middle-nodejs-engineer-at-avenga-4465380521",
+      "fecha": "2026-09-10",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
       "es_remoto": true,
       "afinidad": 51,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Front End, React, TypeScript, JavaScript",
-        "− Pide 15+ años de experiencia"
+        "✓ Tu stack: Node.js, TypeScript, SQL, Back End",
+        "− Pide 4+ años de experiencia"
       ],
       "techs": [
-        "Front End",
-        "React",
+        "Node.js",
         "TypeScript",
-        "JavaScript"
+        "SQL",
+        "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. Before you apply, we encourage you to explore our culture page to understand what drives us and how we work. The Team We are currently seeking an experienced Senior Software Engineer to join our growing Payments & Blockchain team to be focused on our payments systems. The Payments & Blockchain team is responsible for the first and last mile of every dollar (digital or fiat) that goes in or out of Kraken. Join our Payments team to help integrate Kraken’s systems with an ever-expanding universe of payment providers. As a member of this team, your focus is on protecting client funds. You will be responsible for building systems that communicate with various blockchains to enable the timely processing of client transactions, while also ensuring the safety and security of all funds on the exchange. The Opportunity Design, develop, and maintain high-quality payment processing systems using React.js and other relevant technologies Build and refine seamless transaction experiences that optimize fund transfers for speed, security, and reliability Ensure an efficient and intuitive onboarding experience for users interacting with payment systems, reducing friction and improving trust Develop innovative features that enhance engagement, retention, and loyalty within the payments ecosystem Set the standard for high-quality, secure code and lead the development of complex financial software systems Influence technical decisions, contribute to strategy di"
-    },
-    {
-      "titulo": "Software Engineer III - Front End UI - C#/.Net/React - Neovest",
-      "empresa": "JPMorganChase",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-iii-front-end-ui-c%23-net-react-neovest-at-jpmorganchase-4446525910",
-      "fecha": "2026-09-09",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 50,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Front End, TypeScript",
-        "− Pide 5+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Front End",
-        "TypeScript"
-      ],
-      "primera_vez": "2026-09-14",
-      "descripcion": "Job Description We have an exciting and rewarding opportunity for you to take your software engineering career to the next level. As a Software Engineer III at JPMorganChase for Neovest Inc., you serve as a seasoned member of an agile team to design and deliver trusted market-leading technology products in a secure, stable, and scalable way. You are responsible for carrying out critical technology solutions across multiple technical areas within various business functions in support of the firm's business objectives. Job Responsibilities Executes software solutions, design, development, and technical troubleshooting with ability to think beyond routine or conventional approaches to build solutions or break down technical problems Creates secure and high-quality production code and maintains algorithms that run synchronously with appropriate systems Produces architecture and design artifacts for complex applications while being accountable for ensuring design constraints are met by software code development Gathers, analyzes, synthesizes, and develops visualizations and reporting from large, diverse data sets in service of continuous improvement of software applications and systems Proactively identifies hidden problems and patterns in data and uses these insights to drive improvements to coding hygiene and system architecture Contributes to software engineering communities of practice and events that explore new and emerging technologies Adds to team culture of diversity, opportunity, inclusion, and respect Required Qualifications, Capabilities, And Skills Intermediate knowledge and +5 years experience with C#/.Net Intermediate knowledge and experience developing multi-threaded applications Experience developing responsive front end UI's in C# (WPF) and web-based techno"
+      "descripcion": "This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina within the Fintech industry, we are actively seeking a professional to strengthen our team dedicated to scaling and evolving our high-availability backend platforms. In this position, during your first six months, your primary objective will be to enable and scale our existing systems to support multi-region AWS infrastructures. Following this initial high-impact phase, you will have the opportunity to rotate into and contribute your talent to another core team within the company. This is the team In your role, you'll become a vital member of a skilled, multi-technology team working alongside Product Owners, Web, and Mobile engineers under the Scrum framework. Your primary responsibility will involve technically leading the adaptation of existing systems into multi-region architectures and maintaining resilient event-driven workflows. Here you will have the opportunity to make a meaningful contribution to global technological progress while at the same time advancing your own skills and career. This is you 4 years of proven experience in Backend Software Development. Advanced proficiency in Node.js and TypeScript. Strong hands-on experience in AWS cloud development, specifically with containerization and orchestration using EKS (Elastic Kubernetes Service). Advanced knowledge of Kafka and Event-Driven Architectures (required). Solid experience working with relational databases, preferably MySQL or PostgreSQL. Practical and demonstra"
     },
     {
       "titulo": "Jóvenes Profesionales graduados para nuestro Software de Gestión- Buenos Aires",
@@ -760,28 +786,11 @@
       "descripcion": "📢 Nos encontramos en la búsqueda de Jóvenes Profesionales para nuestro Software de Gestión MyLogic. Imagínate: * Participando en el mantenimiento eficiente de las funcionalidades de MyLogic, el Software de Gestión más completo del mercado. * Analizando, desarrollando y probando las nuevas funcionalidades para el sistema . * Potenciando tu crecimiento con un gran equipo de profesionales del mundo IT. * Capacitándote en FastPRG, nuestro lenguaje de programación. * Accediendo a un plan de carrera en una empresa en pleno crecimiento y expansión. Requisitos: * Graduados de Ingeniería Industrial / Sistemas o Negocios Digitales. (Excluyente) * Conocimiento de lenguajes de programación (Excluyente) * Nociones de estructuras de datos (Preferente) * Conocimiento en procesos de negocio. * Ganas de aprender nuevas tecnologías y herramientas. Modalidad: Disponibilidad Full-time, jornada de lunes a viernes, presencial en Rosario NeuralSoft pionera en Software de Gestión en la Nube. Desde 1999 cuenta con Data Centers propios de última generación. Es la única empresa argentina que ha desarrollado su propio lenguaje de programación."
     },
     {
-      "titulo": "Software Engineer - Social Media Team",
-      "empresa": "Innovid",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-social-media-team-at-innovid-4456259341",
-      "fecha": "2026-09-12",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-09-14"
-    },
-    {
-      "titulo": "Power BI Developer (Visualization, Data and AI)",
-      "empresa": "Hexaware Technologies Limited",
-      "ubicacion": "Agronomía, Capital Federal",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-power-bi-developer-visualization-data-and-ai-en-agronomia-7EAE774AF19D006861373E686DCF3405",
-      "fecha": "Ayer",
+      "titulo": "Ref. 2105: Azure Developer",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-2105-azure-developer-hibrido-parque-patricios-caba-en-recoleta-6EADD35ABA60246E61373E686DCF3405",
+      "fecha": "Hace 1 hora",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -794,13 +803,13 @@
       "primera_vez": "2026-09-14"
     },
     {
-      "titulo": "DevOps / Cloud Engineer / Importante Universidad Zona Norte GBA",
-      "empresa": "BD Capital Humano",
-      "ubicacion": "San Fernando, Buenos Aires-GBA",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-cloud-engineer--importante-universidad-zona-norte-gba-en-san-fernando-E716EC3D6213DC0A61373E686DCF3405",
-      "fecha": "Hace 5 horas",
+      "titulo": "Ref. 21292: Vermilion Engineer / Developer / Remoto AMBA",
+      "empresa": "ADN - Recursos Humanos",
+      "ubicacion": "3,6",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-vermilion-engineer-developer-remoto-amba-en-recoleta-6ACB3F282A654B5261373E686DCF3405",
+      "fecha": "Hace 1 hora",
       "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
+      "keyword": "Desarrollador web",
       "afinidad": 49,
       "motivos": [
         "✓ Remoto",
@@ -811,11 +820,11 @@
       "primera_vez": "2026-09-14"
     },
     {
-      "titulo": "Ejecutivo de Ventas IT especializado en AWS Cloud // Multinacional Software Financiero",
+      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-it-especializado-en-aws-cloud-multinacional-software-financiero-hibrido-microcentro-caba-en-monserrat-54112F35D5E2B47C61373E686DCF3405",
-      "fecha": "Hace 16 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-EBAFAF842D4E000761373E686DCF3405",
+      "fecha": "Hace 6 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -831,25 +840,8 @@
       "titulo": "SRE / Líder Devops AWS // Multinacional de Software Financiero",
       "empresa": "Kaizen Recursos Humanos",
       "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-9AE2C74BB8DC06A761373E686DCF3405",
-      "fecha": "Hace 17 horas",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "es_remoto": true,
-      "techs": [],
-      "primera_vez": "2026-09-14"
-    },
-    {
-      "titulo": "Líder DevOps AWS // Multinacional de Software Financiero",
-      "empresa": "Kaizen Recursos Humanos",
-      "ubicacion": "4,2",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-D0B43883F698096461373E686DCF3405",
-      "fecha": "Hace 17 horas",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sre-lider-devops-aws-multinacional-de-software-financiero-hibrido-microcentro-caba-en-monserrat-6D872670D68A0C2461373E686DCF3405",
+      "fecha": "Hace 7 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -898,11 +890,11 @@
       "primera_vez": "2026-09-14"
     },
     {
-      "titulo": "Software Engineer (Backend)",
-      "empresa": "Xepelin",
+      "titulo": "Middle NodeJs Engineer",
+      "empresa": "Avenga Water Well Service, LLC",
       "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-backend-at-xepelin-4363845157",
-      "fecha": "2026-09-10",
+      "enlace": "https://ar.linkedin.com/jobs/view/middle-nodejs-engineer-at-avenga-water-well-service-llc-4465305116",
+      "fecha": "2026-09-09",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
@@ -910,78 +902,46 @@
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Back End, TypeScript, Node.js",
-        "− Pide 3+ años de experiencia"
+        "✓ Tu stack: Node.js, TypeScript, Back End",
+        "− Pide 4+ años de experiencia"
       ],
       "techs": [
-        "Back End",
+        "Node.js",
         "TypeScript",
-        "Node.js"
+        "Back End"
       ],
       "primera_vez": "2026-09-14",
-      "descripcion": "🚀 ¿Por qué trabajar en Xepelin? Xepelin está transformando las finanzas empresariales en Latinoamérica con una suite de productos que automatizan la gestión financiera y facilitan el acceso a liquidez. Con el objetivo de convertirse en el CFO digital de todo negocio, ha desarrollado tecnología financiera que impacta en todo el ecosistema empresarial. Gracias a la data obtenida por la interacción de +1M de empresas dentro de su network, se construye un sistema de inteligencia de negocios que da visibilidad de indicadores financieros y evaluaciones de riesgo de la red con la que se colabora, ayudando a que la toma de decisiones sea más rápida y segura. Nuestros principios ¿Cómo operamos? 🎯 Ponemos a nuestros clientes en el centro ✨ Creemos e inspiramos 🧑‍💼 Actuamos como dueños 🏅 Lideramos con el ejemplo 🏆 Nos desafiamos para ganar 🧠 Tomamos riesgos con inteligencia 🤖 Usamos el poder de la tecnología ¿Qué estamos buscando? En Xepelin estamos buscando personas creativas y visionarias que piensen fuera de la caja para sumarse a nuestro equipo. Si te apasiona resolver desafíos interesantes de alto impacto y quieres ser parte de un entorno dinámico que está transformando la industria financiera, ¡Esta oportunidad es para ti! Si te motiva el desafío de construir soluciones innovadoras en un entorno de rápido cambio, queremos conocerte. Únete a nosotros, ¡crezcamos juntos! Principales responsabilidades: Aportar ideas y participar en la definición de la visión técnica de componentes clave de la plataforma Contribuir al diseño de sistemas y arquitectura, con la guía del equipo Colaborar en el desarrollo y mantenimiento de servicios escalables y resilientes Participar activamente en el desarrollo \"hands-on\" de proyectos críticos para entregar valor a los clientes Aprender y aplicar"
+      "descripcion": "Buenos Aires Fully Remote Middle NodeJs Engineer It’s your career – make it matter This is us At Avenga, we believe that human creativity empowers technology that matters. Operating globally, our 6000+ specialists provide a full spectrum of services, including business and tech advisory, enterprise solutions, CX, UX and Ul design, managed services, product development, and software development. This is the job In Argentina within the Fintech industry, we are actively seeking a professional to strengthen our team dedicated to scaling and evolving our high-availability backend platforms. In this position, during your first six months, your primary objective will be to enable and scale our existing systems to support multi-region AWS infrastructures. Following this initial high-impact phase, you will have the opportunity to rotate into and contribute your talent to another core team within the company. This is the team In your role, you'll become a vital member of a skilled, multi-technology team working alongside Product Owners, Web, and Mobile engineers under the Scrum framework. Your primary responsibility will involve technically leading the adaptation of existing systems into multi-region architectures and maintaining resilient event-driven workflows. Here you will have the opportunity to make a meaningful contribution to global technological progress while at the same time advancing your own skills and career. This is you 4 years of proven experience in Backend Software Development. Advanced proficiency in Node.js and TypeScript. Strong hands-on experience in AWS cloud development, specifically with containerization and orchestration using EKS (Elastic Kubernetes Service). Advanced knowledge of Kafka and Event-Driven Architectures (required). Solid experience working"
     },
     {
-      "titulo": "PHP Developer",
-      "empresa": "Rooftop.dev",
+      "titulo": "Software Engineer III - Front End UI - C#/.Net/React - Neovest",
+      "empresa": "JPMorganChase",
       "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/php-developer-at-rooftop-dev-4464791604",
-      "fecha": "2026-09-14",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-iii-front-end-ui-c%23-net-react-neovest-at-jpmorganchase-4446525910",
+      "fecha": "2026-09-09",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "React",
       "es_remoto": true,
       "afinidad": 47,
       "motivos": [
         "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Piden otro stack (no JS/TS)",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-09-14"
-    },
-    {
-      "titulo": "INGENIERÍA EN INFORMÁTICA",
-      "empresa": "Universidad Nacional de José Clemente Paz (UNPAZ)",
-      "ubicacion": "José C. Paz, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ingenier%C3%ADa-en-inform%C3%A1tica-at-universidad-nacional-de-jos%C3%A9-clemente-paz-unpaz-4467079710",
-      "fecha": "2026-09-14",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
+        "✓ Tu stack: React, Front End",
+        "− Publicación en inglés",
         "− Pide 5+ años de experiencia"
       ],
-      "techs": [],
-      "primera_vez": "2026-09-14",
-      "descripcion": "Título de grado: INGENIERA/O EN INFORMÁTICA Duración: 5 años. La/el Ingeniera/o en Informática podrá desempeñarse de manera independiente o bien en el marco de organizaciones de diversa naturaleza, contribuyendo a la conformación de equipos profesionales interdisciplinarios. En cualquiera de sus ámbitos de desempeño, serán profesionales que desarrollen prácticas comprometidas ética y socialmente con los derechos humanos, capaces de identificar las necesidades particulares del territorio y la comunidad en la que se insertan y de realizar intervenciones que prioricen el interés colectivo, así como el cuidado y la preservación del ambiente. Título de pregrado: Técnica/o Universitaria/o en Informática. Duración: 3 años. La/el Técnica/o Universitaria/o en Informática podrá realizar actividades de relevamiento, análisis, especificación, diseño, desarrollo, implementación, verificación, validación, puesta a punto, mantenimiento y actualización de sistemas de información. Además, podrá modelar, especificar y ejecutar procesos de construcción de software utilizando lenguajes de programación. PLAN DE ESTUDIO PLAN DE ESTUDIO ACCESIBILIZADO Resolución – Creación de la Ingeniería Resolución – Plan de estudio Consultas: estudiaenunpaz@unpaz.edu.ar"
-    },
-    {
-      "titulo": "Pasantes de Automatización & Data Analytics",
-      "empresa": "Carrefour Argentina",
-      "ubicacion": "Martínez, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/pasantes-de-automatizaci%C3%B3n-data-analytics-at-carrefour-argentina-4466088817",
-      "fecha": "2026-09-11",
-      "fuente": "LinkedIn",
-      "keyword": "Pasantía sistemas",
-      "es_remoto": true,
-      "afinidad": 45,
-      "motivos": [
-        "✓ Remoto",
-        "− Pide 43+ años de experiencia"
+      "techs": [
+        "React",
+        "Front End"
       ],
-      "techs": [],
       "primera_vez": "2026-09-14",
-      "descripcion": "¿Estás buscando tu primera experiencia profesional en una de las empresas de retail más grandes del mundo? En Carrefour, estamos convencidos de que el talento no tiene techo, ¡y queremos que seas parte de nuestra transformación! Buscamos mentes curiosas, con ganas de aprender y desafiarse en un entorno colaborativo y de constante innovación.💡 Creemos que la tecnología y los datos son el motor para tomar mejores decisiones. Sumándote a nuestros equipos de Aprovisionamiento o Mermas, serás clave en la automatización de procesos, la aplicación de IA/RPA y la creación de dashboards estratégicos que impactan directamente en la eficiencia logística y en la gestión operativa del negocio. 💥 Principales desafíos: Reducir tareas manuales y automatizar reportes (diarios, semanales, mensuales) y flujos de trabajo en Excel y sistemas del negocio. Colaborar en el desarrollo, prueba y mejora de dashboards de gestión e identificar oportunidades de automatización utilizando herramientas de IA, RPA y data analytics. Analizar bases de datos complejas para detectar desvíos, generar alarmas y proponer mejoras operativas. Documentar procesos y colaborar transversalmente con equipos de Centros de Distribución, Sede y Tiendas. 🎓 Requisitos: Estudiantes de Ciencia de Datos, Ingeniería en Inteligencia Artificial, Ingeniería en Sistemas, Ingeniería Industrial, Sistemas de Información o carreras afines. Manejo avanzado de Excel (excluyente). Deseable experiencia o interés en bases de datos, reportería, herramientas de visualización (Dashboards) y automatización/RPA/IA. Perfil marcadamente analítico, proactivo, organizado, curioso por el mundo de los datos y con orientación al trabajo en equipo y la mejora continua. Inglés (deseable). Beneficios: 🌐 Modalidad híbrida 3x2 – Oficinas en Martínez 🛒 Des"
+      "descripcion": "Job Description We have an exciting and rewarding opportunity for you to take your software engineering career to the next level. As a Software Engineer III at JPMorganChase for Neovest Inc., you serve as a seasoned member of an agile team to design and deliver trusted market-leading technology products in a secure, stable, and scalable way. You are responsible for carrying out critical technology solutions across multiple technical areas within various business functions in support of the firm's business objectives. Job Responsibilities Executes software solutions, design, development, and technical troubleshooting with ability to think beyond routine or conventional approaches to build solutions or break down technical problems Creates secure and high-quality production code and maintains algorithms that run synchronously with appropriate systems Produces architecture and design artifacts for complex applications while being accountable for ensuring design constraints are met by software code development Gathers, analyzes, synthesizes, and develops visualizations and reporting from large, diverse data sets in service of continuous improvement of software applications and systems Proactively identifies hidden problems and patterns in data and uses these insights to drive improvements to coding hygiene and system architecture Contributes to software engineering communities of practice and events that explore new and emerging technologies Adds to team culture of diversity, opportunity, inclusion, and respect Required Qualifications, Capabilities, And Skills Intermediate knowledge and +5 years experience with C#/.Net Intermediate knowledge and experience developing multi-threaded applications Experience developing responsive front end UI's in C# (WPF) and web-based techno"
     },
     {
       "titulo": "Ref. 20595: Desarrollador Python / FastAPI / Remoto",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-fastapi-remoto-en-recoleta-0CD70C3D074CC1EB61373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 1 hora",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior",
       "afinidad": 45,
@@ -997,8 +957,8 @@
       "titulo": "Ref. 20595: Desarrollador Python",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E82FFA87AC9E965F61373E686DCF3405",
-      "fecha": "Ayer",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-20595-desarrollador-python-remoto-en-recoleta-E4EF614947A6136161373E686DCF3405",
+      "fecha": "Hace 2 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior remoto",
       "afinidad": 45,
@@ -1008,7 +968,48 @@
       ],
       "es_remoto": true,
       "techs": [],
-      "primera_vez": "2026-09-13"
+      "primera_vez": "2026-09-14"
+    },
+    {
+      "titulo": "Software Engineer - Frontend - Payments",
+      "empresa": "Kraken",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-frontend-payments-at-kraken-4456018062",
+      "fecha": "2026-09-11",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 45,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Front End, React",
+        "− Pide 15+ años de experiencia"
+      ],
+      "techs": [
+        "Front End",
+        "React"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. Before you apply, we encourage you to explore our culture page to understand what drives us and how we work. The Team We are currently seeking an experienced Senior Software Engineer to join our growing Payments & Blockchain team to be focused on our payments systems. The Payments & Blockchain team is responsible for the first and last mile of every dollar (digital or fiat) that goes in or out of Kraken. Join our Payments team to help integrate Kraken’s systems with an ever-expanding universe of payment providers. As a member of this team, your focus is on protecting client funds. You will be responsible for building systems that communicate with various blockchains to enable the timely processing of client transactions, while also ensuring the safety and security of all funds on the exchange. The Opportunity Design, develop, and maintain high-quality payment processing systems using React.js and other relevant technologies Build and refine seamless transaction experiences that optimize fund transfers for speed, security, and reliability Ensure an efficient and intuitive onboarding experience for users interacting with payment systems, reducing friction and improving trust Develop innovative features that enhance engagement, retention, and loyalty within the payments ecosystem Set the standard for high-quality, secure code and lead the development of complex financial software systems Influence technical decisions, contribute to strategy di"
+    },
+    {
+      "titulo": "Associate Sysadmin (L0/L1 Support)",
+      "empresa": "Motivus",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/associate-sysadmin-l0-l1-support-at-motivus-4465117184",
+      "fecha": "2026-09-11",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 45,
+      "motivos": [
+        "✓ Remoto",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [],
+      "primera_vez": "2026-09-14",
+      "descripcion": "About Motivus At Motivus, we believe in unlocking human potential through innovative, cutting-edge solutions. With over 1,600 team members across 5 countries, we provide a full spectrum of software and digital services. Our teams are dedicated to driving sustainability, pushing the boundaries of technology, and building the next generation of world-class digital solutions that empower our clients and make a lasting impact. As part of our team, you'll work alongside forward-thinking professionals committed to creating groundbreaking solutions that shape the future of the industry. Position Overview We are looking for an Associate Sysadmin (L0/L1 Support) to join our dynamic team. In this role, you Will provide first-level support to engineering teams working on high-end electronic design software, supporting the operation of on-premise Continuous Integration and Continuous Delivery (CI/CD) pipelines. You will collaborate with cross-functional teams, help maintain development environments for hundreds of active projects, and ensure smooth operations across a globally distributed team. Key Responsibilities Provide first-level (L0/L1) technical support for CI/CD environments and development tools. Monitor and assist with issues related to Jenkins pipelines and software builds. Troubleshoot basic Linux-related problems and escalate as needed. Collaborate with C/C++ developers to ensure development infrastructure runs smoothly. Document common issues, resolutions, and internal procedures for knowledge sharing. Support scripting and automation tasks in Bash, Python, or Perl. Qualifications Currently enrolled in or completed at least 3 years of a degree in Computer Science, Engineering, or related field. Basic knowledge of Linux and operating systems. Familiarity with scripting"
     },
     {
       "titulo": "Python Software Engineer",
@@ -1055,23 +1056,45 @@
       "descripcion": "Company Description Click here to view how Epsilon transforms marketing with 1 View, 1 Vision, 1 Voice. Overview How You’ll Make an Impact We are looking for a Software Engineer to join our Engineering team reporting to the team Lead. As a Software Engineer at Epsilon, you will be responsible for creating, maintaining and supporting software solutions that run in the cloud and handle several TBs of data per day. The candidate will possess a strong knowledge in backend, cloud technologies and map reduce paradigm. Responsibilities What You’ll Achieve Design, build, test, and support back-end services in the context of a big data solution. Design and development of independent and scalable ETLs for processing large volumes of information. Create infrastructure for your designed solutions in the cloud Understand and prioritize requirements according to business needs. Work independently and by objectives. Qualifications Who You Are What You’ll Bring With You 1-3 years working with at least one backend language (preferably python). Proficiency in Spark and map reduce technologies. Experience in at least one cloud platform (preferably AWS). Knowledge of Scrum methodologies. Proficiency in English to communicate and update the team Demonstrable experience developing scalable and quality ETL solutions. Why You Might Stand Out From Other Talent Knowledge of CI/CD tools (preferably Jenkins) Knowledge of Docker Knowledge IAC framework (preferrably cloudformation) Additional Information When You Join Us, We’ll Create Something EPIC Together Epsilon is a global data, technology and services company that powers the marketing and advertising ecosystem. For decades, we’ve provided marketers from the world’s leading brands the data, technology and services they need to engage consumers "
     },
     {
-      "titulo": "Associate Sysadmin (L0/L1 Support)",
-      "empresa": "Motivus",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/associate-sysadmin-l0-l1-support-at-motivus-4465117184",
-      "fecha": "2026-09-11",
+      "titulo": "PHP Developer",
+      "empresa": "Rooftop.dev",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/php-developer-at-rooftop-dev-4464791604",
+      "fecha": "2026-09-14",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 40,
+      "motivos": [
+        "✓ Remoto",
+        "− Piden otro stack (no JS/TS)",
+        "− Publicación en inglés",
+        "✓ Tu stack: SQL"
+      ],
+      "techs": [
+        "SQL"
+      ],
+      "primera_vez": "2026-09-14",
+      "descripcion": "Estamos en búsqueda de Devs PHP (Semi Senior) que resida en CABA, sin inglés, para sumarse a una empresa nacional en pleno crecimiento! REQUISITOS TÉCNICOS: Excluyentes: 3+ años de experiencia desarrollando soluciones en PHP en proyectos de mediana/gran envergadura 3+ años de experiencia trabajando con MySQL Estudiante avanzado o graduado de carreras terciarias o universitarias de Sistemas Valorables: Experiencia trabajando en creación e integración de APIs Experiencia en Banca, Fintech o entornos altamente regulados SOBRE EL ROL: Responsabilidades: Desarrollar y mantener diferentes sistemas y aplicaciones de la Compañía. Diseñar y desarrollar soluciones de software altamente escalables y confiables. PROPUESTA: Modalidad de trabajo: híbrida (2 veces por semana presencial) Ubicación de las oficinas: Belgrano (CABA) Horario: 9 a18 hs. Relación de dependencia Contrato por tiempo indeterminado Rango salarial: conversable, según seniority y experiencia."
+    },
+    {
+      "titulo": "Associate Informatics Technical Specialist I (ITS)",
+      "empresa": "Abbott",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/associate-informatics-technical-specialist-i-its-at-abbott-4463663213",
+      "fecha": "2026-09-14",
       "fuente": "LinkedIn",
       "keyword": "Pasantía sistemas",
       "es_remoto": true,
       "afinidad": 35,
       "motivos": [
         "✓ Remoto",
-        "− Pide 3+ años de experiencia",
+        "− Pide 2+ años de experiencia",
         "− Pide inglés"
       ],
       "techs": [],
       "primera_vez": "2026-09-14",
-      "descripcion": "About Motivus At Motivus, we believe in unlocking human potential through innovative, cutting-edge solutions. With over 1,600 team members across 5 countries, we provide a full spectrum of software and digital services. Our teams are dedicated to driving sustainability, pushing the boundaries of technology, and building the next generation of world-class digital solutions that empower our clients and make a lasting impact. As part of our team, you'll work alongside forward-thinking professionals committed to creating groundbreaking solutions that shape the future of the industry. Position Overview We are looking for an Associate Sysadmin (L0/L1 Support) to join our dynamic team. In this role, you Will provide first-level support to engineering teams working on high-end electronic design software, supporting the operation of on-premise Continuous Integration and Continuous Delivery (CI/CD) pipelines. You will collaborate with cross-functional teams, help maintain development environments for hundreds of active projects, and ensure smooth operations across a globally distributed team. Key Responsibilities Provide first-level (L0/L1) technical support for CI/CD environments and development tools. Monitor and assist with issues related to Jenkins pipelines and software builds. Troubleshoot basic Linux-related problems and escalate as needed. Collaborate with C/C++ developers to ensure development infrastructure runs smoothly. Document common issues, resolutions, and internal procedures for knowledge sharing. Support scripting and automation tasks in Bash, Python, or Perl. Qualifications Currently enrolled in or completed at least 3 years of a degree in Computer Science, Engineering, or related field. Basic knowledge of Linux and operating systems. Familiarity with scripting"
+      "descripcion": "Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica. Trabajando en Abbott En Abbott, puedes hacer un trabajo que importa, crecer y aprender, cuidar de ti mismo y de tu familia, ser verdaderamente quién eres y vivir una vida plena. Tendrás acceso a : Desarrollo profesional con una empresa internacional donde podrás hacer crecer la carrera que sueñas. Una compañía reconocida como mejor lugar para trabajar en docenas de países alrededor del mundo y nombrada una de las empresas más admiradas del mundo por Fortune. Una compañía que es reconocida como una de las mejores compañías grandes para trabajar, así como un mejor lugar para trabajar para la diversidad, las madres trabajadoras, mujeres ejecutivas y científicas. La Oportunidad Esta posición está ubicada en nuestras oficinas de Puerto Madero, Buenos Aires, Argentina para la división de ADD. Estamos potenciando la toma de decisiones médicas y económicas más inteligentes para ayudar a transformar la manera en que las personas manejan su salud en todas las etapas de la vida. Cada día se realizan más de 10 millones de pruebas con los instrumentos de diagnóstico de Abbott, proporcionando resultados de laboratorio para millones de personas. Como Associate Informatics Technical Specialist, serás responsable de la implementación integral de las soluciones digitales de diagnóstico de Abbott, asegurando una correcta instalación, configuración, validación y puesta en marcha de las aplicaciones informáticas utilizadas por laboratorios y centros de salud. Tu gestión será clave para garantizar la satisfacción del cliente, el funcionamiento eficiente de las solu"
     },
     {
       "titulo": "Python Developer — Automation, Integrations & Power BI",
