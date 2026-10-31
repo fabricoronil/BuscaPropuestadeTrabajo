@@ -1,7 +1,31 @@
 {
-  "actualizado": "2026-10-31T15:31:08.566605+00:00",
+  "actualizado": "2026-10-31T22:53:15.363343+00:00",
   "total": 55,
   "empleos": [
+    {
+      "titulo": "CHEVRON GBS BA- IT Internship 2026",
+      "empresa": "Chevron",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/chevron-gbs-ba-it-internship-2026-at-chevron-4466985299",
+      "fecha": "2026-10-31",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 94,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "✓ Medio tiempo",
+        "✓ Tu stack: JavaScript, Full Stack, Back End"
+      ],
+      "techs": [
+        "JavaScript",
+        "Full Stack",
+        "Back End"
+      ],
+      "primera_vez": "2026-10-31",
+      "descripcion": "Chevron is one of the world's leading energy companies, with approximately 60,000 employees working in many different countries. Global Business Services - Buenos Aires (GBS BA), located in Buenos Aires (Puerto Madero), Argentina, with more than 1,800 employees, provides solutions in the areas of Finance, IT, Downstream, Human Resources, Procurement, Audit and Legal to the global organization and is launching its Internship Program. The selected candidates will join the GBS BA IT team. Your Initial Responsibilities Will Include Either One Of These Support the development of digital solutions for Wells Operations, including backend applications and integrations built with C# and .NET, APIs and services that connect operational and enterprise systems, and real-time and batch data ingestion pipelines. The role also covers the use of generative AI to accelerate development, testing and documentation, and the creation of AI skills and agents that improve engineering productivity. Use AI-assisted coding frameworks to develop and modernize applications on Chevron's technology stack (Angular, .NET Core, Python and Azure), and work within an agile team on full stack development and API integrations. Activities include participating in agile ceremonies and reviewing team code and wiki documentation prior to release. Support the evolution and maintenance of Petro Web, a Supply Planning web application built with .NET, Angular and Microsoft Azure, including translating mathematical models into code. Responsibilities include feature development, application enhancements, testing, troubleshooting and collaboration with product and engineering teams in an Agile environment. Support Target Process, the Demand Management application, through development tasks using JavaScript and C#, sy"
+    },
     {
       "titulo": "Full-Stack JavaScript Developer (AI-Native)",
       "empresa": "UltaHost",
@@ -142,31 +166,6 @@
       "descripcion": "Full Stack Software Engineer (.NET+React ) About the opportunity Help lower healthcare costs by bringing drug-price transparency to the point of care. We’re hiring a Full Stack Software Engineer for our client, a U.S. health IT company. You’ll build the user interfaces and high-performance APIs behind products that help doctors and patients make better, more affordable decisions. This work is core to the company’s business, and its impact reaches the wider U.S. healthcare system. Why you’ll love this role Meaningful impact: your code directly helps make healthcare more affordable. Real technical challenges: high-volume transactions, complex business logic, advanced analytics, and integrations with many external systems. Room to innovate: build prototypes and proofs of concept with modern technologies. A voice in design: contribute to architecture and technical decisions, not just tickets. Breadth: grow beyond full-stack into DevOps and Quality Assurance. What you’ll do Build modern, responsive front-end applications in React on top of high-performance APIs. Design and develop RESTful APIs and backend services with .NET Core and C#. Work with stakeholders to turn complex business requirements into reliable technical solutions. Develop, debug, and deploy features end to end as an individual contributor. Contribute to DevOps and QA practices that keep the platform fast and stable. Tech stack React · Redux · JavaScript · CSS · HTML · .NET Core · C# · Entity Framework · PostgreSQL What you bring Must-haves 5+ years of hands-on experience with modern JavaScript, building Single Page Applications (SPAs) with modern JS and CSS frameworks. Strong proficiency in React, HTML, and CSS, with a good eye for UI design. Experience with Sketch or similar UI design tools. 5+ years of han"
     },
     {
-      "titulo": "Full Stack Engineer (Java + React) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-engineer-java-%2B-react-remote-latin-america-at-fullstack-4476502103",
-      "fecha": "2026-10-28",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 68,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Full Stack, TypeScript, SQL, Back End"
-      ],
-      "techs": [
-        "React",
-        "Full Stack",
-        "TypeScript",
-        "SQL",
-        "Back End"
-      ],
-      "primera_vez": "2026-10-31",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Engineer (Java + React). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong experience developing production applications using Java. Hands-on experience with Spring Boot for backend application and service development. Proven experience working with Hibernate and object-relational mapping. Solid experience with Microsoft SQL Server, including SQL queries, database design, and data management. Exper"
-    },
-    {
       "titulo": "Junior Sales Development Representative IT Industry",
       "empresa": "Huzzle",
       "ubicacion": "Remoto mundial",
@@ -235,30 +234,6 @@
       "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Engineer (Java + React). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 3+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Strong experience developing production applications using Java. Hands-on experience with Spring Boot for backend application and service development. Proven experience working with Hibernate and object-relational mapping. Solid experience with Microsoft SQL Server, including SQL queries, database design, and data management. Exper"
     },
     {
-      "titulo": "Full-Stack Software Developer",
-      "empresa": "Virtustant",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-developer-at-virtustant-4483486122",
-      "fecha": "2026-10-30",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 63,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Git, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-10-30",
-      "descripcion": "To apply, you will only have to fill a short form on our website that will take you less than 5 minutes. Job Title: Full-Stack Software Developer About The Company Our client provides B2B SaaS sales expertise in the AI space for their clients. Job Description You will use your full-stack experience to build and launch projects. You should be comfortable moving fast and taking ownership of your work. Responsibilities Of The Role Use full-stack experience (frontend + backend). Build and launch at least one working project or startup. Move fast and take ownership. Required Experience And Qualifications Proven experience as a Full Stack Web Developer. Strong expertise in AWS, Docker, Laravel, Vanilla JS, or PHP. Proficient in using Github for version control. Solid understanding of web technologies and frameworks. Preferred Skills Opportunity for growth in the company Personality Hard worker Keen to work more Startup mentality Owner mentality Software & Tools Docker PHP Laravel Vanilla JS AWS Schedule Monday to Friday 9:00 AM to 5:00 PM CET 40 hours per week Salary And Benefits Payment in USD or Local Currency according to candidate's preference. Full-time remote opportunity."
-    },
-    {
       "titulo": "Mobile Frontend Developer",
       "empresa": "IOL Inversiones",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -302,25 +277,28 @@
       "descripcion": "¿Te entusiasma hacer crecer tu carrera? BBVA es una compañía global con más de 160 años de historia que opera en más de 25 países donde damos servicio a más de 80 millones de clientes. Somos más de 121.000 profesionales trabajando en equipos multidisciplinares con perfiles tan diversos como financieros, expertos legales, científicos de datos, desarrolladores, ingenieros y diseñadores Nos encontramos en la búsqueda de un/a Analista Junior de Infraestructura y Operaciones IT para formar parte de nuestro equipo bajo un contrato coyuntural por 3 meses. La persona seleccionada será responsable de dar soporte en la gestión y seguimiento de proyectos clave de resiliencia tecnológica, colaborando en la consolidación de indicadores corporativos, automatización de procesos internos e interlocución operativa entre áreas técnicas y de negocio. Responsabilidades: Brindar soporte en el seguimiento de proyectos de infraestructura y control de compromisos asumidos (SLAs). Colaborar en la recolección, conciliación de datos y elaboración de reportes e indicadores (KPIs) para la toma de decisiones. Participar como oyente y perfil de soporte en reuniones técnicas con referentes locales y regionales (Holding España / México). Colaborar en la confección de presentaciones ejecutivas y documentación de procesos. Proponer e implementar iniciativas de automatización de tareas y optimización de flujos mediante herramientas de Google Workspace (AppsScript) e Inteligencia Artificial. Requisitos: Estudiantes en curso o graduados/as de carreras como Ingeniería en Sistemas, Licenciatura en Sistemas, Informática o afines (Excluyente). Experiencia o contacto previo (laboral, pasantías o proyectos en consultoría) en el sector bancario, financiero o fintech (Excluyente). Solidez conceptual en fundamentos "
     },
     {
-      "titulo": "Data & Visualization Consultant",
-      "empresa": "AlixPartners",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/data-visualization-consultant-at-alixpartners-4378941459",
-      "fecha": "2026-10-27",
+      "titulo": "Full-Stack Software Developer",
+      "empresa": "Virtustant",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-developer-at-virtustant-4483953353",
+      "fecha": "2026-10-31",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
+      "keyword": "Desarrollador web",
       "es_remoto": true,
       "afinidad": 63,
       "motivos": [
         "✓ Remoto",
-        "✓ Tu stack: SQL, JavaScript"
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Git, Front End, Back End"
       ],
       "techs": [
-        "SQL",
-        "JavaScript"
+        "Full Stack",
+        "Git",
+        "Front End",
+        "Back End"
       ],
       "primera_vez": "2026-10-31",
-      "descripcion": "At AlixPartners, we solve the most complex and critical challenges by moving quickly from analysis to action when it really matters; creating value that has a lasting impact on companies, their people, and the communities they serve. By understanding, respecting, and honoring the needs of our employees, clients, and communities, AlixPartners actively promotes an inclusive environment. We strongly believe in the value that diversity brings to our experiences and are committed to the perpetual enhancements of initiatives, policies, and practices. We hold ourselves accountable by providing the space for authenticity, growth, and equity for everyone. AlixPartners has embraced a hybrid work model to provide flexibility and support our employees’ work-life integration. Our hybrid model combines a mix of in-person (at client site or AlixPartners office) and remote working. Travel is part of this position, but the frequency may vary based on client, team, and individual circumstances. What You’ll Do Are you passionate about a future that exceeds your expectations? Here, at AlixPartners your passion becomes your career. We work in smaller and more senior teams that bring deep industry and functional knowledge to our clients. You will sit shoulder-to-shoulder with owners, boards, and CEOs to address the issues that sit at the top of their agendas - and often become front-page news. If you join our practice, you will work with financially secure, under-performing and distressed companies across a variety of urgent, high impact situations. Our elite professionals are recognized experts in their respective fields, bringing to bear their skills and experience to craft measurable, improved outcomes for our clients. In this role, you will have the chance to create ETL workflows, script"
+      "descripcion": "To apply, you will only have to fill a short form on our website that will take you less than 5 minutes. Job Title: Full-Stack Software Developer About The Company Our client provides B2B SaaS sales expertise in the AI space for their clients. Job Description You will use your full-stack experience to build and launch projects. You should be comfortable moving fast and taking ownership of your work. Responsibilities Of The Role Use full-stack experience (frontend + backend). Build and launch at least one working project or startup. Move fast and take ownership. Required Experience And Qualifications Proven experience as a Full Stack Web Developer. Strong expertise in AWS, Docker, Laravel, Vanilla JS, or PHP. Proficient in using Github for version control. Solid understanding of web technologies and frameworks. Preferred Skills Opportunity for growth in the company Personality Hard worker Keen to work more Startup mentality Owner mentality Software & Tools Docker PHP Laravel Vanilla JS AWS Schedule Monday to Friday 9:00 AM to 5:00 PM CET 40 hours per week Salary And Benefits Payment in USD or Local Currency according to candidate's preference. Full-time remote opportunity."
     },
     {
       "titulo": "Desarrollador Full Stack",
@@ -365,7 +343,7 @@
       "empresa": "Confidencial",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-back-end-en-belgrano-6ED1D17258C7AE0261373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -487,6 +465,23 @@
       "descripcion": "En Emsetec nos encontramos en la búsqueda de un/a Desarrollador Full Stack con foco en PHP, para sumarse a nuestro equipo de trabajo. 💻 Requisitos: • Experiencia de 2 a 3 años en desarrollo Full Stack • Dominio de PHP (excluyente) y experiencia con frameworks (CakePHP, Laravel u otros) • Manejo de arquitectura MVC • Experiencia con MySQL (consultas, joins, optimización básica) • Conocimientos de HTML, CSS y JavaScript • Experiencia en entornos LAMP (Linux, Apache, MySQL, PHP) • Desarrollo y mantenimiento de APIs REST • Manejo de subida y gestión de archivos • Uso de Git 🛠 Tecnologías valoradas: • CakePHP • Python • JavaScript (jQuery) • Bootstrap • Conocimientos en procesos administrativos/operacionales 📍 Modalidad: híbrido 👉 Si te interesa la propuesta o conocés a alguien que pueda aplicar, ¡no dudes en postularte o compartir! #BúsquedaLaboral #FullStack #PHP #Desarrollo #ITJobs #Empleo #TrabajoIT"
     },
     {
+      "titulo": "Data & Visualization Consultant",
+      "empresa": "AlixPartners",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/data-visualization-consultant-at-alixpartners-4378941459",
+      "fecha": "2026-10-27",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
+      ],
+      "techs": [],
+      "primera_vez": "2026-10-31",
+      "descripcion": "At AlixPartners, we solve the most complex and critical challenges by moving quickly from analysis to action when it really matters; creating value that has a lasting impact on companies, their people, and the communities they serve. By understanding, respecting, and honoring the needs of our employees, clients, and communities, AlixPartners actively promotes an inclusive environment. We strongly believe in the value that diversity brings to our experiences and are committed to the perpetual enhancements of initiatives, policies, and practices. We hold ourselves accountable by providing the space for authenticity, growth, and equity for everyone. AlixPartners has embraced a hybrid work model to provide flexibility and support our employees’ work-life integration. Our hybrid model combines a mix of in-person (at client site or AlixPartners office) and remote working. Travel is part of this position, but the frequency may vary based on client, team, and individual circumstances. What You’ll Do Are you passionate about a future that exceeds your expectations? Here, at AlixPartners your passion becomes your career. We work in smaller and more senior teams that bring deep industry and functional knowledge to our clients. You will sit shoulder-to-shoulder with owners, boards, and CEOs to address the issues that sit at the top of their agendas - and often become front-page news. If you join our practice, you will work with financially secure, under-performing and distressed companies across a variety of urgent, high impact situations. Our elite professionals are recognized experts in their respective fields, bringing to bear their skills and experience to craft measurable, improved outcomes for our clients. In this role, you will have the chance to create ETL workflows, script"
+    },
+    {
       "titulo": "Diseñador web y branding empresa IGaming",
       "empresa": "SCALIFY",
       "ubicacion": "Córdoba, Córdoba",
@@ -507,7 +502,7 @@
       "empresa": "ADV Technology SRL",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-c-con-conocimientos-de-c-html-y-js-en-belgrano-1020011A3F3AA2CC61373E686DCF3405",
-      "fecha": "Hace 8 horas",
+      "fecha": "Hace 15 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -826,32 +821,6 @@
       "descripcion": "Position available for candidates based in La Plata, Bahía Blanca, CABA, Córdoba, Rosario, or Mendoza. Web Developers at Avature design, configure, and implement Portal Apps solutions that address real customer needs. Working with Avature’s existing platform, reusable templates, and established best practices, they transform business and UX requirements into scalable, maintainable web experiences. The role combines web development, functional analysis, technical consulting, project ownership, and direct customer interaction. Web Implementation Consultants participate throughout the project lifecycle, from solution definition and implementation through deployment, support, and stabilization. Your challenges and objectives: Understand customers’ business needs and recommend effective implementation approaches using Avature’s platform capabilities. Participate in the definition of solutions together with customers and other members of the implementation team. Own smaller projects end to end, from scope confirmation through implementation, deployment, and post-implementation stabilization. Design and implement scalable and maintainable Portal Apps solutions using reusable templates, platform components, and Avature’s best practices. Balance technical requirements, business objectives, project priorities, and customer expectations. Communicate clearly and proactively with customers and globally distributed teammates throughout the project lifecycle. Adapt existing solutions and platform capabilities to meet customer needs rather than developing every solution from scratch. Your day-to-day activities: Build Portal Apps using HTML, CSS, and JavaScript, and PHP when applicable. Configure and tailor solutions within Avature’s platform. Apply reusable templates and established be"
     },
     {
-      "titulo": "Software Engineer - Storage",
-      "empresa": "Jobgether",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-storage-at-jobgether-4483200166",
-      "fecha": "2026-10-26",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 52,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Node.js, SQL, Front End, Back End",
-        "− Pide 5+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Node.js",
-        "SQL",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-10-31",
-      "descripcion": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Software Engineer – Storage based in Argentina. We are looking for an experienced software engineer to help build and scale a high-performance object storage platform that simplifies how developers upload, manage, process, and deliver digital assets. In this role, you will contribute across the full technology stack, from client libraries and command-line tools to storage servers, content delivery networks, and deployment infrastructure. You will tackle complex engineering challenges involving distributed systems, upload reliability, asset optimization, caching, and service performance. Working in a globally distributed, open-source-first environment, you will collaborate asynchronously with engineers across disciplines to deliver reliable, scalable solutions. You will also help shape the developer experience by improving APIs, tooling, observability, and storage workflows. This is an opportunity to make a meaningful impact on infrastructure used by developers worldwide while contributing to open-source projects and technologies designed to scale to millions of users. Accountabilities Enhance storage capabilities: Improve analytics storage offerings and support open file formats, including Apache Iceberg and DuckLake, to enable efficient storage and management of analytical data. Optimize asset delivery: Develop asset optimization capabilities that improve delivery speed and performance for websites and mobile applications. Expand edge infrastructure: Build and improve the edge network to accelerate uploads and implement features such as automatic cache invalidation. Improve storage server performance: Enhance the performance, observability"
-    },
-    {
       "titulo": ".NET Developer",
       "empresa": "Capgemini Engineering",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -870,29 +839,11 @@
       "descripcion": "Job Description Works in the area of Software Engineering, which encompasses the development, maintenance and optimization of software solutions/applications. Applies scientific methods to analyse and solve software engineering problems. He/she is responsible for the development and application of software engineering practice and knowledge, in research, design, development and maintenance. His/her work requires the exercise of original thought and judgement and the ability to supervise the technical and administrative work of other software engineers. The software engineer builds skills and expertise of his/her software engineering discipline to reach standard software engineer skills expectations for the applicable role, as defined in Professional Communities. The software engineer collaborates and acts as team player with other software engineers and stakeholders. Job Description - Grade Specific Has more than a year of relevant work experience. Solid understanding of programming concepts, software design and software development principles. Consistently works to direction with minimal supervision, producing accurate and reliable results. Individuals are expected to be able to work on a range of tasks and problems, demonstrating their ability to apply their skills and knowledge. Organises own time to deliver against tasks set by others with a mid term horizon. Works co-operatively with others to achieve team goals and has a direct and positive impact on project performance and make decisions based on their understanding of the situation, not just the rules."
     },
     {
-      "titulo": "Pipeline Developer - Remote",
-      "empresa": "Kake",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/pipeline-developer-remote-at-kake-4482219903",
-      "fecha": "2026-10-27",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-10-31",
-      "descripcion": "Kake is a remote-first company and a people-first global community of senior engineers. Kake engineers are behind some of the world’s most innovative products (Brands you’ve heard!), from Fortune 500 to fast-growing companies. We believe it’s not where your table is, but what you bring to the table that matters. Our community spans 45,000+ engineers across 55+ countries; join a culture where great people stay, grow, and thrive (and love eating kake!). We're looking for a Pipeline Developer to join a creative technology team building the pipeline behind large-format immersive display experiences. This role is focused on developing and maintaining Unreal Engine plugins, publishing pipeline workflows, and the automation tools that keep the VFX pipeline moving from asset creation to final delivery. The ideal candidate will work with Unreal Engine, Perforce, and rendering workflows tuned for 16k to 32k resolution displays, where performance and reliability at that scale are the core challenge. Key Responsibilities Develop and maintain Unreal Engine plugins for rendering and pipeline workflows. Optimize rendering pipelines for large-format displays (16k-32k resolution), including tiling. Build automation and tooling that streamlines the VFX pipeline from asset creation to delivery. Implement and maintain Perforce pipeline integration across studio tools. Manage materials and assets through the studio's publishing and asset management systems. Integrate Unreal Engine workflows with proprietary encoding, playback, and cloud rendering systems. Core Requirements 2+ years of hands-on Unreal Engine development experience, including plugin development. Experience optimizing and troubleshooting rendering pipelines for large-format (16k+) and tiled displays. Experience integrating clo"
-    },
-    {
       "titulo": "Ref. 2105: Azure Developer",
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-2105-azure-developer-hibrido-parque-patricios-caba-en-recoleta-6EADD35ABA60246E61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -909,7 +860,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-vermilion-engineer-developer-remoto-amba-en-recoleta-6ACB3F282A654B5261373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -990,6 +941,24 @@
       "techs": [],
       "primera_vez": "2026-10-29",
       "descripcion": "About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional tokenized assets, lending, payments, stablecoins, and more. Since inventing decentralized oracle networks, Chainlink has enabled tens of trillions in transaction value and now secures the vast majority of DeFi. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, and top protocols such as Aave, Lido, GMX and many others. Chainlink leverages a novel fee model where offchain and onchain revenue from enterprise adoption is converted to LINK tokens and stored in a strategic Chainlink Reserve. Learn more at chain.link. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable customers to onboard, configure, and access products with minimal human intervention. Improve customer growth outcomes by reducing onboarding cy"
+    },
+    {
+      "titulo": "Software Engineer - Storage",
+      "empresa": "Jobgether",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-storage-at-jobgether-4483200166",
+      "fecha": "2026-10-26",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-10-31",
+      "descripcion": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Software Engineer – Storage based in Argentina. We are looking for an experienced software engineer to help build and scale a high-performance object storage platform that simplifies how developers upload, manage, process, and deliver digital assets. In this role, you will contribute across the full technology stack, from client libraries and command-line tools to storage servers, content delivery networks, and deployment infrastructure. You will tackle complex engineering challenges involving distributed systems, upload reliability, asset optimization, caching, and service performance. Working in a globally distributed, open-source-first environment, you will collaborate asynchronously with engineers across disciplines to deliver reliable, scalable solutions. You will also help shape the developer experience by improving APIs, tooling, observability, and storage workflows. This is an opportunity to make a meaningful impact on infrastructure used by developers worldwide while contributing to open-source projects and technologies designed to scale to millions of users. Accountabilities Enhance storage capabilities: Improve analytics storage offerings and support open file formats, including Apache Iceberg and DuckLake, to enable efficient storage and management of analytical data. Optimize asset delivery: Develop asset optimization capabilities that improve delivery speed and performance for websites and mobile applications. Expand edge infrastructure: Build and improve the edge network to accelerate uploads and implement features such as automatic cache invalidation. Improve storage server performance: Enhance the performance, observability"
     },
     {
       "titulo": "Software Engineer AI Coding Tasks",
@@ -1088,6 +1057,28 @@
       ],
       "primera_vez": "2026-10-26",
       "descripcion": "About the client: Our client is a digital marketing agency exclusively serving cannabis dispensaries across North America. Over the past 10 years, they have helped hundreds of dispensaries grow through custom websites, SEO, loyalty programs, and email marketing. They operate as a nimble remote team utilizing ClickUp and integrating AI deeply across agency operations. About the role: We are seeking an experienced WordPress & AI Developer, AI-First to join the web team of our client and manage full-cycle website projects across all client accounts. This role is first and foremost a developer position for someone who understands what their code does beneath the surface, but leverages AI tools (e.g., Claude, ChatGPT, Cursor) daily to optimize workflows, speed up builds, and automate repetitive tasks. The ideal candidate will design, build from scratch, migrate, and troubleshoot client sites while handling high volumes of day-to-day client requests. Client communication is handled by the account team, allowing you to remain focused on development, maintenance, and AI integration. Experience with US Clients and a digital marketing agency is required. Experience within the wellness niche (cannabis dispensaries specifically) is highly preferred. What you’ll be doing: Design and build websites and landing pages, converting Figma mockups into polished WordPress and Elementor pages. Leverage AI tools daily to accelerate workflows (e.g., Figma to Elementor conversion, code generation, debugging, routine task automation). Handle high-volume ongoing maintenance and change requests across client sites (content updates, banners, links, plugin management, and layout fixes). Troubleshoot and debug complex issues across various CMS environments using custom PHP, CSS, and JavaScript. Adapt"
+    },
+    {
+      "titulo": "desarrollador Web ERP Odoo",
+      "empresa": "Axcelere",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-web-erp-odoo-at-axcelere-4483946884",
+      "fecha": "2026-10-31",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 38,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Git",
+        "− Pide 2+ años de experiencia",
+        "− Pide inglés"
+      ],
+      "techs": [
+        "Git"
+      ],
+      "primera_vez": "2026-10-31",
+      "descripcion": "En Axcelere - nominado mejor partner de Odoo en Latinoamérica - te ofrecemos un rápido crecimiento profesional en un ambiente dinámico de trabajo en equipo, con formación on the job y estructurada y constantes desafíos desarrollando aplicaciones en Odoo, la plataforma de gestión de Negocios #1 en el mundo con +9 millones de usuarios, para clientes en más de 23 países en America y Europa. Buscamos un colaborador proactivo, responsable y orientado a resultados, con experiencia en contabilidad, fiscalidad y atracción por el mundo tecnológico. ¿Qué estamos buscando? Buscamos diseñadores web con mentalidad abierta, espíritu de equipo y orientación al cliente. Serás responsable de concebir sitios web con Odoo para nuestros clientes. Trabajarás junto al equipo de consultoría y colaborarás en proyectos de principio a fin. Es un puesto que combina diseño y desarrollo. Concebir diseños, basados ​​en los requisitos del cliente. Estarás en contacto directo con los clientes a diario. Traducir el diseño en el Creador de sitios web de Odoo. Ejecutar todas las etapas del diseño, desde el concepto hasta la entrega final. Gestionar varios proyectos al mismo tiempo. Entregar código de calidad y mantenible. Realizar ajustes de diseño basados ​​en los comentarios del usuario. Capacitar al cliente sobre cómo usar correctamente el Creador de sitios web de Odoo. Responsabilidades Ganarte la confianza de los clientes Analizar las necesidades del cliente y sugerir soluciones Implementación de soluciones acordadas (Configuración) Convertir a tu cliente en campeón de Odoo (Capacitación) Seguimiento de proyectos y comunicación sobre estados. Requisitos Persona altamente creativa, autónoma y orientada al cliente. Buen conocimiento de los principios fundamentales de tipografía y diseño. Se valoran co"
     },
     {
       "titulo": "Desarrollador(a) Oracle OIC",
