@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-05T00:34:20.240096+00:00",
-  "total": 49,
+  "actualizado": "2026-11-05T17:42:11.460240+00:00",
+  "total": 48,
   "empleos": [
     {
       "titulo": "Programador/a Jr Frontend (React y/o Angular)",
@@ -146,6 +146,30 @@
       "descripcion": "🇧🇷 🇦🇷 🇨🇴 🇲🇽 🇵🇾 🇨🇱 🇨🇷 🇵🇪 🇺🇾 Exclusive to candidates based in Brazil, Argentina, Colombia, Mexico, Paraguay, Chile, Costa Rica, Peru, and Uruguay Requirements Must-haves 5+ years of full-stack experience, with strong front-end experience and solid Python back-end skills Expert-level TypeScript Expert-level React Strong HTML and CSS experience Significant Python experience, ideally with FastAPI, Pydantic, and async SQLAlchemy Experience with server-side rendering in a full-stack React framework (e.g., TanStack Start, Next.js) Front-end architecture experience: reusable component libraries, forms and validation, data fetching and caching, and front-end performance UX experience, translating Figma designs into polished, accessible, responsive interfaces Experience designing and developing RESTful APIs, including OpenAPI contracts and typed API clients Solid PostgreSQL skills: relational schema design, migrations, indexes and constraints, and transactions Comfort with strict static typing in both TypeScript and Python Experience writing automated tests (e.g., pytest, Vitest, Testing Library) Experience with Docker and Docker Compose for local development Experience with Git, pull-request code reviews, and CI pipelines (e.g., GitHub Actions) Experience with coding agents and AI-assisted engineering tools Ability to review, evaluate, and refine AI-generated code Strong collaboration skills with a team mentality Demonstrated ability to work in unison with other engineers, product team, design team, AI team, etc Startup experience and a move-fast mentality Strong communication skills in both spoken and written English What makes you stand out Thinks through problems out loud in a clear, structured way: first steps, why, and what to ask when info is missing Has owned features end "
     },
     {
+      "titulo": "Desarrollador",
+      "empresa": "OPTINEXIA",
+      "ubicacion": "Rosario, Santa Fe, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-at-optinexia-4485832663",
+      "fecha": "2026-11-05",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 72,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: React, Node.js, SQL, JavaScript, Git"
+      ],
+      "techs": [
+        "React",
+        "Node.js",
+        "SQL",
+        "JavaScript",
+        "Git"
+      ],
+      "primera_vez": "2026-11-05",
+      "descripcion": "🚀 OPTINEXIA — Buscamos Asistente Técnico de Desarrollo e Implementación (IA + Sistemas) 📍 Ubicación: Rosario, Funes o alrededores (Santa Fe). 💻 Modalidad: Híbrida, con trabajo remoto en el día a día y encuentros presenciales cuando sea necesario. 🕒 Carga horaria: 6 horas diarias. De 10 a 16HS 💰 Remuneración: $1.000.000 ARS mensuales. 📅 Período inicial: 3 meses de evaluación, con posibilidad de continuidad. 🚀 Incorporación: Inmediata. (Preferentemente estudiante de Ingenieria en Sistemas o afin) 💡 Sobre nosotros En OPTINEXIA desarrollamos soluciones tecnológicas para empresas, integrando inteligencia artificial, automatización, sistemas de gestión, agentes inteligentes y plataformas digitales. Estamos ampliando nuestro equipo de desarrollo y buscamos incorporar una persona que nos acompañe en la ejecución, implementación y mejora continua de nuestros proyectos. Buscamos alguien que pueda involucrarse en el funcionamiento de los sistemas, colaborar en desarrollos, realizar pruebas, encontrar soluciones y participar activamente en las distintas etapas de cada proyecto. 🎯 ¿Qué perfil buscamos? No necesitamos un ingeniero senior ni un especialista en todas las tecnologías. Buscamos una persona con conocimientos generales sólidos de sistemas, autonomía, responsabilidad y capacidad para resolver problemas. Conocimientos de programación, preferentemente Python o JavaScript. Experiencia práctica en desarrollo web, aunque sea en proyectos propios. Conocimientos de HTML, CSS y nociones de diseño visual e interfaces. Comprensión general de APIs, bases de datos, integraciones y funcionamiento de sistemas. Manejo de herramientas de inteligencia artificial como ChatGPT, Cursor, Copilot o similares para facilitar el desarrollo. Capacidad para investigar, aprender tecnologías nuevas y e"
+    },
+    {
       "titulo": "Pasante de Desarrollo Backend e IA",
       "empresa": "Carrefour Argentina",
       "ubicacion": "Martínez, Provincia de Buenos Aires, Argentina",
@@ -176,7 +200,7 @@
       "fuente": "RemoteOK",
       "keyword": "remoto",
       "es_remoto": true,
-      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMTcyLjIwMy4yNTMuMTYz when applying to show you read the job post completely (#RMTcyLjIwMy4yNTMuMTYz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "descripcion": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuMTYxLjI4LjE3Nw== when applying to show you read the job post completely (#RMjAuMTYxLjI4LjE3Nw==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "afinidad": 67,
       "motivos": [
         "✓ Remoto",
@@ -237,30 +261,6 @@
       "descripcion": "Launch Your Next Successful Chapter with Veta Virtual! 🚀 💸 Competitive Pay | 🌍 100% Remote | 💻 Golang, Java, React, TypeScript | 🪙 Fintech & Cryptocurrency Industry Veta Virtual is hiring a Full Stack Software Engineer for one of our high growth clients in the fintech and cryptocurrency industry. This is not a single layer coding role. This is a hands on engineering position for someone who can build both the backend services and the frontend experiences behind secure, high volume financial transactions, and who takes pride in owning a feature from idea to production. 🔑 Your Role Our client is a leading digital currency platform operating at the intersection of crypto and traditional finance, enabling customers to buy, sell, and manage cryptocurrency through kiosks, a consumer portal, and enterprise products. Their engineering teams build secure, scalable systems that handle high-volume financial transactions and support heavily regulated, compliance-driven workflows. Your Day-to-day Responsibilities Will Include Designing, building, and maintaining full-stack features across frontend applications and backend services. Developing and maintaining backend APIs that support onboarding, authentication, transaction lifecycles, and operational workflows. Building and enhancing front-end experiences in customer-facing and internal web applications. Integrating systems with third-party services and external providers. Implementing secure authentication and authorization using OAuth 2.0 flows. Working within a microservices environment to deliver scalable backend capabilities. Ensuring applications meet high standards for security, performance, reliability, and observability, including monitoring. Participating in code reviews, technical design discussions, and architecture deci"
     },
     {
-      "titulo": "Full-Stack Software Developer",
-      "empresa": "Virtustant",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-developer-at-virtustant-4485097873",
-      "fecha": "2026-11-04",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 63,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Git, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-04",
-      "descripcion": "To apply, you will only have to fill a short form on our website that will take you less than 5 minutes. Job Title: Full-Stack Software Developer About The Company Our client provides B2B SaaS sales expertise in the AI space for their clients. Job Description You will use your full-stack experience to build and launch projects. You should be comfortable moving fast and taking ownership of your work. Responsibilities Of The Role Use full-stack experience (frontend + backend). Build and launch at least one working project or startup. Move fast and take ownership. Required Experience And Qualifications Proven experience as a Full Stack Web Developer. Strong expertise in AWS, Docker, Laravel, Vanilla JS, or PHP. Proficient in using Github for version control. Solid understanding of web technologies and frameworks. Preferred Skills Opportunity for growth in the company Personality Hard worker Keen to work more Startup mentality Owner mentality Software & Tools Docker PHP Laravel Vanilla JS AWS Schedule Monday to Friday 9:00 AM to 5:00 PM CET 40 hours per week Salary And Benefits Payment in USD or Local Currency according to candidate's preference. Full-time remote opportunity."
-    },
-    {
       "titulo": "Full-Stack Engineer — Systems Conductor",
       "empresa": "Bold Business",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -283,6 +283,30 @@
       ],
       "primera_vez": "2026-11-04",
       "descripcion": "About Bold Business Bold Business is an AI-first, delivery-first company building production-grade enterprise software, automation engines, and autonomous agent infrastructure. We build the way modern teams build: our engineers are not syntax-typists but Systems Conductors, who leverage advanced AI-agent developer environments to design, build, test, and ship production software at multiples of traditional manual velocity. The Role We're hiring Full-Stack Systems Conductors to own feature delivery across our flagship TechForce platform — spanning React/TypeScript frontends, Python/FastAPI backends, and robust PostgreSQL data schemas. You'll own high-impact modules from day one, but your true value lies in your ability to design robust databases, orchestrate complex systems, and lead background coding agents through rigorous, test-driven implementations. Two principles define how we work, and we hire for both explicitly: AI-Agentic Command. AI coding environments (Cursor, Claude Code CLI, OpenClaw / Hermes Agents / Grokbot / other personal agent harnesses, and custom Model Context Protocol servers) are our native workspace, not a novelty. We expect you to command agents to write boilerplate, scaffold routes, and draft test suites. You provide the system architecture, the security guardrails, and the rigorous critical review. Speed from agents, judgment from you. Collaborative by Default. Every change is strictly peer-reviewed through pull requests. Documentation and automated unit tests ship in the same PR as the code. Blockers get raised early, not discovered at review. We value highly legible, standardized architectures that outlive their author's immediate attention — brilliant work that only its author understands is a liability here, not an asset. What You'll Do Arc"
+    },
+    {
+      "titulo": "Full-Stack Software Developer",
+      "empresa": "Virtustant",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-software-developer-at-virtustant-4485839593",
+      "fecha": "2026-11-05",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 63,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Git, Front End, Back End"
+      ],
+      "techs": [
+        "Full Stack",
+        "Git",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-11-05",
+      "descripcion": "To apply, you will only have to fill a short form on our website that will take you less than 5 minutes. Job Title: Full-Stack Software Developer About The Company Our client provides B2B SaaS sales expertise in the AI space for their clients. Job Description You will use your full-stack experience to build and launch projects. You should be comfortable moving fast and taking ownership of your work. Responsibilities Of The Role Use full-stack experience (frontend + backend). Build and launch at least one working project or startup. Move fast and take ownership. Required Experience And Qualifications Proven experience as a Full Stack Web Developer. Strong expertise in AWS, Docker, Laravel, Vanilla JS, or PHP. Proficient in using Github for version control. Solid understanding of web technologies and frameworks. Preferred Skills Opportunity for growth in the company Personality Hard worker Keen to work more Startup mentality Owner mentality Software & Tools Docker PHP Laravel Vanilla JS AWS Schedule Monday to Friday 9:00 AM to 5:00 PM CET 40 hours per week Salary And Benefits Payment in USD or Local Currency according to candidate's preference. Full-time remote opportunity."
     },
     {
       "titulo": "Desarrollador Full Stack",
@@ -327,7 +351,7 @@
       "empresa": "Fortia RH",
       "ubicacion": "4,5",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-tecnico-backend-net-rubro-it-en-cordoba-D828A0EF57DD997161373E686DCF3405",
-      "fecha": "Hace 17 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -346,7 +370,7 @@
       "empresa": "Confidencial",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-back-end-en-belgrano-6ED1D17258C7AE0261373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -385,30 +409,6 @@
       "descripcion": "About XBOW Build the future of offensive security with XBOW. Attackers are already using AI to move faster than defenders can react—we’re creating the platform that puts security ahead in the arms race. Our AI-powered system autonomously discovers, validates, and even exploits vulnerabilities, giving organizations proof-backed results in hours instead of weeks. Founded by Oege de Moor, creator of GitHub Copilot, and backed by Sequoia, Altimeter, and other leading investors, XBOW is applying cutting-edge AI to one of the world’s most urgent problems. In just over a year, our AI, built by a world-class AI team and legendary security researchers — has uncovered thousands of real-world zero-days across the software billions rely on, and achieved the #1 ranking on HackerOne’s global leaderboard. We’re a team of builders, hackers, and researchers who thrive on solving problems others think are impossible. If you want to push the boundaries of AI, reshape how security is done, and join the group defining this new era of defense — we’d love to talk. Your Role We’re looking for a Software Engineer who’s passionate about building reliable and high quality products with robust backend systems. In this role, you’ll design and implement end-to-end features across the stack: from React-based frontends and TypeScript APIs to backend services in Kotlin and Go, all deployed on AWS. You’ll be joining a small team of superstars that’s shipping quickly and operating with high trust. This is a role for someone who loves to own open-ended problems and figure things out—whether that’s designing seamless API contracts, optimizing database interactions, or building scalable systems that make powerful AI capabilities accessible. If you like being at the intersection of deep tech and real-world i"
     },
     {
-      "titulo": "Full-Stack Java + React Technical Leader - Trabajo Remoto | REF#307778",
-      "empresa": "BairesDev",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/full-stack-java-%2B-react-technical-leader-trabajo-remoto-ref%23307778-at-bairesdev-4487012546",
-      "fecha": "2026-11-03",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 61,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: React, Full Stack, Front End, Back End",
-        "− Pide 15+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-04",
-      "descripcion": "En BairesDev® llevamos 15 años liderando proyectos de tecnología para clientes como Google, Rolls-Royce y las startups más innovadoras de Silicon Valley. Actualmente, contamos con un equipo de 4000 profesionales conformado por el top 1% de la industria trabajando de forma remota desde más de 50 países. Al postularte a esta vacante, estarás dando el primer paso en un proceso que va más allá de lo convencional: Buscaremos conocer en profundidad tus habilidades, intereses y expectativas con el objetivo de realizar una búsqueda personalizada y encontrar el rol ideal para ti en BairesDev. Full-Stack Java + React Technical Leader en BairesDev Buscamos un Technical Leader de Java para aportar valor al equipo de desarrollo proponiendo soluciones innovadoras. Tendrás la oportunidad de participar en el diseño de arquitecturas cloud basadas en servicios distribuidos, aprovechando tu profundo conocimiento de patrones de desarrollo y arquitecturas Java. Tu experiencia con tecnologías de monitoreo y alertas, combinada con la experticia en integración continua y revisión de código, será esencial. Este rol requiere experiencia comprobada liderando equipos en entornos tecnológicos complejos. Qué Harás Liderar el diseño e implementación de arquitecturas cloud basadas en servicios distribuidos. Ser dueño técnico de diferentes módulos de la plataforma, incluyendo diseño, desarrollo e integración. Diseñar y escribir código limpio y robusto tanto para componentes backend (Java) como frontend (React). Implementar arquitecturas y tecnologías de monitoreo y alertas. Liderar procesos de integración continua y prácticas de revisión de código. Proporcionar liderazgo técnico y mentoría a los miembros del equipo. Realizar investigación y desarrollo para evaluar nuevas tecnologías y comunicar su valo"
-    },
-    {
       "titulo": "Full Stack Web Developer - Associate",
       "empresa": "ExxonMobil",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -432,56 +432,73 @@
       "descripcion": "About Us At ExxonMobil, our vision is to lead in energy innovations that advance modern living while reducing emissions. As one of the world’s largest publicly traded energy and chemical companies, we are powered by a unique and diverse workforce fueled by the pride in what we do and what we stand for. The success of our Upstream, Product Solutions and Low Carbon Solutions businesses is the result of the talent, curiosity and drive of our people. They bring solutions every day to optimize our strategy in energy, chemicals, lubricants and lower-emissions technologies. We invite you to bring your ideas to ExxonMobil to help create sustainable solutions that improve quality of life and meet society’s evolving needs. Learn more about our What and our Why and how we can work together. More About Us Our Global Business Center (GBC) in Buenos Aires was established in 2004 and our diverse and multinational workforce of more than 2800 colleagues have been powering ExxonMobil’s global businesses ever since. We are proud to be part of an inclusive, safe, and vibrant work environment. The IT department is seeking new candidates to its dynamic team. The department provides support worldwide to the Organizations all along the value chain from exploration through site development to production. What Role You Will Play In Our Team The Full Stack Software Developer – Advanced is responsible for designing, building, and maintaining both frontend and backend components of modern applications, while contributing to the overall reliability and scalability of the hosting environments. Frontend development focuses on creating intuitive, responsive, and accessible user experiences. Backend development involves building and maintaining server-side logic, integrating application components, and "
     },
     {
-      "titulo": "Desarrollador Full Stack (PHP – LAMP)",
-      "empresa": "EMSETEC",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/desarrollador-full-stack-php-%E2%80%93-lamp-at-emsetec-4483064488",
-      "fecha": "2026-10-29",
+      "titulo": "Software Engineer, Platform Experience",
+      "empresa": "Siena AI",
+      "ubicacion": "La Pampa, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-experience-at-siena-ai-4488018302",
+      "fecha": "2026-11-05",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 59,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: Full Stack, SQL, JavaScript, Git",
-        "− Pide 3+ años de experiencia"
-      ],
-      "techs": [
-        "Full Stack",
-        "SQL",
-        "JavaScript",
-        "Git"
-      ],
-      "primera_vez": "2026-10-30",
-      "descripcion": "En Emsetec nos encontramos en la búsqueda de un/a Desarrollador Full Stack con foco en PHP, para sumarse a nuestro equipo de trabajo. 💻 Requisitos: • Experiencia de 2 a 3 años en desarrollo Full Stack • Dominio de PHP (excluyente) y experiencia con frameworks (CakePHP, Laravel u otros) • Manejo de arquitectura MVC • Experiencia con MySQL (consultas, joins, optimización básica) • Conocimientos de HTML, CSS y JavaScript • Experiencia en entornos LAMP (Linux, Apache, MySQL, PHP) • Desarrollo y mantenimiento de APIs REST • Manejo de subida y gestión de archivos • Uso de Git 🛠 Tecnologías valoradas: • CakePHP • Python • JavaScript (jQuery) • Bootstrap • Conocimientos en procesos administrativos/operacionales 📍 Modalidad: híbrido 👉 Si te interesa la propuesta o conocés a alguien que pueda aplicar, ¡no dudes en postularte o compartir! #BúsquedaLaboral #FullStack #PHP #Desarrollo #ITJobs #Empleo #TrabajoIT"
-    },
-    {
-      "titulo": "Software Engineer II (Argentina)",
-      "empresa": "Sezzle",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ii-argentina-at-sezzle-4336815907",
-      "fecha": "2026-11-02",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
+      "keyword": "React",
       "es_remoto": true,
       "afinidad": 58,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, SQL, Git, Full Stack, Front End",
-        "− Pide 7+ años de experiencia"
+        "✓ Tu stack: React, TypeScript, Node.js"
       ],
       "techs": [
         "React",
         "TypeScript",
-        "SQL",
-        "Git",
-        "Full Stack",
-        "Front End",
-        "Back End"
+        "Node.js"
       ],
       "primera_vez": "2026-11-05",
-      "descripcion": "The salary range for this role is $2,800 - $6,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! Compensation: For this mid-level development role, with 3-7 years of experience, the compensation range is $2,800 - $6,000 USD per month. This range is designed to reflect the skills, experience, and value brought to the team, ensuring competitive and fair pay within the industry. Interview Process We believe transparency is important at Sezzle. Regularly providing feedback while setting expectations is part of our culture starting with the interview process. Advancement through each step is not guaranteed. Application submitted (you are here) Wonderlic test (30-40 min) Coding assessment (:1.5 hours) Interview with recruiters (30 min) Interview with engineers (1 hour) Interview with engineering leadership (30-45 min) Offer! About the Role: We are seeking a talented and motivated Software Engineer II who is best in class with a high IQ plus a h"
+      "descripcion": "Meet Siena Siena is the Agent of Record for CX, built for consumer brands like Spanx, FIGS, Brooklinen, and Grüns. The team We are a small, fully distributed, global team. We have built leverage into how we work, which is what lets a team this size move at the speed we do. We hire athletes. Everyone here owns real outcomes, defaults to writing over meetings, communicates with directness, and acts the moment they see something worth acting on. Low ego, high standards, fast clock. If you want to set the bar rather than follow one, keep reading. The Role You take the hardest problems customers hit in production and solve them end to end: a webhook that stopped firing, an agent filling the wrong parameter, a report that won't reconcile. You find the real cause, work the customer to resolution, then build the automation so it doesn't come back. This is the front door to deployment and platform work at Siena, with a clear path into Forward Deployed Engineering or deeper platform work. What You'll Do Own hard problems end to end: trace, reproduce, fix, or hand engineering a clean reproduction. Get on the call when that's the fastest path Debug the agents and the prompts. Diagnose whether a misfire is prompt, knowledge base, config, or model, then fix it so it holds under real traffic Build so it doesn't happen twice. For every fix, ship the runbook or tool that stops it recurring Close the loop to Product. Surface patterns, not one-offs, backed by metrics Raise the team's floor. Lift what the whole team can resolve, not just what you can Know where your scope ends. Escalate genuine product bugs and outages with a clean reproduction, not a shrug Within 90 days, name the top recurring failure patterns and attack them at the root, not just patch symptoms Who You Are The Bar: if y"
+    },
+    {
+      "titulo": "Software Engineer, Platform Experience",
+      "empresa": "Siena AI",
+      "ubicacion": "Mendoza, Mendoza, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-experience-at-siena-ai-4488003816",
+      "fecha": "2026-11-05",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 58,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Node.js"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "primera_vez": "2026-11-05",
+      "descripcion": "Meet Siena Siena is the Agent of Record for CX, built for consumer brands like Spanx, FIGS, Brooklinen, and Grüns. The team We are a small, fully distributed, global team. We have built leverage into how we work, which is what lets a team this size move at the speed we do. We hire athletes. Everyone here owns real outcomes, defaults to writing over meetings, communicates with directness, and acts the moment they see something worth acting on. Low ego, high standards, fast clock. If you want to set the bar rather than follow one, keep reading. The Role You take the hardest problems customers hit in production and solve them end to end: a webhook that stopped firing, an agent filling the wrong parameter, a report that won't reconcile. You find the real cause, work the customer to resolution, then build the automation so it doesn't come back. This is the front door to deployment and platform work at Siena, with a clear path into Forward Deployed Engineering or deeper platform work. What You'll Do Own hard problems end to end: trace, reproduce, fix, or hand engineering a clean reproduction. Get on the call when that's the fastest path Debug the agents and the prompts. Diagnose whether a misfire is prompt, knowledge base, config, or model, then fix it so it holds under real traffic Build so it doesn't happen twice. For every fix, ship the runbook or tool that stops it recurring Close the loop to Product. Surface patterns, not one-offs, backed by metrics Raise the team's floor. Lift what the whole team can resolve, not just what you can Know where your scope ends. Escalate genuine product bugs and outages with a clean reproduction, not a shrug Within 90 days, name the top recurring failure patterns and attack them at the root, not just patch symptoms Who You Are The Bar: if y"
+    },
+    {
+      "titulo": "Software Engineer, Platform Experience",
+      "empresa": "Siena AI",
+      "ubicacion": "Departamento Capital, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-experience-at-siena-ai-4488010636",
+      "fecha": "2026-11-05",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 58,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Node.js"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "primera_vez": "2026-11-05",
+      "descripcion": "Meet Siena Siena is the Agent of Record for CX, built for consumer brands like Spanx, FIGS, Brooklinen, and Grüns. The team We are a small, fully distributed, global team. We have built leverage into how we work, which is what lets a team this size move at the speed we do. We hire athletes. Everyone here owns real outcomes, defaults to writing over meetings, communicates with directness, and acts the moment they see something worth acting on. Low ego, high standards, fast clock. If you want to set the bar rather than follow one, keep reading. The Role You take the hardest problems customers hit in production and solve them end to end: a webhook that stopped firing, an agent filling the wrong parameter, a report that won't reconcile. You find the real cause, work the customer to resolution, then build the automation so it doesn't come back. This is the front door to deployment and platform work at Siena, with a clear path into Forward Deployed Engineering or deeper platform work. What You'll Do Own hard problems end to end: trace, reproduce, fix, or hand engineering a clean reproduction. Get on the call when that's the fastest path Debug the agents and the prompts. Diagnose whether a misfire is prompt, knowledge base, config, or model, then fix it so it holds under real traffic Build so it doesn't happen twice. For every fix, ship the runbook or tool that stops it recurring Close the loop to Product. Surface patterns, not one-offs, backed by metrics Raise the team's floor. Lift what the whole team can resolve, not just what you can Know where your scope ends. Escalate genuine product bugs and outages with a clean reproduction, not a shrug Within 90 days, name the top recurring failure patterns and attack them at the root, not just patch symptoms Who You Are The Bar: if y"
     },
     {
       "titulo": "Diseñador web y branding empresa IGaming",
@@ -504,7 +521,7 @@
       "empresa": "ADV Technology SRL",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-c-con-conocimientos-de-c-html-y-js-en-belgrano-1020011A3F3AA2CC61373E686DCF3405",
-      "fecha": "Hace 4 días",
+      "fecha": "Hace 5 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -520,7 +537,7 @@
       "empresa": "PINEDO JULIETA SOLEDAD",
       "ubicacion": "Mar del Plata, Buenos Aires",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-en-mar-del-plata-146EB7FAF4DDF0B361373E686DCF3405",
-      "fecha": "Hace 7 días",
+      "fecha": "27 de octubre",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -558,7 +575,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-con-ia-y-seguridad-informatica-en-rosario-B6C30308CC58CB1061373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 57,
@@ -568,6 +585,23 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-10-22"
+    },
+    {
+      "titulo": "Analista para Gestión de Sistemas CCTV",
+      "empresa": "SONDA",
+      "ubicacion": "Campana, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/analista-para-gesti%C3%B3n-de-sistemas-cctv-at-sonda-4485355191",
+      "fecha": "2026-10-30",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-05",
+      "descripcion": "Vive la experiencia SONDA ¡Aquí transformás tu carrera! ¿Por qué ser parte de SONDA? Porque al igual que tú, amamos lo que hacemos, tenemos pasión por la innovación y estamos convencidos de que, a través del conocimiento y la tecnología, no solo vamos a transformar los negocios de nuestros clientes, sino también el futuro. En SONDA vivirás una experiencia de trabajo con diversas oportunidades de desarrollo personal y profesional. Un excelente lugar para aprender y contribuir a mejorar la calidad de vida de las personas por medio de la tecnología. En SONDA, estamos en búsqueda de un/a Analista para Gestión de Sistemas CCTV que quiera aprender y transformar su carrera. Responsabilidades Gestionar y realizar seguimiento de tickets relacionados con incidentes, requerimientos y cambios. Coordinar y priorizar las tareas ejecutadas por proveedores externos. Revisar implementaciones y realizar validaciones funcionales posteriores a los cambios. Monitorear el estado general de cámaras, grabadores, almacenamiento y alertas del sistema CCTV. Verificar la grabación continua y el cumplimiento de los tiempos de retención establecidos. Realizar troubleshooting de segundo nivel sobre conectividad, PoE, cableado y estado físico de cámaras. Supervisar grabadores locales, servidores y máquinas virtuales asociadas a la solución. Controlar capacidad de almacenamiento, alertas críticas y necesidades de reemplazo de hardware. Mantener actualizado el inventario técnico y la documentación de la infraestructura. Gestionar cámaras, vistas de monitoreo, analíticas de protección y alertas. Verificar el cumplimiento de estándares técnicos y la homologación de equipos y soluciones. Participar en planes de renovación tecnológica, firmware y gestión de obsolescencia. Brindar soporte en nuevos despliegu"
     },
     {
       "titulo": "Software Engineer",
@@ -590,6 +624,28 @@
       ],
       "primera_vez": "2026-11-01",
       "descripcion": "FieldData is digitalizing farm management across Latin America. Powered by LLMs, we help agricultural producers manage their operations with the speed and simplicity they always wanted. Our users log everything directly from WhatsApp using voice notes and photos—animal movements, planting and harvests, inputs, expenses, and income. Whether they're in the truck, on horseback, or at home, FieldData is always their goto to record their activities. Our impact so far: 12,000+ farms registered in FieldData 3,000,000+ animals monitored Active presence in Argentina, Uruguay, Paraguay, Colombia, Mexico, and Brazil We’re a fully-remote team of ten in Argentina, backed by 17Sigma, building the AI-native product that is simplifying the everyday work of the agricultural world. The Opportunity We’re looking for a Full-Stack Engineer to build and own intuitive, high-impact interfaces powered by LLMs. You’ll shape our product and the experience of thousands of producers across Latin America. This is a founding role: high ownership, broad scope, and direct influence on everything we ship. What you'll do Build our web platform and whatsapp agent with a strong focus on clean, intuitive interactions with LLMs Collaborate closely with product and engineering to deliver high-quality features end-to-end Uphold strong engineering standards through code reviews and technical decisions Contribute to shaping the product roadmap and user experience for thousands of daily users Requirements Full-stack development experience serving users in productive environments Strong dev skills with Python & Typescript Strong systems thinking with an instinct for clean APIs and scalable architecture. Drawn to working hard and thriving in a fast-moving startup environment Based in Argentina Bonus Experience ship"
+    },
+    {
+      "titulo": "Staff Software Engineer",
+      "empresa": "Olly Olly",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-at-olly-olly-4487745188",
+      "fecha": "2026-11-05",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 55,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: TypeScript, SQL"
+      ],
+      "techs": [
+        "TypeScript",
+        "SQL"
+      ],
+      "primera_vez": "2026-11-05",
+      "descripcion": "About The Role We are seeking an experienced Staff Software Engineer to join our team and work on our app for small business owners. The app includes a suite of tools to help small businesses grow, such as lead management, review management, business listings, ads reporting, AI-generated content, and more. The ideal candidate will design, test, and implement this product, reporting to an Engineering Manager and in partnership with the Product team. Utilizing their knowledge of programming languages and system design, the Staff Software Engineer will provide technical leadership to the engineering team members through each stage of our software development lifecycle including data structure and algorithms, architecture design, code review, troubleshooting and updates. What you'll do Partner with your Engineering Manager and the Product team to define the scope and scale of projects Own the architecture of our AI content pipeline: what context each model receives, how tasks are broken into steps, and which model runs each step, balancing quality, cost and latency Build automated quality checks for AI-generated content that catch hallucinations before human review, using evaluation sets built from real data to measure the impact of every prompt change Develop, design, and maintain scalable web applications, mobile applications, and RESTful APIs Write clean, efficient, well-documented code, maintaining code quality and security Collaborate with cross-functional teams to design, develop, and deploy applications Troubleshoot and debug applications Identify bottlenecks and continually improve software efficiency Stay up-to-date with emerging trends and technologies in software development What you'll bring 7+ years building production software. You've taken a product or major "
     },
     {
       "titulo": "Software Developer (Backend SaaS)",
@@ -617,7 +673,7 @@
       "empresa": "Confidencial",
       "ubicacion": "Palermo, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-ia-user-en-palermo-3638FAB8D625F90B61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 54,
@@ -677,27 +733,6 @@
     {
       "titulo": "Software Engineer",
       "empresa": "Mercado Libre",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-mercado-libre-4483469275",
-      "fecha": "2026-10-30",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 52,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Git"
-      ],
-      "techs": [
-        "Git"
-      ],
-      "primera_vez": "2026-11-03",
-      "descripcion": "¡Hace historia en la democratización del comercio y de los servicios financieros, transformando la vida de millones de personas en América Latina con Mercado Libre! Conecta las capacidades de distintas plataformas mediante soluciones escalables y confiables, fortaleciendo la disponibilidad de los sistemas y la productividad de los equipos de desarrollo. Desafíos: Diseñar y evolucionar integraciones entre distintos servicios en la nube, construir soluciones escalables y resilientes para entornos distribuidos y resolver desafíos concretos de disponibilidad y eficiencia. Mantener y desarrollar servicios centrales de integración, identificar nuevas necesidades técnicas y aplicar mejoras que equilibren rendimiento, seguridad y disponibilidad en los sistemas utilizados por los equipos. Aplicar herramientas de inteligencia artificial al desarrollo para optimizar la experiencia de usuario y automatizar pruebas, validaciones, monitoreo, depuración y despliegues, reducir errores humanos y fortalecer la confiabilidad del equipo. Definir estándares de calidad y buenas prácticas, documentar soluciones de forma clara y reutilizable, participar en despliegues y guardias planificados, adoptar nuevas tecnologías y compartir aprendizajes para mejorar la experiencia de desarrollo. Experiencia y conocimientos: Aprender con agilidad en base a desafíos, potenciándote con tecnología y GenAI. Apasionarse por salir de la zona de confort, dar el máximo, superar los propios límites y emprender en un ambiente sano, alegre y divertido. Dominar Java, Git y herramientas de observabilidad como New Relic y Datadog; contar con experiencia sólida en desarrollo de software del lado del servidor, sistemas distribuidos, programación concurrente y asincrónica y procesamiento de alto rendimiento. Conocer y ut"
-    },
-    {
-      "titulo": "Software Engineer",
-      "empresa": "Mercado Libre",
       "ubicacion": "Provincia de Buenos Aires, Argentina",
       "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-mercado-libre-4485088717",
       "fecha": "2026-11-04",
@@ -717,32 +752,6 @@
       "descripcion": "¡Haz historia en la democratización del comercio y de los servicios financieros, transformando la vida de millones de personas en América Latina con Mercado Libre! Desarrolla soluciones tecnológicas que impulsen la adopción de inteligencia artificial generativa en nuestros equipos de ingeniería, contribuyendo a la evolución de una plataforma de AI Assets que facilite el descubrimiento, la distribución y la integración de herramientas de IA para potenciar la productividad de miles de desarrolladores. Desafíos: Desarrollar e implementar funcionalidades de la plataforma de AI Assets, contribuyendo a la construcción de herramientas de descubrimiento, distribución, versionado y calidad de recursos de inteligencia artificial. Integrar soluciones de GenAI y agentes de inteligencia artificial en los procesos de desarrollo de software, promoviendo nuevas formas de trabajo que permitan optimizar la productividad de los equipos de ingeniería. Aplicar buenas prácticas de ingeniería, arquitectura de software y desarrollo backend para construir soluciones robustas, escalables y de calidad. Proponer e implementar mejoras en la plataforma a partir del feedback de usuarios, métricas de adopción y nuevas tecnologías de inteligencia artificial generativa. Experiencia y conocimientos: Aprender con agilidad en base a desafíos, potenciándote con tecnología y GenAI. Apasionarse por salir de la zona de confort, dar el máximo, superar los propios límites y emprender en un ambiente sano, alegre y divertido. Contar con fundamentos sólidos de desarrollo backend utilizando Go o Java y Python, con conocimientos de microservicios, APIs RESTful y sistemas distribuidos. Aplicar buenas prácticas de ingeniería de software, patrones de diseño, principios SOLID, Clean Architecture y desarrollo guiado por p"
     },
     {
-      "titulo": "Staff Software Engineer (Integrations Platform)",
-      "empresa": "GoFundMe",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-integrations-platform-at-gofundme-4487522487",
-      "fecha": "2026-11-04",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 52,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, Node.js, SQL, Git, Back End",
-        "− Pide 2+ años de experiencia"
-      ],
-      "techs": [
-        "TypeScript",
-        "Node.js",
-        "SQL",
-        "Git",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-05",
-      "descripcion": "Want to help us help others? We’re hiring! GoFundMe is the world’s most powerful community for good, dedicated to helping people help each other. By uniting individuals and nonprofits in one place, GoFundMe makes it easy and safe for people to ask for help and support causes-for themselves and each other. Together, our community has raised more than $40 billion since 2010. GoFundMe is seeking a Staff Software Engineer, Integrations Platform to drive the technical vision and execution of our Integrations platform. You’ll serve as a senior IC on a high-impact team responsible for core integration surfaces including Public APIs, Webhooks, Salesforce integrations (NPC, NPSP), and Integration Platform as a Service (iPaaS) tools like Workato and Zapier. You’ll lead architecture efforts, mentor engineers, and work closely with cross-functional partners to build robust, scalable integration solutions that connect GoFundMe to the broader ecosystem. This role is ideal for a seasoned technical leader who thrives on solving complex problems, setting architectural direction, and leading by example through hands-on contributions. This is a hybrid position. Candidates considered for this role will be located in Buenos Aires, Argentina. The Job Define and drive the technical roadmap for our Integrations platform, ensuring it scales with product growth and business complexity. Lead the design and implementation of core integration components: Public/Private APIs, webhooks, internal/external system connectivity, and automation workflows. Serve as a hands-on expert and role model in software design, system architecture, and best practices. Guide the team’s use of AWS services (e.g., Glue, Lambda, API Gateway, Step Functions) to power scalable and maintainable integration workflows. Evalua"
-    },
-    {
       "titulo": "Software Engineer Program Early Careers - April 2027",
       "empresa": "JPMorganChase",
       "ubicacion": "Buenos Aires y alrededores",
@@ -759,24 +768,6 @@
       "techs": [],
       "primera_vez": "2026-11-03",
       "descripcion": "Job Description The Software Engineer Program (SEP) is a global two year career development program designed to provide entry level talent with the foundational technical and professional skills enabling them to build robust networks and establish successful careers in technology at JPMorgan Chase. Our team partners with our stakeholders to deliver a superior global program through challenging roles, engaged managers, and dynamic development opportunities. Training Induction Training - A comprehensive introduction to Technology at JPMC for newly hired SEP engineers. This global in-person training experience is two weeks long and designed, developed and delivered in partnership with Technology leaders, IT subject matter experts, and an extensive network of JPMC IT professionals. SEPs put their learning to work in a team project with winning teams presenting to senior leaders. Continuous Learning Journey – During the two-year program SEP engineers further their skills with a technical and professional skills curriculum, including Tech Center based classroom learning, participation in a Code for Good project, online learning, peer to peer learning, and town halls. Program Manager Support The SEP Program Managers are advocates and key resources for SEP engineers on matters related to their role, career development, and overall experience as they integrate into JPMC. Program managers provide coaching in groups and one on one and partner with various groups to provide activities and experiences to SEP engineers. Graduation Completion of the program is recognized with celebrations in Tech Centers worldwide. SEP engineers continue their careers at JPMC and are considered for promotion to Associate in accordance with the Global Technology Promotion Guidelines. Required Qualifica"
-    },
-    {
-      "titulo": ".NET Developer",
-      "empresa": "Capgemini Engineering",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/net-developer-at-capgemini-engineering-4484991663",
-      "fecha": "2026-10-29",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-10-29",
-      "descripcion": "Job Description Works in the area of Software Engineering, which encompasses the development, maintenance and optimization of software solutions/applications. Applies scientific methods to analyse and solve software engineering problems. He/she is responsible for the development and application of software engineering practice and knowledge, in research, design, development and maintenance. His/her work requires the exercise of original thought and judgement and the ability to supervise the technical and administrative work of other software engineers. The software engineer builds skills and expertise of his/her software engineering discipline to reach standard software engineer skills expectations for the applicable role, as defined in Professional Communities. The software engineer collaborates and acts as team player with other software engineers and stakeholders. Job Description - Grade Specific Has more than a year of relevant work experience. Solid understanding of programming concepts, software design and software development principles. Consistently works to direction with minimal supervision, producing accurate and reliable results. Individuals are expected to be able to work on a range of tasks and problems, demonstrating their ability to apply their skills and knowledge. Organises own time to deliver against tasks set by others with a mid term horizon. Works co-operatively with others to achieve team goals and has a direct and positive impact on project performance and make decisions based on their understanding of the situation, not just the rules."
     },
     {
       "titulo": "Ref. 2105: Azure Developer",
@@ -800,7 +791,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21292-vermilion-engineer-developer-remoto-amba-en-recoleta-6ACB3F282A654B5261373E686DCF3405",
-      "fecha": "Hace 7 días",
+      "fecha": "28 de octubre",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 49,
@@ -817,7 +808,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-de-software-con-ia-en-rosario-C936288C622733ED61373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -834,7 +825,7 @@
       "empresa": "RH Master",
       "ubicacion": "2,9",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-rh-master-selecciona-vendedora-tecnico-de-sistemas-para-importante-software-factory-muy-buena-remuneracion-semi-remoto-en-cordoba-44FF87353341FB4561373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -847,29 +838,11 @@
       "primera_vez": "2026-10-30"
     },
     {
-      "titulo": "Software Engineer, Data Growth",
-      "empresa": "Chainlink Labs",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421800792",
-      "fecha": "2026-10-29",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 49,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés"
-      ],
-      "techs": [],
-      "primera_vez": "2026-10-29",
-      "descripcion": "About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional tokenized assets, lending, payments, stablecoins, and more. Since inventing decentralized oracle networks, Chainlink has enabled tens of trillions in transaction value and now secures the vast majority of DeFi. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, and top protocols such as Aave, Lido, GMX and many others. Chainlink leverages a novel fee model where offchain and onchain revenue from enterprise adoption is converted to LINK tokens and stored in a strategic Chainlink Reserve. Learn more at chain.link. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable customers to onboard, configure, and access products with minimal human intervention. Improve customer growth outcomes by reducing onboarding cy"
-    },
-    {
-      "titulo": "Software Engineer, Data Growth",
-      "empresa": "Chainlink Labs",
+      "titulo": "Staff Software Engineer (Integrations Platform)",
+      "empresa": "GoFundMe",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421691865",
-      "fecha": "2026-10-29",
+      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-integrations-platform-at-gofundme-4487522487",
+      "fecha": "2026-11-04",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
@@ -879,8 +852,8 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-10-29",
-      "descripcion": "About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional tokenized assets, lending, payments, stablecoins, and more. Since inventing decentralized oracle networks, Chainlink has enabled tens of trillions in transaction value and now secures the vast majority of DeFi. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, and top protocols such as Aave, Lido, GMX and many others. Chainlink leverages a novel fee model where offchain and onchain revenue from enterprise adoption is converted to LINK tokens and stored in a strategic Chainlink Reserve. Learn more at chain.link. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable customers to onboard, configure, and access products with minimal human intervention. Improve customer growth outcomes by reducing onboarding cy"
+      "primera_vez": "2026-11-05",
+      "descripcion": "Want to help us help others? We’re hiring! GoFundMe is the world’s most powerful community for good, dedicated to helping people help each other. By uniting individuals and nonprofits in one place, GoFundMe makes it easy and safe for people to ask for help and support causes-for themselves and each other. Together, our community has raised more than $40 billion since 2010. GoFundMe is seeking a Staff Software Engineer, Integrations Platform to drive the technical vision and execution of our Integrations platform. You’ll serve as a senior IC on a high-impact team responsible for core integration surfaces including Public APIs, Webhooks, Salesforce integrations (NPC, NPSP), and Integration Platform as a Service (iPaaS) tools like Workato and Zapier. You’ll lead architecture efforts, mentor engineers, and work closely with cross-functional partners to build robust, scalable integration solutions that connect GoFundMe to the broader ecosystem. This role is ideal for a seasoned technical leader who thrives on solving complex problems, setting architectural direction, and leading by example through hands-on contributions. This is a hybrid position. Candidates considered for this role will be located in Buenos Aires, Argentina. The Job Define and drive the technical roadmap for our Integrations platform, ensuring it scales with product growth and business complexity. Lead the design and implementation of core integration components: Public/Private APIs, webhooks, internal/external system connectivity, and automation workflows. Serve as a hands-on expert and role model in software design, system architecture, and best practices. Guide the team’s use of AWS services (e.g., Glue, Lambda, API Gateway, Step Functions) to power scalable and maintainable integration workflows. Evalua"
     },
     {
       "titulo": "Software Engineer AI Coding Tasks",
@@ -917,30 +890,6 @@
       ],
       "techs": [],
       "primera_vez": "2026-11-05"
-    },
-    {
-      "titulo": "Software Engineer - Insights",
-      "empresa": "Innovid by Mediaocean",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-insights-at-innovid-by-mediaocean-4475674737",
-      "fecha": "2026-11-02",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 46,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, SQL, Full Stack",
-        "− Pide 3+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "SQL",
-        "Full Stack"
-      ],
-      "primera_vez": "2026-11-05",
-      "descripcion": "Job Description Apply now Title: Software Engineer - Insights Date: 10/6/26 Description: Company Description Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. Job Description We're looking for a top-notch, passionate senior developer to be part of our world-class Social Media team. You will play a pivotal role in the design, development, and maintenance of our core systems. You will be responsible for building robust, scalable, and high-performance applications that power our critical business operations. You will collaborate closely with other engineers, product managers, and stakeholders to translate business requirements into technical solutions. We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Carry out full stack, end to end development Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environment Design and develop modules for a high-end product that serves billions of transactions a day Deploy your code to production Be responsible for the well-be"
     },
     {
       "titulo": "Web Developer - 1541 - Buenos Aires, Argentina",
@@ -1023,6 +972,25 @@
       "techs": [],
       "primera_vez": "2026-11-04",
       "descripcion": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley. Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success. Palantir Foundry Developer at BairesDev We are looking for a Palantir Foundry Developer to join our Data Analytics team. In this role, you'll work with data pipelines, create visualizations, and use the Ontology tool within the Palantir Foundry platform. This position offers an opportunity to work with data integration technology while building data architecture and visualization solutions. What You'll Do Work with data pipelines using Palantir Foundry Pipeline Builder. Create data visualizations using Quiver for data interpretation. Develop data models using the Ontology tool within Palantir Foundry. Help maintain the stability of the Foundry architecture. Apply data integration and transformation processes. What We Are Looking For Experience with Palantir Foundry development. Knowledge of Palantir Foundry Pipeline Builder. Familiarity with Quiver data visualization tools. Understanding of the Ontology tool. Basic knowledge of Foundry architecture. Problem-solving approach and analytical thinking. Good level of English. Nice To Have Knowledge of scripting and automation techniques. Data analytics skills. Background in the Oil & Gas domain. How we do make your work (and your life) easier: 100% remote work (from any"
+    },
+    {
+      "titulo": "Software Engineer II (Argentina)",
+      "empresa": "Sezzle",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ii-argentina-at-sezzle-4336815907",
+      "fecha": "2026-11-02",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 37,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "− Pide 7+ años de experiencia"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-05",
+      "descripcion": "The salary range for this role is $2,800 - $6,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! Compensation: For this mid-level development role, with 3-7 years of experience, the compensation range is $2,800 - $6,000 USD per month. This range is designed to reflect the skills, experience, and value brought to the team, ensuring competitive and fair pay within the industry. Interview Process We believe transparency is important at Sezzle. Regularly providing feedback while setting expectations is part of our culture starting with the interview process. Advancement through each step is not guaranteed. Application submitted (you are here) Wonderlic test (30-40 min) Coding assessment (:1.5 hours) Interview with recruiters (30 min) Interview with engineers (1 hour) Interview with engineering leadership (30-45 min) Offer! About the Role: We are seeking a talented and motivated Software Engineer II who is best in class with a high IQ plus a h"
     }
   ]
 }
