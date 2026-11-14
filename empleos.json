@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-14T00:30:38.816345+00:00",
-  "total": 51,
+  "actualizado": "2026-11-14T16:11:03.058802+00:00",
+  "total": 53,
   "empleos": [
     {
       "titulo": "Desarrollador/a Backend",
@@ -26,61 +26,6 @@
       ],
       "primera_vez": "2026-11-14",
       "descripcion": "Para una importante empresa del sector industrial que está impulsando su transformación digital, buscamos un/a Desarrollador Backend. Qué vas a hacer Diseñar, construir y escalar servicios y microservicios robustos, seguros y de alta disponibilidad Gestionar bases de datos y optimizar el rendimiento y la infraestructura de los sistemas Implementar prácticas de DevOps, integración continua (CI/CD) y contenerización con Docker Construir, mejorar y escalar soluciones con IA: LLMs, arquitecturas RAG, MCP y agentes Evaluar y monitorear la calidad de los outputs de los sistemas inteligentes en producción Trabajar con los equipos de producto y operaciones para mantener la alineación técnica Qué valoramos Sólida experiencia en desarrollo backend, diseño de APIs REST, microservicios y escalabilidad Buenos fundamentos de programación y de diseño: patrones, arquitectura hexagonal o clean, DDD, event-driven Buenas prácticas de desarrollo, mantenibilidad, testing y calidad de código Experiencia en cloud (GCP, AWS o Azure) Bases de datos relacionales (PostgreSQL, MySQL, SQL Server) y no relacionales (MongoDB, Redis, Firestore) Manejo de GitHub, control de versiones y flujos colaborativos (code review, pull requests) Experiencia en el ecosistema de IA: LLMs (Claude, OpenAI, Gemini), agentes, MCP, RAG, evals y harness Herramientas de automatización y orquestación: Jenkins, GitHub Actions, Docker y Kubernetes Suma si tenés Python (FastAPI o Django), Node.js con TypeScript, Go o Java/Spring Mensajería con Kafka o RabbitMQ Bases vectoriales: pgvector, Qdrant o Pinecone Terraform, LangChain/LangGraph/LlamaIndex y Langfuse/LangSmith"
-    },
-    {
-      "titulo": "Software Engineer",
-      "empresa": "AgileEngine",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-agileengine-4489809744",
-      "fecha": "2026-11-13",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 77,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, JavaScript, Full Stack, Front End, Back End"
-      ],
-      "techs": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-14",
-      "descripcion": "About the Role We are looking for a Senior Full Stack Engineer to develop and maintain full-stack web applications, with a primary focus on frontend development, supporting SEO marketing initiatives. The mandatory requirements are 4+ years of software engineering experience, strong frontend development with React, TypeScript or modern JavaScript (ES6+), backend services with Java and Spring Boot, and an upper-intermediate English level. What you will do Join the Company Insights and Connections (CIC) organization, which supports SEO marketing initiatives. Collaborate closely with Software Engineers, Product Managers, UX Designers, and Marketing stakeholders to deliver scalable, high-quality solutions. Develop and maintain full-stack web applications, with a primary focus on frontend development. Build new features and enhance existing functionality. Collaborate with cross-functional teams to deliver technical solutions. Participate in technical discussions, solution design, and effort estimation. Troubleshoot, debug, and resolve application issues. Deliver high-quality, maintainable code. Work independently, scoping work, estimating timelines, and delivering features end-to-end. Contribute to backend development as needed. Work hours compatible with the Austin, TX time zone. Must haves 4+ years of software engineering experience. Strong frontend development experience with React. Experience with TypeScript or modern JavaScript (ES6+). Experience building backend services with Java and Spring Boot. Experience developing and maintaining full-stack web applications. Upper-intermediate English level. Nice to haves Experience working on customer-facing web applications. Familiarity with SEO, content platforms, or marketing-related products. Experience working in Agile teams."
-    },
-    {
-      "titulo": "Software Developer – Remote Staffing",
-      "empresa": "Virtustant",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-developer-%E2%80%93-remote-staffing-at-virtustant-4488938951",
-      "fecha": "2026-11-13",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 73,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, Node.js, SQL, JavaScript, Git"
-      ],
-      "techs": [
-        "React",
-        "TypeScript",
-        "Node.js",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-13",
-      "descripcion": "To apply, you will only have to fill a short form on our website that will take you less than 5 minutes. Job Title: Software Developer About Virtustant Virtustant is a remote staffing company that connects talented professionals in Latin America and South Africa with growing US businesses. We recruit, vet and support our team members so they can build long-term remote careers with international clients. About The Role Build and maintain the web applications, integrations and automations our clients run their businesses on. Responsibilities Develop front-end and back-end features for web applications Build integrations with third-party APIs Fix bugs and improve performance Write clean, tested and documented code Work with Git and take part in code reviews Keep clients and the team up to date on progress Requirements 2+ years of professional software development Advanced English (C1 or higher) Experience with JavaScript / TypeScript and at least one modern framework or language (React, Node.js, Python, PHP or similar) Experience with SQL databases and REST APIs Experience with Git Nice To Have Experience with AWS, Google Cloud or Azure Experience integrating AI / LLM tools Mobile development experience English Level Advanced (C1 or higher), written and spoken Schedule Full time, US business hours What We Offer 100% remote work from your home country Long-term positions with US-based companies Payment in USD or local currency, according to your preference Ongoing support from the Virtustant team This Is An Open Application We're always hiring for this role. Apply once and we'll contact you as soon as a position with one of our clients matches your profile."
     },
     {
       "titulo": "Android Developer Intern",
@@ -146,6 +91,32 @@
       "descripcion": "The salary range for this role is $1,500 - $4,000 per month (Gross in USD) About Sezzle{{{{~}}}} With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! About the Role{{{{~}}}} We are seeking a talented and motivated Junior Software Engineer with a unique blend of accounting experience who is best in class with a high IQ plus a high EQ. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. This role is tailored for professionals who started their careers in accounting but pivoted to engineering and now want to leverage their domain expertise to solve technical challenges in fintech. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. The Junior Software Engineer will assist us with the design, development, and installation of software solutions. Your duties "
     },
     {
+      "titulo": "Software Engineer",
+      "empresa": "AgileEngine",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-agileengine-4489809744",
+      "fecha": "2026-11-13",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 67,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, JavaScript, Full Stack, Front End, Back End"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Full Stack",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "About the Role We are looking for a Senior Full Stack Engineer to develop and maintain full-stack web applications, with a primary focus on frontend development, supporting SEO marketing initiatives. The mandatory requirements are 4+ years of software engineering experience, strong frontend development with React, TypeScript or modern JavaScript (ES6+), backend services with Java and Spring Boot, and an upper-intermediate English level. What you will do Join the Company Insights and Connections (CIC) organization, which supports SEO marketing initiatives. Collaborate closely with Software Engineers, Product Managers, UX Designers, and Marketing stakeholders to deliver scalable, high-quality solutions. Develop and maintain full-stack web applications, with a primary focus on frontend development. Build new features and enhance existing functionality. Collaborate with cross-functional teams to deliver technical solutions. Participate in technical discussions, solution design, and effort estimation. Troubleshoot, debug, and resolve application issues. Deliver high-quality, maintainable code. Work independently, scoping work, estimating timelines, and delivering features end-to-end. Contribute to backend development as needed. Work hours compatible with the Austin, TX time zone. Must haves 4+ years of software engineering experience. Strong frontend development experience with React. Experience with TypeScript or modern JavaScript (ES6+). Experience building backend services with Java and Spring Boot. Experience developing and maintaining full-stack web applications. Upper-intermediate English level. Nice to haves Experience working on customer-facing web applications. Familiarity with SEO, content platforms, or marketing-related products. Experience working in Agile teams."
+    },
+    {
       "titulo": "NET Developer)",
       "empresa": "Perform",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
@@ -176,7 +147,7 @@
       "empresa": "Consultores de Empresas",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-developer-remoto-internacional-en-palermo-0914212FE727A8A261373E686DCF3405",
-      "fecha": "Hace 15 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 67,
@@ -273,36 +244,35 @@
       "descripcion": "✨ You are the person they are looking for if you have.... Develop and maintain fullstack features for a multi-tenant KPI portal used by 30+ law firms. Build dynamic user interfaces using React, TypeScript, and shadcn/ui, including dashboards, charts, tables, and filters. Develop backend APIs and services using NestJS and PostgreSQL, including SQL queries for KPI calculations. Build and maintain integrations with CRMs, case management systems, phone systems, and messaging platforms using REST APIs and webhooks. Implement internal automations and integrations using Python, n8n, Firebase Cloud Functions, and AWS Lambda/SQS. Integrate AI solutions using LLMs (Claude API and AWS Bedrock), including prompt engineering and structured data processing. Ensure software quality, security, and reliability through testing, code reviews, error handling, and technical documentation. 🤓 As a Md. Fullstack Developer, the company expects you to perform the following tasks: 3+ years of professional software engineering experience, with at least 1–2 years on a SaaS product running in production. Strong proficiency in TypeScript, with production experience in React and a Node.js backend framework (NestJS preferred; Express or Fastify acceptable). Solid SQL and PostgreSQL skills: joins, CTEs, aggregations, indexes, and reading a query plan. Working proficiency in Python for scripts and small services. Hands-on experience with AWS (or a comparable cloud): deploying services, managing environment config and secrets, reading logs. Experience building and consuming REST APIs and webhooks, including third-party API integrations."
     },
     {
-      "titulo": "Software Engineer",
-      "empresa": "Greenhouse Software",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-greenhouse-software-4488976957",
-      "fecha": "2026-11-13",
+      "titulo": "AI Engineer - Full Stack (Go + React)",
+      "empresa": "Seeds",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/ai-engineer-full-stack-go-%2B-react-at-seeds-4489002537",
+      "fecha": "2026-11-11",
       "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
+      "keyword": "React",
       "es_remoto": true,
-      "afinidad": 64,
+      "afinidad": 65,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: React, SQL, JavaScript, Git, Full Stack"
+        "✓ Tu stack: React, Full Stack, TypeScript, Back End"
       ],
       "techs": [
         "React",
-        "SQL",
-        "JavaScript",
-        "Git",
-        "Full Stack"
+        "Full Stack",
+        "TypeScript",
+        "Back End"
       ],
       "primera_vez": "2026-11-14",
-      "descripcion": "Greenhouse is the first Orchestrated Hiring Ecosystem: a single place that brings the right person and the right role together at the right time. Our mission is to make hiring work for everyone – so we go to great lengths to hire great people because we believe that they’re the foundation of our success. At Greenhouse, you’ll join a team that collaborates purposefully, fosters inclusivity, and communicates with transparency and accountability so we can achieve our mission. Join us to do the best work of your career, solving meaningful problems with remarkable teams. Greenhouse has partnered with Deel to be its Employer of Record in Argentina (more information here). Through this arrangement, Deel is hiring a Full Stack Software Engineer to provide services to Greenhouse. This role will support the development and maintenance of the Company’s web-based applications. In this role, you will focus on high-quality feature execution and technical reliability across the application stack for the Company This is a collaborative, execution-focused role. You will spend the majority of your time in the code building features, fixing bugs, and ensuring our products remain stable and performant for users. Who Will Love This Job A Pragmatic Builder - You enjoy the craft of coding and take pride in writing clean, readable code. You aim for the simplest solution that satisfies the business requirement. A Full-Stack Contributor - You are comfortable moving across the stack, whether updating a PostgreSQL schema or building a new UI component in React. A Quality Advocate - You believe a feature isn’t “done” until it’s tested. You regularly write unit and integration tests to catch regressions early. A Coachable Collaborator - You see code reviews as learning opportunities. You communicate"
+      "descripcion": "AI Engineer – Full Stack (Go + React) | Senior | Híbrido – Buenos Aires Sumate a un equipo de Inteligencia Artificial en etapa fundacional, donde se entrenan y ajustan modelos open source. Vas a construir de punta a punta los productos que llevan esa IA a millones de usuarios. ¿Quiénes somos? Seeds es una consultora de talento externo que conecta profesionales con oportunidades de trabajo en las empresas líderes de América Latina. Trabajamos con compañías como Unilever, AB InBev, Carrefour, YPF, Glencore y Falabella, entre otras. ¿Por qué sumarte a nuestra red de talento? Sabemos que las mejores oportunidades no siempre aparecen en el momento ideal. Por eso creamos este espacio: para conocerte, mantenernos en contacto y conectarte con oportunidades que realmente se alineen con tu perfil cuando surjan. OBJETIVO DEL ROL En esta oportunidad, estamos acompañando a una compañía de entretenimiento digital, con productos que usan millones de personas en todo el mundo, en la búsqueda de un/a AI Engineer con perfil Full Stack para sumarse a su equipo de IA. Buscamos a alguien que tome ownership real del desarrollo: desde el backend en Go hasta la interfaz en React, con autonomía para resolver problemas complejos y proponer cómo hacerlo mejor. Te sumás a un equipo casi fundacional: lo que construyas define cómo escala el área. El equipo entrena y hace fine-tuning de modelos open source y trabaja con modelos locales. Muy pocas empresas en la región lo están haciendo. Proyecto de 12 meses con posibilidad concreta de incorporarte a la compañía. RESPONSABILIDADES Desarrollar APIs y servicios backend en Go (Gin, Echo o Chi) que integren modelos de IA y automatizaciones. Construir interfaces modernas, rápidas y accesibles con React y TypeScript. Participar en decisiones de arquitectura"
     },
     {
       "titulo": "Desarrollador Full Stack",
       "empresa": "Grupo Quest",
       "ubicacion": "Córdoba, Córdoba",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-java-angular-en-cordoba-6235986AD2461EA761373E686DCF3405",
-      "fecha": "Hace 11 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador Junior remoto",
       "afinidad": 62,
@@ -340,29 +310,6 @@
       "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Frontend Developer (.NET + Blazor). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software engineering experience. Advanced English is required. Successful completion of a four-year college degree is required. Expertise in C# and the .NET framework. Hands-on experience developing front-end applications with Blazor architecture. Solid background in UI/UX design implementation, interactive user workflows, and responsive interfaces. Practical experience designing and implementing front-end architecture connected to backend systems. Well-ver"
     },
     {
-      "titulo": "Frontend Developer (.NET + Blazor) - Remote - Latin America",
-      "empresa": "FullStack",
-      "ubicacion": "Salta, Salta, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/frontend-developer-net-%2B-blazor-remote-latin-america-at-fullstack-4472206325",
-      "fecha": "2026-11-07",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador web",
-      "es_remoto": true,
-      "afinidad": 62,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, Front End, Back End"
-      ],
-      "techs": [
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-12",
-      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Frontend Developer (.NET + Blazor). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software engineering experience. Advanced English is required. Successful completion of a four-year college degree is required. Expertise in C# and the .NET framework. Hands-on experience developing front-end applications with Blazor architecture. Solid background in UI/UX design implementation, interactive user workflows, and responsive interfaces. Practical experience designing and implementing front-end architecture connected to backend systems. Well-ver"
-    },
-    {
       "titulo": "Desarrollador/a Full Stack con perfil UX/UI (Apps Mobile y Web)",
       "empresa": "RECREO PAIX S. R. L.",
       "ubicacion": "Flores, Capital Federal",
@@ -386,7 +333,7 @@
       "empresa": "Fortia RH",
       "ubicacion": "4,5",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-tecnico-backend-net-rubro-it-en-cordoba-D828A0EF57DD997161373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -405,7 +352,7 @@
       "empresa": "Confidencial",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-back-end-en-belgrano-6ED1D17258C7AE0261373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -438,6 +385,29 @@
       ],
       "primera_vez": "2026-11-13",
       "descripcion": "¡Sumate a nuestro equipo! 💪 Nos encontramos en la búsqueda de un/a Desarrollador/a Full Stack para sumarse a nuestro equipo de Aplicativos. El rol tendrá como objetivo diseñar, desarrollar y evolucionar las aplicaciones internas de gestión de la empresa, incorporando la Inteligencia Artificial como parte central del proceso de desarrollo, mediante el uso y la supervisión de agentes de IA en las etapas de planificación, implementación, testing y revisión. Asimismo, deberá transformar las necesidades del negocio en soluciones tecnológicas sólidas, escalables y seguras, garantizando la calidad del código, la arquitectura y las entregas. Buscamos una persona comprometida, responsable, colaborativa con buena comunicación, capacidad analítica y criteriosa. Sus funciones serán Dirigir agentes de IA durante todo el ciclo de desarrollo especificar, planificar, implementar y testear las aplicaciones internas de X-28. Revisar críticamente el código generado por IA (calidad, seguridad, tests y mantenibilidad) antes de integrarlo. Mantener el contexto del proyecto para los agentes instrucciones, reglas, memoria, skills y documentación. Analizar las necesidades de negocio entregadas por el equipo de proyecto, detectar huecos y ambigüedades, y convertirlas en soluciones técnicas. Diseñar y construir aplicaciones Full Stack (motores de workflow, APIs REST, sistemas de gestión) desde la especificación hasta producción. Definir y hacer cumplir la arquitectura del monolito modular módulos, límites y estándares de código. Desarrollar integraciones con otras plataformas y servicios, e incorporar IA dentro de las soluciones. Documentar las decisiones técnicas y compartir conocimiento con el resto del equipo. Evaluar nuevas herramientas, metodologías y flujos de trabajo con agentes de IA, y p"
+    },
+    {
+      "titulo": "Frontend Developer (.NET + Blazor) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "La Plata, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/frontend-developer-net-%2B-blazor-remote-latin-america-at-fullstack-4472214189",
+      "fecha": "2026-11-08",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 62,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack, Front End, Back End"
+      ],
+      "techs": [
+        "Full Stack",
+        "Front End",
+        "Back End"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Frontend Developer (.NET + Blazor). You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software engineering experience. Advanced English is required. Successful completion of a four-year college degree is required. Expertise in C# and the .NET framework. Hands-on experience developing front-end applications with Blazor architecture. Solid background in UI/UX design implementation, interactive user workflows, and responsive interfaces. Practical experience designing and implementing front-end architecture connected to backend systems. Well-ver"
     },
     {
       "titulo": "FullStack Java + React Technical Leader - Trabajo Remoto",
@@ -488,30 +458,6 @@
       "descripcion": "¡Hace historia en la democratización del comercio y de los servicios financieros, transformando la vida de millones de personas en América Latina con Mercado Libre! Diseña frameworks, servicios y soluciones potenciadas por inteligencia artificial para integrar prácticas de confiabilidad en el ciclo de desarrollo y operación, generando un impacto en la resiliencia de la plataforma y la productividad de miles de profesionales de ingeniería. Desafíos: - Crear y evolucionar frameworks reutilizables que conviertan las mejores prácticas de SRE en soluciones simples y escalables, y mejoren las métricas de resiliencia de los sistemas. - Diseñar e implementar servicios de punta a punta, desde la experiencia de usuario hasta las APIs y sus componentes técnicos, para aplicar prácticas de confiabilidad en equipos de negocio, plataforma y mobile. - Desarrollar soluciones con GenAI y tecnologías agénticas para automatizar tareas de desarrollo, acelerar el diagnóstico de incidentes y generar reportes accionables, elevando la productividad sin comprometer la performance ni la calidad. - Operar sistemas de gran escala y definir métricas, monitoreo y observabilidad para anticipar problemas y fortalecer la resiliencia; documentar las prácticas y diseñar experiencias de incorporación efectivas para impulsar su adopción. Experiencia y conocimientos: - Aprender con agilidad en base a desafíos, potenciándote con tecnología y GenAI. - Apasionarse por salir de la zona de confort, dar el máximo, superar los propios límites y emprender en un ambiente sano, alegre y divertido. - Dominar el desarrollo de aplicaciones frontend y backend y el diseño de APIs REST; se valoran Go, Node.js, React, GenAI, tecnologías agénticas y asistentes de desarrollo. - Traer experiencia con pruebas automatizadas, inte"
     },
     {
-      "titulo": "Software Delivery Analyst - Orchestro",
-      "empresa": "McKinsey & Company",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-delivery-analyst-orchestro-at-mckinsey-company-4473500264",
-      "fecha": "2026-11-12",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 61,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: JavaScript, Full Stack, Front End, Back End"
-      ],
-      "techs": [
-        "JavaScript",
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-14",
-      "descripcion": "Who You'll Work With Driving lasting impact and building long-term capabilities with our clients is not easy work. You are the kind of person who thrives in a high performance/high reward culture - doing hard things, picking yourself up when you stumble, and having the resilience to try another way forward. In return for your drive, determination, and curiosity, we'll provide the resources, mentorship, and opportunities you need to become a stronger leader faster than you ever thought possible. Your colleagues—at all levels—will invest deeply in your development, just as much as they invest in delivering exceptional results for clients. Every day, you'll receive apprenticeship, coaching, and exposure that will accelerate your growth in ways you won’t find anywhere else. When you join us, you will have: Continuous learning: Our learning and apprenticeship culture, backed by structured programs, is all about helping you grow while creating an environment where feedback is clear, actionable, and focused on your development. The real magic happens when you take the input from others to heart and embrace the fast-paced learning experience, owning your journey. A voice that matters: From day one, we value your ideas and contributions. You’ll make a tangible impact by offering innovative ideas and practical solutions, all while upholding our unwavering commitment to ethics and integrity. We not only encourage diverse perspectives, but they are critical in driving us toward the best possible outcomes. Global community: With colleagues across 65+ countries and over 100 different nationalities, our firm’s diversity fuels creativity and helps us come up with the best solutions for our clients. Plus, you’ll have the opportunity to learn from exceptional colleagues with diverse back"
-    },
-    {
       "titulo": "Web Implementation Consultant",
       "empresa": "Avature",
       "ubicacion": "Buenos Aires y alrededores",
@@ -556,11 +502,11 @@
     {
       "titulo": "Forward Deployed Engineer (TypeScript + AI) - Remote - Latin America",
       "empresa": "FullStack",
-      "ubicacion": "Salta, Salta, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/forward-deployed-engineer-typescript-%2B-ai-remote-latin-america-at-fullstack-4482167886",
+      "ubicacion": "Córdoba, Córdoba, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/forward-deployed-engineer-typescript-%2B-ai-remote-latin-america-at-fullstack-4482169867",
       "fecha": "2026-11-12",
       "fuente": "LinkedIn",
-      "keyword": "React",
+      "keyword": "Node.js",
       "es_remoto": true,
       "afinidad": 59,
       "motivos": [
@@ -576,37 +522,10 @@
       "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Position Forward Deployed Engineers sit inside the client’s problem, not next to it. You embed with an enterprise team, find the work that actually warrants AI, architect the system, build it, and make it hold up in the real environment. This is a three-way role: consultant, operator, engineer. You should be as comfortable pressure-testing a business case with a COO or VP of Engineering as you are debugging why an agent’s tool-calling loop degraded after a context change. The people who succeed here can hold a discovery conversation on Monday and ship what they scoped on Thursday. On this track, your edge is application engineering: you make agents real inside the client’s actual systems, workflows, and delivery pipelines. We work with regulated industries and Fortune 500 clien"
     },
     {
-      "titulo": "AI Engineer - Full Stack (Go + React)",
-      "empresa": "Seeds",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/ai-engineer-full-stack-go-%2B-react-at-seeds-4489002537",
-      "fecha": "2026-11-11",
-      "fuente": "LinkedIn",
-      "keyword": "React",
-      "es_remoto": true,
-      "afinidad": 59,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, Full Stack, TypeScript, SQL, Git, Back End",
-        "− Pide 2+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "Full Stack",
-        "TypeScript",
-        "SQL",
-        "Git",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-14",
-      "descripcion": "AI Engineer – Full Stack (Go + React) | Senior | Híbrido – Buenos Aires Sumate a un equipo de Inteligencia Artificial en etapa fundacional, donde se entrenan y ajustan modelos open source. Vas a construir de punta a punta los productos que llevan esa IA a millones de usuarios. ¿Quiénes somos? Seeds es una consultora de talento externo que conecta profesionales con oportunidades de trabajo en las empresas líderes de América Latina. Trabajamos con compañías como Unilever, AB InBev, Carrefour, YPF, Glencore y Falabella, entre otras. ¿Por qué sumarte a nuestra red de talento? Sabemos que las mejores oportunidades no siempre aparecen en el momento ideal. Por eso creamos este espacio: para conocerte, mantenernos en contacto y conectarte con oportunidades que realmente se alineen con tu perfil cuando surjan. OBJETIVO DEL ROL En esta oportunidad, estamos acompañando a una compañía de entretenimiento digital, con productos que usan millones de personas en todo el mundo, en la búsqueda de un/a AI Engineer con perfil Full Stack para sumarse a su equipo de IA. Buscamos a alguien que tome ownership real del desarrollo: desde el backend en Go hasta la interfaz en React, con autonomía para resolver problemas complejos y proponer cómo hacerlo mejor. Te sumás a un equipo casi fundacional: lo que construyas define cómo escala el área. El equipo entrena y hace fine-tuning de modelos open source y trabaja con modelos locales. Muy pocas empresas en la región lo están haciendo. Proyecto de 12 meses con posibilidad concreta de incorporarte a la compañía. RESPONSABILIDADES Desarrollar APIs y servicios backend en Go (Gin, Echo o Chi) que integren modelos de IA y automatizaciones. Construir interfaces modernas, rápidas y accesibles con React y TypeScript. Participar en decisiones de arquitectura"
-    },
-    {
       "titulo": "Forward Deployed Engineer (TypeScript + AI) - Remote - Latin America",
       "empresa": "FullStack",
-      "ubicacion": "Córdoba, Córdoba, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/forward-deployed-engineer-typescript-%2B-ai-remote-latin-america-at-fullstack-4482169867",
+      "ubicacion": "Salta, Salta, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/forward-deployed-engineer-typescript-%2B-ai-remote-latin-america-at-fullstack-4482167886",
       "fecha": "2026-11-12",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
@@ -647,6 +566,29 @@
       "primera_vez": "2026-11-14"
     },
     {
+      "titulo": "Software Engineer",
+      "empresa": "Greenhouse Software",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-at-greenhouse-software-4488976957",
+      "fecha": "2026-11-13",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 58,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, SQL, Full Stack"
+      ],
+      "techs": [
+        "React",
+        "SQL",
+        "Full Stack"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "Greenhouse is the first Orchestrated Hiring Ecosystem: a single place that brings the right person and the right role together at the right time. Our mission is to make hiring work for everyone – so we go to great lengths to hire great people because we believe that they’re the foundation of our success. At Greenhouse, you’ll join a team that collaborates purposefully, fosters inclusivity, and communicates with transparency and accountability so we can achieve our mission. Join us to do the best work of your career, solving meaningful problems with remarkable teams. Greenhouse has partnered with Deel to be its Employer of Record in Argentina (more information here). Through this arrangement, Deel is hiring a Full Stack Software Engineer to provide services to Greenhouse. This role will support the development and maintenance of the Company’s web-based applications. In this role, you will focus on high-quality feature execution and technical reliability across the application stack for the Company This is a collaborative, execution-focused role. You will spend the majority of your time in the code building features, fixing bugs, and ensuring our products remain stable and performant for users. Who Will Love This Job A Pragmatic Builder - You enjoy the craft of coding and take pride in writing clean, readable code. You aim for the simplest solution that satisfies the business requirement. A Full-Stack Contributor - You are comfortable moving across the stack, whether updating a PostgreSQL schema or building a new UI component in React. A Quality Advocate - You believe a feature isn’t “done” until it’s tested. You regularly write unit and integration tests to catch regressions early. A Coachable Collaborator - You see code reviews as learning opportunities. You communicate"
+    },
+    {
       "titulo": "Diseñador web y branding empresa IGaming",
       "empresa": "SCALIFY",
       "ubicacion": "Córdoba, Córdoba",
@@ -667,7 +609,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-sap-successfactors-integrations-en-san-nicolas-C86FBB4FAC31F56261373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -683,7 +625,7 @@
       "empresa": "ADV Technology SRL",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-c-con-conocimientos-de-c-html-y-js-en-belgrano-1020011A3F3AA2CC61373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -731,7 +673,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-con-ia-y-seguridad-informatica-en-rosario-B6C30308CC58CB1061373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 57,
@@ -743,24 +685,38 @@
       "primera_vez": "2026-10-22"
     },
     {
-      "titulo": "Full Stack Developer",
-      "empresa": "Confidencial",
-      "ubicacion": "Palermo, Capital Federal",
-      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-ia-user-en-palermo-3638FAB8D625F90B61373E686DCF3405",
-      "fecha": "Hace 3 días",
-      "fuente": "Computrabajo",
-      "keyword": "Desarrollador web remoto",
-      "afinidad": 54,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: Full Stack",
-        "− Publicación en inglés"
-      ],
+      "titulo": "Analista Funcional IT - Jóvenes Profesionales Molinos",
+      "empresa": "Inspired Way",
+      "ubicacion": "Victoria, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/analista-funcional-it-j%C3%B3venes-profesionales-molinos-at-inspired-way-4489868134",
+      "fecha": "2026-11-14",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
       "es_remoto": true,
-      "techs": [
-        "Full Stack"
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
       ],
-      "primera_vez": "2026-10-01"
+      "techs": [],
+      "primera_vez": "2026-11-14",
+      "descripcion": "MOLINOS BUSCA: Si tenés espíritu emprendedor, te apropias de tus desafíos, y querés generar impacto en una empresa de marcas líderes, ¡te estamos buscando! Te invitamos a sumarte a un equipo que valora tus ideas, tu potencial de crecimiento y tus ganas de desarrollarte en un ambiente de trabajo cuidado y desafiante. Tenemos diversas oportunidades de carrera para ofrecerte, donde vos podés ser el protagonista. Vas a poder contar con: Capacitaciones, talleres y actividades de desarrollo. Inducción al Negocio y encuentros con referentes de Molinos. Participación en proyectos desafiantes y de gran impacto. Buscamos incorporar un/a Analista Funcional para sumarse de forma efectiva a nuestro equipo. Tendrás la oportunidad de trabajar de manera transversal con diversas áreas de la compañía, participando activamente en el análisis, diseño y mejora de procesos de negocio. Responsabilidades principales Relevar, analizar y comprender los procesos actuales junto con los sectores involucrados. Mantener un vínculo cercano con las áreas usuarias para entender sus necesidades y proponer soluciones funcionales alineadas con los objetivos del negocio. Cuestionar el modelo actual, identificar oportunidades de mejora y proponer alternativas que optimicen la eficiencia operativa. Definir e implementar nuevos procesos apalancados en herramientas tecnológicas existentes o a incorporar. Participar en el diseño, desarrollo e implementación de soluciones junto con equipos internos y consultores externos. Armar, seguir y controlar los planes de implementación de los proyectos funcionales. Documentar, testear y garantizar la correcta implementación de las soluciones. Comunicar avances y resultados a los distintos stakeholders y asegurar el seguimiento de cada iniciativa. Requisitos Graduados o est"
+    },
+    {
+      "titulo": "Ingeniero/a de Sistemas de Control y Automatización – DCS",
+      "empresa": "Siemens",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/ingeniero-a-de-sistemas-de-control-y-automatizaci%C3%B3n-%E2%80%93-dcs-at-siemens-4481636944",
+      "fecha": "2026-11-13",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 57,
+      "motivos": [
+        "✓ Remoto"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-14",
+      "descripcion": "Transform the everyday: Tu impacto en Siemens En Siemens unimos el mundo real y el digital para transformar el día a día de millones de personas. Como Ingeniero/a de Sistemas de Control y Automatización (DCS), serás clave en la modernización y digitalización de procesos industriales críticos, liderando proyectos de ingeniería, integración y puesta en marcha con tecnologías de vanguardia como SIMATIC PCS 7, TIA Portal y arquitecturas distribuidas. Si te apasiona la tecnología con propósito, resolver desafíos técnicos complejos y ver el impacto tangible de tu trabajo en la industria, ¡este desafío es para vos! Tus principales desafíos y responsabilidades Diseño e Ingeniería: Desarrollar la ingeniería básica y de detalle de sistemas de control y automatización para soluciones de alta complejidad basadas en arquitecturas DCS, PLC y HMI/SCADA. Integración y Configuración: Programar, configurar y probar arquitecturas de control, redes y comunicaciones industriales, asegurando la integración eficiente entre sistemas. Puesta en Marcha y Pruebas: Liderar y participar activamente en relevamientos técnicos, pruebas FAT/SAT, integración y comisionamiento en planta (sitio y remoto). Consultoría Técnica y Relacionamiento: Participar en reuniones técnicas con clientes, proveedores y equipos multidisciplinarios para relevar requerimientos y definir especificaciones óptimas. Soporte y Mejora Continua: Brindar asistencia técnica especializada durante la ejecución y garantía del proyecto, identificando oportunidades de optimización y mitigación de riesgos. Cultura Colaborativa: Documentar las soluciones técnicas y compartir conocimientos con el equipo, impulsando un entorno de aprendizaje continuo. Requisitos clave: Formación en Ingeniería Electrónica, Automatización, Control, Eléctrica o"
     },
     {
       "titulo": "Software Engineer - Laravel & Agentic AI - Remote - Latin America",
@@ -803,6 +759,26 @@
       ],
       "primera_vez": "2026-11-12",
       "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Opportunity Join our talent network and connect with U.S. clients for flexible, project-based development work as a Software Engineer working with Laravel & Agentic AI. You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis. What We're Looking For 4+ years of professional software development experience. Advanced English is required. Successful completion of a four-year college degree is required. Has built and maintained production APIs using PHP and Laravel. Has developed multi-tenant user interfaces using Vue.js and Nuxt.js. Has shipped production features using AI coding agents (Claude Code, Cursor, Codex or similar), writing the spec, steering the agent and critically reviewing the code it produces. Has"
+    },
+    {
+      "titulo": "Full Stack Developer",
+      "empresa": "Confidencial",
+      "ubicacion": "Palermo, Capital Federal",
+      "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-ia-user-en-palermo-3638FAB8D625F90B61373E686DCF3405",
+      "fecha": "Hace 4 días",
+      "fuente": "Computrabajo",
+      "keyword": "Full Stack remoto",
+      "afinidad": 54,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: Full Stack",
+        "− Publicación en inglés"
+      ],
+      "es_remoto": true,
+      "techs": [
+        "Full Stack"
+      ],
+      "primera_vez": "2026-10-01"
     },
     {
       "titulo": "React Developer",
@@ -866,6 +842,30 @@
         "Full Stack"
       ],
       "primera_vez": "2026-11-11"
+    },
+    {
+      "titulo": "Forward Deployed Engineer (TypeScript + AI) - Remote - Latin America",
+      "empresa": "FullStack",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/forward-deployed-engineer-typescript-%2B-ai-remote-latin-america-at-fullstack-4482188039",
+      "fecha": "2026-11-12",
+      "fuente": "LinkedIn",
+      "keyword": "React",
+      "es_remoto": true,
+      "afinidad": 50,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: TypeScript, Full Stack, Node.js",
+        "− Pide 4+ años de experiencia"
+      ],
+      "techs": [
+        "TypeScript",
+        "Full Stack",
+        "Node.js"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "About FullStack FullStack is your AI-native engineering partner, built to turn AI capability into certainty. Most companies can demo AI; few can get it to production and prove what it produced. We close that gap with three capabilities, AI built into your products from the start, elite vetted talent who apply it, and transparent execution that shows value every step of the way. With now over 600 customers in North America, FullStack is one integrated partner for all your AI engineering needs. With FullStack, you move forward with confidence. We’re Most Proud Of Offering life-changing career opportunities to talented software professionals across the Americas. Building highly-skilled software development teams for hundreds of the world’s greatest companies. Having delivered hundreds of successful custom software solutions, which have positively impacted the lives and careers of millions of users. Our 4.1-star rating on GlassDoor. Our client Net Promoter Score of 68, twice the industry average. The Position Forward Deployed Engineers sit inside the client’s problem, not next to it. You embed with an enterprise team, find the work that actually warrants AI, architect the system, build it, and make it hold up in the real environment. This is a three-way role: consultant, operator, engineer. You should be as comfortable pressure-testing a business case with a COO or VP of Engineering as you are debugging why an agent’s tool-calling loop degraded after a context change. The people who succeed here can hold a discovery conversation on Monday and ship what they scoped on Thursday. On this track, your edge is application engineering: you make agents real inside the client’s actual systems, workflows, and delivery pipelines. We work with regulated industries and Fortune 500 clien"
     },
     {
       "titulo": "Linux Software Engineer - Ubuntu for Next-Gen Silicon (multiple roles and seniority levels)",
@@ -943,7 +943,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-de-software-con-ia-en-rosario-C936288C622733ED61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -962,7 +962,7 @@
       "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-experience-at-siena-ai-4489626360",
       "fecha": "2026-11-10",
       "fuente": "LinkedIn",
-      "keyword": "Node.js",
+      "keyword": "React",
       "es_remoto": true,
       "afinidad": 49,
       "motivos": [
@@ -974,22 +974,66 @@
       "descripcion": "Meet Siena Siena is the Agent of Record for CX, built for consumer brands like Spanx, FIGS, Brooklinen, and Grüns. The team We are a small, fully distributed, global team. We have built leverage into how we work, which is what lets a team this size move at the speed we do. We hire athletes. Everyone here owns real outcomes, defaults to writing over meetings, communicates with directness, and acts the moment they see something worth acting on. Low ego, high standards, fast clock. If you want to set the bar rather than follow one, keep reading. The Role You take the hardest problems customers hit in production and solve them end to end: a webhook that stopped firing, an agent filling the wrong parameter, a report that won't reconcile. You find the real cause, work the customer to resolution, then build the automation so it doesn't come back. This is the front door to deployment and platform work at Siena, with a clear path into Forward Deployed Engineering or deeper platform work. What You'll Do Own hard problems end to end: trace, reproduce, fix, or hand engineering a clean reproduction. Get on the call when that's the fastest path Debug the agents and the prompts. Diagnose whether a misfire is prompt, knowledge base, config, or model, then fix it so it holds under real traffic Build so it doesn't happen twice. For every fix, ship the runbook or tool that stops it recurring Close the loop to Product. Surface patterns, not one-offs, backed by metrics Raise the team's floor. Lift what the whole team can resolve, not just what you can Know where your scope ends. Escalate genuine product bugs and outages with a clean reproduction, not a shrug Within 90 days, name the top recurring failure patterns and attack them at the root, not just patch symptoms Who You Are The Bar: if y"
     },
     {
-      "titulo": "Ingeniero/a de Sistemas de Control y Automatización – DCS",
-      "empresa": "Siemens",
+      "titulo": "Software Delivery Analyst - Orchestro",
+      "empresa": "McKinsey & Company",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ingeniero-a-de-sistemas-de-control-y-automatizaci%C3%B3n-%E2%80%93-dcs-at-siemens-4481636944",
-      "fecha": "2026-11-13",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-delivery-analyst-orchestro-at-mckinsey-company-4473500264",
+      "fecha": "2026-11-12",
       "fuente": "LinkedIn",
-      "keyword": "Pasantía sistemas",
+      "keyword": "Node.js",
       "es_remoto": true,
-      "afinidad": 47,
+      "afinidad": 49,
       "motivos": [
         "✓ Remoto",
-        "− Pide inglés"
+        "− Publicación en inglés"
       ],
       "techs": [],
       "primera_vez": "2026-11-14",
-      "descripcion": "Transform the everyday: Tu impacto en Siemens En Siemens unimos el mundo real y el digital para transformar el día a día de millones de personas. Como Ingeniero/a de Sistemas de Control y Automatización (DCS), serás clave en la modernización y digitalización de procesos industriales críticos, liderando proyectos de ingeniería, integración y puesta en marcha con tecnologías de vanguardia como SIMATIC PCS 7, TIA Portal y arquitecturas distribuidas. Si te apasiona la tecnología con propósito, resolver desafíos técnicos complejos y ver el impacto tangible de tu trabajo en la industria, ¡este desafío es para vos! Tus principales desafíos y responsabilidades Diseño e Ingeniería: Desarrollar la ingeniería básica y de detalle de sistemas de control y automatización para soluciones de alta complejidad basadas en arquitecturas DCS, PLC y HMI/SCADA. Integración y Configuración: Programar, configurar y probar arquitecturas de control, redes y comunicaciones industriales, asegurando la integración eficiente entre sistemas. Puesta en Marcha y Pruebas: Liderar y participar activamente en relevamientos técnicos, pruebas FAT/SAT, integración y comisionamiento en planta (sitio y remoto). Consultoría Técnica y Relacionamiento: Participar en reuniones técnicas con clientes, proveedores y equipos multidisciplinarios para relevar requerimientos y definir especificaciones óptimas. Soporte y Mejora Continua: Brindar asistencia técnica especializada durante la ejecución y garantía del proyecto, identificando oportunidades de optimización y mitigación de riesgos. Cultura Colaborativa: Documentar las soluciones técnicas y compartir conocimientos con el equipo, impulsando un entorno de aprendizaje continuo. Requisitos clave: Formación en Ingeniería Electrónica, Automatización, Control, Eléctrica o"
+      "descripcion": "Who You'll Work With Driving lasting impact and building long-term capabilities with our clients is not easy work. You are the kind of person who thrives in a high performance/high reward culture - doing hard things, picking yourself up when you stumble, and having the resilience to try another way forward. In return for your drive, determination, and curiosity, we'll provide the resources, mentorship, and opportunities you need to become a stronger leader faster than you ever thought possible. Your colleagues—at all levels—will invest deeply in your development, just as much as they invest in delivering exceptional results for clients. Every day, you'll receive apprenticeship, coaching, and exposure that will accelerate your growth in ways you won’t find anywhere else. When you join us, you will have: Continuous learning: Our learning and apprenticeship culture, backed by structured programs, is all about helping you grow while creating an environment where feedback is clear, actionable, and focused on your development. The real magic happens when you take the input from others to heart and embrace the fast-paced learning experience, owning your journey. A voice that matters: From day one, we value your ideas and contributions. You’ll make a tangible impact by offering innovative ideas and practical solutions, all while upholding our unwavering commitment to ethics and integrity. We not only encourage diverse perspectives, but they are critical in driving us toward the best possible outcomes. Global community: With colleagues across 65+ countries and over 100 different nationalities, our firm’s diversity fuels creativity and helps us come up with the best solutions for our clients. Plus, you’ll have the opportunity to learn from exceptional colleagues with diverse back"
+    },
+    {
+      "titulo": "Programador Genexus",
+      "empresa": "Randstad Argentina",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/programador-genexus-at-randstad-argentina-4488551185",
+      "fecha": "2026-11-12",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 48,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Tu stack: SQL",
+        "− Pide 3+ años de experiencia"
+      ],
+      "techs": [
+        "SQL"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "Desde Randstad Digital nos encontramos en la búsqueda de un/a Analista Programador/a GeneXus Semi Senior para sumarse al equipo de nuestro cliente, una destacada firma global de consultoría y servicios actuariales, enfocada en soluciones tecnológicas para seguros y servicios financieros. Modalidad de contratación: Contratación: Relación de dependencia | Full Time Modalidad: Híbrido, 4 días Home Office / con asistencia habitual a la oficina los días martes. (La asistencia presencial durante los demás días de la semana podrá requerirse ante necesidades específicas del negocio). Horario: Lunes a Viernes de 9:30 a 18:30 hs. Responsabilidades: Analizar requerimientos funcionales, diagnosticar incidencias en aplicaciones existentes e identificar los objetos y componentes afectados. Diseñar, desarrollar e implementar modificaciones y evolutivos sobre sistemas desarrollados en GeneXus. Auditar, revisar y corregir los desarrollos entregados por proveedores externos, asegurando la calidad del código antes de su puesta en producción. Desarrollar y mantener integraciones entre sistemas mediante Web Services y APIs. Gestionar consultas complejas y optimización sobre bases de datos relacionales. Colaborar estrechamente con la Gerencia de Sistemas para ordenar procesos técnicos y asumir progresivamente mayor liderazgo operativo en el área. Requisitos: Experiencia mínima de 3 años trabajando como Analista Programador/a con GeneXus (deseable manejo de versión 17, preferentemente U4 / U11). Sólidos conocimientos en SQL y manejo de bases de datos relacionales (excluyente). Experiencia comprobable trabajando con Web Services / APIs e integraciones de sistemas (excluyente). Capacidad analítica para interpretar sistemas en marcha y resolver problemas con autonomía. Deseable: Experiencia con "
+    },
+    {
+      "titulo": "Web Developer - 1562 - Buenos Aires, Argentina",
+      "empresa": "Bionic Talent",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/web-developer-1562-buenos-aires-argentina-at-bionic-talent-4489855457",
+      "fecha": "2026-11-14",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador web",
+      "es_remoto": true,
+      "afinidad": 43,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: JavaScript, Front End",
+        "− Pide 10+ años de experiencia"
+      ],
+      "techs": [
+        "JavaScript",
+        "Front End"
+      ],
+      "primera_vez": "2026-11-14",
+      "descripcion": "About the client: Our client is a digital marketing agency exclusively serving cannabis dispensaries across North America. Over the past 10 years, they have helped hundreds of dispensaries grow through custom websites, SEO, loyalty programs, and email marketing. They operate as a nimble remote team utilizing ClickUp and integrating AI deeply across agency operations. About the role: We are seeking an experienced Web Developer, AI-First to join the web team of our client and manage full-cycle website projects across all client accounts. This role is first and foremost a developer position for someone who understands what their code does beneath the surface, but leverages AI tools (e.g., Claude, ChatGPT, Cursor) daily to optimize workflows, speed up builds, and automate repetitive tasks. The ideal candidate will design, build from scratch, migrate, and troubleshoot client sites while handling high volumes of day-to-day client requests. Client communication is handled by the account team, allowing you to remain focused on development, maintenance, and AI integration. Experience with US Clients and a digital marketing agency is required. Experience within the wellness niche (cannabis dispensaries specifically) is highly preferred. What you’ll be doing: Design and build websites and landing pages, converting Figma mockups into polished WordPress and Elementor pages. Leverage AI tools daily to accelerate workflows (e.g., Figma to Elementor conversion, code generation, debugging, routine task automation). Handle high-volume ongoing maintenance and change requests across client sites (content updates, banners, links, plugin management, and layout fixes). Troubleshoot and debug complex issues across various CMS environments using custom PHP, CSS, and JavaScript. Adapt web design"
     },
     {
       "titulo": "Software Engineer II - Frontend - Developer Platform",
@@ -1012,28 +1056,6 @@
       ],
       "primera_vez": "2026-11-13",
       "descripcion": "Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. The team Founded in 2011, Kraken is one of the world's longest-standing crypto platforms, trusted by over 10 million individuals and institutions across the globe. It offers spot trading, margin, futures, staking, and OTC services, with products built for both individual investors and institutional clients. The opportunity Make web development faster by improving builds, type checking, linting, and tests, both locally and in CI Evolve our monorepo, package management, and shared configuration so changes across applications and libraries are straightforward and reliable Simplify development environment setup and support parallel work by engineers and coding agents, with clear documentation and tools that work with minimal configuration Improve web delivery pipelines, including preview environments, progressive rollouts, production monitoring, and reliable rollback Strengthen automated validation, including browser-based checks that help engineers and agents verify changes before they ship Work with product and infrastructure teams to investigate web performance, improve observability, and address problems across application code, tooling, and delivery Lead tooling upgrades and migrations across teams, balancing long-term improvements with the practical needs of engineers shipping products Own improvements from design through rollout and ongoing maintenance, staying close to the people using what you build What You Bring Solid experience buil"
-    },
-    {
-      "titulo": "Programador Genexus",
-      "empresa": "Randstad Argentina",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/programador-genexus-at-randstad-argentina-4488551185",
-      "fecha": "2026-11-12",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 38,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Tu stack: SQL",
-        "− Pide 3+ años de experiencia",
-        "− Pide inglés"
-      ],
-      "techs": [
-        "SQL"
-      ],
-      "primera_vez": "2026-11-14",
-      "descripcion": "Desde Randstad Digital nos encontramos en la búsqueda de un/a Analista Programador/a GeneXus Semi Senior para sumarse al equipo de nuestro cliente, una destacada firma global de consultoría y servicios actuariales, enfocada en soluciones tecnológicas para seguros y servicios financieros. Modalidad de contratación: Contratación: Relación de dependencia | Full Time Modalidad: Híbrido, 4 días Home Office / con asistencia habitual a la oficina los días martes. (La asistencia presencial durante los demás días de la semana podrá requerirse ante necesidades específicas del negocio). Horario: Lunes a Viernes de 9:30 a 18:30 hs. Responsabilidades: Analizar requerimientos funcionales, diagnosticar incidencias en aplicaciones existentes e identificar los objetos y componentes afectados. Diseñar, desarrollar e implementar modificaciones y evolutivos sobre sistemas desarrollados en GeneXus. Auditar, revisar y corregir los desarrollos entregados por proveedores externos, asegurando la calidad del código antes de su puesta en producción. Desarrollar y mantener integraciones entre sistemas mediante Web Services y APIs. Gestionar consultas complejas y optimización sobre bases de datos relacionales. Colaborar estrechamente con la Gerencia de Sistemas para ordenar procesos técnicos y asumir progresivamente mayor liderazgo operativo en el área. Requisitos: Experiencia mínima de 3 años trabajando como Analista Programador/a con GeneXus (deseable manejo de versión 17, preferentemente U4 / U11). Sólidos conocimientos en SQL y manejo de bases de datos relacionales (excluyente). Experiencia comprobable trabajando con Web Services / APIs e integraciones de sistemas (excluyente). Capacidad analítica para interpretar sistemas en marcha y resolver problemas con autonomía. Deseable: Experiencia con "
     },
     {
       "titulo": "Software Engineer II (Argentina)",
