@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-21T23:58:37.127107+00:00",
-  "total": 47,
+  "actualizado": "2026-11-22T17:27:07.650546+00:00",
+  "total": 48,
   "empleos": [
     {
       "titulo": "EY - Junior de IT",
@@ -19,34 +19,6 @@
       "techs": [],
       "primera_vez": "2026-11-21",
       "descripcion": "Sobre EY EY es una firma global líder que ofrece servicios de Auditoría, Consultoría, Estrategia y Transacciones e Impuestos, con una red integrada de alrededor de 400.000 profesionales en 150 países del mundo. Nuestro propósito es construir un mundo mejor de negocios para nuestra gente, para nuestros clientes y para nuestras comunidades. Trabajamos continuamente para mejorar la calidad de nuestros servicios, invirtiendo en nuestra gente y en innovación. Las oportunidades de crecer, tener éxito y desarrollarse en EY son ilimitadas. EY cree en la igualdad de oportunidades y no discrimina por motivos de género, edad, estado civil, credo, identidad de género, orientación sexual, origen étnico u origen nacional, discapacidad o características físicas. Todas nuestras oportunidades de trabajo están abiertas a personas con discapacidad y buscamos alentar a que se postulen para nuestras diferentes posiciones. En caso de necesitar algún ajuste razonable o apoyo, por favor no dejes de aclararlo en tu postulación. ¿Qué oportunidades ofrecemos para tu carrera en tecnología? Buscamos estudiantes y/o graduadas/os de carreras como Licenciatura en Sistemas, Ingeniería en Informática o afines para que se sumen a nuestros equipos. Esta publicación tiene como objetivo conformar un Banco de Talentos para posiciones Junior en distintas áreas de tecnología. A lo largo del año incorporaremos personas de acuerdo con las vacantes que se vayan habilitando. Te invitamos a postularte y adjuntar tu CV para que podamos considerarte y contactarte cuando surjan oportunidades acordes a tu perfil. El contacto se realizará en función de las necesidades de cada equipo, por lo que no es inmediato. Contamos con oportunidades tanto para prácticas rentadas como para posiciones a largo plazo en relación de dep"
-    },
-    {
-      "titulo": "Software Engineer - Console",
-      "empresa": "XBOW",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-console-at-xbow-4475956239",
-      "fecha": "2026-11-21",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 73,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, TypeScript, Node.js, SQL, Git, Full Stack"
-      ],
-      "techs": [
-        "React",
-        "TypeScript",
-        "Node.js",
-        "SQL",
-        "Git",
-        "Full Stack",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-21",
-      "descripcion": "About XBOW Build the future of offensive security with XBOW. Attackers are already using AI to move faster than defenders can react—we’re creating the platform that puts security ahead in the arms race. Our AI-powered system autonomously discovers, validates, and even exploits vulnerabilities, giving organizations proof-backed results in hours instead of weeks. Founded by Oege de Moor, creator of GitHub Copilot, and backed by Sequoia, Altimeter, and other leading investors, XBOW is applying cutting-edge AI to one of the world’s most urgent problems. In just over a year, our AI, built by a world-class AI team and legendary security researchers — has uncovered thousands of real-world zero-days across the software billions rely on, and achieved the #1 ranking on HackerOne’s global leaderboard. We’re a team of builders, hackers, and researchers who thrive on solving problems others think are impossible. If you want to push the boundaries of AI, reshape how security is done, and join the group defining this new era of defense — we’d love to talk. Your Role We’re looking for a Software Engineer who’s passionate about building reliable and high quality products with robust backend systems. In this role, you’ll design and implement end-to-end features across the stack: from React-based frontends and TypeScript APIs to backend services in Kotlin and Go, all deployed on AWS. You’ll be joining a small team of superstars that’s shipping quickly and operating with high trust. This is a role for someone who loves to own open-ended problems and figure things out—whether that’s designing seamless API contracts, optimizing database interactions, or building scalable systems that make powerful AI capabilities accessible. If you like being at the intersection of deep tech and real-world i"
     },
     {
       "titulo": "Junior Forward Deployed AI Engineer - Application Engineering - Remote - Latin America",
@@ -170,7 +142,7 @@
       "empresa": "Consultores de Empresas",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-developer-remoto-internacional-en-palermo-0914212FE727A8A261373E686DCF3405",
-      "fecha": "Hace 9 horas",
+      "fecha": "Ayer",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 67,
@@ -356,7 +328,7 @@
       "empresa": "Fortia RH",
       "ubicacion": "4,5",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-tecnico-backend-net-rubro-it-en-cordoba-D828A0EF57DD997161373E686DCF3405",
-      "fecha": "Ayer",
+      "fecha": "Hace 2 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -388,6 +360,30 @@
         "Back End"
       ],
       "primera_vez": "2026-11-11"
+    },
+    {
+      "titulo": "Software Engineer - Console",
+      "empresa": "XBOW",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-console-at-xbow-4475956239",
+      "fecha": "2026-11-21",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 61,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: React, TypeScript, Git, Back End"
+      ],
+      "techs": [
+        "React",
+        "TypeScript",
+        "Git",
+        "Back End"
+      ],
+      "primera_vez": "2026-11-21",
+      "descripcion": "About XBOW Build the future of offensive security with XBOW. Attackers are already using AI to move faster than defenders can react—we’re creating the platform that puts security ahead in the arms race. Our AI-powered system autonomously discovers, validates, and even exploits vulnerabilities, giving organizations proof-backed results in hours instead of weeks. Founded by Oege de Moor, creator of GitHub Copilot, and backed by Sequoia, Altimeter, and other leading investors, XBOW is applying cutting-edge AI to one of the world’s most urgent problems. In just over a year, our AI, built by a world-class AI team and legendary security researchers — has uncovered thousands of real-world zero-days across the software billions rely on, and achieved the #1 ranking on HackerOne’s global leaderboard. We’re a team of builders, hackers, and researchers who thrive on solving problems others think are impossible. If you want to push the boundaries of AI, reshape how security is done, and join the group defining this new era of defense — we’d love to talk. Your Role We’re looking for a Software Engineer who’s passionate about building reliable and high quality products with robust backend systems. In this role, you’ll design and implement end-to-end features across the stack: from React-based frontends and TypeScript APIs to backend services in Kotlin and Go, all deployed on AWS. You’ll be joining a small team of superstars that’s shipping quickly and operating with high trust. This is a role for someone who loves to own open-ended problems and figure things out—whether that’s designing seamless API contracts, optimizing database interactions, or building scalable systems that make powerful AI capabilities accessible. If you like being at the intersection of deep tech and real-world i"
     },
     {
       "titulo": "Full Stack Developer",
@@ -549,7 +545,7 @@
       "empresa": "C&S informática s.a.",
       "ubicacion": "4,1",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-sap-successfactors-integrations-en-san-nicolas-C86FBB4FAC31F56261373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -565,7 +561,7 @@
       "empresa": "ADV Technology SRL",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-c-con-conocimientos-de-c-html-y-js-en-belgrano-1020011A3F3AA2CC61373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web",
       "afinidad": 57,
@@ -645,7 +641,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-con-ia-y-seguridad-informatica-en-rosario-B6C30308CC58CB1061373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 57,
@@ -683,55 +679,11 @@
       "descripcion": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley. Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success. Full Stack Developer (TypeScript & Snowflake) at BairesDev In this role, you will be the Full Stack Developer who builds applications on top of cloud-scale data. You will bring data platform capabilities to polished user experiences. What You'll Do Build full stack applications that surface analytical data. Develop back-end services that query and transform large datasets. Create interactive views that make data easy to explore. Design data models and queries with performance in mind. Secure data access and enforce role-based controls. Work with data teams to align on schemas and integrations. What We Are Looking For 4+ years of experience in full stack software development. Proven expertise building applications with TypeScript on the server and client. Hands-on experience developing against Snowflake, including SQL and data modeling. Solid knowledge of REST APIs, authentication, and a modern front-end framework. Advanced proficiency in English. How we do make your work (and your life) easier: 100% remote work (from anywhere). Excellent compensation in USD or your local currency if preferred Hardware and software setup for you to work from home. Flexible hours: create your own schedule. Paid parental leaves, vacat"
     },
     {
-      "titulo": "AI Developer o Engineer",
-      "empresa": "Grupo Metropol",
-      "ubicacion": "Comuna 1, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ai-developer-o-engineer-at-grupo-metropol-4492261039",
-      "fecha": "2026-11-19",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 55,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: Git, Back End"
-      ],
-      "techs": [
-        "Git",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-21",
-      "descripcion": "🏢 Sobre nosotros En Grupo Metropol somos una empresa argentina líder en el sector de transporte y movilidad, con una operación de gran escala, más de 1.500 colectivos y un equipo de aproximadamente 4.000 colaboradores. Estamos impulsando la transformación tecnológica de nuestra compañía mediante la creación de un equipo interno de Inteligencia Artificial, orientado a desarrollar soluciones innovadoras que optimicen nuestros procesos y generen valor para el negocio. 🎯 Misión de la posición Diseñar, desarrollar e implementar soluciones de Inteligencia Artificial aplicadas a desafíos reales del negocio, contribuyendo a mejorar la eficiencia operativa, optimizar procesos y potenciar la toma de decisiones. Buscamos personas que quieran transformar ideas en herramientas concretas, llevando soluciones desde su desarrollo inicial hasta su implementación y adopción. 💻 Principales responsabilidades Identificar oportunidades de aplicación de IA en procesos operativos, de mantenimiento y administrativos. Diseñar, desarrollar e implementar soluciones basadas en IA generativa, agentes inteligentes y automatización. Crear prototipos, validar su funcionamiento y evolucionarlos hacia soluciones productivas. Integrar modelos de IA con sistemas, plataformas y fuentes de información existentes. Trabajar junto a diferentes áreas para comprender necesidades y promover la adopción de nuevas herramientas. Monitorear resultados y proponer mejoras continuas en las soluciones implementadas. 🔎 Requisitos 🔹 Perfil Senior Experiencia comprobable en desarrollo e implementación de soluciones de Inteligencia Artificial. Conocimientos sólidos de Python, APIs y desarrollo backend. Experiencia trabajando con LLMs, IA generativa, RAG, embeddings y bases vectoriales. Conocimientos de agentes inteligentes y "
-    },
-    {
-      "titulo": "Staff Software Engineer",
-      "empresa": "Olly Olly",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-at-olly-olly-4491583719",
-      "fecha": "2026-11-17",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 55,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, SQL"
-      ],
-      "techs": [
-        "TypeScript",
-        "SQL"
-      ],
-      "primera_vez": "2026-11-21",
-      "descripcion": "About The Role We are seeking an experienced Staff Software Engineer to join our team and work on our app for small business owners. The app includes a suite of tools to help small businesses grow, such as lead management, review management, business listings, ads reporting, AI-generated content, and more. The ideal candidate will design, test, and implement this product, reporting to an Engineering Manager and in partnership with the Product team. Utilizing their knowledge of programming languages and system design, the Staff Software Engineer will provide technical leadership to the engineering team members through each stage of our software development lifecycle including data structure and algorithms, architecture design, code review, troubleshooting and updates. What you'll do Partner with your Engineering Manager and the Product team to define the scope and scale of projects Own the architecture of our AI content pipeline: what context each model receives, how tasks are broken into steps, and which model runs each step, balancing quality, cost and latency Build automated quality checks for AI-generated content that catch hallucinations before human review, using evaluation sets built from real data to measure the impact of every prompt change Develop, design, and maintain scalable web applications, mobile applications, and RESTful APIs Write clean, efficient, well-documented code, maintaining code quality and security Collaborate with cross-functional teams to design, develop, and deploy applications Troubleshoot and debug applications Identify bottlenecks and continually improve software efficiency Stay up-to-date with emerging trends and technologies in software development What you'll bring 7+ years building production software. You've taken a product or major "
-    },
-    {
       "titulo": "Full Stack Developer",
       "empresa": "Confidencial",
       "ubicacion": "Palermo, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-ia-user-en-palermo-3638FAB8D625F90B61373E686DCF3405",
-      "fecha": "Hace 3 días",
+      "fecha": "Hace 4 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 54,
@@ -747,46 +699,67 @@
       "primera_vez": "2026-10-01"
     },
     {
-      "titulo": "Software Engineer, Data Growth",
-      "empresa": "Chainlink Labs",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421800792",
+      "titulo": "AI Developer o Engineer",
+      "empresa": "Grupo Metropol",
+      "ubicacion": "Comuna 1, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/ai-developer-o-engineer-at-grupo-metropol-4492261039",
       "fecha": "2026-11-19",
       "fuente": "LinkedIn",
-      "keyword": "Node.js",
+      "keyword": "Desarrollador Junior",
       "es_remoto": true,
       "afinidad": 52,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: TypeScript"
+        "✓ Tu stack: Back End"
       ],
       "techs": [
-        "TypeScript"
+        "Back End"
       ],
       "primera_vez": "2026-11-21",
-      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
+      "descripcion": "🏢 Sobre nosotros En Grupo Metropol somos una empresa argentina líder en el sector de transporte y movilidad, con una operación de gran escala, más de 1.500 colectivos y un equipo de aproximadamente 4.000 colaboradores. Estamos impulsando la transformación tecnológica de nuestra compañía mediante la creación de un equipo interno de Inteligencia Artificial, orientado a desarrollar soluciones innovadoras que optimicen nuestros procesos y generen valor para el negocio. 🎯 Misión de la posición Diseñar, desarrollar e implementar soluciones de Inteligencia Artificial aplicadas a desafíos reales del negocio, contribuyendo a mejorar la eficiencia operativa, optimizar procesos y potenciar la toma de decisiones. Buscamos personas que quieran transformar ideas en herramientas concretas, llevando soluciones desde su desarrollo inicial hasta su implementación y adopción. 💻 Principales responsabilidades Identificar oportunidades de aplicación de IA en procesos operativos, de mantenimiento y administrativos. Diseñar, desarrollar e implementar soluciones basadas en IA generativa, agentes inteligentes y automatización. Crear prototipos, validar su funcionamiento y evolucionarlos hacia soluciones productivas. Integrar modelos de IA con sistemas, plataformas y fuentes de información existentes. Trabajar junto a diferentes áreas para comprender necesidades y promover la adopción de nuevas herramientas. Monitorear resultados y proponer mejoras continuas en las soluciones implementadas. 🔎 Requisitos 🔹 Perfil Senior Experiencia comprobable en desarrollo e implementación de soluciones de Inteligencia Artificial. Conocimientos sólidos de Python, APIs y desarrollo backend. Experiencia trabajando con LLMs, IA generativa, RAG, embeddings y bases vectoriales. Conocimientos de agentes inteligentes y "
     },
     {
-      "titulo": "Software Engineer, Data Growth",
-      "empresa": "Chainlink Labs",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421691865",
-      "fecha": "2026-11-20",
+      "titulo": "Software Engineer - Insights",
+      "empresa": "Innovid by Mediaocean",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-insights-at-innovid-by-mediaocean-4475674737",
+      "fecha": "2026-11-17",
       "fuente": "LinkedIn",
-      "keyword": "Node.js",
+      "keyword": "Full Stack",
       "es_remoto": true,
       "afinidad": 52,
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: TypeScript"
+        "✓ Tu stack: Full Stack"
       ],
       "techs": [
-        "TypeScript"
+        "Full Stack"
       ],
       "primera_vez": "2026-11-21",
-      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
+      "descripcion": "Job Description Apply now Title: Software Engineer - Insights Date: 11/5/26 Description: Company Description Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. Job Description We're looking for a top-notch, passionate senior developer to be part of our world-class Social Media team. You will play a pivotal role in the design, development, and maintenance of our core systems. You will be responsible for building robust, scalable, and high-performance applications that power our critical business operations. You will collaborate closely with other engineers, product managers, and stakeholders to translate business requirements into technical solutions. We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Carry out full stack, end to end development Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environment Design and develop modules for a high-end product that serves billions of transactions a day Deploy your code to production Be responsible for the well-be"
+    },
+    {
+      "titulo": "Software Engineer - Ad Delivery Platform",
+      "empresa": "Innovid by Mediaocean",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ad-delivery-platform-at-innovid-by-mediaocean-4481013274",
+      "fecha": "2026-11-17",
+      "fuente": "LinkedIn",
+      "keyword": "Full Stack",
+      "es_remoto": true,
+      "afinidad": 52,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Full Stack"
+      ],
+      "techs": [
+        "Full Stack"
+      ],
+      "primera_vez": "2026-11-21",
+      "descripcion": "Job Description Apply now Title: Software Engineer - Ad Delivery Platform Date: 10/23/26 Description: Company Description Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. Job Description We're looking for top-notch, passionate developer to be part of our world-class R&D team. If you think you can handle a wide range of technologies, pushing code to production several times a day, working on a different part of our product code with every new task you get, please contact us! We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environment Design and develop modules for a high-end product that serves billions of transactions a day Deploy your code to production in a continuous manner Be responsible for the well-being of your application in production Work with product managers to define, prioritize and finalize features Carry out full stack, end to end development What You'll Bring To Us: Bachelor in computer "
     },
     {
       "titulo": "Full Stack .NET Engineer",
@@ -818,7 +791,7 @@
       "empresa": "Solans Hoteles",
       "ubicacion": "4,2",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-desarrollo-de-software-con-ia-en-rosario-C936288C622733ED61373E686DCF3405",
-      "fecha": "Hace 2 días",
+      "fecha": "Hace 3 días",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 49,
@@ -829,6 +802,60 @@
       "es_remoto": true,
       "techs": [],
       "primera_vez": "2026-10-22"
+    },
+    {
+      "titulo": "Software Engineer, Data Growth",
+      "empresa": "Chainlink Labs",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421800792",
+      "fecha": "2026-11-19",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-21",
+      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
+    },
+    {
+      "titulo": "Software Engineer, Data Growth",
+      "empresa": "Chainlink Labs",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421691865",
+      "fecha": "2026-11-20",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-21",
+      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
+    },
+    {
+      "titulo": "Staff Software Engineer",
+      "empresa": "Olly Olly",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-at-olly-olly-4491583719",
+      "fecha": "2026-11-17",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 49,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-21",
+      "descripcion": "About The Role We are seeking an experienced Staff Software Engineer to join our team and work on our app for small business owners. The app includes a suite of tools to help small businesses grow, such as lead management, review management, business listings, ads reporting, AI-generated content, and more. The ideal candidate will design, test, and implement this product, reporting to an Engineering Manager and in partnership with the Product team. Utilizing their knowledge of programming languages and system design, the Staff Software Engineer will provide technical leadership to the engineering team members through each stage of our software development lifecycle including data structure and algorithms, architecture design, code review, troubleshooting and updates. What you'll do Partner with your Engineering Manager and the Product team to define the scope and scale of projects Own the architecture of our AI content pipeline: what context each model receives, how tasks are broken into steps, and which model runs each step, balancing quality, cost and latency Build automated quality checks for AI-generated content that catch hallucinations before human review, using evaluation sets built from real data to measure the impact of every prompt change Develop, design, and maintain scalable web applications, mobile applications, and RESTful APIs Write clean, efficient, well-documented code, maintaining code quality and security Collaborate with cross-functional teams to design, develop, and deploy applications Troubleshoot and debug applications Identify bottlenecks and continually improve software efficiency Stay up-to-date with emerging trends and technologies in software development What you'll bring 7+ years building production software. You've taken a product or major "
     },
     {
       "titulo": "CMS Developer (HubSpot & Node.js) - Remote Work | REF#311231",
@@ -855,52 +882,22 @@
       "descripcion": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley. Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success. CMS Developer (HubSpot & Node.js) at BairesDev Step into the role of CMS Developer and build marketing and content experiences that integrate cleanly with business systems. You will create the custom logic that makes the platform work for the team. What You'll Do Develop custom modules, templates, and themes for marketing websites. Build integrations and automations that connect the CMS with customer data. Create server-side services that extend platform functionality. Ensure sites remain performant, responsive, and secure. Support marketers by simplifying content workflows and tooling. Document solutions and share knowledge with the wider team. What We Are Looking For 4+ years of experience in CMS development. Proven expertise building and customizing sites on HubSpot CMS. Hands-on experience developing back-end services and integrations with Node.js. Solid knowledge of JavaScript, APIs, and version control. Advanced proficiency in English. How we do make your work (and your life) easier: 100% remote work (from anywhere). Excellent compensation in USD or your local currency if preferred Hardware and software setup for you to work from home. Flexible hours: create your own schedule. Paid parental leaves, vacations,"
     },
     {
-      "titulo": "Software Engineer - Insights",
-      "empresa": "Innovid by Mediaocean",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-insights-at-innovid-by-mediaocean-4475674737",
-      "fecha": "2026-11-17",
+      "titulo": "Analistas sistemas videocamaras Arg",
+      "empresa": "Accenture Argentina",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/analistas-sistemas-videocamaras-arg-at-accenture-argentina-4491371666",
+      "fecha": "2026-11-19",
       "fuente": "LinkedIn",
-      "keyword": "Full Stack",
+      "keyword": "Pasantía sistemas",
       "es_remoto": true,
-      "afinidad": 46,
+      "afinidad": 45,
       "motivos": [
         "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, SQL, Full Stack",
-        "− Pide 3+ años de experiencia"
+        "− Pide 1+ años de experiencia"
       ],
-      "techs": [
-        "React",
-        "SQL",
-        "Full Stack"
-      ],
-      "primera_vez": "2026-11-21",
-      "descripcion": "Job Description Apply now Title: Software Engineer - Insights Date: 11/5/26 Description: Company Description Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. Job Description We're looking for a top-notch, passionate senior developer to be part of our world-class Social Media team. You will play a pivotal role in the design, development, and maintenance of our core systems. You will be responsible for building robust, scalable, and high-performance applications that power our critical business operations. You will collaborate closely with other engineers, product managers, and stakeholders to translate business requirements into technical solutions. We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Carry out full stack, end to end development Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environment Design and develop modules for a high-end product that serves billions of transactions a day Deploy your code to production Be responsible for the well-be"
-    },
-    {
-      "titulo": "Software Engineer - Ad Delivery Platform",
-      "empresa": "Innovid by Mediaocean",
-      "ubicacion": "Buenos Aires y alrededores",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-ad-delivery-platform-at-innovid-by-mediaocean-4481013274",
-      "fecha": "2026-11-17",
-      "fuente": "LinkedIn",
-      "keyword": "Full Stack",
-      "es_remoto": true,
-      "afinidad": 46,
-      "motivos": [
-        "✓ Remoto",
-        "− Publicación en inglés",
-        "✓ Tu stack: React, SQL, Full Stack",
-        "− Pide 4+ años de experiencia"
-      ],
-      "techs": [
-        "React",
-        "SQL",
-        "Full Stack"
-      ],
-      "primera_vez": "2026-11-21",
-      "descripcion": "Job Description Apply now Title: Software Engineer - Ad Delivery Platform Date: 10/23/26 Description: Company Description Innovid is the leading independent omnichannel ad tech platform, empowering marketers to create, deliver, measure, and optimize ad-supported experiences that people love. In 2025, Innovid and Flashtalking merged to create a transparent, scalable alternative to big-tech, walled-gardens, and point solutions across CTV, digital, linear, and social channels. As part of Mediaocean, Innovid is tied into the industry’s core ad infrastructure for omnichannel planning, buying, and billing. We are proud to lead the industry with our innovation, intelligence, and independence as the company best-suited to power the future of advertising. Job Description We're looking for top-notch, passionate developer to be part of our world-class R&D team. If you think you can handle a wide range of technologies, pushing code to production several times a day, working on a different part of our product code with every new task you get, please contact us! We have a developer centric culture, practice continuous deployment and no code ownership, and deal daily with the most advanced technologies and methodologies in software development, high scalability, and big data. The Impact You'll Make: Participate in designing and developing Innovid’s products in a multiple technologies, no code ownership environment Design and develop modules for a high-end product that serves billions of transactions a day Deploy your code to production in a continuous manner Be responsible for the well-being of your application in production Work with product managers to define, prioritize and finalize features Carry out full stack, end to end development What You'll Bring To Us: Bachelor in computer "
+      "techs": [],
+      "primera_vez": "2026-11-22",
+      "descripcion": "🟣 En Accenture, la tecnología impulsa nuestra transformación. Buscamos personas con ganas de aprender, crecer y trabajar con herramientas de vanguardia para resolver desafíos reales. Integramos inteligencia artificial generativa (GenIA) en nuestros proyectos para acelerar la innovación, optimizar procesos y generar impacto en múltiples industrias. Contamos con más de 1.600 profesionales dedicados exclusivamente a GenIA, respaldados por una red global de más de 40.000 expertos en datos e inteligencia artificial. Este enfoque se potencia con inversiones estratégicas, más de 35 alianzas tecnológicas y más de 25 estudios GenIA distribuidos globalmente. Sumate a nuestros equipos de Technology y descubrí cómo podés ser parte de esta evolución. Analista de Sistemas – Videovigilancia / CCURE 🔎 ¿Cuál será tu desafío? Formarás parte de un equipo orientado a la administración, operación y monitoreo de infraestructura tecnológica, trabajando con sistemas de videovigilancia y seguridad. Entre tus principales responsabilidades estarán: Administrar y operar infraestructura de acuerdo con los niveles de servicio establecidos. Monitorear la salud y performance de la infraestructura para identificar potenciales incidentes de manera proactiva. Mantener una infraestructura tecnológica confiable y segura. Identificar oportunidades de mejora continua de los servicios y la operación. Colaborar con otros equipos para asegurar un funcionamiento eficiente de la infraestructura. Trabajar con sistemas de videovigilancia Bosch / Motorola. Trabajar con sistemas CCURE. 🛠 ¿Qué skills necesitás? Skills principales: Sistemas de videovigilancia Bosch / Motorola. CCURE. Infrastructure Observability – Advanced. Mínimo 1 año de experiencia en skills relacionados. High School Diploma/GED en un campo de estud"
     },
     {
       "titulo": "Integration Engineer (Kafka & TypeScript) - Remote Work | REF#311019",
@@ -979,18 +976,14 @@
       "fuente": "LinkedIn",
       "keyword": "Desarrollador Junior",
       "es_remoto": true,
-      "afinidad": 31,
+      "afinidad": 25,
       "motivos": [
         "✓ Remoto",
         "− Piden otro stack (no JS/TS)",
         "− Publicación en inglés",
-        "✓ Tu stack: SQL, Git",
         "− Pide 22+ años de experiencia"
       ],
-      "techs": [
-        "SQL",
-        "Git"
-      ],
+      "techs": [],
       "primera_vez": "2026-11-21",
       "descripcion": "Talan – Positive Innovation Talan is an international consulting group specializing in innovation and business transformation through technology. With over 7,200 consultants in 21 countries and a turnover of €850M, we are committed to delivering impactful, future-ready solutions. Talan at a Glance Headquartered in Paris and operating globally, Talan combines technology, innovation, and empowerment to deliver measurable results for our clients. Over the past 22 years, we’ve built a strong presence in the IT and consulting landscape, and we’re on track to reach €1 billion in revenue this year. Our Core Areas of Expertise Data & Technologies: We design and implement large-scale, end-to-end architecture and data solutions, including data integration, data science, visualization, Big Data, AI, and Generative AI. Cloud & Application Services: We integrate leading platforms such as SAP, Salesforce, Oracle, Microsoft, AWS, and IBM Maximo, helping clients transition to the cloud and improve operational efficiency. Management & Innovation Consulting: We lead business and digital transformation initiatives through project and change management best practices (PM, PMO, Agile, Scrum, Product Ownership), and support domains such as Supply Chain, Cybersecurity, and ESG/Low-Carbon strategies. We work with major global clients across diverse sectors, including Transport & Logistics, Financial Services, Energy & Utilities, Retail, and Media & Telecommunications. Job Description We are looking for a PowerCenter / Java Developer with experience in Informatica PowerCenter and Java to join a technology project involving data integration, application development, and Cloud environments. You will join a technical team and work autonomously on the development, maintenance, and enhancement of ap"
     }
