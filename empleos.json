@@ -1,7 +1,25 @@
 {
-  "actualizado": "2026-11-26T19:18:32.935696+00:00",
-  "total": 42,
+  "actualizado": "2026-11-27T02:29:42.109803+00:00",
+  "total": 43,
   "empleos": [
+    {
+      "titulo": "EY - Base de Talentos: Junior de IT",
+      "empresa": "EY",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/ey-base-de-talentos-junior-de-it-at-ey-4361977461",
+      "fecha": "2026-11-21",
+      "fuente": "LinkedIn",
+      "keyword": "Desarrollador Junior",
+      "es_remoto": true,
+      "afinidad": 75,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-26",
+      "descripcion": "Sobre EY EY es una firma global líder que ofrece servicios de Auditoría, Consultoría, Estrategia y Transacciones e Impuestos, con una red integrada de alrededor de 400.000 profesionales en 150 países del mundo. Nuestro propósito es construir un mundo mejor de negocios para nuestra gente, para nuestros clientes y para nuestras comunidades. Trabajamos continuamente para mejorar la calidad de nuestros servicios, invirtiendo en nuestra gente y en innovación. Las oportunidades de crecer, tener éxito y desarrollarse en EY son ilimitadas. EY cree en la igualdad de oportunidades y no discrimina por motivos de género, edad, estado civil, credo, identidad de género, orientación sexual, origen étnico u origen nacional, discapacidad o características físicas. Todas nuestras oportunidades de trabajo están abiertas a personas con discapacidad y buscamos alentar a que se postulen para nuestras diferentes posiciones. En caso de necesitar algún ajuste razonable o apoyo, por favor no dejes de aclararlo en tu postulación. ¿Qué oportunidades ofrecemos para tu carrera en tecnología? Buscamos estudiantes y/o graduadas/os de carreras como Licenciatura en Sistemas, Ingeniería en Informática o afines para que se sumen a nuestros equipos. Esta publicación tiene como objetivo conformar un Banco de Talentos para posiciones Junior en distintas áreas de tecnología. A lo largo del año incorporaremos personas de acuerdo con las vacantes que se vayan habilitando. Te invitamos a postularte y adjuntar tu CV para que podamos considerarte y contactarte cuando surjan oportunidades acordes a tu perfil. El contacto se realizará en función de las necesidades de cada equipo, por lo que no es inmediato. Contamos con oportunidades tanto para prácticas rentadas como para posiciones a largo plazo en relación de dep"
+    },
     {
       "titulo": "Full Stack Web Developer",
       "empresa": "Perform",
@@ -137,54 +155,6 @@
       "primera_vez": "2026-11-25"
     },
     {
-      "titulo": "EY - Base de Talentos: Junior de IT",
-      "empresa": "EY",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/ey-base-de-talentos-junior-de-it-at-ey-4361977461",
-      "fecha": "2026-11-21",
-      "fuente": "LinkedIn",
-      "keyword": "Desarrollador Junior",
-      "es_remoto": true,
-      "afinidad": 71,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Ideal para empezar (trainee/jr/pasantía)",
-        "✓ Tu stack: Front End, Back End",
-        "− Pide inglés"
-      ],
-      "techs": [
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-26",
-      "descripcion": "Sobre EY EY es una firma global líder que ofrece servicios de Auditoría, Consultoría, Estrategia y Transacciones e Impuestos, con una red integrada de alrededor de 400.000 profesionales en 150 países del mundo. Nuestro propósito es construir un mundo mejor de negocios para nuestra gente, para nuestros clientes y para nuestras comunidades. Trabajamos continuamente para mejorar la calidad de nuestros servicios, invirtiendo en nuestra gente y en innovación. Las oportunidades de crecer, tener éxito y desarrollarse en EY son ilimitadas. EY cree en la igualdad de oportunidades y no discrimina por motivos de género, edad, estado civil, credo, identidad de género, orientación sexual, origen étnico u origen nacional, discapacidad o características físicas. Todas nuestras oportunidades de trabajo están abiertas a personas con discapacidad y buscamos alentar a que se postulen para nuestras diferentes posiciones. En caso de necesitar algún ajuste razonable o apoyo, por favor no dejes de aclararlo en tu postulación. ¿Qué oportunidades ofrecemos para tu carrera en tecnología? Buscamos estudiantes y/o graduadas/os de carreras como Licenciatura en Sistemas, Ingeniería en Informática o afines para que se sumen a nuestros equipos. Esta publicación tiene como objetivo conformar un Banco de Talentos para posiciones Junior en distintas áreas de tecnología. A lo largo del año incorporaremos personas de acuerdo con las vacantes que se vayan habilitando. Te invitamos a postularte y adjuntar tu CV para que podamos considerarte y contactarte cuando surjan oportunidades acordes a tu perfil. El contacto se realizará en función de las necesidades de cada equipo, por lo que no es inmediato. Contamos con oportunidades tanto para prácticas rentadas como para posiciones a largo plazo en relación de dep"
-    },
-    {
-      "titulo": "Tech Generalist (Software Engineer)",
-      "empresa": "Capchase",
-      "ubicacion": "Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/tech-generalist-software-engineer-at-capchase-4468258607",
-      "fecha": "2026-11-26",
-      "fuente": "LinkedIn",
-      "keyword": "Node.js",
-      "es_remoto": true,
-      "afinidad": 71,
-      "motivos": [
-        "✓ Remoto",
-        "✓ Medio tiempo",
-        "− Publicación en inglés",
-        "✓ Tu stack: TypeScript, Node.js, Front End, Back End"
-      ],
-      "techs": [
-        "TypeScript",
-        "Node.js",
-        "Front End",
-        "Back End"
-      ],
-      "primera_vez": "2026-11-26",
-      "descripcion": "Capchase is on a mission to transform how hardware and software companies sell and get paid, revolutionizing the equipment financing space. Recently named a 2026 Monitor Best Company in Innovation, we're recognized for embedding flexible payment terms directly into the sales workflow, helping teams close faster without the friction of a separate financing system. From resellers to Fortune 50 vendors, we support thousands of companies globally and process billions in payment volume. Our ambition is to sit behind every enterprise tech deal (software, hardware or cloud, sold direct or through the channel). We win on speed and reach: AI that turns a quote into an approved, ready to sign offer in seconds, and one platform that works the same way for vendors, their partners and their buyers. We have raised $700m+ in equity and debt from top tier investors to expand into other verticals and build the best and biggest vendor financing company for OEMs and their channel partners. The prize is huge (top player is making $2b+ in net income / year) and we’re looking for the smartest and most driven team members to accelerate our journey. What's New In 2026 🚀 Raised $200M+ to scale our embedded financing infrastructure globally (Business Wire, May 2026) 🤖 Launched Mila, our AI agent that runs the deal desk 24/7 (October 2026) 🤝 Channel partners can now offer pre-approved Capchase financing Since Our Launch In 2020, We've Achieved Several Milestones ➡ 10K+ active vendors, channel partners and buyers 🙌 Built a team representing over 15 nationalities 🌎 Active in 10 markets 📈 Top decile YoY growth 👫 Built an awesome culture Why work with us? Help accelerate an industry! At Capchase, we are transforming how software and tech-enabled hardware equipment gets financed. We move and innovate "
-    },
-    {
       "titulo": "Junior RPA Developer - UiPath",
       "empresa": "Sovos",
       "ubicacion": "Tucumán, Argentina",
@@ -307,7 +277,7 @@
       "empresa": "Confidencial",
       "ubicacion": "Belgrano, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-back-end-en-belgrano-6ED1D17258C7AE0261373E686DCF3405",
-      "fecha": "Hace 27 minutos",
+      "fecha": "Hace 7 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 62,
@@ -377,15 +347,10 @@
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: Full Stack, React, SQL, JavaScript, Git, Front End",
-        "− Pide 5+ años de experiencia"
+        "✓ Tu stack: Full Stack, Front End, Back End"
       ],
       "techs": [
         "Full Stack",
-        "React",
-        "SQL",
-        "JavaScript",
-        "Git",
         "Front End",
         "Back End"
       ],
@@ -438,6 +403,29 @@
       ],
       "primera_vez": "2026-11-26",
       "descripcion": "En Baufest, nuestra misión es mejorar la vida con tecnología, generando un impacto positivo en la sociedad. Por ello, buscamos un/a Android Developer Jr para sumarse a nuestro equipo de profesionales. Responsabilidades Implementar pantallas y funcionalidades a partir de especificaciones y diseños en Figma, usando el design system interno. Integrar las pantallas con los servicios del BFF, adaptando la solución a la arquitectura existente. Corregir bugs y hacer mejoras sobre código existente. Investigar errores y contribuir a la estabilidad y el rendimiento de la app. Escribir tests unitarios y de UI de lo que desarrolla. Abrir PRs y participar en code reviews. Estimar las tareas propias y comunicar avances y bloqueos. Usar herramientas de IA generativa como asistente, siguiendo los lineamientos del equipo. Requisitos Mínimo 2 años de experiencia profesional en desarrollo Android nativo. Kotlin aplicando patrones MVVM y Repository, con nociones de Clean Architecture y separación de responsabilidades entre capas. Ciclo de vida de Android y ViewModel. Jetpack Compose y Material Design 3, con manejo de estado mediante StateFlow. Coroutines y Flow (StateFlow y SharedFlow). Navigation Component o equivalente, incluyendo deep links y back stack. Integración con APIs REST mediante Retrofit y OkHttp, y serialización con Kotlinx Serialization, Moshi o equivalente. Manejo de estados de carga y error, fallos de red y tratamiento seguro de datos. Inyección de dependencias con Hilt o Dagger, incluyendo scopes y ciclo de vida. Gradle, preferentemente con Kotlin DSL, y nociones de modularización. Tests unitarios y de UI con JUnit, MockK o Mockito, Espresso y Compose Testing. Git, trabajo con PRs y prácticas de integración continua. Firebase Crashlytics u otras herramientas de monitoreo."
+    },
+    {
+      "titulo": "Software Engineer - Platform Tech",
+      "empresa": "Mercado Libre",
+      "ubicacion": "Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-tech-at-mercado-libre-4492632434",
+      "fecha": "2026-11-23",
+      "fuente": "LinkedIn",
+      "keyword": "Node.js",
+      "es_remoto": true,
+      "afinidad": 58,
+      "motivos": [
+        "✓ Remoto",
+        "− Publicación en inglés",
+        "✓ Tu stack: Node.js, Git, Back End"
+      ],
+      "techs": [
+        "Node.js",
+        "Git",
+        "Back End"
+      ],
+      "primera_vez": "2026-11-25",
+      "descripcion": "¡Hace historia en la democratización del comercio y de los servicios financieros, transformando la vida de millones de personas en América Latina con Mercado Libre! Diseña y desarrolla soluciones tecnológicas que fortalezcan los servicios fundamentales de nuestra plataforma interna, generando un impacto directo en la escalabilidad, resiliencia y disponibilidad de las aplicaciones que utilizan los equipos de ingeniería de toda la compañía. Desafíos: Diseñar, desarrollar y evolucionar servicios backend distribuidos de alta complejidad, asegurando altos niveles de escalabilidad, resiliencia, throughput y disponibilidad para las aplicaciones del ecosistema. Implementar, mantener y optimizar servicios fundamentales de la plataforma Fury, como BigQueue, KVS, OS, DS y Streams, garantizando su confiabilidad, eficiencia operativa y capacidad de procesamiento. Automatizar operaciones y desarrollar soluciones tecnológicas que reduzcan las intervenciones manuales y los errores, mejorando la experiencia de los equipos de desarrollo mediante herramientas, documentación y buenas prácticas de ingeniería. Participar en la definición y priorización del backlog y roadmap del equipo, identificando oportunidades de mejora y analizando necesidades de capacidad, rendimiento y disponibilidad de los servicios. Experiencia y conocimientos: Traer conocimientos en Java, Golang, Python, Node.js, APIs REST, Git, New Relic y Elastic. Dominar el desarrollo backend, los fundamentos de programación concurrente y el diseño de sistemas distribuidos de alto throughput, con sólidos conocimientos de AWS y Google Cloud Platform. Aprender con agilidad en base a desafíos, potenciándote con tecnología y GenAI. Apasionarse por salir de la zona de confort, dar el máximo, superar los propios límites y emprender en "
     },
     {
       "titulo": "AI Backend Engineer",
@@ -561,7 +549,7 @@
       "empresa": "ADN - Recursos Humanos",
       "ubicacion": "3,6",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ref-21628-analista-de-soporte-it-hibrido-don-torcuarto-prov-buenos-aires-en-tigre-8D529DEE0873F44961373E686DCF3405",
-      "fecha": "Hace 5 días",
+      "fecha": "Hace 6 días",
       "fuente": "Computrabajo",
       "keyword": "React remoto",
       "afinidad": 57,
@@ -628,11 +616,31 @@
       "descripcion": "Búsqueda laboral | Perfiles Junior IT En Run Business Solutions nos encontramos en la búsqueda de perfiles Junior que quieran iniciar o desarrollar su carrera profesional en el mundo de la tecnología. Requisitos: Estudiantes o graduados recientes de carreras de Sistemas, Informática, Tecnología o afines (preferentemente). Con o sin experiencia laboral previa. Fundamental: contar con una excelente actitud, muchas ganas de aprender, iniciativa y motivación para crecer profesionalmente. Proactividad, compromiso y predisposición para asumir nuevos desafíos. Buenas habilidades de comunicación y trabajo en equipo. Modalidad de trabajo: Jornada: Full Time. Modalidad: Presencial. Ubicación: Polo Tecnológico, Parque Patricios - CABA ¿Qué ofrecemos? La oportunidad de incorporarte a un equipo de profesionales, participar en proyectos tecnológicos y desarrollar nuevas habilidades en un entorno de aprendizaje y crecimiento continuo. ¡Si tenés ganas de aprender, crecer y dar tus primeros pasos en el mundo IT, queremos conocerte!"
     },
     {
+      "titulo": "SAP iXp Intern – Order to Invoice Cloud, Software & Support",
+      "empresa": "SAP",
+      "ubicacion": "Buenos Aires y alrededores",
+      "enlace": "https://ar.linkedin.com/jobs/view/sap-ixp-intern-%E2%80%93-order-to-invoice-cloud-software-support-at-sap-4493840921",
+      "fecha": "2026-11-26",
+      "fuente": "LinkedIn",
+      "keyword": "Pasantía sistemas",
+      "es_remoto": true,
+      "afinidad": 55,
+      "motivos": [
+        "✓ Remoto",
+        "✓ Ideal para empezar (trainee/jr/pasantía)",
+        "− Publicación en inglés",
+        "− Pide 50+ años de experiencia"
+      ],
+      "techs": [],
+      "primera_vez": "2026-11-27",
+      "descripcion": "Job Description What you'll bring You're a student ready for a structured experience at SAP. You're curious, resilient, and adapt well when things change. You communicate clearly, collaborate across teams, and bring creative thinking to problems. You're developing your business and AI foundations. You take initiative and are energized by contributing to a team doing meaningful work. A genuine drive to explore complex processes and improve how they work. Upper-intermediate written and spoken English for clear stakeholder communication. Solid organizational skills and the ability to manage multiple tasks under pressure. A customer-oriented mindset, keeping end users in focus. Knowledge with MS Office — Word, Excel, Outlook, and PowerPoint. A collaborative approach to building relationships across teams and departments. We also look for people who communicate clearly, keep the customer in mind, and enjoy finding smart solutions to problems — whatever stage of your career you're at. In addition to the role-specific skills above, all student and early talent positions at SAP look for candidates who are open to working with AI tools — including agentic AI — to automate everyday tasks, prototype ideas, and build confidence in AI-assisted ways of working from day one. What You'll Build You'll work on live contract and billing processes that directly impact how SAP customers access software and support. Manage the billing cycle for new business from end to end. Handle queries from internal customers within agreed SLAs. Support the Cash Collections team in resolving billing issues. Collaborate closely and cross-functionally with other teams and departments Learn end-to-end a very interesting process of Cloud, License and Maintenance Software contracts handling. Gain knowledge and"
+    },
+    {
       "titulo": "Full Stack Developer",
       "empresa": "Confidencial",
       "ubicacion": "Palermo, Capital Federal",
       "enlace": "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-ia-user-en-palermo-3638FAB8D625F90B61373E686DCF3405",
-      "fecha": "Hace 12 horas",
+      "fecha": "Hace 19 horas",
       "fuente": "Computrabajo",
       "keyword": "Desarrollador web remoto",
       "afinidad": 54,
@@ -648,11 +656,11 @@
       "primera_vez": "2026-10-01"
     },
     {
-      "titulo": "Software Engineer, Data Growth",
-      "empresa": "Chainlink Labs",
+      "titulo": "Staff Software Engineer (Integrations Platform)",
+      "empresa": "GoFundMe",
       "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421691865",
-      "fecha": "2026-11-20",
+      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-integrations-platform-at-gofundme-4487522487",
+      "fecha": "2026-11-26",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
@@ -660,13 +668,18 @@
       "motivos": [
         "✓ Remoto",
         "− Publicación en inglés",
-        "✓ Tu stack: TypeScript"
+        "✓ Tu stack: TypeScript, Node.js, SQL, Git, Back End",
+        "− Pide 2+ años de experiencia"
       ],
       "techs": [
-        "TypeScript"
+        "TypeScript",
+        "Node.js",
+        "SQL",
+        "Git",
+        "Back End"
       ],
-      "primera_vez": "2026-11-25",
-      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
+      "primera_vez": "2026-11-26",
+      "descripcion": "Want to help us help others? We’re hiring! GoFundMe is the world’s most powerful community for good, dedicated to helping people help each other. By uniting individuals and nonprofits in one place, GoFundMe makes it easy and safe for people to ask for help and support causes-for themselves and each other. Together, our community has raised more than $50 billion since 2010. GoFundMe is seeking a Staff Software Engineer, Integrations Platform to drive the technical vision and execution of our Integrations platform. You’ll serve as a senior IC on a high-impact team responsible for core integration surfaces including Public APIs, Webhooks, Salesforce integrations (NPC, NPSP), and Integration Platform as a Service (iPaaS) tools like Workato and Zapier. You’ll lead architecture efforts, mentor engineers, and work closely with cross-functional partners to build robust, scalable integration solutions that connect GoFundMe to the broader ecosystem. This role is ideal for a seasoned technical leader who thrives on solving complex problems, setting architectural direction, and leading by example through hands-on contributions. This is a hybrid position. Candidates considered for this role will be located in Buenos Aires, Argentina. The Job Define and drive the technical roadmap for our Integrations platform, ensuring it scales with product growth and business complexity. Lead the design and implementation of core integration components: Public/Private APIs, webhooks, internal/external system connectivity, and automation workflows. Serve as a hands-on expert and role model in software design, system architecture, and best practices. Guide the team’s use of AWS services (e.g., Glue, Lambda, API Gateway, Step Functions) to power scalable and maintainable integration workflows. Evalua"
     },
     {
       "titulo": "Frontend Software Engineer",
@@ -711,11 +724,11 @@
       "primera_vez": "2026-10-22"
     },
     {
-      "titulo": "Software Engineer - Platform Tech",
-      "empresa": "Mercado Libre",
-      "ubicacion": "Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-platform-tech-at-mercado-libre-4492632434",
-      "fecha": "2026-11-23",
+      "titulo": "Software Engineer, Data Growth",
+      "empresa": "Chainlink Labs",
+      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/software-engineer-data-growth-at-chainlink-labs-4421691865",
+      "fecha": "2026-11-20",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
       "es_remoto": true,
@@ -725,13 +738,14 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-11-25"
+      "primera_vez": "2026-11-25",
+      "descripcion": "About Chainlink Labs Chainlink Labs is one of the primary contributing developers of Chainlink, the standard for onchain finance enabling high-quality data, secure cross-chain interoperability, and compliant connectivity across global markets. Chainlink powers leading tokenized assets, financial institutions, market infrastructures, and decentralized applications by providing secure access to real-world data, cross-chain messaging, and blockchain connectivity across any network. The Chainlink standard has enabled tens of trillions of dollars in transaction value and is helping unify global markets onchain. Many of the world’s largest financial services institutions have also adopted Chainlink’s standards and infrastructure, including Swift, Euroclear, Mastercard, Fidelity International, UBS, S&P Dow Jones Indices, FTSE Russell, WisdomTree, ANZ, Aave, Polymarket, Lido, and many others. Chainlink Labs is a world-class team of developers, researchers, and capital markets experts, and has ranked among Fortune's Best Workplaces in Technology, Fortune's Best Medium Workplace, and the Top 100 Global Most Loved Workplaces. Learn more at chain.link or chainlinklabs.com. About The Role As a Software Engineer in Data Growth, you will help transform how web3 customers discover, onboard, and adopt products by building scalable automation, self-service experiences, and intelligent workflows. This role exists to reduce operational complexity, accelerate customer onboarding, and improve the efficiency of growth-related processes through modern software engineering, AI-enabled solutions, and systems thinking. Your Impact Design and build automation capabilities that reduce manual effort across customer onboarding and operational workflows. Develop self-service experiences that enable cu"
     },
     {
-      "titulo": "Staff Software Engineer (Integrations Platform)",
-      "empresa": "GoFundMe",
-      "ubicacion": "Buenos Aires, Provincia de Buenos Aires, Argentina",
-      "enlace": "https://ar.linkedin.com/jobs/view/staff-software-engineer-integrations-platform-at-gofundme-4487522487",
+      "titulo": "Tech Generalist (Software Engineer)",
+      "empresa": "Capchase",
+      "ubicacion": "Argentina",
+      "enlace": "https://ar.linkedin.com/jobs/view/tech-generalist-software-engineer-at-capchase-4468258607",
       "fecha": "2026-11-26",
       "fuente": "LinkedIn",
       "keyword": "Node.js",
@@ -742,7 +756,8 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-11-26"
+      "primera_vez": "2026-11-26",
+      "descripcion": "Capchase is on a mission to transform how hardware and software companies sell and get paid, revolutionizing the equipment financing space. Recently named a 2026 Monitor Best Company in Innovation, we're recognized for embedding flexible payment terms directly into the sales workflow, helping teams close faster without the friction of a separate financing system. From resellers to Fortune 50 vendors, we support thousands of companies globally and process billions in payment volume. Our ambition is to sit behind every enterprise tech deal (software, hardware or cloud, sold direct or through the channel). We win on speed and reach: AI that turns a quote into an approved, ready to sign offer in seconds, and one platform that works the same way for vendors, their partners and their buyers. We have raised $700m+ in equity and debt from top tier investors to expand into other verticals and build the best and biggest vendor financing company for OEMs and their channel partners. The prize is huge (top player is making $2b+ in net income / year) and we’re looking for the smartest and most driven team members to accelerate our journey. What's New In 2026 🚀 Raised $200M+ to scale our embedded financing infrastructure globally (Business Wire, May 2026) 🤖 Launched Mila, our AI agent that runs the deal desk 24/7 (October 2026) 🤝 Channel partners can now offer pre-approved Capchase financing Since Our Launch In 2020, We've Achieved Several Milestones ➡ 10K+ active vendors, channel partners and buyers 🙌 Built a team representing over 15 nationalities 🌎 Active in 10 markets 📈 Top decile YoY growth 👫 Built an awesome culture Why work with us? Help accelerate an industry! At Capchase, we are transforming how software and tech-enabled hardware equipment gets financed. We move and innovate "
     },
     {
       "titulo": "CMS Developer (HubSpot & Node.js) - Remote Work | REF#311231",
@@ -830,7 +845,8 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-11-25"
+      "primera_vez": "2026-11-25",
+      "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. We are hiring a Software Engineer to develop, test and release improvements to the Ubuntu on public clouds. The quality and stability of the Ubuntu is critically important, since it's available on every public cloud. You’ll work with teams across Canonical working on Ubuntu team, alongside major cloud partners to develop, test and release improvements to the Ubuntu cloud images. You will also be a voice in communication with our users, ensuring their needs are met. This role requires quality-oriented software engineering in Python and a focus on software interoperability over a vast range of target releases and environments. Excellent Python skills are a key requirement, with previous contributions to open source Python projects being an advantage. This role involves creating and managing Ubuntu images; therefore, experience in configuring apt, and knowledge of deb packaging and general system administration is advantageous in this role. Applicants should be passionate about the Ubuntu project and its values and about building tools that are used by millions of people aroun"
     },
     {
       "titulo": "Software Engineer - Python/Golang - Kubernetes",
@@ -848,7 +864,8 @@
         "− Publicación en inglés"
       ],
       "techs": [],
-      "primera_vez": "2026-11-26"
+      "primera_vez": "2026-11-26",
+      "descripcion": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring a software engineer to join our Kubernetes product team. As a member of that team, you will build the operators and addons; the former, offering complete lifecycle management of mission-critical components, and the latter, a zero-ops experience for seamlessly integrating projects into your Kubernetes. You will gain familiarity with the latest features in Kubernetes and look to incorporate the best of open-source to bring functionality to our end-users. You will collaborate with industry peers and partners to bring the right solutions to our customers. This is an exciting opportunity for a software engineer passionate about open source software, Linux, Golang, Python and Kubernetes. Location: This is a remote position available in EMEA and the Americas. What you will focus on Write high-quality code to create new features Debug issues and interact with a vibrant community Collaborate proactively with a distributed team Work with helpful and talented engineers including experts in many fields Work from home with global travel 2 to 4 weeks for internal and external"
     }
   ]
 }
